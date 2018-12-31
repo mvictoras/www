@@ -4,6 +4,17 @@ title = "Victor Mateevitsi"
 theme = "default"
 relativeURLs = true
 
+[imaging]
+# See https://github.com/disintegration/imaging
+# CatmullRom is a sharp bicubic filter which should fit the docs site well with its many screenshots.
+# Note that you can also set this per image processing.
+resampleFilter = "CatmullRom"
+
+# Default JPEG quality setting. Default is 75.
+quality = 75
+
+anchor = "smart"
+
 [menu]
   [[menu.main]]
     identifier = "about"
@@ -29,3 +40,8 @@ relativeURLs = true
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
+
+    [[menu.main]]
+      identifier = "press"
+      name = "Press"
+      url = "/press/"

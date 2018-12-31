@@ -1,5 +1,14 @@
 
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: rgb(245, 245, 245);
+}
+
 .heart-emoji {
   -webkit-animation: animation 1000ms linear infinite both;
   animation: animation 1000ms linear infinite both;

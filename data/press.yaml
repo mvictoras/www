@@ -1,0 +1,291 @@
+books:
+  - year: 2014
+    title: National Geographic Kids – Weird But True!
+    description: "Ripped from the Headlines. – Set your \"Spidey Sense\" tingling. page 56. National Geographic Children's Books. ISBN: 978-1-4263-1514-5"
+print:
+  - year: 2015
+    month: April
+    publication: How It Works
+    title: Get your SpiderSense tingling
+    issue: Issue 72
+  - year: 2014
+    month: November
+    publication: CAP Today
+    title: Software expands on 'what you see is what you get
+    issue: Vol. 28, No. 11
+  - year: 2014
+    month: July
+    publication: Technologist
+    title: Augmented Human – Spidersense
+    issue: Edition 1, English Version
+  - year: 2014
+    month: May
+    day: 5
+    publication: Crain's Chicago Business
+    title: 20 in their 20s
+    issue: Vol. 37, No. 18
+  - year: 2014
+    month: October
+    day: 1
+    publication: UIC News
+    title: EVL's SpiderSense suit grabs attention of National Geographic
+    issue: Vol. 34 No 6
+  - year: 2014
+    month: February
+    day: 12
+    publication: UIC News
+    title: Seeing future of technology in test of Google Glass
+    issue: Vol. 33 No. 20
+  - year: 2013
+    month: November
+    day: 20
+    publication: UIC News
+    title: Virtual reality apprenticeships
+    issue: Cover page. Vol. 32 No 13
+  - year: 2013
+    month: November
+    day: 12
+    publication: UIC News
+    title: Technology's faces of the future
+    issue: Cover page. Vol. 32 No. 12
+  - year: 2013
+    month: April
+    publication: Popular Mechanics (ZAF)
+    title: Take 'em on, Spidey!
+    issue: Vol. 11 No. 9
+  - year: 2013
+    month: April
+    day: 10
+    publication: UIC News
+    title: With student invention, not seeing is believing
+    issue: Cover page. Vol. 31 No. 27
+  - year: 2013
+    month: April
+    day: 6
+    publication: New Scientist
+    title: Virtual Reality creates infinite maze in a single room
+    issue: Vol. 217, No. 2911
+  - year: 2013
+    month: March
+    day: 9
+    publication: Stuttgarter Zeitung (DE)
+    title: Technik fur die Sinne
+    issue: No. 58
+  - year: 2013
+    month: February
+    day: 27
+    publication: UIC News
+    title: Quotable
+    issue: Vol. 31. No. 22
+  - year: 2013
+    month: Fenruary
+    day: 23
+    publication: New Scientist
+    title: Spidey-Sense Suit Tingles When Someone Gets Too Close
+    issue: Vol. 217. No. 2905
+web:
+  - date: 10.12.15
+    publication: MIT Technology Review
+    title: Microsoft Researchers Are Working on Multi-Person Virtual Reality
+  - date: 02.27.15
+    publication: ChicagoInno
+    title: "Innovation U: Celebrating the City's Entrepreneurial Pipeline [Event Recap]"
+  - date: 02.19.15
+    publication: UIC News
+    title: And the Oscar goes to … Larry Hornbeck
+  - date: 02.17.15
+    publication: ChicagoInno
+    title: "Innovation U: Introducing Chicago Inno's Next Meetup, Presented by the CIE"
+  - date: 11.17.14
+    publication: CAP Today
+    title: Software expands on 'what you see is what you get
+  - date: 10.08.14
+    publication: ChicagoInno
+    title: Are Your Spidey Senses Tingling? This Wearable Tech Lets You Sense When Obstacles Are Near
+  - date: 10.06.14
+    publication: UIC News
+    title: EVL's SpiderSense suit grabs National Geographic's attention (October 6)
+  - date: 01.06.14
+    publication: National Geographic Kids
+    title: Weird But True! Ripped from the Headlines
+  - date: 05.06.14
+    publication: The Biz Loft Magazine
+    title: "SpiderSense: una giacca dai super poteri"
+    country: Italy
+  - date: 05.04.14
+    publication: Crain's Chicago Business
+    title: 20 in their 20s
+  - date: 02.11.14
+    publication: UIC News
+    title: eeing future of technology in Google Glass
+  - date: 01.03.14
+    publication: NewsMonkey
+    title: Deze science fictions werden realiteit in 2013
+    country: Belgium
+  - date: 12.03.13
+    publication: BuzzFeed
+    title: 21 Science Fictions That Became Science Facts In 2013
+  - date: 11.19.13
+    publication: UIC News
+    title: Middle-school kids create a virtual future in 3-D
+  - date: 11.12.13
+    publication: UIC News
+    title: Computer science students among 'Fifty for Future'
+  - date: 09.19.13
+    publication: New Scientist
+    title: Colour-changing clothes could make tech fashionable
+  - date: 06.19.13
+    publication: Deadline
+    title: Academy Science and Technology Council Names 2013 Interns
+  - date: 06.18.13
+    publication: New Scientist
+    title: Virtual reality display lets fire crews see in blaze
+  - date: 04.17.13
+    publication: UIC News
+    title: UIC computer science student interns at Pixar
+  - date: 04.12.13
+    publication: Sohu.com
+    title: 虚拟现实技术将实现有限空间创建"无限迷宫"
+    country: China
+  - date: 04.09.13
+    publication: UIC News
+    title: With student invention, not seeing is believing
+  - date: 04.05.13
+    publication: New Scientist
+    title: Virtual reality creates infinite maze in a single room
+  - date: 03.24.13
+    publication: The Globe and Mail
+    title: Scientists (finally) build Spider-Man suit with 'SpiderSense'
+    country: Canada
+  - date: 03.18.13
+    publication: ACM Tech News
+    title: "Superhero Science: UIC Students Build 'SpiderSense' Suit"
+  - date: 03.13.13
+    publication: Medill Reports Chicago
+    title: "Superhero Science: UIC students build 'SpiderSense' suit"
+  - date: 03.11.13
+    publication: Gizmag
+    title: SpiderSense suit delivers superhuman perception
+  - date: 03.10.13
+    publication: Stuttgarter Zeitung
+    title: Technik für die Sinne
+    country: Germany
+  - date: 03.04.13
+    publication: An ninh Thủ đô
+    title: Quân đội Mỹ sẽ phát triển trang phục "Giác quan thứ sáu"?
+    country: Vietnam
+  - date: 03.03.13
+    publication: Examiner.com
+    title: This suit could have soldiers saying "my spider sense is tingling"
+  - date: 03.01.13
+    publication: Engineering.com
+    title: "SpiderSense: a Suit That Gives Man a 'Spider Sense'"
+  - date: 02.28.13
+    publication: Europa Press
+    title: Un traje permite recrear el sentido arácnido de Spider-Man
+    country: Spain
+  - date: 02.28.13
+    publication: Defense Tech
+    title: Researcher develops Spidey-sense suit
+  - date: 02.27.13
+    publication: CNET
+    title: Feel like Spidey in a real-life spider-sense suit
+  - date: 02.27.13
+    publication: UIC News
+    title: Quotable
+  - date: 02.27.13
+    publication: Europa Press
+    title: Científicos elaboran un traje que recrea el 'sentido arácnido'
+    country: Spain
+  - date: 02.27.13
+    publication: WP Facet
+    title: Sztuczny "zmysł pająka"
+    country: Poland
+  - date: 02.26.13
+    publication: Wired Magazine
+    title: "Spider-Man Physics: How Real Is the Superhero?"
+  - date: 02.26.13
+    publication: Mother Nature Network
+    title: High-tech Spider-Man suit gives you real-life 'spidey sense'
+  - date: 02.26.13
+    publication: Digital Trends
+    title: "We can all be Peter Parker: New suit gives wearer 'SpiderSense'"
+  - date: 02.25.13
+    publication: Bright.nl
+    title: SpiderSense-pak laat je je omgeving voelen
+    country: Netherlands
+  - date: 02.25.13
+    publication: Star.gr
+    title: Απόκτησε τις υπερδυνάμεις του Spiderman… φορώντας τη στολή του
+    country: Greece
+  - date: 02.24.13
+    publication: Gizmodo
+    title: Enfin une vraie combinaison de super-héros
+    country: France
+  - date: 02.24.13
+    publication: Gizmodo
+    title: "Kräfte wie Spider-Man: Ganzkörperanzug verleiht Spinnen"
+    country: Germany
+  - date: 02.24.13
+    publication: Gizmodo
+    title: You Can Be A Real Superhero With This Spider-Sense Robot Suit
+    country: Australia
+  - date: 02.24.13
+    publication: New York Daily News
+    title: Scientists create 'Spider-Man' suit that gives wearers superhero's 2013 'spider sense'
+  - date: 02.24.13
+    publication: Gazzetta.gr
+    title: Η στολή του Spiderman που σε κάνει… spiderman!
+    country: Greece
+  - date: 02.23.13
+    publication: Forbes
+    title: This Suit Gives You A Real Life Spider-Sense
+  - date: 02.23.13
+    publication: The Verge
+    title: SpiderSense ultrasound suit gives wearers a sixth sense
+  - date: 02.23.13
+    publication: Gizmodo
+    title: You Can Be a Real Superhero With This Crazy Spider-Sense Robot Suit
+  - date: 02.23.13
+    publication: Engadget
+    title: SpiderSense ultrasonic radar suit lets you know when danger is near
+  - date: 02.23.13
+    publication: Engadget
+    title: SpiderSense ultrasonic radar suit lets you know when danger is near
+    country: Germany
+  - date: 02.23.13
+    publication: TechnoBuffalo
+    title: Amazing SpiderSense Suit Lets You "Feel" Nearby Objects
+  - date: 02.23.13
+    publication: Phys.org
+    title: Wearable display meets blindfold test for sensing danger
+  - date: 02.23.13
+    publication: Adevarul
+    title: "Un nou pas spre omul bionic: costumul care ne transformă în omul 2013 păianjen"
+    country: Romania
+  - date: 02.23.13
+    publication: Haberler.com
+    title: Örümcek Hisleri Gerçek Oluyor
+    country: Turkey
+  - date: 02.22.13
+    publication: Mashable
+    title: Body Suit Gives You Real-Life 'Spider Sense
+  - date: 02.22.13
+    publication: The Mary Sue
+    title: Grad Student Creates His Own Working Spider-Man Suit
+  - date: 02.22.13
+    publication: Daily Mail
+    title: The suit that gives you 'Spidey Sense' just like Spider-Man by tingling when 2013 there is impeding danger
+    country: United Kingdom
+  - date: 02.22.13
+    publication: New Scientist
+    title: Spidey-Sense Suit Tingles When Someone Gets Too Close
+  - date: 02.22.13
+    publication: Discovery News
+    title: Body Suit Gives You Real-Life Spidey-Sense
+  - date: 02.15.12
+    publication: Medill Reports Chicago
+    title: Chicago computer scientists develop tools to help ecologists in 2012 Kenya
+  - date: 02.14.12
+    publication: Medill Reports Chicago
+    title: Chicago virtual reality lab home to futuristic health class
