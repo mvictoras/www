@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Victor Mateevitsi"
 theme = "default"
 relativeURLs = true
+enableRobotsTXT = true
 
 [imaging]
 # See https://github.com/disintegration/imaging
