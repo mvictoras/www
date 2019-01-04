@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
-    <body>
+    <body id="barba-wrapper">
         {{- partial "header.html" . -}}
-        <div id="content">
+        <div id="content" class="barba-container" data-namespace="page">
         {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
