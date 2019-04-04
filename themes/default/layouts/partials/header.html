@@ -5,12 +5,18 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
+    <ul class="navbar-nav ml-auto menu">
       {{ $currentPage := . }}
-      {{ range .Site.Menus.main }}
+      {{ range .Site.Menus.main.ByWeight }}
         <li class="navbar-item {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">
           <a class="nav-link" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
         </li>
+      {{ end }}
+    </ul>
+
+    <ul class="nav navbar-nav navbar-right">
+      {{ range .Site.Params.Social }}
+      <li><a href="{{ .url }}{{ .handle}}" target="_blank"><i class="fa fa-{{ .name }} fa-fw header-social-icon"></i></a></li>
       {{ end }}
     </ul>
   </div>

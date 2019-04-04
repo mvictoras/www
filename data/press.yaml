@@ -84,6 +84,14 @@ print:
     title: Spidey-Sense Suit Tingles When Someone Gets Too Close
     issue: Vol. 217. No. 2905
 web:
+  - date: 03.27.19
+    publication: Hyde Park Herald
+    title: ‘Wired to Wear’ opens at MSI
+    url: https://hpherald.com/2019/03/27/wired-to-wear-opens-at-msi/
+  - date: 03.21.19
+    publication: Chicago Sun Times
+    title: Real-life Iron Man opens Museum of Science and Industry ‘Wired to Wear’ exhibit
+    url: https://chicago.suntimes.com/news/msi-museum-science-industry-wired-to-wear-exhibit-jet-suit/
   - date: 10.12.15
     publication: MIT Technology Review
     title: Microsoft Researchers Are Working on Multi-Person Virtual Reality

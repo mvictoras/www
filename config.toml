@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Victor Mateevitsi"
+title = "Victor Mateevitsi, PhD"
 theme = "default"
 relativeURLs = true
 enableRobotsTXT = true
@@ -18,31 +18,54 @@ anchor = "smart"
 
 [menu]
   [[menu.main]]
+    identifier = "home"
+    name = "home"
+    url = "/home/"
+    weight = 1
+
+  [[menu.main]]
+    identifier= "news"
+    name = "news"
+    url = "/news/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "press"
+    name = "press"
+    url = "/press/"
+    weight = 3
+
+  [[menu.main]]
     identifier = "about"
-    name = "About"
+    name = "about"
     url = "/about/"
-
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
-
-  [[menu.main]]
-    identifier = "research"
-    name = "Research"
-    url = "/research/"
-
-  [[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    url = "/projects/"
+    weight = 4
 
   [[menu.main]]
     identifier = "contact"
-    name = "Contact"
+    name = "contact"
     url = "/contact/"
+    weight = 5
 
-    [[menu.main]]
-      identifier = "press"
-      name = "Press"
-      url = "/press/"
+[[params.social]]
+  name = "facebook"
+  handle = "vmateevitsi"
+  url = "https://www.facebook.com/"
+
+[[params.social]]
+  name = "twitter"
+  handle = "mvictoras"
+  url = "https://twitter.com/"
+ 
+[[params.social]]
+  name = "instagram"
+  handle = "mvictoras"
+  url = "https://www.instagram.com/"
+
+[[params.social]]
+  name = "linkedin"
+  handle = "mvictoras"
+  url = "https://www.linkedin.com/in/"
+
+[options]
+  image = "img/VictorMateevitsi.jpg"
