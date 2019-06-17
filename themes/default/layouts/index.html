@@ -4,8 +4,8 @@
     <div class="col">
       <div class="col-4 skills">
         <div><span class="skill1">{{ index (.Params.skills) 0 }}</span></div>
-        <div class="skill-row"><span class="skill2">{{ index (.Params.skills) 1 }}</span></div>
-        <div class="skill-row"><span class="skill3">{{ index (.Params.skills) 2 }}</span></div>
+        <div class="skill-row"><span class="skill2">{{ index (.Site.Params.skills) 1 }}</span></div>
+        <div class="skill-row"><span class="skill3">{{ index (.Site.Params.skills) 2 }}</span></div>
       </div>
     </div>
   </div>
