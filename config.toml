@@ -20,7 +20,7 @@ anchor = "smart"
   [[menu.main]]
     identifier = "home"
     name = "home"
-    url = "/home/"
+    url = "/"
     weight = 1
 
   [[menu.main]]
@@ -46,26 +46,3 @@ anchor = "smart"
     name = "contact"
     url = "/contact/"
     weight = 5
-
-[[params.social]]
-  name = "facebook"
-  handle = "vmateevitsi"
-  url = "https://www.facebook.com/"
-
-[[params.social]]
-  name = "twitter"
-  handle = "mvictoras"
-  url = "https://twitter.com/"
- 
-[[params.social]]
-  name = "instagram"
-  handle = "mvictoras"
-  url = "https://www.instagram.com/"
-
-[[params.social]]
-  name = "linkedin"
-  handle = "mvictoras"
-  url = "https://www.linkedin.com/in/"
-
-[options]
-  image = "img/VictorMateevitsi.jpg"

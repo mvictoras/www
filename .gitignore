@@ -1,5 +1,6 @@
 # Hugo default output directory
 /public
+/resources
 
 ## OS Files
 # Windows
@@ -10,3 +11,6 @@ $RECYCLE.BIN/
 
 # OSX
 .DS_Store
+
+# git
+/.gitmodules

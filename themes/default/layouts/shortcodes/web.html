@@ -1,0 +1,7 @@
+<ul class="web">
+  {{ range .Site.Data.press.web }}
+    <li>
+        <strong>{{.publication}}</strong>: {{.title}}
+    </li>
+  {{ end }}
+</ul>
