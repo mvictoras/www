@@ -1,0 +1,12 @@
+{{/* Original script from here: https://www.heartinternet.uk/blog/15-ways-to-hide-your-email-address/ */}}
+{{ $email := (.Get "address") }}
+
+<script language="JavaScript" type="text/javascript">
+  var part1 = {{ $email }};
+  var part2 = Math.pow(2,6);
+  var part3 = String.fromCharCode(part2);
+  var part4 = "vmateevitsi.com";
+  var part5 = part1 + String.fromCharCode(part2) + part4;
+  document.write("<a href=" + "mai" + "lto" + ":" 
+  + part5 + ">" + part1 + part3 + part4 + "</a>");
+</script>{{- .Get 0 -}}

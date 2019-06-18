@@ -1,0 +1,17 @@
+<div class="widget">
+  <h2>Social</h2>
+  <ul class="nav navbar-nav widget-social">
+    {{ range .Site.Data.social }}
+    <li><a href="{{ .url }}" target="_blank">{{ .handle }}<i class="fa fa-{{ .name }} fa-fw header-social-icon"></i></a></li>
+    {{end}}
+  </ul>
+</div>
+
+<div class="widget">
+  <h2>Latest news</h2>
+  <ul class="list-group list-group-flush widget-news">
+  {{ range first 3 (where .Site.RegularPages "Section" "news") }}
+    <li class="list-group-item"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
+  </ul>
+</div>

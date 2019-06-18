@@ -16,7 +16,10 @@
 
     <ul class="nav navbar-nav navbar-right">
       {{ range .Site.Data.social }}
-      <li><a href="{{ .url }}" target="_blank"><i class="fa fa-{{ .name }} fa-fw header-social-icon"></i></a></li>
+      <li><a href="{{ .url }}" target="_blank"><span class="fa-stack fa">
+            <i class="fa fa-circle fa-stack-2x {{ .name }}-color"></i>
+            <i class="fa fa-{{ .name }} fa-fw header-social-icon fa-stack-1x"></i>
+          </span></a></li>
       {{ end }}
     </ul>
   </div>

@@ -1,0 +1,51 @@
+.single {
+  h1 {
+    color: black;
+  }
+}
+
+.widget {
+  h2 {
+    font-size: 1.5rem;
+    text-align: right;
+    border-bottom: 3px solid black;
+  }
+}
+.widget-social {
+  text-align: right;
+}
+
+.widget-news {
+  font-size: 0.9rem;
+}
+
+.knockout {
+    /* background: url(/imgs/hero/generic.jpg) calc(44%) 0; */
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 640px;
+    margin-bottom: 20px;
+    min-height: 600px
+}
+
+.knockout::before {
+    content: " " attr(id) "";
+    width: 100%;
+    text-transform: capitalize;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    padding: 0 0 10px;
+    line-height: 1.2em;
+    margin-bottom: -1px;
+    color: #000;
+    text-align: center;
+    z-index: 1;
+    mix-blend-mode: lighten;
+    font-weight: 700;
+    font-size: 6vw
+}
+
+
