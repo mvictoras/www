@@ -37,6 +37,27 @@
   }
 }
 
+.updates {
+
+  padding-top: 40px;
+
+  .update-item {
+    border-top: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    small {
+      color: #6c757d;
+      font-size: 1rem;
+    }
+
+    h5 {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+
 .knockout {
     background-size: cover !important;
     background-repeat: no-repeat;
