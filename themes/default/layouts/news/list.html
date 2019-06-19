@@ -1,0 +1,38 @@
+{{ define "main" }}
+<div class="container-fluid single">
+  {{ with .Resources.GetMatch "featured*" }}
+  <div class="row knockout" id="{{ $.Page.Title }}" style="background: url({{ .Permalink }}) no-repeat bottom center">
+    </div>
+  {{ end }}
+  <div class="container news">
+    <div class="row">
+      <div class="col-lg-9">
+        {{.Content}}
+        {{ range .Site.Data.press.web }}
+          {{ $outer := . }} 
+          <div class="row">
+            <div class="col-md-12 col-xs-12">
+              <h1>{{ .title }}</h1>
+
+              <div class="wrapper">
+                <div class="box">
+                  <img style="float:left;margin-right:10px" src="http://dota2essentials.com/template/img/news/newsdotaclient.jpg">
+                </div>
+                {{ with .text }}
+                  <p style="margin:5px">{{ . | safeHTML | truncate 255 }}</p>
+                {{ end }}
+          {{ with .url }}
+          <a href="{{ . }}" target="_blank" class="more">Read More</a>
+          {{ end }}
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+      <div class="col-lg-3">
+        {{- partial "sidebar.html" . -}}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

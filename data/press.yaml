@@ -87,32 +87,48 @@ web:
   - date: 03.27.19
     publication: Hyde Park Herald
     title: ‘Wired to Wear’ opens at MSI
+    text: "A new exhibit at the Museum of Science and Industry lets visitors grasp the hands-on and present possibilities of wearable technologies and think of the spectacular possibilities ahead. “Wired to Wear” weaves together design, engineering and art from 15 different countries, brands like Google and applied technology from the University of Illinois at Chicago. Anthony Vitagliano, who runs exhibitions and engagement at MSI, said “Wired to Wear” is the world’s first exhibition on wearable technology “from backpacks to jetpacks.” (Indeed, a man with the latter flew over MSI’s north entrance in a press event to launch the exhibition.)"
     url: https://hpherald.com/2019/03/27/wired-to-wear-opens-at-msi/
   - date: 03.21.19
     publication: Chicago Sun Times
     title: Real-life Iron Man opens Museum of Science and Industry ‘Wired to Wear’ exhibit
+    text: "From afar, Richard Browning — dressed in snug, all-black attire and with smoke billowing near his feet — resembled a mime standing over a smoldering fire. Then the scream of four miniature jet engines tore across the courtyard in front of the Museum of Science and Industry, Browning’s 5-foot-9 frame lifted off the ground and he — along with his 55-pound “jet suit” — hurtled toward 100 or so awestruck spectators Thursday morning. “It’s OK. You can take off the headphones now,” Browning said a few moments later, the air rippling behind him as he cut the engines, which resembled four black telescopic camera lenses jutting out from his wrists."
     url: https://chicago.suntimes.com/news/msi-museum-science-industry-wired-to-wear-exhibit-jet-suit/
   - date: 10.12.15
     publication: MIT Technology Review
     title: Microsoft Researchers Are Working on Multi-Person Virtual Reality
+    text: "Augmented or mixed reality, which renders virtual images in a view of the real world, can be spectacular to experience. But it may be even more fun when you bring a friend. Researchers in the Microsoft lab of Jaron Lanier are experimenting with multi-person augmented reality, and the results of their work could help shape the way the technology is commercialized and used. Lanier was a pioneer of virtual and augmented, or mixed, reality in the 1980s."
+    url: https://www.technologyreview.com/s/542341/microsoft-researchers-are-working-on-multi-person-virtual-reality/
   - date: 02.27.15
     publication: ChicagoInno
     title: "Innovation U: Celebrating the City's Entrepreneurial Pipeline [Event Recap]"
+    text: "Last night, Chicagoans gathered in The Kerryman’s buzzing bar space, tinged with the luck of the Irish, to enjoy some draft beer, finger food and on the most united front: university-affiliated startups. The relaxed “Innovation U” networking and social event celebrated the Midwest as a premiere entrepreneurship pipeline, with short presentations from eleven startups, whether student-run, launched out of universities, or those that have tapped back into university pipelines. According to the state’s recent Innovation Index, this niche has tripled its efforts in the past five years and comprises two-thirds of all Illinois startups."
+    url: https://www.americaninno.com/chicago/innovation-u-recap-student-run-chicago-startups/
   - date: 02.19.15
     publication: UIC News
     title: And the Oscar goes to … Larry Hornbeck
+    text: "UIC graduate student Victor Mateevitsi left the Electronic Visualization Lab behind recently to hobnob in Hollywood with celebrities like Larry Hornbeck and David W. Gray. Never heard of them? Then you’re probably not an engineer. Hornbeck and Gray — celebrities in the engineering world, Mateevitsi says — were among the winners at the Scientific and Technical Awards given Feb. 8 by the Academy of Motion Picture Arts and Sciences."
+    url: https://today.uic.edu/and-the-oscar-goes-to-larry-hornbeck
   - date: 02.17.15
     publication: ChicagoInno
     title: "Innovation U: Introducing Chicago Inno's Next Meetup, Presented by the CIE"
+    text: "Last night, Chicagoans gathered in The Kerryman’s buzzing bar space, tinged with the luck of the Irish, to enjoy some draft beer, finger food and on the most united front: university-affiliated startups."
+    url: https://www.americaninno.com/chicago/innovation-u-recap-student-run-chicago-startups/
   - date: 11.17.14
     publication: CAP Today
-    title: Software expands on 'what you see is what you get
+    title: Software expands on 'what you see is what you get'
+    text: "New software that allows pathologists to share and compare multiple images, including whole slide images, on a single display at the same time could take collaboration to a new level. At least that’s the thinking of staff members in the Electronic Visualization Laboratory at the University of Illinois at Chicago."
+    url: https://www.captodayonline.com/newsbytes-1114/
   - date: 10.08.14
     publication: ChicagoInno
     title: Are Your Spidey Senses Tingling? This Wearable Tech Lets You Sense When Obstacles Are Near
+    text: "There’s wearable tech, and then there’s the device a team of University of Illinois at Chicago PHD students have created that’s capable of a lot more than surfing the web and checking your health stats. During a UIC human augmentics class Victor Mateevitsi, Brad Haggadone and Brian Kunzer were asked to do one thing: Make something that can see the invisible. What developed was SpiderSense, a wearable suit with 15 modules placed all around a person’s body that applies pressure when someone is approaching an object."
+    url: https://www.americaninno.com/chicago/are-your-spidey-senses-tingling-this-wearable-tech-lets-you-sense-when-obstacles-are-near/
   - date: 10.06.14
     publication: UIC News
-    title: EVL's SpiderSense suit grabs National Geographic's attention (October 6)
+    title: EVL's SpiderSense suit grabs National Geographic's attention
+    text: "Brightening the eyes of kids and superhero fans alike, the SpiderSense suit created in UIC’s Electronic Visualization Lab is highlighted in a National Geographic Kids book. The suit, which allows users to sense obstacles without seeing them, was featured as “Wearable Tech” in National Geographic’s Weird But True! Ripped from the Headlines Summer 2014 edition. SpiderSense has seven sensor modules placed on the body: two on the wrists, two on the chest and one each on the back, shoulders and head. The sensors use echolocation — which bats have to navigate in the dark — and apply pressure when something is nearby."
+    url: https://today.uic.edu/evls-spidersense-suit-grabs-national-geographics-attention
   - date: 01.06.14
     publication: National Geographic Kids
     title: Weird But True! Ripped from the Headlines
