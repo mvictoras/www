@@ -19,8 +19,25 @@
   font-size: 0.9rem;
 }
 
+.widget-updates {
+  font-size: 0.8rem;
+
+  .update-item {
+    border-top: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    small {
+      color: #6c757d;
+    }
+
+    h5 {
+      font-size: 0.8rem;
+    }
+  }
+}
+
 .knockout {
-    /* background: url(/imgs/hero/generic.jpg) calc(44%) 0; */
     background-size: cover !important;
     background-repeat: no-repeat;
     position: relative;

@@ -15,3 +15,21 @@
   {{ end }}
   </ul>
 </div>
+
+<div class="widget">
+  <h2>Updates</h2>
+  <div class="list-group list-group-flush widget-updates">
+  {{ range first 5 .Site.Data.updates }}
+    {{ $date := time .date }}
+    <div class="list-group-item update-item d-flex justify-content-between">
+      <h5 class="mb-1">{{ .title }}</h5>
+      <small>{{ $date.Format "2 Jan" }}</small>
+    </div>
+  {{ end }}
+    <div class="list-group-item update-item d-flex justify-content-between">
+      <a class="mb-1" href="/updates">More</a>
+    </div>
+  </div>
+</div>
+
+
