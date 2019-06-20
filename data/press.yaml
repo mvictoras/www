@@ -129,9 +129,6 @@ web:
     title: EVL's SpiderSense suit grabs National Geographic's attention
     text: "Brightening the eyes of kids and superhero fans alike, the SpiderSense suit created in UIC’s Electronic Visualization Lab is highlighted in a National Geographic Kids book. The suit, which allows users to sense obstacles without seeing them, was featured as “Wearable Tech” in National Geographic’s Weird But True! Ripped from the Headlines Summer 2014 edition. SpiderSense has seven sensor modules placed on the body: two on the wrists, two on the chest and one each on the back, shoulders and head. The sensors use echolocation — which bats have to navigate in the dark — and apply pressure when something is nearby."
     url: https://today.uic.edu/evls-spidersense-suit-grabs-national-geographics-attention
-  - date: 01.06.14
-    publication: National Geographic Kids
-    title: Weird But True! Ripped from the Headlines
   - date: 05.06.14
     publication: The Biz Loft Magazine
     title: "SpiderSense: una giacca dai super poteri"
@@ -139,47 +136,79 @@ web:
   - date: 05.04.14
     publication: Crain's Chicago Business
     title: 20 in their 20s
+    text: "Handed a $500 budget for a class project at the University of Illinois at Chicago, Victor Mateevitsi did something his teammates on his amateur hockey team would be proud of: He developed something to give them an advantage on the ice. In this case, Mr. Mateevitsi created a set of wearable sensors that allow hockey players to feel pressure when they approach a wall or an object-or when an object, say, a defender, approaches them. \"If someone is behind you, you will sense them,\" he says. Strictly a prototype, this \"SpiderSense\" suit won't make anyone a superhero, yet. But it could have many practical applications."
+    url: https://www.chicagobusiness.com/node/722041
   - date: 02.11.14
     publication: UIC News
-    title: eeing future of technology in Google Glass
+    title: Seeing future of technology in Google Glass
+    text: "Smartphones, smart watches and now smart glasses? That’s right, Google Glass is the latest innovation in smartwear that transforms the way we communicate. Google Glass is essentially a hands-free smartphone that uses voice recognition and a touchpad system to let the person wearing the glasses browse apps, shoot video, receive directions, and more — without reaching for a phone."
+    url: https://today.uic.edu/seeing-future-of-technology-in-google-glass
   - date: 01.03.14
     publication: NewsMonkey
     title: Deze science fictions werden realiteit in 2013
+    text: "Spider-man is ‘maar’ een tekenfilmfiguurtje? Not so fast. Met zeven ultrasonische sensoren kan een persoon detecteren wat zijn richting uitkomt nog voor hij het kan zien of horen, zoals de ‘spider sense’ van de echte Spider-Man. Dat doen de sensoren door druk uit te oefenen waardoor je weet van welke kant het gevaar komt. Tot nu toe is het pak 95 procent accuraat."
+    url: https://newsmonkey.be/deze-science-fictions-werden-realiteit-in-2013/
     country: Belgium
   - date: 12.03.13
     publication: BuzzFeed
     title: 21 Science Fictions That Became Science Facts In 2013
+    text: "Seven different ultrasonic sensors wired to detect nearby objects exert pressure on tiny robotic arms sewn into the \"spider sense\" suit made by Victor Mateevitsi. When the sensors detect movement, they apply pressure to the skin, allowing the average person to feel oncoming attacks with a 95% success rate."
+    url: https://www.buzzfeed.com/donnad/science-fictions-that-became-science-facts-in-2013
   - date: 11.19.13
     publication: UIC News
     title: Middle-school kids create a virtual future in 3-D
+    text: "For anyone interested in computers, the Electronic Visualization Laboratory seems like Wonderland, with incredible computing power, walls covered in video displays, and CAVE2, the world’s most sophisticated 3-D environment. For the past 10 weeks, three Chicago elementary-school students have been EVL apprentices, developing their own project and learning what a career in computer science could be like." 
+    url: https://today.uic.edu/students-explore-world-of-computer-science-in-3-d
   - date: 11.12.13
     publication: UIC News
     title: Computer science students among 'Fifty for Future'
+    text: "Imagine a world where a firefighter could enter a smoke-filled house and find the doors and windows. Picture an app that teaches astronomy to third-graders. Look forward to an algorithmic tool that solves all kinds of complex everyday problems 10 times faster. All these scenarios are possible, thanks to technology created by three UIC graduate students in computer science honored as “Fifty for the Future” this week by the Illinois Technology Foundation"
+    url: https://today.uic.edu/computer-science-students-among-fifty-for-future
   - date: 09.19.13
     publication: New Scientist
     title: Colour-changing clothes could make tech fashionable
+    text: "You can choose your clothes, but can you control them? A new line of clothing that incorporates tiny, flexible LEDs right into jackets and dresses could be the first fully controllable electronic clothing that’s ready for the shop rack. The collection, called Lüme, was shown last week at the International Symposium on Wearable Computers in Zurich, Switzerland. It consists of a bomber jacket, a tunic, and an open-backed dress – all of which have controllable LEDs built-in that can be controlled by a smartphone app. The LEDs are enmeshed in fabric so they don’t touch the wearer’s skin, and they shine out through several layers of fabric that diffuse the light for a softer glow."
+    url: https://www.newscientist.com/article/dn24232-colour-changing-clothes-could-make-tech-fashionable/
+    tags: ['opinion'] 
   - date: 06.19.13
     publication: Deadline
     title: Academy Science and Technology Council Names 2013 Interns
+    text: "The Science and Technology Council of the Academy of Motion Picture Arts and Sciences has selected five students to participate in its 2013 summer internship program, with placements at the Tech Council, Dolby Laboratories, Pixar Animation Studios and Walt Disney Animation Studios. The only one of its kind, the Academy-sponsored program is designed to nurture the next generation of motion picture technologists by providing real-world experience to students interested in careers in motion picture technology and scientific research. The 2013 Science and Technology Council summer interns and their internship hosts are:"
+    url: https://deadline.com/2013/06/academy-science-and-technology-council-names-2013-interns-524769/
   - date: 06.18.13
     publication: New Scientist
     title: Virtual reality display lets fire crews see in blaze
+    text: "When firefighters enter a burning building, they usually go in blind. Smoke often shrouds their view and it can be hard to know exactly where they are, or where the fire is. A virtual reality project called ProFiTex at the Vienna University of Technology in Austria is attempting to change that by giving firefighters a head-up display which helps them navigate in the dark. The system uses head-mounted infrared sensors that overlay surface temperatures onto the display, which also shows a 3D model of the surroundings created by a head-mounted depth camera. This gives firefighters an idea of how hot their surroundings are, whether it is safe to enter a room and the layout of the rooms in front of them."
+    url: https://www.newscientist.com/article/dn23716-virtual-reality-display-lets-fire-crews-see-in-a-blaze/
+    tags: ['opinion']
   - date: 04.17.13
     publication: UIC News
     title: UIC computer science student interns at Pixar
+    text: "Victor Mateevitsi is taking his imagination to Pixar Animation Studios. Mateevitsi’s SpiderSense, a suit that allows users to sense — without seeing — obstacles around them, recently received worldwide attention. The University of Illinois at Chicago student has now landed a competitive internship at Pixar through the Academy of Motion Picture Arts and Sciences and Technology Council. Mateevitsi, a graduate student in computer science and research assistant at UIC’s Electronic Visualization Laboratory will work at Pixar in Emeryville, Calif., for 12 weeks beginning in May to develop studio production tools."
+    url: https://today.uic.edu/uic-computer-science-student-interns-at-pixar
   - date: 04.12.13
     publication: Sohu.com
     title: 虚拟现实技术将实现有限空间创建"无限迷宫"
+    text: "据国外媒体报道，一项新的虚拟现实（VR）系统将可以实现“想象”中的情形。测试人员佩戴一个VR头盔，当他在现实房间里环绕走动时，该设备将追踪测试者的身体与头部移动方位，从而引导他在一个无穷尽的虚拟空间里行走。虚拟世界中的房间与走廊都是随着佩戴者所处现实空间大小而自动生成的，就像巨型视频游戏一样无穷无尽，这将使测试人员永远不会两次进入同一个地方。"
+    url: http://blog.sina.com.cn/s/blog_5f1958e80101ddju.html
+    tags: ['opinion']
     country: China
   - date: 04.09.13
     publication: UIC News
     title: With student invention, not seeing is believing
+    text: "The minds at the Electronic Visualization Laboratory have brought another science fiction fantasy to life with their latest invention, “SpiderSense.” Originally named NinjaVision, the special suit allows users to sense — without seeing — obstacles around them. “What we wanted to do is create a suit that can sense the environment and sense if someone is approaching you, and you could constantly know what’s going on around you,” said Victor Mateevitsi, doctoral student in computer science and creator of SpiderSense."
+    url: https://today.uic.edu/spidersense-suit-turns-science-fiction-into-reality
   - date: 04.05.13
     publication: New Scientist
-    title: Virtual reality creates infinite maze in a single room
+    title: Virtual reality creates infinite maze in a single roomu
+    text: "STEP into the labyrinth. Imagine physically wandering through the many rooms and corridors of an endless maze, never seeing the same place twice – but without actually leaving your living room. This is the promise of a new virtual reality (VR) system. It works by tracking the body and head movements of a person wearing a VR headset and guides them through endless sets of virtual spaces as they pace around within a real physical space. The trick is that, in the virtual world, the corridors and rooms are generated automatically as the walker moves to always fit inside the real space available. There is potentially no end to the environment, just like a huge video game."
+    url: https://www.newscientist.com/article/dn23321-virtual-reality-creates-infinite-maze-in-a-single-room/
+    tags: ['opinion']
   - date: 03.24.13
     publication: The Globe and Mail
     title: Scientists (finally) build Spider-Man suit with 'SpiderSense'
+    text: "It's the invention of which comics nerds have always dreamed. A team of scientists at the University of Illinois at Chicago has created an extrasensory suit inspired by the Marvel superhero Spider-Man that allows its wearers to feel approaching danger. The getup, dubbed SpiderSense, is more of a wearable network of ultrasound sensors than an actual suit. But like the fictional Peter Parker's own superhuman \"spider-sense,\" it detects oncoming objects, obstacles and potential attackers in the vicinity and applies pressure to the skin, providing early warning."
+    url: https://www.theglobeandmail.com/life/scientists-finally-build-spider-man-suit-with-spidersense/article10201997/
     country: Canada
   - date: 03.18.13
     publication: ACM Tech News
