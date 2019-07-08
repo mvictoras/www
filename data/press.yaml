@@ -204,6 +204,11 @@ web:
     text: "STEP into the labyrinth. Imagine physically wandering through the many rooms and corridors of an endless maze, never seeing the same place twice – but without actually leaving your living room. This is the promise of a new virtual reality (VR) system. It works by tracking the body and head movements of a person wearing a VR headset and guides them through endless sets of virtual spaces as they pace around within a real physical space. The trick is that, in the virtual world, the corridors and rooms are generated automatically as the walker moves to always fit inside the real space available. There is potentially no end to the environment, just like a huge video game."
     url: https://www.newscientist.com/article/dn23321-virtual-reality-creates-infinite-maze-in-a-single-room/
     tags: ['opinion']
+  - date: 03.28.13
+    publication: Helix Magazine
+    title: "Superhero Science: UIC Students Build 'SpiderSense' Suit"
+    text: "Have you ever wanted superpowers? Students at the University of Illinois at Chicago have built a suit mimicking Spider-Man’s “SpiderSense” by using sensory receptors to “feel” their environment. The students in the computer science, communication and bioengineering departments were broken up into groups and charged with the task of making something that could “see the invisible.” Victor Mateevitsi said that he and his classmates were looking for a way to supplement the existing human senses, to fill in the blind spots. “There are a lot of things that are invisible, but are deadly to us. Or, they may be a possible threat to us,” he said. “For example, radiation has no taste, it doesn’t emit any sound, yet it is extremely deadly. So we started playing around with the idea of what are the things that are invisible and how can we communicate them to the user without the need of a phone or a device that you need to take out of your pocket and look at.”"
+    url: https://helix.northwestern.edu/article/superhero-science-uic-students-build-spidersense-suit
   - date: 03.24.13
     publication: The Globe and Mail
     title: Scientists (finally) build Spider-Man suit with 'SpiderSense'
@@ -213,19 +218,24 @@ web:
   - date: 03.18.13
     publication: ACM Tech News
     title: "Superhero Science: UIC Students Build 'SpiderSense' Suit"
-  - date: 03.13.13
-    publication: Medill Reports Chicago
-    title: "Superhero Science: UIC students build 'SpiderSense' suit"
+    text: "University of Illinois at Chicago computer science, communication, and bioengineering students say they have created a suit equipped with sensory receptors that enable a wearer to \"feel\" their environment, in a manner similar to Spider-Man's \"SpiderSense.\" Assigned to develop something that could \"see the invisible,\" the students made a set of sensory modules worn on the body that can be arranged in various configurations. Using sonar technology, the suit hears pulse reflections with a microphone, determines the distance of the object from the user, and applies pressure to the wearer's body as the object approaches."
+    url: https://cacm.acm.org/news/162238-superhero-science-uic-students-build-spidersense-suit
   - date: 03.11.13
-    publication: Gizmag
+    publication: New Atlas
     title: SpiderSense suit delivers superhuman perception
+    text: "In the Spider-Man comics and movies, the famous hero's \"Spider Sense\" warns him of incoming danger, which proves to be just as important a superpower as slinging webs and climbing walls. Now a group of researchers at the University of Illinois in Chicago may have found a way to replicate such superhuman perception that doesn't involve any radioactive spiders. Using a collection of sensors placed all over the body, the group has designed a \"SpiderSense\" suit that detects objects in the environment and warns the wearer when anything gets too close."
+    url: https://newatlas.com/spidersense-suit/26592/
   - date: 03.10.13
     publication: Stuttgarter Zeitung
-    title: Technik für die Sinne
+    title: "Augmented Human: Technik für die Sinne"
+    text: "Ausgewählte Forscher aus aller Welt stellen in Stuttgart Technologien vor, die dem Menschen zu neuen Fähigkeiten verhelfen sollen. Was manchmal wirkt wie Science-Fiction ist doch für den Alltag gedacht – selbst wenn Spiderman als Vorbild genannt wird. Der schwarz gekleidete, schwer verkabelte Mann sieht aus, als käme er direkt aus der Zukunft. Er spaziert durch die Menschenmenge, und sobald sich ihm jemand nähert, bewegen sich einige der vielen Sensoren an seinem Körper."
+    url: https://www.stuttgarter-zeitung.de/inhalt.augmented-human-technik-fuer-die-sinne.b858898f-9844-4999-bcb2-b47eb892219f.html
     country: Germany
   - date: 03.04.13
     publication: An ninh Thủ đô
-    title: Quân đội Mỹ sẽ phát triển trang phục "Giác quan thứ sáu"?
+    title: "Quân đội Mỹ sẽ phát triển trang phục \"Giác quan thứ sáu\"?"
+    text: "Victor Mateevitsi, nghiên cứu sinh tiến sĩ thuộc Đại học Illinois, Chicago đang phát triển một bộ trang phục “Giác quan thứ sáu” có thể mặc được. Anh đặt tên cho dự án này là SpiderSense (tạm dịch là Giác quan người Nhện) với hình ảnh anh hùng truyện tranh Marvel."
+    url: https://anninhthudo.vn/quan-su/quan-doi-my-se-phat-trien-trang-phuc-giac-quan-thu-sau/488382.antd
     country: Vietnam
   - date: 03.03.13
     publication: Examiner.com
@@ -233,62 +243,94 @@ web:
   - date: 03.01.13
     publication: Engineering.com
     title: "SpiderSense: a Suit That Gives Man a 'Spider Sense'"
+    text: "“My spider sense is tingling!” Thanks to Peter Parker, we all know that means impending danger. Inspired by Spider Man’s famous 6th sense, students at the University of Illinois have designed a suit that senses the near environment and informs the wearer of surrouding objects by gently pushing on his skin. The suit is called the “SpiderSense” and aims to give environmental feedback without sight."
+    url: https://www.engineering.com/ElectronicsDesign/ElectronicsDesignArticles/ArticleID/5393/SpiderSense-a-Suit-That-Gives-Man-a-Spider-Sense.aspx
   - date: 02.28.13
     publication: Europa Press
     title: Un traje permite recrear el sentido arácnido de Spider-Man
+    text: "El estadounidense Victor Mateevitsi ha creado un traje que reproduce el sentido arácnido de Spider-Man. El sueño de convertirse en un superhéroe parece estar cada vez más de la realidad. Casi todo el mundo conoce al personaje de Peter Parker que se convierte en el superhéroe Spider-Man gracias a la picadura de una araña radiactiva. Tras este incidente el joven adquiere la agilidad y movimientos de este insecto, además de un sentido arácnido que le avisa de los posibles peligros que se le aproximan."
+    url: https://www.europapress.es/portaltic/portalgeek/noticia-traje-permite-recrear-sentido-aracnido-spider-man-20130228133102.html
     country: Spain
   - date: 02.28.13
-    publication: Defense Tech
+    publication: Military.com
     title: Researcher develops Spidey-sense suit
+    text: "A researcher is working on a suit that could give a soldier Spidey-sense that Spider-Man enjoys. That's right, the ability to sense approaching objects without looking at or hearing them. Victor Mateevitsi, a PhD student at the University of Illinois at Chicago, is developing a wearable suit that would provide the person a sixth sense. He has even called the project SpiderSense with a nod to the Marvel comic hero."
+    url: https://www.military.com/defensetech/2013/02/28/researcher-develops-spidey-sense-suit
   - date: 02.27.13
     publication: CNET
     title: Feel like Spidey in a real-life spider-sense suit
+    text: "If Peter Parker's spider-sense ranks high on your list of coveted superpowers, you may experience a strange tingling sensation at news of a suit that alerts the wearer to the presence of nearby objects. Victor Mateevitsi, a Ph.D. candidate at the University of Illinois' Electronic Visualization Laboratory in Chicago, is the main man behind SpiderSense, a \"wearable device that projects the wearer's near environment on the skin and allows for directional awareness of objects around him\" in much the same way Spider-Man can detect danger without the benefit of sight."
+    url: https://www.cnet.com/news/feel-like-spidey-in-a-real-life-spider-sense-suit/
   - date: 02.27.13
     publication: UIC News
     title: Quotable
   - date: 02.27.13
     publication: Europa Press
     title: Científicos elaboran un traje que recrea el 'sentido arácnido'
+    text: "Investigadores de la Universidad de Illinois (Estados Unidos) han elaborado un traje que recrea el 'sentido arácnido', es decir, permite detectar objetos o personas acercándose en un campo de 360 grados. Esta peculiar característica lo ha convertido en un objeto que brinda poderes similares a los del superhéroe 'Spiderman'. El creador del traje, Victor Mateevitsi, lo ha bautizado como 'SpiderSense' y ha asegurado que \"quien lo lleva es capaz de desplazarse con los ojos cerrados\", con lo que \"sería, incluso, más fiable que el sentido arácnido del 'hombre araña'\"."
+    url: https://www.europapress.es/ciencia/laboratorio/noticia-cientificos-elaboran-traje-recrea-sentido-aracnido-20130227121835.html
     country: Spain
   - date: 02.27.13
     publication: WP Facet
     title: Sztuczny "zmysł pająka"
+    text: "Znany z komiksów o Spider-Manie zmysł pozwalający unikać zagrożeń doczekał się technicznej realizacji - informuje \"New Scientist\". Prawdziwe pająki mają bardzo czuły zmysł dotyku - pokrywające ich ciało włoski pozwalają wyczuć nie tylko drżenie sieci, ale także drgania powietrza. W przypadku komiksowego bohatera Peta'a Parkera, czyli Spider-Mana, charakterystyczne swędzenie uprzedzało superbohatera o zagrożeniu. Namiastkę tej nadprzyrodzonej zdolności może dać każdemu założenie specjalnego ubioru, pozwalającego odczuwać obecność najbliższych obiektów. Dzięki niemu można poruszać się w całkowitej ciemności."
+    url: https://facet.wp.pl/sztuczny-zmysl-pajaka-6002240921289857a
     country: Poland
   - date: 02.26.13
     publication: Wired Magazine
     title: "Spider-Man Physics: How Real Is the Superhero?"
+    text: "Victor Mateevitsi, a graduate student at the University of Illinois at Chicago, has built a suit that alerts its wearer to approaching humans. Called SpiderSense, the suit uses a suite of built-in microphones to sense the surrounding environment."
+    url: https://www.wired.com/2013/02/spiderman-physics/
   - date: 02.26.13
     publication: Mother Nature Network
     title: High-tech Spider-Man suit gives you real-life 'spidey sense'
+    text: "Scientist Victor Mateevitsi of the University of Illinois in Chicago has invented every comic book fan's ultimate fantasy: a body suit that grants its wearer the powers of Spider-Man, reports New Scientist. Mateevitsi's suit has the amazing ability to \"tingle\" whenever an object gets too close, effectively mimicking Spider-Man's famous \"spidey sense\" that warns him of danger. The suit, which is actually called SpiderSense, is so sensitive that users can even navigate a room with their eyes closed."
+    url: https://www.mnn.com/green-tech/research-innovations/stories/high-tech-spider-man-suit-gives-you-real-life-spidey-sense
   - date: 02.26.13
     publication: Digital Trends
     title: "We can all be Peter Parker: New suit gives wearer 'SpiderSense'"
+    text: "As all comic fans know, what makes Spider-Man successful at this superhero schtick is because he’s known for more than the whole sticking-to-walls thing he’s named after. No, it’s all the other powers and abilities that he gained at the same time (or invented; where would Spidey be without his webbing, after all?): The proportionate strength, the increased agility and… oh, yeah, the Spider-Sense. Now, a scientist from the University of Illinois in Chicago has built a suit that mimics that last ability for its wearers, taking us one step closer to our own crime-fighting futures. As if to make the inspiration for his suit particularly clear, creator Victor Mateevitsi even named it “SpiderSense,” and described ways in which it could turn anybody into Peter Parker’s alter-ego – well, at least partially."
+    url: https://www.digitaltrends.com/cool-tech/now-were-all-peter-parker-new-suit-gives-wearer-spidersense/
   - date: 02.25.13
     publication: Bright.nl
     title: SpiderSense-pak laat je je omgeving voelen
+    text: "Het SpiderSense pak is geïnspireerd op Spider-Man die een tinteling voelt als een hij wordt bedreigd wordt door gevaar, bijvoorbeeld als iemand hem wil slaan. De superheld kan daarmee de slagen ontwijken. Wellicht dat we dat in de nabije toekomst net zo kunnen voelen door een SpiderSense-pak te dragen. Het pak is uitgerust met een zeven miniscule robotarmpjes en microfoons die ultrasoon geluid uitzenden en de reflectie van dat geluid op dichtstbijzijnde objecten weer opvangt. Zodra iets in de buurt komt zullen de robotarmpjes een lichte druk op het lichaam uitvoeren zodat je voelt waar de bedreiging vandaan komt."
+    url: https://www.bright.nl/nieuws/artikel/4027451/spidersense-pak-laat-je-je-omgeving-voelen
     country: Netherlands
   - date: 02.25.13
     publication: Star.gr
     title: Απόκτησε τις υπερδυνάμεις του Spiderman… φορώντας τη στολή του
+    text: "Δεν κάνεις απλά τον παιδικό σου ήρωα, πραγματικό αλλά αποκτάς τις υπερφυσικές του δυνάμεις… μέσα από μια στολή! Αυτή είναι η δημιουργία του απόφοιτου ηλεκτρονικών υπολογιστών από το Πανεπιστήμιο του Ιλινόις στο Σικάγο, Victor Mateevitsi, ο οποίος δημιούργησε ένα κουστούμι που ονομάζεται SpiderSense! Χάρη σ’αυτό, αυτός που το φορά μπορεί να καταλαβαίνει την εγγύτητα! Πότε δηλαδη τον πλησιάζουν!"
+    url: https://www.star.gr/lifestyle/viral/169484/apoktise_tis_yperdynameis_tou_spiderman_forontas_ti_stoli_tou
     country: Greece
   - date: 02.24.13
-    publication: Gizmodo
-    title: Enfin une vraie combinaison de super-héros
+    publication: Ubergizmo
+    title: Enfin une vraie combinaison de super-hérosa
+    text: "Qui veut avoir des super-pouvoirs ?  Tout le monde ! Hélas, se faire mordre par une araignée radioactive n’est pas franchement une solution. Heureusement, la technologie fait renaître vos espoirs et vos rêves d’enfant. Victor Mateevitsi de l’Université de l’Illinois s’est débrouillé pour fabriquer une combinaison haptique qui vous donne les pouvoirs de l’araignée !"
+    url: https://fr.ubergizmo.com/2013/02/24/combinaison-super-heros.html
     country: France
   - date: 02.24.13
-    publication: Gizmodo
+    publication: Ubergizmo
     title: "Kräfte wie Spider-Man: Ganzkörperanzug verleiht Spinnen"
+    text: "„SpiderSense“, so der passende Name des Anzugs. Er verfügt nicht nur über Mikrofone, sondern auch über Mini-Roboterarme. Die pieksen euch in die Haut, um euch in die Richtung des aufgenommenen Schall-Signals zu lenken. So könnt ihr beispielsweise blind erkennen, ob sich jemand von hinten an euch heran schleicht."
+    url: https://de.ubergizmo.com/2013/02/24/krafte-wie-spider-man-ganzkorperanzug-verleiht-spinnensinn.html
     country: Germany
   - date: 02.24.13
     publication: Gizmodo
     title: You Can Be A Real Superhero With This Spider-Sense Robot Suit
+    text: "Who doesn't want real-life superpowers? Unfortunately, getting yourself bitten by some kind of radioactive spider isn't really the best way to go about it. But thankfully, tech is here to resurrect your childhood hopes and dreams. University of Illinois' Victor Mateevitsi, for instance, has managed to bring \"spider-sense\" to the real world with a haptic bodysuit."
+    url: https://www.gizmodo.com.au/2013/02/you-can-be-a-real-superhero-with-this-spider-sense-robot-suit/
     country: Australia
   - date: 02.24.13
     publication: New York Daily News
-    title: Scientists create 'Spider-Man' suit that gives wearers superhero's 2013 'spider sense'
+    title: Scientists create 'Spider-Man' suit that gives wearers superhero's 'spider sense'
+    text: "With great science projects come great sense perception. A young science whiz — not unlike Peter Parker himself — created a true marvel with his suit, called SpiderSense, which he says enables wearers to detect the proximity of nearby objects much like Forest Hills, Queens' most famous fictional resident, Spider-Man."
+    url: https://www.nydailynews.com/news/national/spider-man-suit-wearer-superhero-senses-article-1.1271706
   - date: 02.24.13
     publication: Gazzetta.gr
     title: Η στολή του Spiderman που σε κάνει… spiderman!
+    text: "Ο Victor Mateevitsi από το Πανεπιστήμιο του Ιλινόις κατάφερε και δημιούργησε τη στολή με ονομασία SpiderSense, η οποία ενσωματώνει ρομποτικούς βραχίονες με μικρόφωνα τα οποία μπορούν να στέλνουν και να λαμβάνουν υπερηχητικές ανακλάσεις από τα τριγύρω αντικείμενα. Όταν ένα μικρόφωνο αντιληφθεί ένα αντικείμενο κοντά, τότε η στολή ανταποκρίνεται στέλνοντας μία πίεση προς το σώμα και κατευθύνοντας το προς το στόχο. Η κάλυψη των 360 μοιρών προσδίδεται με τη χρήση 7 μικροφώνων."
+    url: http://www.gazzetta.gr/texnologia/article/374679-i-stoli-toy-spiderman-poy-se-kanei-spiderman-pic
     country: Greece
   - date: 02.23.13
     publication: Forbes
