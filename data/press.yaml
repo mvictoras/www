@@ -84,303 +84,396 @@ print:
     title: Spidey-Sense Suit Tingles When Someone Gets Too Close
     issue: Vol. 217. No. 2905
 web:
-  - date: 03.27.19
+  - date: 2019-03-27
     publication: Hyde Park Herald
     title: ‘Wired to Wear’ opens at MSI
     text: "A new exhibit at the Museum of Science and Industry lets visitors grasp the hands-on and present possibilities of wearable technologies and think of the spectacular possibilities ahead. “Wired to Wear” weaves together design, engineering and art from 15 different countries, brands like Google and applied technology from the University of Illinois at Chicago. Anthony Vitagliano, who runs exhibitions and engagement at MSI, said “Wired to Wear” is the world’s first exhibition on wearable technology “from backpacks to jetpacks.” (Indeed, a man with the latter flew over MSI’s north entrance in a press event to launch the exhibition.)"
     url: https://hpherald.com/2019/03/27/wired-to-wear-opens-at-msi/
-  - date: 03.21.19
+  - date: 2019-03-21
     publication: Chicago Sun Times
     title: Real-life Iron Man opens Museum of Science and Industry ‘Wired to Wear’ exhibit
     text: "From afar, Richard Browning — dressed in snug, all-black attire and with smoke billowing near his feet — resembled a mime standing over a smoldering fire. Then the scream of four miniature jet engines tore across the courtyard in front of the Museum of Science and Industry, Browning’s 5-foot-9 frame lifted off the ground and he — along with his 55-pound “jet suit” — hurtled toward 100 or so awestruck spectators Thursday morning. “It’s OK. You can take off the headphones now,” Browning said a few moments later, the air rippling behind him as he cut the engines, which resembled four black telescopic camera lenses jutting out from his wrists."
     url: https://chicago.suntimes.com/news/msi-museum-science-industry-wired-to-wear-exhibit-jet-suit/
-  - date: 10.12.15
+  - date: 2019-03-21
+    publication: PR Newswire
+    title: First-Ever Exhibit Dedicated To The Future Of Wearable Technology Opens At Chicago's Museum Of Science And Industry
+    text: " The Museum of Science and Industry, Chicago (MSI) announces the opening of Wired to Wear, the first-ever exhibit dedicated to the future of wearable technology. The 8,000 square foot exhibit brings together cutting-edge technologies from industry pioneers and creative visionaries, showcasing how our clothing is becoming infused with tools to make us stronger, smarter and healthier."
+    url: https://www.prnewswire.com/news-releases/first-ever-exhibit-dedicated-to-the-future-of-wearable-technology-opens-at-chicagos-museum-of-science-and-industry-300816141.html
+    image: "pr-msi.jpg"
+  - date: 2019-03-21
+    publication: Crain's Business Magazine
+    text: "Self-lacing sneakers, a jet suit that can travel 30 miles an hour and a headdress that uses brain waves to change color are among the 100 or so wearable fashion pieces on exhibit at The Museum of Science & Industry, starting March 21."
+    url: https://www.chicagobusiness.com/arts-entertainment/museum-science-industry-opening-first-ever-wearable-fashion-exhibit
+    image: "crains-msi.jpg"
+  - date: 2016-08-10
+    publication: Chicago Tribune
+    text: "The city of Chicago is launching a new hub for manufacturers, and maker haven Catalyze Chicago will be at its heart. Catalyze has been working with World Business Chicago for about a year on the creation of the new space, called mHUB, said Catalyze founder Bill Fienup. The center will be equipped with everything a maker needs to create and prototype a product, he said, and eventually will bring industry experts, mentors, universities and other incubators under one roof."
+    url: https://www.chicagotribune.com/business/blue-sky/ct-chicago-launches-mhub-manufacturing-incubator-bsi-20160810-story.html
+    image: "tribune-catalyze.jpg"
+  - date: 2016-02-09
+    publication: UIC News
+    title: Student’s SpiderSense featured on Discovery Science
+    text: "A device that can help the blind see and save the lives of firefighters, police officers and soldiers. That’s how UIC doctoral student Victor Mateevitsi pitched an invention that senses for you when he appeared on the Feb. 3 episode of Discovery Channel’s “All-American Makers.” “Because I’m a researcher, I’m used to putting my inventions and projects to the test, giving them to users and getting feedback, so even though I was nervous, I was ready and I was excited,” he said."
+    url: https://today.uic.edu/students-spidersense-featured-on-discovery-science
+    image: "uic-discovery.jpg"
+  - date: 2015-10-19
+    publication: Canaltech
+    title: "Cientistas querem experiência compartilhada para a realidade virtual e aumentada"
+    text: "A realidade virtual e a aumentada estão cada vez mais perto de nós. Projetos como o Oculus Rift e o PlayStation VR já têm data para chegar às lojas e o ambicioso HoloLens segue demonstrando as várias aplicações diferentes que pode oferecer. Contudo, em todas essas iniciativas, há um único \"porém\": a solidão."
+    url: https://canaltech.com.br/conceito/cientistas-querem-experiencia-compartilhada-para-a-realidade-virtual-e-aumentada-50853/
+    image: "canaltech-mashers.gif"
+  - date: 2015-10-13
+    publication: CNET
+    title: Microsoft lab working on multiperson augmented reality
+    text: "If augmented reality could be a shared experience, it could change the way we will use the technology. Something along these lines is currently in development at a Microsoft laboratory run by Jaron Lanier, one of the pioneers of VR since the 1980s through his company VPL Research. The project, called Comradre, allows multiple users to share virtual- and augmented-reality experiences, reports MIT Technology Review."
+    url: https://www.cnet.com/news/microsoft-lab-working-on-multi-person-augmented-reality/
+    image: "cnet-mashers.jpg"
+  - date: 2015-10-12
     publication: MIT Technology Review
     title: Microsoft Researchers Are Working on Multi-Person Virtual Reality
     text: "Augmented or mixed reality, which renders virtual images in a view of the real world, can be spectacular to experience. But it may be even more fun when you bring a friend. Researchers in the Microsoft lab of Jaron Lanier are experimenting with multi-person augmented reality, and the results of their work could help shape the way the technology is commercialized and used. Lanier was a pioneer of virtual and augmented, or mixed, reality in the 1980s."
     url: https://www.technologyreview.com/s/542341/microsoft-researchers-are-working-on-multi-person-virtual-reality/
-  - date: 02.27.15
+  - date: 2015-05-22
+    publication: Daily Mail
+    title: "The gadgets that give you SUPERPOWERS: Spiderman-style gloves, lenses with super sight and Iron Man suits become a reality"
+    text: "The technology to transform yourself into your favourite superhero is quickly becoming a reality - thankfully without the outlandish Lycra wardrobe. From gloves that let you scale skyscrapers like Spiderman, to implants that could give you the self-healing powers of Wolverine, researchers are putting these sci-fi notions within our grasp. And the innovations could soon benefit the military, astronauts and even everyday consumers."
+    url: https://www.dailymail.co.uk/sciencetech/article-3067140/The-gadgets-SUPERPOWERS-Spiderman-style-gloves-lenses-super-sight-Iron-Man-suits-reality.html
+    image: "dailymail-spidersense.jpg"
+  - date: 2015-02-27
     publication: ChicagoInno
-    title: "Innovation U: Celebrating the City's Entrepreneurial Pipeline [Event Recap]"
+    title: "Innovation U: Celebrating the City's Entrepreneurial Pipeline"
     text: "Last night, Chicagoans gathered in The Kerryman’s buzzing bar space, tinged with the luck of the Irish, to enjoy some draft beer, finger food and on the most united front: university-affiliated startups. The relaxed “Innovation U” networking and social event celebrated the Midwest as a premiere entrepreneurship pipeline, with short presentations from eleven startups, whether student-run, launched out of universities, or those that have tapped back into university pipelines. According to the state’s recent Innovation Index, this niche has tripled its efforts in the past five years and comprises two-thirds of all Illinois startups."
     url: https://www.americaninno.com/chicago/innovation-u-recap-student-run-chicago-startups/
-  - date: 02.19.15
+  - date: 2015-02-19
     publication: UIC News
     title: And the Oscar goes to … Larry Hornbeck
     text: "UIC graduate student Victor Mateevitsi left the Electronic Visualization Lab behind recently to hobnob in Hollywood with celebrities like Larry Hornbeck and David W. Gray. Never heard of them? Then you’re probably not an engineer. Hornbeck and Gray — celebrities in the engineering world, Mateevitsi says — were among the winners at the Scientific and Technical Awards given Feb. 8 by the Academy of Motion Picture Arts and Sciences."
     url: https://today.uic.edu/and-the-oscar-goes-to-larry-hornbeck
-  - date: 02.17.15
+  - date: 2015-02-17
     publication: ChicagoInno
     title: "Innovation U: Introducing Chicago Inno's Next Meetup, Presented by the CIE"
-    text: "Last night, Chicagoans gathered in The Kerryman’s buzzing bar space, tinged with the luck of the Irish, to enjoy some draft beer, finger food and on the most united front: university-affiliated startups."
-    url: https://www.americaninno.com/chicago/innovation-u-recap-student-run-chicago-startups/
-  - date: 11.17.14
+    text: "During a UIC human augmentics class Victor Mateevitsi, Brad Haggadone and Brian Kunzer were asked to do one thing: Make something that can see the invisible. What developed was SpiderSense, a wearable suit with 15 modules placed all around a person’s body that applies pressure when someone is approaching an object."
+    url: https://www.americaninno.com/chicago/innovation-u-introducing-chicago-innos-next-meetup/
+  - date: 2014-11-17
     publication: CAP Today
     title: Software expands on 'what you see is what you get'
     text: "New software that allows pathologists to share and compare multiple images, including whole slide images, on a single display at the same time could take collaboration to a new level. At least that’s the thinking of staff members in the Electronic Visualization Laboratory at the University of Illinois at Chicago."
     url: https://www.captodayonline.com/newsbytes-1114/
-  - date: 10.08.14
+  - date: 2014-10-08
     publication: ChicagoInno
     title: Are Your Spidey Senses Tingling? This Wearable Tech Lets You Sense When Obstacles Are Near
     text: "There’s wearable tech, and then there’s the device a team of University of Illinois at Chicago PHD students have created that’s capable of a lot more than surfing the web and checking your health stats. During a UIC human augmentics class Victor Mateevitsi, Brad Haggadone and Brian Kunzer were asked to do one thing: Make something that can see the invisible. What developed was SpiderSense, a wearable suit with 15 modules placed all around a person’s body that applies pressure when someone is approaching an object."
     url: https://www.americaninno.com/chicago/are-your-spidey-senses-tingling-this-wearable-tech-lets-you-sense-when-obstacles-are-near/
-  - date: 10.06.14
+    image: "chicagoinno.jpg"
+  - date: 2014-10-06
     publication: UIC News
     title: EVL's SpiderSense suit grabs National Geographic's attention
     text: "Brightening the eyes of kids and superhero fans alike, the SpiderSense suit created in UIC’s Electronic Visualization Lab is highlighted in a National Geographic Kids book. The suit, which allows users to sense obstacles without seeing them, was featured as “Wearable Tech” in National Geographic’s Weird But True! Ripped from the Headlines Summer 2014 edition. SpiderSense has seven sensor modules placed on the body: two on the wrists, two on the chest and one each on the back, shoulders and head. The sensors use echolocation — which bats have to navigate in the dark — and apply pressure when something is nearby."
     url: https://today.uic.edu/evls-spidersense-suit-grabs-national-geographics-attention
-  - date: 05.06.14
+  - date: 2014-05-06
     publication: The Biz Loft Magazine
     title: "SpiderSense: una giacca dai super poteri"
     country: Italy
-  - date: 05.04.14
+  - date: 2014-05-04
     publication: Crain's Chicago Business
     title: 20 in their 20s
     text: "Handed a $500 budget for a class project at the University of Illinois at Chicago, Victor Mateevitsi did something his teammates on his amateur hockey team would be proud of: He developed something to give them an advantage on the ice. In this case, Mr. Mateevitsi created a set of wearable sensors that allow hockey players to feel pressure when they approach a wall or an object-or when an object, say, a defender, approaches them. \"If someone is behind you, you will sense them,\" he says. Strictly a prototype, this \"SpiderSense\" suit won't make anyone a superhero, yet. But it could have many practical applications."
     url: https://www.chicagobusiness.com/node/722041
-  - date: 02.11.14
+    image: "20s.jpg"
+  - date: 2014-02-11
     publication: UIC News
     title: Seeing future of technology in Google Glass
     text: "Smartphones, smart watches and now smart glasses? That’s right, Google Glass is the latest innovation in smartwear that transforms the way we communicate. Google Glass is essentially a hands-free smartphone that uses voice recognition and a touchpad system to let the person wearing the glasses browse apps, shoot video, receive directions, and more — without reaching for a phone."
     url: https://today.uic.edu/seeing-future-of-technology-in-google-glass
-  - date: 01.03.14
+  - date: 2014-01-03
     publication: NewsMonkey
     title: Deze science fictions werden realiteit in 2013
     text: "Spider-man is ‘maar’ een tekenfilmfiguurtje? Not so fast. Met zeven ultrasonische sensoren kan een persoon detecteren wat zijn richting uitkomt nog voor hij het kan zien of horen, zoals de ‘spider sense’ van de echte Spider-Man. Dat doen de sensoren door druk uit te oefenen waardoor je weet van welke kant het gevaar komt. Tot nu toe is het pak 95 procent accuraat."
     url: https://newsmonkey.be/deze-science-fictions-werden-realiteit-in-2013/
+    image: "newsmonkey.png"
     country: Belgium
-  - date: 12.03.13
+  - date: 2013-12-03
     publication: BuzzFeed
     title: 21 Science Fictions That Became Science Facts In 2013
     text: "Seven different ultrasonic sensors wired to detect nearby objects exert pressure on tiny robotic arms sewn into the \"spider sense\" suit made by Victor Mateevitsi. When the sensors detect movement, they apply pressure to the skin, allowing the average person to feel oncoming attacks with a 95% success rate."
     url: https://www.buzzfeed.com/donnad/science-fictions-that-became-science-facts-in-2013
-  - date: 11.19.13
+    image: "buzzfeed-facts.jpg"
+  - date: 2013-11-19
     publication: UIC News
     title: Middle-school kids create a virtual future in 3-D
     text: "For anyone interested in computers, the Electronic Visualization Laboratory seems like Wonderland, with incredible computing power, walls covered in video displays, and CAVE2, the world’s most sophisticated 3-D environment. For the past 10 weeks, three Chicago elementary-school students have been EVL apprentices, developing their own project and learning what a career in computer science could be like." 
     url: https://today.uic.edu/students-explore-world-of-computer-science-in-3-d
-  - date: 11.12.13
+  - date: 2013-11-12
     publication: UIC News
     title: Computer science students among 'Fifty for Future'
     text: "Imagine a world where a firefighter could enter a smoke-filled house and find the doors and windows. Picture an app that teaches astronomy to third-graders. Look forward to an algorithmic tool that solves all kinds of complex everyday problems 10 times faster. All these scenarios are possible, thanks to technology created by three UIC graduate students in computer science honored as “Fifty for the Future” this week by the Illinois Technology Foundation"
     url: https://today.uic.edu/computer-science-students-among-fifty-for-future
-  - date: 09.19.13
+  - date: 2013-09-19
     publication: New Scientist
     title: Colour-changing clothes could make tech fashionable
     text: "You can choose your clothes, but can you control them? A new line of clothing that incorporates tiny, flexible LEDs right into jackets and dresses could be the first fully controllable electronic clothing that’s ready for the shop rack. The collection, called Lüme, was shown last week at the International Symposium on Wearable Computers in Zurich, Switzerland. It consists of a bomber jacket, a tunic, and an open-backed dress – all of which have controllable LEDs built-in that can be controlled by a smartphone app. The LEDs are enmeshed in fabric so they don’t touch the wearer’s skin, and they shine out through several layers of fabric that diffuse the light for a softer glow."
     url: https://www.newscientist.com/article/dn24232-colour-changing-clothes-could-make-tech-fashionable/
     tags: ['opinion'] 
-  - date: 06.19.13
+  - date: 2013-06-19
     publication: Deadline
     title: Academy Science and Technology Council Names 2013 Interns
     text: "The Science and Technology Council of the Academy of Motion Picture Arts and Sciences has selected five students to participate in its 2013 summer internship program, with placements at the Tech Council, Dolby Laboratories, Pixar Animation Studios and Walt Disney Animation Studios. The only one of its kind, the Academy-sponsored program is designed to nurture the next generation of motion picture technologists by providing real-world experience to students interested in careers in motion picture technology and scientific research. The 2013 Science and Technology Council summer interns and their internship hosts are:"
     url: https://deadline.com/2013/06/academy-science-and-technology-council-names-2013-interns-524769/
-  - date: 06.18.13
+    image: "academy.jpg"
+  - date: 2013-06-18
     publication: New Scientist
     title: Virtual reality display lets fire crews see in blaze
     text: "When firefighters enter a burning building, they usually go in blind. Smoke often shrouds their view and it can be hard to know exactly where they are, or where the fire is. A virtual reality project called ProFiTex at the Vienna University of Technology in Austria is attempting to change that by giving firefighters a head-up display which helps them navigate in the dark. The system uses head-mounted infrared sensors that overlay surface temperatures onto the display, which also shows a 3D model of the surroundings created by a head-mounted depth camera. This gives firefighters an idea of how hot their surroundings are, whether it is safe to enter a room and the layout of the rooms in front of them."
     url: https://www.newscientist.com/article/dn23716-virtual-reality-display-lets-fire-crews-see-in-a-blaze/
     tags: ['opinion']
-  - date: 04.17.13
+    image: "newscientist-vr.jpg"
+  - date: 2013-04-17
     publication: UIC News
     title: UIC computer science student interns at Pixar
     text: "Victor Mateevitsi is taking his imagination to Pixar Animation Studios. Mateevitsi’s SpiderSense, a suit that allows users to sense — without seeing — obstacles around them, recently received worldwide attention. The University of Illinois at Chicago student has now landed a competitive internship at Pixar through the Academy of Motion Picture Arts and Sciences and Technology Council. Mateevitsi, a graduate student in computer science and research assistant at UIC’s Electronic Visualization Laboratory will work at Pixar in Emeryville, Calif., for 12 weeks beginning in May to develop studio production tools."
     url: https://today.uic.edu/uic-computer-science-student-interns-at-pixar
-  - date: 04.12.13
+    image: "uic-pixar.jpg"
+  - date: 2013-04-12
     publication: Sohu.com
     title: 虚拟现实技术将实现有限空间创建"无限迷宫"
     text: "据国外媒体报道，一项新的虚拟现实（VR）系统将可以实现“想象”中的情形。测试人员佩戴一个VR头盔，当他在现实房间里环绕走动时，该设备将追踪测试者的身体与头部移动方位，从而引导他在一个无穷尽的虚拟空间里行走。虚拟世界中的房间与走廊都是随着佩戴者所处现实空间大小而自动生成的，就像巨型视频游戏一样无穷无尽，这将使测试人员永远不会两次进入同一个地方。"
     url: http://blog.sina.com.cn/s/blog_5f1958e80101ddju.html
-    tags: ['opinion']
+    image: "buzzfeed-facts.jpg"
     country: China
-  - date: 04.09.13
+  - date: 2013-04-09
     publication: UIC News
     title: With student invention, not seeing is believing
     text: "The minds at the Electronic Visualization Laboratory have brought another science fiction fantasy to life with their latest invention, “SpiderSense.” Originally named NinjaVision, the special suit allows users to sense — without seeing — obstacles around them. “What we wanted to do is create a suit that can sense the environment and sense if someone is approaching you, and you could constantly know what’s going on around you,” said Victor Mateevitsi, doctoral student in computer science and creator of SpiderSense."
     url: https://today.uic.edu/spidersense-suit-turns-science-fiction-into-reality
-  - date: 04.05.13
+  - date: 2013-04-05
     publication: New Scientist
     title: Virtual reality creates infinite maze in a single roomu
     text: "STEP into the labyrinth. Imagine physically wandering through the many rooms and corridors of an endless maze, never seeing the same place twice – but without actually leaving your living room. This is the promise of a new virtual reality (VR) system. It works by tracking the body and head movements of a person wearing a VR headset and guides them through endless sets of virtual spaces as they pace around within a real physical space. The trick is that, in the virtual world, the corridors and rooms are generated automatically as the walker moves to always fit inside the real space available. There is potentially no end to the environment, just like a huge video game."
     url: https://www.newscientist.com/article/dn23321-virtual-reality-creates-infinite-maze-in-a-single-room/
+    image: "newscientist-maze.jpg"
     tags: ['opinion']
-  - date: 03.28.13
+  - date: 2013-03-28
     publication: Helix Magazine
     title: "Superhero Science: UIC Students Build 'SpiderSense' Suit"
     text: "Have you ever wanted superpowers? Students at the University of Illinois at Chicago have built a suit mimicking Spider-Man’s “SpiderSense” by using sensory receptors to “feel” their environment. The students in the computer science, communication and bioengineering departments were broken up into groups and charged with the task of making something that could “see the invisible.” Victor Mateevitsi said that he and his classmates were looking for a way to supplement the existing human senses, to fill in the blind spots. “There are a lot of things that are invisible, but are deadly to us. Or, they may be a possible threat to us,” he said. “For example, radiation has no taste, it doesn’t emit any sound, yet it is extremely deadly. So we started playing around with the idea of what are the things that are invisible and how can we communicate them to the user without the need of a phone or a device that you need to take out of your pocket and look at.”"
     url: https://helix.northwestern.edu/article/superhero-science-uic-students-build-spidersense-suit
-  - date: 03.24.13
+    image: "superhero_science_helix.jpg"
+  - date: 2013-03-24
     publication: The Globe and Mail
     title: Scientists (finally) build Spider-Man suit with 'SpiderSense'
     text: "It's the invention of which comics nerds have always dreamed. A team of scientists at the University of Illinois at Chicago has created an extrasensory suit inspired by the Marvel superhero Spider-Man that allows its wearers to feel approaching danger. The getup, dubbed SpiderSense, is more of a wearable network of ultrasound sensors than an actual suit. But like the fictional Peter Parker's own superhuman \"spider-sense,\" it detects oncoming objects, obstacles and potential attackers in the vicinity and applies pressure to the skin, providing early warning."
     url: https://www.theglobeandmail.com/life/scientists-finally-build-spider-man-suit-with-spidersense/article10201997/
+    image: "globe-spidersense.jpg"
     country: Canada
-  - date: 03.18.13
+  - date: 2013-03-18
     publication: ACM Tech News
     title: "Superhero Science: UIC Students Build 'SpiderSense' Suit"
     text: "University of Illinois at Chicago computer science, communication, and bioengineering students say they have created a suit equipped with sensory receptors that enable a wearer to \"feel\" their environment, in a manner similar to Spider-Man's \"SpiderSense.\" Assigned to develop something that could \"see the invisible,\" the students made a set of sensory modules worn on the body that can be arranged in various configurations. Using sonar technology, the suit hears pulse reflections with a microphone, determines the distance of the object from the user, and applies pressure to the wearer's body as the object approaches."
     url: https://cacm.acm.org/news/162238-superhero-science-uic-students-build-spidersense-suit
-  - date: 03.11.13
+    image: "superhero_science_helix.jpg"
+  - date: 2013-03-11
     publication: New Atlas
     title: SpiderSense suit delivers superhuman perception
     text: "In the Spider-Man comics and movies, the famous hero's \"Spider Sense\" warns him of incoming danger, which proves to be just as important a superpower as slinging webs and climbing walls. Now a group of researchers at the University of Illinois in Chicago may have found a way to replicate such superhuman perception that doesn't involve any radioactive spiders. Using a collection of sensors placed all over the body, the group has designed a \"SpiderSense\" suit that detects objects in the environment and warns the wearer when anything gets too close."
     url: https://newatlas.com/spidersense-suit/26592/
-  - date: 03.10.13
+    image: "newatlas-spidersense.jpg"
+  - date: 2013-03-10
     publication: Stuttgarter Zeitung
     title: "Augmented Human: Technik für die Sinne"
     text: "Ausgewählte Forscher aus aller Welt stellen in Stuttgart Technologien vor, die dem Menschen zu neuen Fähigkeiten verhelfen sollen. Was manchmal wirkt wie Science-Fiction ist doch für den Alltag gedacht – selbst wenn Spiderman als Vorbild genannt wird. Der schwarz gekleidete, schwer verkabelte Mann sieht aus, als käme er direkt aus der Zukunft. Er spaziert durch die Menschenmenge, und sobald sich ihm jemand nähert, bewegen sich einige der vielen Sensoren an seinem Körper."
     url: https://www.stuttgarter-zeitung.de/inhalt.augmented-human-technik-fuer-die-sinne.b858898f-9844-4999-bcb2-b47eb892219f.html
+    image: "stuttgarter-spidersense.jpg"
     country: Germany
-  - date: 03.04.13
+  - date: 2013-03-04
     publication: An ninh Thủ đô
     title: "Quân đội Mỹ sẽ phát triển trang phục \"Giác quan thứ sáu\"?"
     text: "Victor Mateevitsi, nghiên cứu sinh tiến sĩ thuộc Đại học Illinois, Chicago đang phát triển một bộ trang phục “Giác quan thứ sáu” có thể mặc được. Anh đặt tên cho dự án này là SpiderSense (tạm dịch là Giác quan người Nhện) với hình ảnh anh hùng truyện tranh Marvel."
     url: https://anninhthudo.vn/quan-su/quan-doi-my-se-phat-trien-trang-phuc-giac-quan-thu-sau/488382.antd
+    image: "an-spidersense.jpg"
     country: Vietnam
-  - date: 03.03.13
+  - date: 2013-03-03
     publication: Examiner.com
     title: This suit could have soldiers saying "my spider sense is tingling"
-  - date: 03.01.13
+  - date: 2013-03-01
     publication: Engineering.com
     title: "SpiderSense: a Suit That Gives Man a 'Spider Sense'"
     text: "“My spider sense is tingling!” Thanks to Peter Parker, we all know that means impending danger. Inspired by Spider Man’s famous 6th sense, students at the University of Illinois have designed a suit that senses the near environment and informs the wearer of surrouding objects by gently pushing on his skin. The suit is called the “SpiderSense” and aims to give environmental feedback without sight."
     url: https://www.engineering.com/ElectronicsDesign/ElectronicsDesignArticles/ArticleID/5393/SpiderSense-a-Suit-That-Gives-Man-a-Spider-Sense.aspx
-  - date: 02.28.13
+    image: "engineering-spidersense.png"
+  - date: 2013-02-28
     publication: Europa Press
     title: Un traje permite recrear el sentido arácnido de Spider-Man
     text: "El estadounidense Victor Mateevitsi ha creado un traje que reproduce el sentido arácnido de Spider-Man. El sueño de convertirse en un superhéroe parece estar cada vez más de la realidad. Casi todo el mundo conoce al personaje de Peter Parker que se convierte en el superhéroe Spider-Man gracias a la picadura de una araña radiactiva. Tras este incidente el joven adquiere la agilidad y movimientos de este insecto, además de un sentido arácnido que le avisa de los posibles peligros que se le aproximan."
     url: https://www.europapress.es/portaltic/portalgeek/noticia-traje-permite-recrear-sentido-aracnido-spider-man-20130228133102.html
     country: Spain
-  - date: 02.28.13
+  - date: 2013-02-28
     publication: Military.com
     title: Researcher develops Spidey-sense suit
     text: "A researcher is working on a suit that could give a soldier Spidey-sense that Spider-Man enjoys. That's right, the ability to sense approaching objects without looking at or hearing them. Victor Mateevitsi, a PhD student at the University of Illinois at Chicago, is developing a wearable suit that would provide the person a sixth sense. He has even called the project SpiderSense with a nod to the Marvel comic hero."
     url: https://www.military.com/defensetech/2013/02/28/researcher-develops-spidey-sense-suit
-  - date: 02.27.13
+    image: "superhero_science_helix.jpg"
+  - date: 2013-02-27
     publication: CNET
     title: Feel like Spidey in a real-life spider-sense suit
     text: "If Peter Parker's spider-sense ranks high on your list of coveted superpowers, you may experience a strange tingling sensation at news of a suit that alerts the wearer to the presence of nearby objects. Victor Mateevitsi, a Ph.D. candidate at the University of Illinois' Electronic Visualization Laboratory in Chicago, is the main man behind SpiderSense, a \"wearable device that projects the wearer's near environment on the skin and allows for directional awareness of objects around him\" in much the same way Spider-Man can detect danger without the benefit of sight."
     url: https://www.cnet.com/news/feel-like-spidey-in-a-real-life-spider-sense-suit/
-  - date: 02.27.13
+    image: "superhero_science_helix.jpg"
+  - date: 2013-02-27
     publication: UIC News
     title: Quotable
-  - date: 02.27.13
+  - date: 2013-02-27
     publication: Europa Press
     title: Científicos elaboran un traje que recrea el 'sentido arácnido'
     text: "Investigadores de la Universidad de Illinois (Estados Unidos) han elaborado un traje que recrea el 'sentido arácnido', es decir, permite detectar objetos o personas acercándose en un campo de 360 grados. Esta peculiar característica lo ha convertido en un objeto que brinda poderes similares a los del superhéroe 'Spiderman'. El creador del traje, Victor Mateevitsi, lo ha bautizado como 'SpiderSense' y ha asegurado que \"quien lo lleva es capaz de desplazarse con los ojos cerrados\", con lo que \"sería, incluso, más fiable que el sentido arácnido del 'hombre araña'\"."
     url: https://www.europapress.es/ciencia/laboratorio/noticia-cientificos-elaboran-traje-recrea-sentido-aracnido-20130227121835.html
     country: Spain
-  - date: 02.27.13
+  - date: 2013-02-27
     publication: WP Facet
     title: Sztuczny "zmysł pająka"
     text: "Znany z komiksów o Spider-Manie zmysł pozwalający unikać zagrożeń doczekał się technicznej realizacji - informuje \"New Scientist\". Prawdziwe pająki mają bardzo czuły zmysł dotyku - pokrywające ich ciało włoski pozwalają wyczuć nie tylko drżenie sieci, ale także drgania powietrza. W przypadku komiksowego bohatera Peta'a Parkera, czyli Spider-Mana, charakterystyczne swędzenie uprzedzało superbohatera o zagrożeniu. Namiastkę tej nadprzyrodzonej zdolności może dać każdemu założenie specjalnego ubioru, pozwalającego odczuwać obecność najbliższych obiektów. Dzięki niemu można poruszać się w całkowitej ciemności."
     url: https://facet.wp.pl/sztuczny-zmysl-pajaka-6002240921289857a
+    image: "buzzfeed-facts.jpg"
     country: Poland
-  - date: 02.26.13
+  - date: 2013-02-26
     publication: Wired Magazine
     title: "Spider-Man Physics: How Real Is the Superhero?"
     text: "Victor Mateevitsi, a graduate student at the University of Illinois at Chicago, has built a suit that alerts its wearer to approaching humans. Called SpiderSense, the suit uses a suite of built-in microphones to sense the surrounding environment."
     url: https://www.wired.com/2013/02/spiderman-physics/
-  - date: 02.26.13
+    image: "wired-spidersense.jpg"
+  - date: 2013-02-26
     publication: Mother Nature Network
     title: High-tech Spider-Man suit gives you real-life 'spidey sense'
     text: "Scientist Victor Mateevitsi of the University of Illinois in Chicago has invented every comic book fan's ultimate fantasy: a body suit that grants its wearer the powers of Spider-Man, reports New Scientist. Mateevitsi's suit has the amazing ability to \"tingle\" whenever an object gets too close, effectively mimicking Spider-Man's famous \"spidey sense\" that warns him of danger. The suit, which is actually called SpiderSense, is so sensitive that users can even navigate a room with their eyes closed."
     url: https://www.mnn.com/green-tech/research-innovations/stories/high-tech-spider-man-suit-gives-you-real-life-spidey-sense
-  - date: 02.26.13
+  - date: 2013-02-26
     publication: Digital Trends
     title: "We can all be Peter Parker: New suit gives wearer 'SpiderSense'"
     text: "As all comic fans know, what makes Spider-Man successful at this superhero schtick is because he’s known for more than the whole sticking-to-walls thing he’s named after. No, it’s all the other powers and abilities that he gained at the same time (or invented; where would Spidey be without his webbing, after all?): The proportionate strength, the increased agility and… oh, yeah, the Spider-Sense. Now, a scientist from the University of Illinois in Chicago has built a suit that mimics that last ability for its wearers, taking us one step closer to our own crime-fighting futures. As if to make the inspiration for his suit particularly clear, creator Victor Mateevitsi even named it “SpiderSense,” and described ways in which it could turn anybody into Peter Parker’s alter-ego – well, at least partially."
     url: https://www.digitaltrends.com/cool-tech/now-were-all-peter-parker-new-suit-gives-wearer-spidersense/
-  - date: 02.25.13
+    image: "digitaltrends-spidersense.jpg"
+  - date: 2013-02-25
     publication: Bright.nl
     title: SpiderSense-pak laat je je omgeving voelen
     text: "Het SpiderSense pak is geïnspireerd op Spider-Man die een tinteling voelt als een hij wordt bedreigd wordt door gevaar, bijvoorbeeld als iemand hem wil slaan. De superheld kan daarmee de slagen ontwijken. Wellicht dat we dat in de nabije toekomst net zo kunnen voelen door een SpiderSense-pak te dragen. Het pak is uitgerust met een zeven miniscule robotarmpjes en microfoons die ultrasoon geluid uitzenden en de reflectie van dat geluid op dichtstbijzijnde objecten weer opvangt. Zodra iets in de buurt komt zullen de robotarmpjes een lichte druk op het lichaam uitvoeren zodat je voelt waar de bedreiging vandaan komt."
     url: https://www.bright.nl/nieuws/artikel/4027451/spidersense-pak-laat-je-je-omgeving-voelen
+    image: "buzzfeed-facts.jpg"
     country: Netherlands
-  - date: 02.25.13
+  - date: 2013-02-25
     publication: Star.gr
     title: Απόκτησε τις υπερδυνάμεις του Spiderman… φορώντας τη στολή του
     text: "Δεν κάνεις απλά τον παιδικό σου ήρωα, πραγματικό αλλά αποκτάς τις υπερφυσικές του δυνάμεις… μέσα από μια στολή! Αυτή είναι η δημιουργία του απόφοιτου ηλεκτρονικών υπολογιστών από το Πανεπιστήμιο του Ιλινόις στο Σικάγο, Victor Mateevitsi, ο οποίος δημιούργησε ένα κουστούμι που ονομάζεται SpiderSense! Χάρη σ’αυτό, αυτός που το φορά μπορεί να καταλαβαίνει την εγγύτητα! Πότε δηλαδη τον πλησιάζουν!"
     url: https://www.star.gr/lifestyle/viral/169484/apoktise_tis_yperdynameis_tou_spiderman_forontas_ti_stoli_tou
+    image: "superhero_science_helix.jpg"
     country: Greece
-  - date: 02.24.13
+  - date: 2013-02-24
     publication: Ubergizmo
     title: Enfin une vraie combinaison de super-hérosa
     text: "Qui veut avoir des super-pouvoirs ?  Tout le monde ! Hélas, se faire mordre par une araignée radioactive n’est pas franchement une solution. Heureusement, la technologie fait renaître vos espoirs et vos rêves d’enfant. Victor Mateevitsi de l’Université de l’Illinois s’est débrouillé pour fabriquer une combinaison haptique qui vous donne les pouvoirs de l’araignée !"
     url: https://fr.ubergizmo.com/2013/02/24/combinaison-super-heros.html
+    image: "buzzfeed-facts.jpg"
     country: France
-  - date: 02.24.13
+  - date: 2013-02-24
     publication: Ubergizmo
     title: "Kräfte wie Spider-Man: Ganzkörperanzug verleiht Spinnen"
     text: "„SpiderSense“, so der passende Name des Anzugs. Er verfügt nicht nur über Mikrofone, sondern auch über Mini-Roboterarme. Die pieksen euch in die Haut, um euch in die Richtung des aufgenommenen Schall-Signals zu lenken. So könnt ihr beispielsweise blind erkennen, ob sich jemand von hinten an euch heran schleicht."
     url: https://de.ubergizmo.com/2013/02/24/krafte-wie-spider-man-ganzkorperanzug-verleiht-spinnensinn.html
+    image: "buzzfeed-facts.jpg"
     country: Germany
-  - date: 02.24.13
+  - date: 2013-02-24
     publication: Gizmodo
     title: You Can Be A Real Superhero With This Spider-Sense Robot Suit
     text: "Who doesn't want real-life superpowers? Unfortunately, getting yourself bitten by some kind of radioactive spider isn't really the best way to go about it. But thankfully, tech is here to resurrect your childhood hopes and dreams. University of Illinois' Victor Mateevitsi, for instance, has managed to bring \"spider-sense\" to the real world with a haptic bodysuit."
     url: https://www.gizmodo.com.au/2013/02/you-can-be-a-real-superhero-with-this-spider-sense-robot-suit/
+    image: "buzzfeed-facts.jpg"
     country: Australia
-  - date: 02.24.13
+  - date: 2013-02-24
     publication: New York Daily News
     title: Scientists create 'Spider-Man' suit that gives wearers superhero's 'spider sense'
     text: "With great science projects come great sense perception. A young science whiz — not unlike Peter Parker himself — created a true marvel with his suit, called SpiderSense, which he says enables wearers to detect the proximity of nearby objects much like Forest Hills, Queens' most famous fictional resident, Spider-Man."
     url: https://www.nydailynews.com/news/national/spider-man-suit-wearer-superhero-senses-article-1.1271706
-  - date: 02.24.13
+    image: "buzzfeed-facts.jpg"
+  - date: 2013-02-24
     publication: Gazzetta.gr
     title: Η στολή του Spiderman που σε κάνει… spiderman!
     text: "Ο Victor Mateevitsi από το Πανεπιστήμιο του Ιλινόις κατάφερε και δημιούργησε τη στολή με ονομασία SpiderSense, η οποία ενσωματώνει ρομποτικούς βραχίονες με μικρόφωνα τα οποία μπορούν να στέλνουν και να λαμβάνουν υπερηχητικές ανακλάσεις από τα τριγύρω αντικείμενα. Όταν ένα μικρόφωνο αντιληφθεί ένα αντικείμενο κοντά, τότε η στολή ανταποκρίνεται στέλνοντας μία πίεση προς το σώμα και κατευθύνοντας το προς το στόχο. Η κάλυψη των 360 μοιρών προσδίδεται με τη χρήση 7 μικροφώνων."
     url: http://www.gazzetta.gr/texnologia/article/374679-i-stoli-toy-spiderman-poy-se-kanei-spiderman-pic
+    image: "gazzetta-spidersense.jpg"
     country: Greece
-  - date: 02.23.13
+  - date: 2013-02-23
     publication: Forbes
     title: This Suit Gives You A Real Life Spider-Sense
-  - date: 02.23.13
+    text: "In the comics, when Peter Parker was bitten by the radioactive spider that made him Spider-Man, he gained superpowers that gave him the speed, strength, and agility of a spider. But that's not all - he also gained a \"spider-sense\" that allowed him to tell when something was about to hit him that he couldn't see. And if Victor Mateevitsi, a PhD candidate at the University of Illinois' Electronic Visualization Lab,  has his way, that superpower may be available to all of us soon - at a pretty reasonable price."
+    url: https://www.forbes.com/sites/alexknapp/2013/02/23/prototype-suit-gives-you-real-life-spider-sense/
+    image: "forbes-spidersense.jpg"
+  - date: 2013-02-23
     publication: The Verge
     title: SpiderSense ultrasound suit gives wearers a sixth sense
-  - date: 02.23.13
+    text: "New wearable technology under development at the University of Illinois at Chicago (UIC) offers users a sixth sense, allowing them to feel when objects are approaching their bodies. Dubbed SpiderSense after Spider-Man's famous superpower, the suit is the work of UIC PhD student Victor Mateevitsi and functions through the use of a series of small, directional ultrasound microphones. When a microphone module detects movement, it triggers a corresponding robotic arm, exerting a small amount of pressure on the relevant area of the wearer's body."
+    url: https://www.theverge.com/2013/2/23/4020738/spidersense-ultrasound-suit
+  - date: 2013-02-23
     publication: Gizmodo
     title: You Can Be a Real Superhero With This Crazy Spider-Sense Robot Suit
-  - date: 02.23.13
+    text: "Who doesn't want real-life superpowers? Unfortunately, getting yourself bitten by some kind of radioactive spider isn't really the best way to go about it. But thankfully, tech is here to resurrect your childhood hopes and dreams. University of Illinois' Victor Mateevitsi, for instance, has managed to bring \"spider-sense\" to the real world with a haptic bodysuit."
+    url: https://gizmodo.com/you-can-be-a-real-superhero-with-this-crazy-spider-sens-5986405
+  - date: 2013-02-23
     publication: Engadget
     title: SpiderSense ultrasonic radar suit lets you know when danger is near
-  - date: 02.23.13
-    publication: Engadget
-    title: SpiderSense ultrasonic radar suit lets you know when danger is near
-    country: Germany
-  - date: 02.23.13
+    text: "Know that feeling when someone wanders too far into your personal space? The University of Illinois' Victor Mateevitsi does, which is why he'd built a suit that does the job to a far greater degree of accuracy. SpiderSense is a onesie that uses a series of microphones to rend and receive ultrasonic signals from the space around you, like high frequency radar. When the outfit senses something approaching, a robotic arm corresponding to the microphone exerts pressure on your skin, pointing you in the direction of the danger. Mateevitsi tested the gear by blindfolding researchers and asking them to throw a cardboard ninja star whenever (and wherever) they sensed a threat -- with positive results 95 percent of the time. SpiderSense will get its first public showing at Stuttgart's Augmented Human conference in March and it's hoped that the hardware will eventually help Blind people get around easier."
+    url: https://www.engadget.com/2013/02/22/spidersense-suit/
+  - date: 2013-02-23
     publication: TechnoBuffalo
     title: Amazing SpiderSense Suit Lets You "Feel" Nearby Objects
-  - date: 02.23.13
+    text: "Victor Mateevitsi has built a suit that's so responsive users can \"feel\" nearby objects. In fact, the \"SpiderSense\" suit is so sensitive it elicits a tingling sensation in its users, allowing them to navigate areas with their eyes closed. Can you imagine how that might improve the life of someone who is visually impaired?"
+    url: https://www.technobuffalo.com/spidersense-suit-victor-mateevitsi
+    image: "technobuffalo-spidersense.jpg"
+  - date: 2013-02-23
     publication: Phys.org
     title: Wearable display meets blindfold test for sensing danger
-  - date: 02.23.13
+    text: "Researchers at the University of Illinois in Chicago have developed a special set of body modules that provide wearers with extra-sensory perception as to who or what is nearby. The design could help the blind navigate safely or even support cyclists or drivers as additional safety support in traffic. Called SpiderSense, this is a wearable display that can pick up ultrasonic reflections from objects. SpiderSense can also allow the wearer, even if eyes are closed, to navigate."
+    url: https://phys.org/news/2013-02-wearable-blindfold-danger.html
+  - date: 2013-02-23
     publication: Adevarul
     title: "Un nou pas spre omul bionic: costumul care ne transformă în omul 2013 păianjen"
+    text: "Un cercetător de la Universitatea Illinois din Chicago a reuşit să construiască prototipul unui costum care ar putea să ne tranforme în două moduri: câştigăm câte puţin din capacităţile omului păianjen din filme, dar putem să simţim ce e în jurul nostru şi fără a vedea."
+    url: https://adevarul.ro/tech/stiinta/un-nou-pas-omul-bionic-costumul-transforma-omul-paianjen-1_5128dbaa00f5182b8594f862/index.html
+    image: "buzzfeed-facts.jpg"
     country: Romania
-  - date: 02.23.13
+  - date: 2013-02-23
     publication: Haberler.com
     title: Örümcek Hisleri Gerçek Oluyor
+    text: "Amerika'daki Illinois Universitesi bünyesinde bulunan Victor Mateevitsi bir süredir üzerinde çalıştığı projeyi neredeyse tamamladı ve Spider-Man (Örümcek Adam)'ın meşhur yeteneğini (neredeyse) gerçek kıldı. Süper kahramanınkinin aksine oldukça sınırlı olan bazı algılarımız Mateevitsi'nin geliştirdiği kıyafet ile çok daha güçlü hale gelebilecek. Yanınıza yaklaşan birini henüz çok yakına gelmeden hissetmenizi sağlayan çalışma gelecek Mart ayında görücüye çıkacak."
+    url: https://www.haberler.com/orumcek-hisleri-gercek-oluyor-4360048-haberi/
     country: Turkey
-  - date: 02.22.13
+  - date: 2013-02-22
     publication: Mashable
-    title: Body Suit Gives You Real-Life 'Spider Sense
-  - date: 02.22.13
+    title: Body Suit Gives You Real-Life 'Spidey Sense'
+    text: "When it comes to recreating Spider-Man’s superpowers, those silly string-blasting, wrist-mounted “web shooter” toys are mere child’s play, at least compared to what Victor Mateevitsi has up his sleeve. Mateevitsi, a computer science grad student at University of Illinois at Chicago, has built a suit called SpiderSense lets you feel the proximity to nearby objects or lunging villains. In fact, it’s so sensitive and tingly that users can navigate with their eyes closed."
+    url: https://mashable.com/2013/02/22/spider-man-body-suit/
+  - date: 2013-02-22
     publication: The Mary Sue
     title: Grad Student Creates His Own Working Spider-Man Suit
-  - date: 02.22.13
+    text: "Who says you have to get bitten by a radioactive spider to get the power of Spider-Man? One student has used technology to acquire a spidey-sense. Victor Mateevitsi is a a computer science grad student at University of Illinois at Chicago. He hopes his invention, which takes a lot of inspiration from Marvel’s Spider-Man, could have applications for cyclists and the visually impaired. What does his special suit do exactly? It warns the wearer when something is near them. He calls it SpiderSense."
+    url: https://www.themarysue.com/spider-man-suit/
+  - date: 2013-02-22
     publication: Daily Mail
-    title: The suit that gives you 'Spidey Sense' just like Spider-Man by tingling when 2013 there is impeding danger
+    title: The suit that gives you 'Spidey Sense' just like Spider-Man by tingling when there is impeding danger
+    text: "An incredible suit gives anyone the 'Spidey Sense' felt by Peter Parker to alert him to any imminent threat. Just like Spider-Man, anyone who wears the suit can benefit from 360 degree awareness of the environment around their body. It is so sensitive that, in trials, blindfolded wearers armed with cardboard ninja stars were able to score direct hits on anyone who strayed too close."
+    url: https://www.dailymail.co.uk/sciencetech/article-2282818/The-SpiderSense-suit-ability-detect-impending-danger-360-degrees-around.html
     country: United Kingdom
-  - date: 02.22.13
+  - date: 2013-02-22
     publication: New Scientist
     title: Spidey-Sense Suit Tingles When Someone Gets Too Close
-  - date: 02.22.13
-    publication: Discovery News
-    title: Body Suit Gives You Real-Life Spidey-Sense
-  - date: 02.15.12
+    text: "FOR Peter Parker, it was a tingling sensation that alerted him to an imminent threat. Now anyone can pretend to be Spider-Man by simply donning a suit that lets you feel how close you are to a nearby object. It can even let the wearer navigate with their eyes closed. The suit, called SpiderSense and built by Victor Mateevitsi of the University of Illinois in Chicago has small robotic arms packaged in modules with microphones that send out and pick up ultrasonic reflections from objects. When the ultrasound detects someone moving closer to the microphone, the arms respond by exerting a growing pressure on the body. Seven of these modules are distributed across the suit to give the wearer as near to 360 degree ultrasound coverage as possible."
+    url: https://www.newscientist.com/article/mg21729056-700-spidey-sense-suit-tingles-when-someone-gets-too-close/
+  - date: 2012-02-15
     publication: Medill Reports Chicago
-    title: Chicago computer scientists develop tools to help ecologists in 2012 Kenya
-  - date: 02.14.12
+    title: Chicago computer scientists develop tools to help ecologists in Kenya
+    text: "A group of computational ecology students at the University of Illinois at Chicago (UIC) recently traveled to the Mpala Research Center in Kenya to conduct experiments using computer technology to collect wildlife data, and took three-dimensional (3D) images and video footage to create Mpala as a virtual space in the United States."
+    url: https://cacm.acm.org/news/146198-chicago-computer-scientists-develop-tools-to-help-ecologists-in-kenya/fulltext
+    image: "uic-kenya.jpg"
+  - date: 2012-02-14
     publication: Medill Reports Chicago
     title: Chicago virtual reality lab home to futuristic health class
+    text: "Futuristic health care is being conceptualized at the Electronic Visualization Laboratory (EVL) at the University of Illinois at Chicago. EVL uses technology that may be applied to create the futuristic settings for a new UIC class in “Human Augmentics,” the study of merging biology and technology. The course is a look into the future of rehabilitation and monitoring of health habits. It creates projects in a group setting to create prototype devices that aid or monitor a person’s health or health habits in ways that their biology may not."
+    url: https://www.evl.uic.edu/entry.php?id=1051
+    image: "uic-humanaugmentics.jpg"
