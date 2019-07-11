@@ -110,6 +110,12 @@ web:
     text: "The city of Chicago is launching a new hub for manufacturers, and maker haven Catalyze Chicago will be at its heart. Catalyze has been working with World Business Chicago for about a year on the creation of the new space, called mHUB, said Catalyze founder Bill Fienup. The center will be equipped with everything a maker needs to create and prototype a product, he said, and eventually will bring industry experts, mentors, universities and other incubators under one roof."
     url: https://www.chicagotribune.com/business/blue-sky/ct-chicago-launches-mhub-manufacturing-incubator-bsi-20160810-story.html
     image: "tribune-catalyze.jpg"
+  - date: 2016-03-23
+    publication: Chicago Tribune
+    title: "Can a Spider-Man-inspired jacket help the blind get around Chicago?"
+    text: "The vibrations are gentle at first, like a text coming through to a pocketed phone. But the intensity increases — almost like the hair rising on the back of your neck when someone's following you. Actually, it's exactly like that, said Victor Mateevitsi, inventor of a jacket that vibrates if something — or someone — is close."
+    url: https://www.chicagotribune.com/business/blue-sky/ct-spidersense-jacket-makers-bsi-20160323-story.html
+    image: "tribune-spidersense.png"
   - date: 2016-02-09
     publication: UIC News
     title: Student’s SpiderSense featured on Discovery Science
