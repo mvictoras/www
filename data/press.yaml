@@ -102,11 +102,13 @@ web:
     image: "pr-msi.jpg"
   - date: 2019-03-21
     publication: Crain's Business Magazine
+    title: "Museum of Science & Industry opening first-ever wearable fashion exhibit"
     text: "Self-lacing sneakers, a jet suit that can travel 30 miles an hour and a headdress that uses brain waves to change color are among the 100 or so wearable fashion pieces on exhibit at The Museum of Science & Industry, starting March 21."
     url: https://www.chicagobusiness.com/arts-entertainment/museum-science-industry-opening-first-ever-wearable-fashion-exhibit
     image: "crains-msi.jpg"
   - date: 2016-08-10
     publication: Chicago Tribune
+    title: "Chicago and Catalyze launch mHUB, a new home for upstart manufacturers"
     text: "The city of Chicago is launching a new hub for manufacturers, and maker haven Catalyze Chicago will be at its heart. Catalyze has been working with World Business Chicago for about a year on the creation of the new space, called mHUB, said Catalyze founder Bill Fienup. The center will be equipped with everything a maker needs to create and prototype a product, he said, and eventually will bring industry experts, mentors, universities and other incubators under one roof."
     url: https://www.chicagotribune.com/business/blue-sky/ct-chicago-launches-mhub-manufacturing-incubator-bsi-20160810-story.html
     image: "tribune-catalyze.jpg"
