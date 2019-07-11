@@ -10,23 +10,31 @@
         {{.Content}}
         {{ range .Site.Data.press.web }}
           {{ $outer := . }} 
-          <div class="row">
-            <div class="col-md-12 col-xs-12">
-              <h1>{{ .title }}</h1>
+          {{ if .url }}
+            <div class="row">
+              <div class="col-md-12 col-xs-12">
+                <h1>{{ .title }}</h1>
 
-              <div class="wrapper">
-                <div class="box">
-                  <img style="float:left;margin-right:10px" src="http://dota2essentials.com/template/img/news/newsdotaclient.jpg">
+                <div class="wrapper">
+                  <div class="box">
+                    {{ if .image }}
+                      {{ with $.Resources.GetMatch .image }}
+                        <img style="float:left;margin-right:10px" src= {{ (.Fill "150x150").Permalink }} >
+                      {{ end }}
+                    {{ else }}
+                      {{ with $.Resources.GetMatch (print "*" (replace .title ":" "") "*") }}
+                        <img style="float:left;margin-right:10px" src= {{ (.Fill "150x150").Permalink }} >
+                      {{ end }}
+                    {{ end }}
+                  </div>
+                  {{ with .text }}
+                    <p style="margin:5px">{{ . | safeHTML | truncate 255 }}</p>
+                  {{ end }}
+                  <a href="{{ .url }}" target="_blank" class="more">Read More </a><i class="fa fa-external-link"></i>
                 </div>
-                {{ with .text }}
-                  <p style="margin:5px">{{ . | safeHTML | truncate 255 }}</p>
-                {{ end }}
-          {{ with .url }}
-          <a href="{{ . }}" target="_blank" class="more">Read More </a><i class="fa fa-external-link"></i>
-          {{ end }}
               </div>
             </div>
-          </div>
+          {{ end }}
         {{ end }}
       </div>
       <div class="col-lg-4">
