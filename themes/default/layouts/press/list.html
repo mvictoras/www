@@ -11,10 +11,8 @@
         {{ range .Site.Data.press.web }}
           {{ $outer := . }} 
           {{ if .url }}
-            <div class="row">
-              <div class="col-md-12 col-xs-12">
-                <h1>{{ .title }}</h1>
-
+            <div class="row border-bottom mb-4 pb-4">
+              <div class="col-md-12 col-xs-12 noleftpadding">
                 <div class="wrapper">
                   <div class="box">
                     {{ if .image }}
@@ -27,10 +25,16 @@
                       {{ end }}
                     {{ end }}
                   </div>
+                    <div class="d-flex justify-content-between">
+                      <h1>{{ .publication }}</h1>
+                      {{ $date := time .date }}
+                      <small class="text-muted">{{ $date.Format "2 January 2006" }}</small>
+                    </div>
+                    <h2>{{ .title }}</h2>
                   {{ with .text }}
-                    <p style="margin:5px">{{ . | safeHTML | truncate 255 }}</p>
+                    <p style="margin:5px">{{ . | safeHTML | truncate 105 }}</p>
                   {{ end }}
-                  <a href="{{ .url }}" target="_blank" class="more">Read More </a><i class="fa fa-external-link"></i>
+                  <a href="{{ .url }}" target="_blank" class="more bottom-align-text">Read More <i class="fa fa-external-link text-muted"></i></a>
                 </div>
               </div>
             </div>

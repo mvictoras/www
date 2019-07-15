@@ -1,0 +1,25 @@
+{{/* Original code by Laura Kalbag from https://laurakalbag.com/processing-responsive-images-with-hugo/ */}}
+
+{{/* get file that matches the filename as specified as src="" in shortcode */}}
+{{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
+
+{{/* set image sizes, these are hardcoded for now, x dictates that images are resized to this width */}}
+
+{{ $largew := default "730x" }}
+
+{{/* resize the src image to the given sizes */}}
+
+{{ .Scratch.Set "large" ($src.Resize $largew) }}
+
+{{/* add the processed images to the scratch */}}
+
+{{ $large := .Scratch.Get "large" }}
+
+{{/* only use images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}
+{{/* set the sizes attribute to (min-width: 35em) 1200px, 100vw unless overridden in shortcode */}}
+
+<figure class="figure">
+  <img class="figure-img img-fluid" src='{{ $large.Permalink }}'
+    {{ with .Get "caption" }}alt='{{.}}'{{ end }}>
+  {{ with .Get "caption" }}<figcaption class="figure-caption text-center">{{ . }}</figcaption>{{ end }}
+</figure>
