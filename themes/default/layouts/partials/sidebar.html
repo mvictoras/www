@@ -17,6 +17,15 @@
 </div>
 
 <div class="widget">
+  <h2>Latest press</h2>
+  <ul class="list-group list-group-flush widget-news">
+  {{ range first 3 .Site.Data.press.web }}
+  <li class="list-group-item py-1"><a href="{{ .url }}" target="_blank">{{ .title }} <i class="fa fa-external-link text-muted"></i></a></li>
+  {{ end }}
+  </ul>
+</div>
+
+<div class="widget">
   <h2>Updates</h2>
   <div class="list-group list-group-flush widget-updates">
     {{ range first 5 .Site.Data.updates }}

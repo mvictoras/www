@@ -7,6 +7,8 @@
 }
 
 .widget {
+  margin-top: 20px;
+
   h2 {
     font-size: 1.5rem;
     text-align: right;
@@ -22,7 +24,11 @@
 }
 
 .widget-news {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+
+  .list-group-item {
+    border: 0;
+  }
 }
 
 .widget-updates {
@@ -96,6 +102,12 @@
   h1 {
     font-size: 1.2rem;
     text-align: left;
+    padding-top: 0;
+  }
+
+  h2 {
+    font-size: 1rem;
+    font-weight: bold;
   }
 
   .more {
@@ -105,7 +117,22 @@
   .fa-external-link {
     font-size: 0.8rem;
     margin-left: 4px;
-    color: $light-grey-color ;
+  }
+}
+
+.noleftpadding {
+  padding-left: 0 !important;
+}
+
+.bottom-align-text {
+  position: absolute;
+  bottom: 0;
+}
+
+.related-press {
+  li {
+    border: 0;
+    padding-left: 0;
   }
 }
 
