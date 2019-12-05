@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ $indexScratch := .Scratch }}
 <div class="container-fluid single">
   {{ with .Resources.GetMatch "featured*" }}
   <div class="row knockout" id="{{ $.Page.Title }}" style="background: url({{ .Permalink }}) no-repeat bottom center">
@@ -7,37 +8,26 @@
   <div class="container news">
     <div class="row">
       <div class="col-lg-8">
-        {{.Content}}
         {{ range .Site.Data.press.web }}
-          {{ $outer := . }} 
-          {{ if .url }}
-            <div class="row border-bottom mb-4 pb-4">
-              <div class="col-md-12 col-xs-12 noleftpadding">
-                <div class="wrapper">
-                  <div class="box">
-                    {{ if .image }}
-                      {{ with $.Resources.GetMatch .image }}
-                        <img style="float:left;margin-right:10px" src= {{ (.Fill "150x150").Permalink }} >
-                      {{ end }}
-                    {{ else }}
-                      {{ with $.Resources.GetMatch (print "*" (replace .title ":" "") "*") }}
-                        <img style="float:left;margin-right:10px" src= {{ (.Fill "150x150").Permalink }} >
-                      {{ end }}
-                    {{ end }}
-                  </div>
-                    <div class="d-flex justify-content-between">
-                      <h1>{{ .publication }}</h1>
-                      {{ $date := time .date }}
-                      <small class="text-muted">{{ $date.Format "2 January 2006" }}</small>
-                    </div>
-                    <h2>{{ .title }}</h2>
-                  {{ with .text }}
-                    <p style="margin:5px">{{ . | safeHTML | truncate 105 }}</p>
-                  {{ end }}
-                  <a href="{{ .url }}" target="_blank" class="more bottom-align-text">Read More <i class="fa fa-external-link text-muted"></i></a>
-                </div>
-              </div>
-            </div>
+          {{ if and .url .date .text .title .image .publication }}
+            {{ $indexScratch.Set "url" .url }}
+            {{ $indexScratch.Set "date" .date }}
+            {{ $indexScratch.Set "text" .text }}
+            {{ $indexScratch.Set "title" .title }}
+            {{ $indexScratch.Set "publication" .publication }}
+            
+            {{ if .image }}
+              {{ with $.Resources.GetMatch .image }}
+                {{ $src := (.Fill "150x150").Permalink }}
+                {{ $indexScratch.Set "perm" $src }}
+              {{ end }}
+            {{ else }}
+              {{ with $.Resources.GetMatch (print "*" (replace .title ":" "") "*") }}
+                {{ $src := (.Fill "150x150").Permalink }}
+                {{ $indexScratch.Set "perm" $src }}
+              {{ end }}
+            {{ end }}
+            {{ partial "list.html" $indexScratch }}
           {{ end }}
         {{ end }}
       </div>
