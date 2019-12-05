@@ -1,0 +1,45 @@
+{{ define "main" }}
+{{ $indexScratch := .Scratch }}
+<div class="container-fluid single">
+  {{ with .Resources.GetMatch "featured*" }}
+  <div class="row knockout" id="{{ $.Page.Title }}" style="background: url({{ .Permalink }}) no-repeat bottom center">
+    </div>
+  {{ end }}
+  <div class="container news">
+    <div class="row">
+      <div class="col-lg-8">
+        {{ $count := .Pages | len }}
+        {{ range .Pages }}
+          {{ $.Scratch.Add "i" 1 }}
+          {{ $i := $.Scratch.Get "i" }}
+
+          {{ if eq $count $i }}
+            <div class="row mb-4 pb-4">
+          {{ else }}
+            <div class="row border-bottom mb-4 pb-4">
+          {{ end }}
+            <div class="col-md-12 col-xs-12 noleftpadding">
+              <div class="wrapper">
+                {{ with .Resources.GetMatch (printf "*%s*" .Params.featured_image) }}
+                  <div class="box">
+                      <img style="float:left;margin-right:10px" src= {{ (.Fill "150x150").Permalink }} >
+                  </div>
+                {{ end }}
+                  <div class="d-flex justify-content-between">
+                    <h1 class="col-md-9 noleftpadding">{{ .Title }}</h1>
+                    <small class="text-muted">{{ .Date.Format "2 January 2006" }}</small>
+                  </div>
+                  <p style="margin:5px">{{ .Content | safeHTML | truncate 105 }}</p>
+                <a href="{{ .Permalink }}" target="_blank" class="more bottom-align-text">Read More <i class="fa fa-external-link text-muted"></i></a>
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+      <div class="col-lg-4">
+        {{- partial "sidebar.html" . -}}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
