@@ -1,5 +1,43 @@
 @import "variables";
 
+@mixin bar($background-color, $color) {
+  height: $bar-height;
+  max-height: $bar-height;
+  width: 100%;
+  background-color: $background-color;
+  text-align: center;
+
+  a {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 80px;
+  }
+
+  a, a:hover {
+    color: $color;
+    text-decoration: none;
+  }
+}
+
+@mixin parallax-style() {
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 36px;
+  vertical-align: middle;
+}
+
+@mixin parallax-region($height, $image) {
+  /* The image used */
+  background-image: url($image);
+  /* Set a specific height */
+  //height: $height; 
+
+  @include parallax-style();
+}
+
 /** 
  * Global
  */
@@ -15,7 +53,6 @@ a {
 }
 
 h1 {
-  color: white;
   text-align: center;
   padding-top: 30px;
   font-weight: bold;
@@ -89,25 +126,7 @@ h4 {
   margin-top: 55px;
 }
 
-@mixin bar($background-color, $color) {
-  height: $bar-height;
-  max-height: $bar-height;
-  width: 100%;
-  background-color: $background-color;
-  text-align: center;
 
-  a {
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
-    line-height: 80px;
-  }
-
-  a, a:hover {
-    color: $color;
-    text-decoration: none;
-  }
-}
 
 .latest {
   @include bar($latest-color, black);
@@ -142,14 +161,6 @@ h4 {
   color: $linkedin-color;
 }
 
-.home-about {
-  padding-top: 100px;
-
-  p {
-    padding-top: 30px;
-  }
-}
-
 /**
  * Footer
  */
@@ -160,7 +171,15 @@ h4 {
   height: 60px;
   line-height: 60px;
   background-color: rgb(245, 245, 245);
-  margin-top: 50px;
+}
+
+.experience {
+ padding-bottom: 50px;
+ 
+ h1 {
+    font-weight: normal;
+    letter-spacing: 20px;
+  }
 }
 
 .parallax {
@@ -169,28 +188,26 @@ h4 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+  padding-bottom: 50px;
+  padding-top: 50px;
 
-.batcave {
-  background-image: url("/img/Mateevitsi_batcave.jpg");
-  /* Set a specific height */
-  height: 524px; 
-
-
+  h1 {
     color: white;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 26px;
-    line-height: 36px;
-    vertical-align: middle;
+  }
+  
+  p {
+    padding-top: 30px;
+  }
+
+
 }
 
-.spidersensevr {
-  /* The image used */
-  background-image: url("/img/Mateevitsi_SpiderSense_VR.jpg");
-  /* Set a specific height */
-  height: 300px; 
+.parallax-batcave {
+  @include parallax-region($height: 524px, $image: "/img/Mateevitsi_batcave.jpg");
+ }
 
+.parallax-spidersensevr {
+  @include parallax-region($height: 624px, $image: "/img/Mateevitsi_SpiderSense_VR.jpg");
 }
 
 .heart-emoji {
