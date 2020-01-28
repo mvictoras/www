@@ -24,9 +24,9 @@ anchor = "smart"
     weight = 1
 
   [[menu.main]]
-    identifier= "news"
-    name = "news"
-    url = "/news/"
+    identifier= "posts"
+    name = "posts"
+    url = "/posts/"
     weight = 2
 
   [[menu.main]]

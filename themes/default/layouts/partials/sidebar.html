@@ -8,9 +8,9 @@
 </div>
 
 <div class="widget">
-  <h2>Latest news</h2>
-  <ul class="list-group list-group-flush widget-news">
-  {{ range first 3 (where .Site.RegularPages "Section" "news") }}
+  <h2>Latest posts</h2>
+  <ul class="list-group list-group-flush widget-posts">
+  {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
     <li class="list-group-item"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
   {{ end }}
   </ul>
@@ -18,7 +18,7 @@
 
 <div class="widget">
   <h2>Latest press</h2>
-  <ul class="list-group list-group-flush widget-news">
+  <ul class="list-group list-group-flush widget-posts">
   {{ range first 3 .Site.Data.press.web }}
   <li class="list-group-item py-1"><a href="{{ .url }}" target="_blank">{{ .title }} <i class="fa fa-external-link text-muted"></i></a></li>
   {{ end }}

@@ -11,7 +11,7 @@
   </div>
   <div class="row">
     <div class="col latest">
-      {{ range first 1 (where .Site.Pages "Section" "news") }}
+      {{ range first 1 (where .Site.Pages "Section" "posts") }}
       <a href="{{ .RelPermalink }}">Latest: {{ .Title }} </a>
       {{ end }}
     </div>
