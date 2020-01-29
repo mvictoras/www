@@ -10,6 +10,9 @@ draft: false
 
 I develop emerging technologies, design futuristic interfaces and interactions, and prototype next-generation hardware devices. In other words, I envision the technology 5-10 years down the road, and then I proceed and build it. Early in my carreer, I realized that memorable and great experiences are due to well thought human-computer interaction, and that was something I decided to focus on. I am very passionate about designing technologies that improve the quality of life for all people, especially those with disabilities.  
 
+{{< figure src="mateevitsi-spidersense2.jpg" caption="The SpiderSense jacket" >}}
+
+
 I have a background in Computer Science and hold a PhD from the {{< a link="Electronic Visualization Laboratory (EVL)" src="//www.evl.uic.edu" >}}, {{< a link="University of Illinois at Chicago" src="//www.uic.edu" >}}, where I spent my graduate years collaborating with multidisciplinary teams on various human-computer interaction problems, and working on bleeding-edge technologies, like the {{< a link="CAVE2" src="https://youtu.be/d5XDbzy7vuE" >}} and {{< a link="SAGE2" src="https://youtu.be/ZHm6wdPP1RY" >}}. 
 
 {{< figure src="mateevitsi-batcave.jpg" caption="The BatCAVE project in CAVE2" >}}
