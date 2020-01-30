@@ -34,5 +34,8 @@ jobs:
             - ./node_modules
       # run tests!
       - run: 
-          name: stylelint
+          name: 'Checking js with standard'
           command: 'npm test'
+      - run:
+          name: 'Checking scss with stylelint'
+          command: 'npm run stylelint'
