@@ -4,3 +4,5 @@
 
 [![Build Status](https://circleci.com/gh/mvictoras/www.svg?style=svg&circle-token=37891ab0d63aeb4d4963af2cc20533c3e6a4ca00)]
 [![devDependency Status](https://david-dm.org/mvictoras/www/dev-status.svg)](https://david-dm.org/mvictoras/www/?type=dev)
+[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
+
