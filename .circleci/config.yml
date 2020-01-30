@@ -35,5 +35,5 @@ jobs:
 
       # run tests!
       - run: 
-        name: stylelint
-        command: npm test
+          name: stylelint
+          command: npm test
