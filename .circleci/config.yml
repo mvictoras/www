@@ -18,7 +18,6 @@ jobs:
 
     steps:
       - checkout
-
       - run:
           name: update-npm
           command: 'sudo npm install -g npm@latest'
@@ -26,17 +25,14 @@ jobs:
       - restore_cache:
         # Read about caching dependencies: https://circleci.com/docs/2.0/caching/
         key: dependency-cache-{{ checksum "package-lock.json" }}
-
       - run: 
         name: install-npm
-        command: npm install --only-dev
-
+        command: 'npm install --only-dev'
       - save_cache:
         key: dependency-cache-{{ checksum "package-lock.json" }}
         paths:
           - ./node_modules
-
       # run tests!
       - run: 
           name: stylelint
-          command: npm test
+          command: 'npm test'
