@@ -6,6 +6,8 @@
     "stylelint": "stylelint '**/*.scss'"
   },
   "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-bower": "^0.21.4",
     "standard": "^14.3.1",
     "stylelint": "^13.0.0",
     "stylelint-config-sass-guidelines": "^6.2.0",
