@@ -6,3 +6,17 @@
 [![devDependency Status](https://david-dm.org/mvictoras/www/dev-status.svg)](https://david-dm.org/mvictoras/www/?type=dev)
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
+# To install
+```
+npm install
+bower install
+grunt
+```
+
+# To add a js or css package
+```
+bower install package_name --save
+grunt
+```
+then edit config.toml and add package in Params under js or css.
+PLEASE NOTE that order DOES matter!

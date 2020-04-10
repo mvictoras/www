@@ -16,6 +16,12 @@ quality = 75
 
 anchor = "smart"
 
+[params]
+  js = ['js/external/jquery.js', 'js/external/bootstrap.js', 'js/external/rrssb.js', 'js/external/fontawesome.js', 'js/app.js' ]
+  css = [ 'css/external/bootstrap.css', 'css/external/rrssb.css' ]
+
+
+
 [menu]
   [[menu.main]]
     identifier = "home"

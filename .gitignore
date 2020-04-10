@@ -17,3 +17,6 @@ $RECYCLE.BIN/
 
 # Node modules
 node_modules
+
+# Bower
+bower_components
