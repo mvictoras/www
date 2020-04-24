@@ -60,3 +60,7 @@ $ grunt
 ```
 then edit config.toml and add package in Params under js or css.
 PLEASE NOTE that order DOES matter!
+
+## Acknowledgements
+
+Website structure inspired by [Hugo starter](https://github.com/h-enk/hyas)
