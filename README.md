@@ -32,19 +32,18 @@ Make sure all dependencies have been installed:
 Clone the repo
 
 ```
-git clone git@github.com:mvictoras/www.git
+$ git clone git@github.com:mvictoras/www.git
 ```
 
 Install dependencies
 
 ```
-npm install
-npm run install:deps
+$ npm install
+$ npm run install:deps
 ```
 Build development theme with live reloading and injection:
 
 ```bash
-# @ my-hyas-site/
 $ npm start
 ```
 
@@ -57,8 +56,8 @@ $ npm start
 
 ### To add a js or css package
 ```
-bower install package_name --save
-grunt
+$ bower install package_name --save
+$ grunt
 ```
 then edit config.toml and add package in Params under js or css.
 PLEASE NOTE that order DOES matter!
