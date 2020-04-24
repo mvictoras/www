@@ -8,8 +8,6 @@
 ![Dependabot](https://badgen.net/dependabot/thepracticaldev/dev.to?icon=dependabot)
 [![Github Issues](https://badgen.net/github/open-issues/mvictoras/www)](https://github.com/mvictoras/www/issues)
 
-This is Victor Mateevitsi's personal website
-
 ## Features
 - Lightweight code base
 - 100 scores Google Lighthouse
