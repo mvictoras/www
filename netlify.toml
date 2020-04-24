@@ -1,11 +1,15 @@
 [build]
-publish = "public"
-command = "hugo --gc --minify"
+  publish = "public"
+  command = "yarn build"
+  functions = "functions/"
 
-[context.production.environment]
-HUGO_VERSION = "0.63.2"
-HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
+[build.environment]
+  HUGO_VERSION = "0.69.0"
+  NODE_VERSION = "13.11.0"
+  NPM_VERSION = "6.13.7"
 
 [context.deploy-preview]
-command = "hugo  --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+  command = "yarn build:preview"
+
+[context.branch-deploy]
+  command = "yarn build"
