@@ -6,7 +6,7 @@
 ![Dependencies](https://img.shields.io/librariesio/github/mvictoras/www)
 
 ![Dependabot](https://badgen.net/dependabot/thepracticaldev/dev.to?icon=dependabot)
-[![Github Issues](https://badgen.net/packagist/ghi/mvictoras/www)](https://github.com/mvictoras/www/issues)
+[![Github Issues](https://badgen.net/github/open-issues/mvictoras/www)](https://github.com/mvictoras/www/issues)
 
 This is Victor Mateevitsi's personal website
 
