@@ -1,6 +1,5 @@
 # Victor's personal website
 
-[![Build Status](https://circleci.com/gh/mvictoras/www.svg?style=svg&circle-token=37891ab0d63aeb4d4963af2cc20533c3e6a4ca00)]
 [![GitHub release](https://img.shields.io/github/release/mvictoras/www.svg?style=flat-square)](https://github.com/mvictoras/www/releases)
 [![Build Status](https://img.shields.io/circleci/build/gh/mvictoras/www?token=37891ab0d63aeb4d4963af2cc20533c3e6a4ca00)](https://circleci.com/gh/mvictoras/www)
 [![Netlify](https://img.shields.io/netlify/f4ee6127-6b8e-4780-a7b5-d9d63d396e83?style=flat-square)](https://dazzling-haibt-c41dcb.netlify.app/)
