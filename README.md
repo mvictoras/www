@@ -3,8 +3,10 @@
 [![GitHub release](https://img.shields.io/github/release/mvictoras/www.svg)](https://github.com/mvictoras/www/releases)
 [![Build Status](https://img.shields.io/circleci/build/gh/mvictoras/www?token=37891ab0d63aeb4d4963af2cc20533c3e6a4ca00)](https://circleci.com/gh/mvictoras/www)
 [![Netlify](https://img.shields.io/netlify/f4ee6127-6b8e-4780-a7b5-d9d63d396e83)](https://dazzling-haibt-c41dcb.netlify.app/)
-![Dependabot](https://badgen.net/dependabot/thepracticaldev/dev.to?icon=dependabot)
 ![Dependencies](https://img.shields.io/librariesio/github/mvictoras/www)
+
+![Dependabot](https://badgen.net/dependabot/thepracticaldev/dev.to?icon=dependabot)
+[![Github Issues](https://badgen.net/packagist/ghi/mvictoras/www)](https://github.com/mvictoras/www/issues)
 
 This is Victor Mateevitsi's personal website
 
