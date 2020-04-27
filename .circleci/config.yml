@@ -34,8 +34,11 @@ jobs:
             - ./node_modules
       # run tests!
       - run: 
-          name: 'Checking js with standard'
+          name: 'Eslint and stylelint'
           command: 'npm test'
       - run:
-          name: 'Checking scss with stylelint'
-          command: 'npm run stylelint'
+          name: 'Cleaning script'
+          command: 'npm run clean'
+      - run:
+          name: 'Build script'
+          command: 'npm run build'

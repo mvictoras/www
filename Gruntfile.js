@@ -3,9 +3,9 @@ module.exports = function(grunt) {
   grunt.initConfig({
     bower: {
       dev: {
-        dest: 'themes/default/assets/external',
-        js_dest: 'themes/default/assets/js/external',
-        css_dest: 'themes/default/assets/css/external',
+        dest: 'themes/default/assets/vendor',
+        js_dest: 'themes/default/assets/js/vendor',
+        css_dest: 'themes/default/assets/css/vendor',
         options: {
           keepExpandedHierarchy: false,
           packageSpecific: {
