@@ -20,3 +20,9 @@ node_modules
 
 # Bower
 bower_components
+
+# vendor files
+themes/default/assets/css/vendor
+themes/default/assets/js/vendor
+themes/default/assets/scss/vendor
+themes/default/assets/vendor

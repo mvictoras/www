@@ -17,8 +17,8 @@ quality = 75
 anchor = "smart"
 
 [params]
-  js = ['js/external/jquery.js', 'js/external/bootstrap.js', 'js/external/rrssb.js', 'js/external/fontawesome.js', 'js/app.js' ]
-  css = [ 'css/external/bootstrap.css', 'css/external/rrssb.css' ]
+  js = ['js/vendor/jquery.js', 'js/vendor/bootstrap.js', 'js/vendor/rrssb.js', 'js/vendor/fontawesome.js', 'js/app.js' ]
+  css = [ 'css/vendor/bootstrap.css', 'css/vendor/rrssb.css' ]
 
 
 
