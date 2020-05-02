@@ -1,0 +1,71 @@
+.experience {
+  padding-bottom: 50px;
+
+  h1 {
+    font-weight: normal;
+    letter-spacing: 20px;
+  }
+}
+
+.parallax-batcave {
+  @include parallax-region($height: 524px, $image: "/img/Mateevitsi_batcave.jpg");
+}
+
+.parallax-spidersensevr {
+  @include parallax-region($height: 624px, $image: "/img/Mateevitsi_SpiderSense_VR.jpg");
+}
+
+.section-home-banner {
+  background: $home-banner-image;
+  background-size: contain;
+  padding: 0;
+
+  .col {
+    height: calc(100vh - #{$bar-height} - #{$menu-height});
+    height: -o-calc(100vh - #{$bar-height} - #{$menu-height}); /* opera */
+    height: -webkit-calc(100vh - #{$bar-height} - #{$menu-height}); /* google, safari */
+    height: -moz-calc(100vh - #{$bar-height} - #{$menu-height}); /* firefox */
+  }
+}
+
+.skills {
+  @include font-size(3.5rem);
+
+  font-weight: bold;
+  text-align: right;
+  display: inline-block;
+}
+
+.skill1 {
+  background-color: $skill1-color;
+}
+
+.skill2 {
+  background-color: $skill2-color;
+}
+
+.skill3 {
+  background-color: $skill3-color;
+}
+
+.skill-row {
+  margin-top: 55px;
+}
+
+.latest {
+  @include bar($latest-color, black);
+
+  bottom: 0;
+}
+
+.twitter {
+  @include bar($twitter-color, white);
+}
+
+.instagram {
+  @include bar($instagram-color, white);
+}
+
+.facebook {
+  @include bar($facebook-color, white);
+}

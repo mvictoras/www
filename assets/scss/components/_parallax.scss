@@ -1,0 +1,32 @@
+@mixin parallax-style() {
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 36px;
+  vertical-align: middle;
+}
+
+@mixin parallax-region($height, $image) {
+  /* The image used */
+  background-image: url($image);
+
+  /* Set a specific height */
+  //height: $height;
+
+  @include parallax-style();
+}
+
+.parallax {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+  p {
+    padding-top: 30px;
+  }
+}

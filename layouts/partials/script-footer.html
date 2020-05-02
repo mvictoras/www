@@ -1,0 +1,23 @@
+{{ if eq (hugo.Environment) "development" -}}
+  {{ $jquery := resources.Get "js/vendor/jquery/jquery.js" }}
+  {{ $bootstrap := resources.Get "js/vendor/bootstrap/bootstrap.js" }}
+  {{ $prism := resources.Get "js/vendor/prism/prism.js" }}
+  {{ $autoloader := resources.Get "js/vendor/prism/plugins/autoloader/prism-autoloader.js" }}
+  {{ $app := resources.Get "js/app.js" -}}
+
+  {{ $scripts := slice $jquery $bootstrap $prism $autoloader $app }}
+  {{ $js := $scripts | resources.Concat "main.js" -}}
+  <script src="{{ $js.Permalink }}" defer></script>
+{{ else -}}
+  {{ $jquery := resources.Get "js/vendor/jquery/jquery.min.js" }}
+  {{ $bootstrap := resources.Get "js/vendor/bootstrap/bootstrap.min.js" }}
+  {{ $prism := resources.Get "js/vendor/prism/prism.js" | minify }}
+  {{ $autoloader := resources.Get "js/vendor/prism/plugins/autoloader/prism-autoloader.min.js" }}
+  {{ $app := resources.Get "js/app.js" | minify -}}
+
+  {{ $scripts := slice $jquery $bootstrap $prism $autoloader $app }}
+
+  {{ $js := $scripts | resources.Concat "main.js" -}}
+  {{ $secureJS := $js | resources.Fingerprint "sha512" -}}
+  <script src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{ end -}}

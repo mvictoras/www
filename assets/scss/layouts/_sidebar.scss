@@ -1,0 +1,38 @@
+.sibedar {
+  margin-top: 20px;
+
+  h2 {
+    text-align: right;
+    border-bottom: 3px solid black;
+  }
+}
+
+.sibedar-social {
+  text-align: right;
+}
+
+.sibedar-social-icon {
+  color: black;
+}
+
+.sibedar-posts {
+  font-size: 0.8rem;
+
+  .list-group-item {
+    border: 0;
+  }
+}
+
+.sibedar-updates {
+  font-size: 0.8rem;
+
+  .update-item {
+    border-top: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    .description {
+      font-size: 0.7rem;
+    }
+  }
+}

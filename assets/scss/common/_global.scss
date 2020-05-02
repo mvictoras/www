@@ -1,0 +1,100 @@
+a {
+  color: $url-color;
+}
+
+body {
+  font-family: $font-family;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+canvas {
+  display: block;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.75rem;
+}
+
+blockquote {
+  padding: 0 1em;
+  color: $blockquote-color;
+  border-left: 0.25em solid $blockquote-border-color;
+}
+
+.noleftpadding {
+  padding-left: 0 !important;
+}
+
+.bottom-align-text {
+  position: absolute;
+  bottom: 0;
+}
+
+.related-press {
+  li {
+    border: 0;
+    padding-left: 0;
+  }
+}
+
+.image-with-title {
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 640px;
+  margin-bottom: 20px;
+  min-height: 600px;
+}
+
+.image-with-title::before {
+  content: " " attr(id) "";
+  width: 100%;
+  text-transform: capitalize;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  display: block;
+  padding: 0 0 10px;
+  line-height: 1.2em;
+  margin-bottom: -1px;
+  color: #000;
+  text-align: center;
+  z-index: 1;
+  mix-blend-mode: lighten;
+  font-weight: 700;
+  font-size: 6vw;
+}
+
+.twitter-color {
+  color: $twitter-color;
+}
+
+.instagram-color {
+  color: $instagram-color;
+}
+
+.facebook-color {
+  color: $facebook-color;
+}
+
+.linkedin-color {
+  color: $linkedin-color;
+}

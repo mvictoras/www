@@ -1,0 +1,30 @@
+[[main]]
+  identifier = "home"
+  name = "home"
+  url = "/"
+  weight = 1
+
+[[main]]
+  identifier= "posts"
+  name = "posts"
+  url = "/posts/"
+  weight = 2
+
+[[main]]
+  identifier = "press"
+  name = "press"
+  url = "/press/"
+  weight = 3
+
+[[main]]
+  identifier = "about"
+  name = "about"
+  url = "/about/"
+  weight = 4
+
+[[main]]
+  identifier = "contact"
+  name = "contact"
+  url = "/contact/"
+  weight = 5
+
