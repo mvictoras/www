@@ -1,9 +1,0 @@
-<div class="list-group list-group-flush updates">
-  {{ range .Site.Data.updates }}
-    {{ $date := time .date }}
-    <div class="list-group-item update-item d-flex justify-content-between">
-      <h5 class="mb-1">{{ .title }}</h5>
-      <small>{{ $date.Format "2 January 2006" }}</small>
-    </div>
-  {{ end }}
-</div>

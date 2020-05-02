@@ -40,7 +40,6 @@ Install dependencies
 
 ```
 $ npm install
-$ npm run install:deps
 ```
 Build development theme with live reloading and injection:
 

@@ -1,0 +1,30 @@
+/** Import Bootstrap functions */
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/mixins";
+
+/** Import theme variables */
+@import "common/variables";
+
+/** Import Bootstrap */
+@import "bootstrap/scss/bootstrap";
+
+/** Import font-awesome  */
+@import "vendor/font-awesome/font-awesome";
+
+/** Import theme styles */
+@import "common/global";
+@import "components/color-bar";
+@import "components/heart-emoji";
+@import "components/parallax";
+@import "layouts/footer";
+@import "layouts/header";
+@import "layouts/home";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/sidebar";
+@import "layouts/updates";
+
+/** Import prismjs */
+@import "prismjs/themes/prism";
+
+$enable-responsive-font-sizes: true;

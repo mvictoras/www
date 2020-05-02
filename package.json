@@ -9,10 +9,10 @@
     "server": "hugo server",
     "clean": "rimraf public resources functions",
     "clean:deps": "node scripts/clean-deps",
+    "copy:deps": "node scripts/copy-deps",
     "lint": "npm run -s lint:scripts && npm run -s lint:styles",
-    "lint:scripts": "eslint themes/default/assets/js assets/lambda",
-    "lint:styles": "stylelint \"themes/default/assets/scss/**/*.{css,sass,scss,sss,less}\"",
-    "install:deps": "bower install && grunt",
+    "lint:scripts": "eslint assets/js assets/lambda config",
+    "lint:styles": "stylelint \"assets/scss/**/*.{css,sass,scss,sss,less}\"",
     "test": "npm run -s lint"
   },
   "devDependencies": {
@@ -20,8 +20,6 @@
     "autoprefixer": "^9.7",
     "eslint": "^6.8",
     "ga-lite": "^2.0.5",
-    "grunt": "^1.1.0",
-    "grunt-bower": "^0.21.4",
     "netlify-lambda": "^1.6",
     "postcss-cli": "^7.1",
     "purgecss-whitelister": "^2.4",
@@ -31,6 +29,11 @@
     "stylelint-config-standard": "^20.0"
   },
   "dependencies": {
-    "bower": "^1.8.8"
+    "bootstrap": "^4.4.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.0",
+    "popper.js": "^1.16.1",
+    "prismjs": "^1.20.0",
+    "rrssb": "^1.14.0"
   }
 }

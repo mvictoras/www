@@ -1,0 +1,52 @@
+{{ define "main" }}
+{{ $indexScratch := .Scratch }}
+<div class="container-fluid single">
+  {{ with .Resources.GetMatch "featured*" }}
+  <div class="row image-with-title" id="{{ $.Page.Title }}" style="background: url({{ .Permalink }}) no-repeat bottom center">
+    </div>
+  {{ end }}
+  <div class="container list">
+    <div class="row">
+      <div class="col-lg-8">
+        {{ $count := .Site.Data.press.web | len }}
+        {{ range .Site.Data.press.web }}
+          {{ $.Scratch.Add "i" 1 }}
+          {{ $i := $.Scratch.Get "i" }}
+          
+          {{ if eq $count $i }}
+            {{ $indexScratch.Set "last" "true" }}
+          {{ else }}
+            {{ $indexScratch.Set "last" "false" }}
+          {{ end }}
+          
+          {{ if and .url .date .text .title .image .publication }}
+            {{ $indexScratch.Set "url" .url }}
+            {{ $indexScratch.Set "date" .date }}
+            {{ $indexScratch.Set "text" .text }}
+            {{ $indexScratch.Set "title" .title }}
+            {{ $indexScratch.Set "publication" .publication }}
+            
+            {{ if .image }}
+              {{ with $.Resources.GetMatch .image }}
+                {{ $src := (.Fill "150x150").Permalink }}
+                {{ $indexScratch.Set "perm" $src }}
+              {{ end }}
+            {{ else }}
+              {{ with $.Resources.GetMatch (print "*" (replace .title ":" "") "*") }}
+                {{ $src := (.Fill "150x150").Permalink }}
+                {{ $indexScratch.Set "perm" $src }}
+              {{ end }}
+            {{ end }}
+
+            
+            {{ partial "list.html" $indexScratch }}
+          {{ end }}
+        {{ end }}
+      </div>
+      <div class="col-lg-4">
+        {{- partial "sidebar.html" . -}}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

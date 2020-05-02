@@ -1,0 +1,21 @@
+@mixin bar($background-color, $color) {
+  height: $bar-height;
+  max-height: $bar-height;
+  width: 100%;
+  background-color: $background-color;
+  text-align: center;
+
+  a {
+    @include font-size(1.8rem);
+
+    word-wrap: break-word;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  a,
+  a:hover {
+    color: $color;
+    text-decoration: none;
+  }
+}
