@@ -1,0 +1,43 @@
+{{ $indexScratch := .Scratch }}
+{{ $count := .Site.Data.press.web | len }}
+<div class="list-group articles-group">
+  {{ range .Site.Data.press.web }}
+    {{ $.Scratch.Add "i" 1 }}
+    {{ $i := $.Scratch.Get "i" }}
+    
+    {{ if eq $count $i }}
+      {{ $indexScratch.Set "last" "true" }}
+    {{ else }}
+      {{ $indexScratch.Set "last" "false" }}
+    {{ end }}
+    
+    {{ if and .url .date .text .title .image .publication }}
+      {{ $indexScratch.Set "url" .url }}
+      {{ $indexScratch.Set "date" .date }}
+      {{ $indexScratch.Set "text" .text }}
+      {{ $indexScratch.Set "title" .title }}
+      {{ $indexScratch.Set "publication" .publication }}
+      
+      {{ $dict := dict "Title" .publication "Date" (time .date) "Content" .text }}
+      {{ $indexScratch.Set "dict" $dict }}
+      {{ if .image }}
+        {{ with $.Resources.GetMatch .image }}
+          {{ $src := (.Fill "150x150").RelPermalink }}
+          {{ $indexScratch.Set "perm" $src }}
+          {{ $indexScratch.Set "dict" (merge ($indexScratch.Get "dict") (dict "imgRelPermalink" $src)) }}
+        {{ end }}
+      {{ else }}
+        {{ with $.Resources.GetMatch (print "*" (replace .title ":" "") "*") }}
+          {{ $src := (.Fill "150x150").RelPermalink }}
+          {{ $indexScratch.Set "perm" $src }}
+          {{ $indexScratch.Set "dict" (merge ($indexScratch.Get "dict") (dict "imgRelPermalink" $src)) }}
+        {{ end }}
+      {{ end }}
+
+
+
+      {{ partial "components/article" ($indexScratch.Get "dict") }}
+
+    {{ end }}
+  {{ end }}
+</div>

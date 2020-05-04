@@ -1,12 +1,25 @@
 <!DOCTYPE html>
-<html>
-    {{- partial "head.html" . -}}
-    <body>
-      <div class="container-fluid">
-        {{- partial "header.html" . -}}
-      </div>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+  {{ block "head" . }}{{ partial "head/head.html" . }}{{ end }}
+  {{ if eq .Kind "home" -}}
+    {{ .Scratch.Set "class" "home" -}}
+  {{ else if eq .Kind "404" -}}
+    {{ .Scratch.Set "class" "error404" -}}
+  {{ else if eq .Kind "page" -}}
+    {{ .Scratch.Set "class" .Type -}}
+    {{ .Scratch.Add "class" " single" -}}
+  {{ else -}}
+    {{ .Scratch.Set "class" .Type -}}
+    {{ .Scratch.Add "class" " list" -}}
+  {{ end -}}
+  <body class="{{ .Scratch.Get "class" }}">
+    {{ block "header" . }}{{ partial "head/header.html" . }}{{ end }}
+    <div class="container-fluid" role="document">
+      <div class="content">
         {{- block "main" . }}{{- end }}
-        {{- partial "footer.html" . -}}
-        {{ block "script-footer" . }}{{ partial "script-footer.html" . }}{{ end }}
-    </body>
+      </div>
+    </div>
+    {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
+      {{ block "script-footer" . }}{{ partial "script-footer.html" . }}{{ end }}
+  </body>
 </html>
