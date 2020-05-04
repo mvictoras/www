@@ -1,0 +1,18 @@
+<a href="{{ .RelPermalink }}" class="list-group-item list-group-item-action flex-column align-items-start">
+  {{ if (isset . "imgRelPermalink") }}
+    <div class="box">
+      <img style="float:left; margin-right:10px;" src={{ .imgRelPermalink }}>
+    </div>
+  {{ else }}
+    {{ with $.Resources.GetMatch (printf "*%s*" .Params.featured_image) }}
+      <div class="box">
+        <img style="float:left; margin-right:10px;" src={{ (.Fill "150x150").RelPermalink }}>
+      </div>
+    {{ end }}
+  {{ end }}
+  <div class="d-flex justify-content-between">
+    <h4 class="col-md-9 noleftpadding">{{ .Title }}</h4>
+    <small class="text-muted">{{ .Date.Format "2 January 2006" }}</small>
+  </div>
+  <p>{{ .Content | safeHTML | truncate 155 }}</p>
+</a>

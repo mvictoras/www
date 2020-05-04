@@ -1,18 +1,21 @@
 {{ define "main" }}
-<div class="container-fluid single">
   {{ with .Resources.GetMatch "featured*" }}
-  <div class="row knockout" id="{{ $.Page.Title }}" style="background: url({{ .Permalink }}) no-repeat bottom center">
+  {{ $image := .Resize "1920x" }}
+  <div class="row image-with-title" id="{{ $.Page.Title }}" style="background: url({{ $image.Permalink }}) no-repeat bottom center">
     </div>
   {{ end }}
-  <div class="container">
+  <div class="container list">
     <div class="row">
-      <div class="col-lg-9">
-        {{.Content}}
+      <div class="col-lg-8">
+        {{ if in (.Scratch.Get "class") "press" }}
+          {{ block "items-list" . }}{{ partial "press/items-list.html" . }}{{ end }}
+        {{ else }}
+          {{ block "articles-list" . }}{{ partial "posts/articles-list.html" . }}{{ end }}
+        {{ end }}
       </div>
       <div class="col-lg-3">
-        {{- partial "sidebar.html" . -}}
+        {{- partial "components/sidebar.html" . -}}
       </div>
     </div>
   </div>
-</div>
 {{ end }}

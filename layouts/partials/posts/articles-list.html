@@ -1,0 +1,6 @@
+<div class="list-group articles-group">
+  {{ range .Paginator.Pages }}
+    {{ partial "components/article" . }}
+  {{ end }}
+</div>
+{{ template "_internal/pagination.html" . }}
