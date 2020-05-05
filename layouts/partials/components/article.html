@@ -1,4 +1,9 @@
-<a href="{{ .RelPermalink }}" class="list-group-item list-group-item-action flex-column align-items-start">
+{{ if (isset . "target") }}
+<a href="{{ .RelPermalink }}" target="{{ .target }}" class="list-group-item list-group-item-action flex-column align-items-start">
+{{ else }}
+  <a href="{{ .RelPermalink }}" class="list-group-item list-group-item-action flex-column align-items-start">
+{{ end }}
+
   {{ if (isset . "imgRelPermalink") }}
     <div class="box">
       <img style="float:left; margin-right:10px;" src={{ .imgRelPermalink }}>
