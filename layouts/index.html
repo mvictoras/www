@@ -1,6 +1,9 @@
 {{ define "main" }}
 <div class="container-fluid">
-  <div class="row section-home-banner">
+
+  {{ $image := resources.Get "images/home/Victor_Mateevitsi.jpg" }}
+  {{ $image := $image.Resize "x740" }}
+  <div class="row section-home-banner" style="background: #fff url({{ $image.RelPermalink }}) no-repeat right;">
     <div class="col d-flex align-items-center">
       <div class="col-4 skills">
         <div><span class="skill1">{{ index (.Params.skills) 0 }}</span></div>
@@ -18,15 +21,17 @@
 
   </div>
 
-  <div class="row parallax parallax-spidersensevr">
+  {{ $image := resources.Get "images/home/Mateevitsi_SpiderSense_VR.jpg" }}
+  {{ $image := $image.Resize "1920x" }}
+  <div class="row parallax" style="background-image: url({{ $image.RelPermalink }});">
     <div class="container">
-      <p>By day I am a Human-Computer Interaction Research Scientist at 
-      <a href="https://www.gn.com" target="_blank">GN Advanced Science</a> in Chicago. By night, I play ice hockey, snowboard, sail, read, or develop future technologies, like <a href={{ with .Site.GetPage "/news/sensing-the-environment-through-spidersense" }}{{ .Permalink }}{{ end }}>SpiderSense</a>.</p>
+      <p>I am a Human-Computer Interaction Research Scientist at 
+      <a href="https://www.gn.com" target="_blank">GN Advanced Science</a>, founder and chair of <a href="https://www.chicagochi.org" target="_blank">ChicagoCHI</a> and co-founder of <a href="https://www.thisispickle.com/" target="_blank">PICKLE</a>. I also consult startups and companies on HCI, UX, Virtual Reality, Augmented Reality and emerging technologies. When I don't work, I play ice hockey, snowboard, sail, read, make things at <a href="https://www.pumpingstationone.org" target="_blank">Pumping Station: One</a>, or develop future technologies, like <a href={{ with .Site.GetPage "/news/sensing-the-environment-through-spidersense" }}{{ .Permalink }}{{ end }}>SpiderSense</a>.</p>
 
-      <p>My expertise lies in prototyping novel ways of interacting with next-gen technology, which sometimes might mean building hardware prototypes, other times designing innovative User Experiences. I am agile and well versed in software and hardware development, as well as fabrication. Check my portfolio to see what I am up to, <a href={{ with .Site.GetPage "/contact" }}{{ .Permalink }}{{ end }}>contact me</a> for consulting projects, collaborations, or any questions you have. More about me <a href={{ with .Site.GetPage "/about" }}{{ .Permalink }}{{ end }}>here</a>.</p>
+      <p>My expertise lies in prototyping novel ways of interacting with next-gen technology, which sometimes might mean building hardware prototypes, other times designing innovative User Experiences. I am agile and well versed in software and hardware development, as well as fabrication. Check my <a href="/posts">blog</a> to see what I am up to, <a href={{ with .Site.GetPage "/contact" }}{{ .Permalink }}{{ end }}>contact me</a> for consulting projects, collaborations, or any questions you have. More about me <a href={{ with .Site.GetPage "/about" }}{{ .Permalink }}{{ end }}>here</a>.</p>
 
    </div>
-  </div>
+ </div>
 
   {{ partial "social_row.html" (dict "social" .Site.Data.social.twitter) }}
   <div class="container experience">
@@ -34,7 +39,7 @@
     <div class="row mtb text-center">
       <div class="col-md-3">
         <img src="/img/pixar-logo.png" class="fluid-img" alt="Pixar Logo"/>
-        <p>Worked on <a href="https://graphics.pixar.com/usd/docs/index.html" target="_blank">USD</a>, a library that allows for interchange of elemental assets and animations, and is now core of Pixar's 3D graphics pipeline</p>
+        <p>Worked on <a href="https://graphics.pixar.com/usd/docs/index.html" target="_blank">USD</a>, a library that allows for interchange of elemental assets and animations and is now core of Pixar's 3D graphics pipeline</p>
       </div>
       <div class="col-md-3">
         <img src="/img/msr-logo.png" class="fluid-img" alt="Microsoft Research">
@@ -46,16 +51,18 @@
       </div>
       <div class="col-md-3">
         <img src="/img/gn-logo.png" class="fluid-img" alt="GN Logo">
-        <p>Human-Computer Interaction Research Scientist working on designing and developing next-generation devices, smart interactions, and sensor technologies</p>
+        <p>Human-Computer Interaction Research Scientist working on designing and developing next-generation devices, smart interactions and sensor technologies</p>
       </div>
     </div>
   </div>
   {{ partial "social_row.html" (dict "social" .Site.Data.social.instagram) }}
 
-  <div class="row parallax parallax-batcave">
+  {{ $image := resources.Get "images/home/Mateevitsi_batcave.jpg" }}
+  {{ $image := $image.Resize "1920x" }}
+  <div class="row parallax" style="background-image: url({{ $image.RelPermalink }});">
     <div class="container">
-      <p>I would love to get to know you and help with anything I can. Feel free to reach out, contact me on <a href="{{ .Site.Data.social.twitter.url }}" target="_blank">twitter (@{{ .Site.Data.social.twitter.handle }})</a>, or shoot me an email (<a href="mailto:mvictoras@gmail.com">mvictoras@gmail.com</a>). We can also talk during my 1871 office hours.</p>
-      <p>I would be happy to participate at your panel, conference or next event. Feel free to <a href="/contact">contact me</a>.</p>
+      <p>I love crazy ideas, difficult problems and emerging technologies. Do you or your idea fit the profile? <a href="/contact">Contact me</a>, I can help!</p>
+      <p>I also love travelling, exchanging ideas and sharing knowledge, as I have been a <a href="https://youtu.be/gtU-6cxi1OA" target="_blank">TEDx speaker</a> and spoken to world-class conferences, like the <a href="https://youtu.be/D2BZ5wCTwGU" target="_blank">Augmented World Exposition (AWE)</a>. I would be honored to participate at your panel, conference or next event. Feel free to <a href="/contact">contact me</a>.</p>
     </div>
   </div>
   {{ partial "social_row.html" (dict "social" .Site.Data.social.facebook) }}

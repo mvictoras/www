@@ -1,23 +1,21 @@
 {{ if (isset . "target") }}
-<a href="{{ .RelPermalink }}" target="{{ .target }}" class="list-group-item list-group-item-action flex-column align-items-start">
+  <a href="{{ .RelPermalink }}" target="{{ .target }}" class="list-group-item list-group-item-action flex-column align-items-start">
 {{ else }}
   <a href="{{ .RelPermalink }}" class="list-group-item list-group-item-action flex-column align-items-start">
 {{ end }}
 
   {{ if (isset . "imgRelPermalink") }}
-    <div class="box">
-      <img style="float:left; margin-right:10px;" src={{ .imgRelPermalink }}>
-    </div>
+      <img class="float-left mr-2" src={{ .imgRelPermalink }}>
   {{ else }}
     {{ with $.Resources.GetMatch (printf "*%s*" .Params.featured_image) }}
-      <div class="box">
-        <img style="float:left; margin-right:10px;" src={{ (.Fill "150x150").RelPermalink }}>
-      </div>
+        <img class="float-left mr-2" src={{ (.Fill "150x150").RelPermalink }}>
     {{ end }}
   {{ end }}
   <div class="d-flex justify-content-between">
-    <h4 class="col-md-9 noleftpadding">{{ .Title }}</h4>
-    <small class="text-muted">{{ .Date.Format "2 January 2006" }}</small>
+    <h4 class="noleftpadding">{{ .Title | truncate 70 }}</h4>
+    <small class="d-sm-block d-md-none text-nowrap text-muted">{{ .Date.Format "02/01/06" }}</small>
+    <small class="d-none d-md-block text-nowrap text-muted">{{ .Date.Format "2 January 2006" }}</small>
   </div>
-  <p>{{ .Content | safeHTML | truncate 155 }}</p>
+  <div class="d-sm-block d-md-none ">{{ .Content | plainify | htmlUnescape | truncate 130 }}</div>
+  <div class="d-none d-md-block">{{ .Content | plainify | htmlUnescape | truncate 200 }}</div>
 </a>

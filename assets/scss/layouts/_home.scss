@@ -4,19 +4,12 @@
   h1 {
     font-weight: normal;
     letter-spacing: 20px;
+    text-align: center;
+    padding-top: 1rem;
   }
 }
 
-.parallax-batcave {
-  @include parallax-region($height: 524px, $image: "/img/Mateevitsi_batcave.jpg");
-}
-
-.parallax-spidersensevr {
-  @include parallax-region($height: 624px, $image: "/img/Mateevitsi_SpiderSense_VR.jpg");
-}
-
 .section-home-banner {
-  background: $home-banner-image;
   background-size: contain;
   padding: 0;
 
