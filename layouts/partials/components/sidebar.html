@@ -32,7 +32,7 @@
       {{ $date := time .date }}
       <div class="list-group-item update-item d-flex justify-content-between">
         <h5 class="mb-1">{{ .title }}</h5>
-        <small class="text-muted">{{ $date.Format "2 Jan" }}</small>
+        <small class="text-muted text-nowrap">{{ $date.Format "2 Jan" }}</small>
       </div>
     {{ end }}
     <div class="list-group-item update-item d-flex justify-content-between">
@@ -42,7 +42,7 @@
 </div>
 
 <div class="sibedar">
-  <h2>Where to find me next</h2>
+  <h2>Where to find me</h2>
   <div class="list-group list-group-flush sibedar-updates">
     {{ range first 5 .Site.Data.events }}
       {{ $date := time .date }}

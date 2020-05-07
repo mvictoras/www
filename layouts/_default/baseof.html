@@ -14,12 +14,10 @@
   {{ end -}}
   <body class="{{ .Scratch.Get "class" }}">
     {{ block "header" . }}{{ partial "head/header.html" . }}{{ end }}
-    <div class="container-fluid" role="document">
-      <div class="content">
-        {{- block "main" . }}{{- end }}
-      </div>
+    <div class="content" role="document">
+      {{- block "main" . }}{{- end }}
     </div>
-    {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
-      {{ block "script-footer" . }}{{ partial "script-footer.html" . }}{{ end }}
+    {{ block "footer" . }}{{ partial "footer/footer.html" . }}{{ end }}
+    {{ block "script-footer" . }}{{ partial "footer/script-footer.html" . }}{{ end }}
   </body>
 </html>
