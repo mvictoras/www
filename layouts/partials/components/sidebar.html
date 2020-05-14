@@ -31,7 +31,7 @@
     {{ range first 5 .Site.Data.updates }}
       {{ $date := time .date }}
       <div class="list-group-item update-item d-flex justify-content-between">
-        <h5 class="mb-1">{{ .title }}</h5>
+        <h5 class="mb-1">{{ .title | emojify }}</h5>
         <small class="text-muted text-nowrap">{{ $date.Format "2 Jan" }}</small>
       </div>
     {{ end }}
@@ -41,19 +41,31 @@
   </div>
 </div>
 
+{{ $.Scratch.Set "hasEvents" true }}
+{{ range first 1 .Site.Data.events }}
+  {{ $date := time .date }}
+  {{ if $date.Before now }}
+    {{ $.Scratch.Set "hasEvents" false }}
+  {{ end }}
+{{ end }}
+
+{{ if ($.Scratch.Get "hasEvents") eq true }}
 <div class="sibedar">
   <h2>Where to find me</h2>
   <div class="list-group list-group-flush sibedar-updates">
     {{ range first 5 .Site.Data.events }}
       {{ $date := time .date }}
-      <div class="list-group-item update-item">
-        <div class="d-flex w-100 justify-content-between">
-          <a href="{{ .url }}" target="_blank"><h5 class="mb-1">{{ .title }}</h5></a>
-          <small class="text-muted">{{ $date.Format "2 Jan" }}</small>
+      {{ if $date.After now }}
+        <div class="list-group-item update-item">
+          <div class="d-flex w-100 justify-content-between">
+            <a href="{{ .url }}" target="_blank"><h5 class="mb-1">{{ .title }}</h5></a>
+            <small class="text-muted">{{ $date.Format "2 Jan" }}</small>
+          </div>
+          <p class="mb-1 description">{{ .description }}</p>
+          <small class="text-muted"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ .city }}</small>
         </div>
-        <p class="mb-1 description">{{ .description }}</p>
-        <small class="text-muted"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ .city }}</small>
-      </div>
+      {{ end }}
     {{ end }}
   </div>
 </div>
+{{ end }}
