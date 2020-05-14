@@ -4,13 +4,15 @@ date: 2019-06-17T09:43:39-05:00
 draft: false
 twitter: mvictoras
 ---
-Feel free to contact me to chat about anything, preferably on {{< twitter >}}. If twitter is not the right platform, then you can send me an email at {{< email address="victor" >}}. If you live in Chicago, we can also meet during my <a href="https://member.1871.com/schedule/1467" target="_blank">office hours</a> at <a href="https://www.1871.com" target="_blank">1871</a> (book me through the calendar).
 
-To book me for a panel, confernece, or event, please send me an email at {{< email address="book" >}}.
+Feel free to contact me!
 
-If you are looking for SpiderSense, look no further: <a href="https://www.spider-sense.com" target="_blank">www.spider-sense.com</a>.
+<ul class="list-group mb-4">
+  <li class="list-group-item border-0 py-0"><i class="fa fa-facebook fa-fw"></i><a href="https://www.facebook.com/vmateevitsi" target="_blank">vmateevitsi</a></li>
+  <li class="list-group-item border-0 py-0"><i class="fa fa-instagram fa-fw"></i><a href="https://www.instagram.com/mvictoras" target="_blank">mvictoras</a></li>
+  <li class="list-group-item border-0 py-0"><i class="fa fa-linkedin fa-fw"></i><a href="https://www.linkedin.com/in/mvictoras" target="_blank">mvictoras</a></li>
+  <li class="list-group-item border-0 py-0"><i class="fa fa-twitter fa-fw"></i><a href="https://twitter.com/mvictoras" target="_blank">mvictoras</a></li>
+  <li class="list-group-item border-0 py-0"><i class="fa fa-envelope fa-fw"></i>{{< cloakemail "victor@mateevitsi.com" >}}</li>
 
-For my press kit, visit my <a href="/presskit">press page</a>.
-
-If you like my work and would like to donate to keep me caffeinated, this is my Bitcoin address: 0xasdasdasd
+</ul>
 

@@ -1,0 +1,29 @@
+.image-with-title {
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+  min-height: 600px;
+  padding-top: 640px;
+  position: relative;
+}
+
+.image-with-title::before {
+  background-color: #fff;
+  bottom: 0;
+  color: #000;
+  content: " " attr(id) "";
+  display: block;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.2em;
+  margin-bottom: -1px;
+  mix-blend-mode: lighten;
+  padding: 0 0 10px;
+  position: absolute;
+  text-align: center;
+  text-transform: capitalize;
+  width: 100%;
+  z-index: 1;
+}
+
+

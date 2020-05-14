@@ -1,9 +1,16 @@
 .sibedar {
   margin-top: 20px;
+  margin-bottom: 20px;
 
   h2 {
     text-align: right;
     border-bottom: 3px solid black;
+  }
+
+  @media screen and (max-width: 992px) {
+    h2 {
+      text-align: center;
+    }
   }
 }
 
