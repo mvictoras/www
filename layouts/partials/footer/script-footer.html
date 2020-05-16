@@ -5,9 +5,10 @@
   {{ $autoloader := resources.Get "js/vendor/prism/plugins/autoloader/prism-autoloader.js" }}
   {{ $photoswipe := resources.Get "js/vendor/photoswipe/photoswipe.js" }}
   {{ $photoswipeui := resources.Get "js/vendor/photoswipe/photoswipe-ui-default.js" }}
+  {{ $processing := resources.Get "js/vendor/processing/processing.js" }}
   {{ $app := resources.Get "js/app.js" -}}
 
-  {{ $scripts := slice $jquery $bootstrap $prism $autoloader $photoswipe $photoswipeui $app }}
+  {{ $scripts := slice $jquery $bootstrap $prism $autoloader $photoswipe $photoswipeui $processing $app }}
   {{ $js := $scripts | resources.Concat "main.js" -}}
   <script src="{{ $js.Permalink }}" defer></script>
 {{ else -}}
@@ -17,9 +18,10 @@
   {{ $autoloader := resources.Get "js/vendor/prism/plugins/autoloader/prism-autoloader.min.js" }}
   {{ $photoswipe := resources.Get "js/vendor/photoswipe/photoswipe.min.js" }}
   {{ $photoswipeui := resources.Get "js/vendor/photoswipe/photoswipe-ui-default.min.js" }}
+  {{ $processing := resources.Get "js/vendor/processing/processing.min.js" }}
   {{ $app := resources.Get "js/app.js" | minify -}}
 
-  {{ $scripts := slice $jquery $bootstrap $prism $autoloader $photoswipe $photoswipeui $app }}
+  {{ $scripts := slice $jquery $bootstrap $prism $autoloader $photoswipe $photoswipeui $processing $app }}
 
   {{ $js := $scripts | resources.Concat "main.js" -}}
   {{ $secureJS := $js | resources.Fingerprint "sha512" -}}

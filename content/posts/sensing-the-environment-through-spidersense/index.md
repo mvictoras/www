@@ -7,7 +7,13 @@ related_press: [ "spidersense" ]
 aliases: [
     "/2013/02/22/sensing-the-environment-through-spidersense/"
 ]
+layout: paper
+pdf: mateevitsi.spidersense.pdf
+reference: "Mateevitsi, Victor, Brad Haggadone, Jason Leigh, Brian Kunzer, and Robert V. Kenyon. \"Sensing the environment through SpiderSense.\" In Proceedings of the 4th augmented human international conference, pp. 51-57. 2013."
 draft: false
 ---
+{{< youtube JEUgL10t03w >}}
 
 Recent scientific advances allow the use of technology to expand the number of forms of energy that can be perceived by humans. Smart sensors can detect hazards that human sensors are unable to perceive, for example radiation. This fusing of technology to human’s forms of perception enables exciting new ways of perceiving the world around us. In this paper we describe the design of SpiderSense, a wearable device that projects the wearer’s near environment on the skin and allows for directional awareness of objects around him. The millions of sensory receptors that cover the skin presents opportunities for conveying alerts and messages. We discuss the challenges and considerations of designing similar wearable devices.
+
+{{< gallery "spidersense-2.jpg" "spidersense-3.jpg" "spidersense-4.jpg" "spidersense-5.jpg" "spidersense-6.jpg" "spidersense-7.jpg" >}}

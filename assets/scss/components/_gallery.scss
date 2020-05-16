@@ -1,0 +1,24 @@
+.pswp__caption__center {
+  text-align: center;
+}
+
+.gallery {
+
+  display: table-cell;
+  padding-bottom: 20px;
+
+  figure {
+    display: inline-block;
+    width: 33.333%;
+    height: auto;
+    float: left;
+    margin: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+  .spacer {
+    height: 5em;
+  }
+}
