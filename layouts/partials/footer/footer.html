@@ -1,4 +1,8 @@
-<footer class="footer text-center">
+{{ if .IsHome }}
+  <footer class="footer text-center">
+{{ else }}
+  <footer class="footer text-center mt-4">
+{{ end }}
   <div class="footer footer-copyright text-center">&copy; {{ now.Format "2006" }} Victor Mateevitsi. Made with <div class="heart-emoji"><span style="color: #e25555;">&#9829;</span></div> in Chicago, IL
     </div>
 </footer>

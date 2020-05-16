@@ -11,9 +11,17 @@
 /** Import font-awesome  */
 @import "vendor/font-awesome/font-awesome";
 
+/** Import rrssb **/
+@import "rrssb/scss/rrssb";
+
+/** import photoswipe **/
+@import "photoswipe/src/css/main";
+@import "photoswipe/src/css/default-skin/default-skin";
+
 /** Import theme styles */
 @import "common/global";
 @import "components/color-bar";
+@import "components/gallery";
 @import "components/heart-emoji";
 @import "components/pagination";
 @import "components/parallax";

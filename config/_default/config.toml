@@ -87,3 +87,9 @@ anchor = "smart"
   [[module.mounts]]
     source = "node_modules/prismjs"
     target = "static/typo"
+  [[module.mounts]]
+    source = "node_modules/photoswipe/dist"
+    target = "assets/js/vendor/photoswipe"
+  [[module.mounts]]
+    source = "node_modules/photoswipe/dist/default-skin"
+    target = "static/images/vendor/photoswipe"
