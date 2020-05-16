@@ -28,11 +28,6 @@
             {{ . }}</div>
         {{ end }}
 
-        {{ with .Params.pictures }}
-          <h2 class="mt-2">Pictures</h2>
-          {{ partial "carousel.html" . }}
-        {{ end }}
-        
         {{ with .Params.related_press }}
           <hr class="mt-4"/>
           <h2 class="mt-2">Related Press</h2>
