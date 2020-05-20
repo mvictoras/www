@@ -10,7 +10,7 @@ workflows:
   main:
     jobs:
       - yarn/test-if-changed:
-          run-command: test
+          paths: .
       - hugo/build:
           html-proofer: true
           version: '0.71.0'
