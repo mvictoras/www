@@ -11,3 +11,4 @@ workflows:
     jobs:
       - hugo/build:
           html-proofer: true
+          version: '0.71.0'
