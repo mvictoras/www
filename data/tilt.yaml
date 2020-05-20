@@ -1,3 +1,15 @@
+- title: Code repository for Stanford Pupper and Stanford Woofer, Raspberry Pi-based quadruped robots that can trot, walk, and jump.
+  url: https://github.com/stanfordroboticsclub/StanfordQuadruped/tree/master
+  date: 2020-05-14
+- title: Geolocation in Xamarin
+  url: https://docs.microsoft.com/en-us/xamarin/essentials/geolocation?tabs=ios
+  date: 2020-05-13
+- title: Use C/C++ libraries with Xamarin
+  url: https://docs.microsoft.com/en-us/xamarin/cross-platform/cpp/#distributing-the-net-wrapper-with-nuget
+  date: 2020-05-12
+- title: Wake-word detection using Porcupine
+  url: https://github.com/Picovoice/porcupine
+  date: 2020-05-01
 - title: How to make clear ice cubes
   url: http://homebarbasics.com/ice/
   date: 2020-04-29
