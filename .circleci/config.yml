@@ -9,6 +9,9 @@ orbs:
 workflows:
   main:
     jobs:
+      - yarn/test-if-changed:
+          run-command: test
       - hugo/build:
           html-proofer: true
           version: '0.71.0'
+
