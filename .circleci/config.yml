@@ -6,12 +6,23 @@ version: 2.1
 orbs:
   hugo: circleci/hugo@0.5.2
   yarn: itinerisltd/yarn@1.0.1
+
+jobs:
+  install:
+    executor: yarn/default
+    steps:
+      - yarn/install-packages-if-changed:
+          paths: .
+
 workflows:
   main:
     jobs:
+      - install
       - yarn/test-if-changed:
           paths: .
       - hugo/build:
           html-proofer: true
-          version: '0.71.0'
+          requires: 
+            - install
+
 
