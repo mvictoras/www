@@ -8,6 +8,7 @@ languageCode = "en-US"
 paginate = 7
 rssLimit = 10
 theme = ["hugo-cloak-email"]
+timeout = 60000
 
 # add redirects/headers
 [outputs]
