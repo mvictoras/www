@@ -41,7 +41,8 @@ jobs:
 workflows:
   main:
     jobs:
-      - node/test
+      - node/test:
+          pkg-manager: yarn
       - build
 
 
