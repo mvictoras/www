@@ -1,6 +1,6 @@
 'use strict';
 
-/* global jQuery, PhotoSwipe, PhotoSwipeUI_Default, console */
+/* global jQuery, PhotoSwipe, PhotoSwipeUI_Default */
 
 (function($) {
 
@@ -14,7 +14,7 @@
         src: $link.attr('href'),
         w: $link.data('width'),
         h: $link.data('height'),
-        title: $link.data('caption')
+        title: $link.data('caption'),
       };
     container.push(item);
   });
