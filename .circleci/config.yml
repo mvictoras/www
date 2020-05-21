@@ -5,25 +5,37 @@
 version: 2.1
 orbs:
   hugo: circleci/hugo@0.5.2
-  yarn: itinerisltd/yarn@1.0.1
+  node: circleci/node@2.1.1
 
 jobs:
-  install:
-    executor: yarn/default
+  test:
+    docker:
+      - image: 'cimg/base:stable'
     steps:
       - checkout
-      - yarn/install-packages-if-changed:
-          paths: .
+      - node/install:
+          install-yarn: true
+          node-version: latest
+      - hugo/install:
+          version: 0.71.0
+      - run: yarn test
+  build:
+    docker:
+      - image: 'cimg/base:stable'
+    steps:
+      - checkout
+      - node/install:
+          install-yarn: true
+          node-version: latest
+      - hugo/install:
+          version: 0.71.0
+      - run: yarn install
+      - run: yarn build
 
 workflows:
   main:
     jobs:
-      - install
-      - yarn/test-if-changed:
-          paths: .
-      - hugo/build:
-          html-proofer: true
-          requires: 
-            - install
+      - test
+      - build
 
 
