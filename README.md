@@ -25,7 +25,7 @@
 
 Make sure all dependencies have been installed:
 
-- [Hugo](https://gohugo.io/) >= 0.69.0/extended
+- [Hugo](https://gohugo.io/) >= 0.71.0
 - [Node.js](https://nodejs.org/) >= 13.11.0
 
 ## Get started
@@ -39,28 +39,19 @@ $ git clone git@github.com:mvictoras/www.git
 Install dependencies
 
 ```
-$ npm install
+$ yarn install
 ```
 Build development theme with live reloading and injection:
 
 ```bash
-$ npm start
+$ yarn start
 ```
 
 ### Other commands
-- `npm run lint:styles` - Check Sass for errors
-- `npm run lint:scripts` - Check JavaScript for errors
-- `npm clean` - Delete temporary directories
-- `npm run clean:dep` - Delete vendor files
-- `npm build` - Build production theme
-
-### To add a js or css package
-```
-$ bower install package_name --save
-$ grunt
-```
-then edit config.toml and add package in Params under js or css.
-PLEASE NOTE that order DOES matter!
+- `yarn test` - Check Sass and JS for error
+- `yarn lint:styles` - Check Sass for errors
+- `yarn lint:scripts` - Check JavaScript for errors
+- `yarn build` - Build production theme
 
 ## Acknowledgements
 
