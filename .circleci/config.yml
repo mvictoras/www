@@ -41,7 +41,7 @@ jobs:
 workflows:
   main:
     jobs:
-      - test
+      - node/test
       - build
 
 
