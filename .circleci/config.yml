@@ -11,6 +11,7 @@ jobs:
   install:
     executor: yarn/default
     steps:
+      - checkout
       - yarn/install-packages-if-changed:
           paths: .
 
