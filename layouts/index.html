@@ -3,7 +3,20 @@
 
   {{ $image := resources.Get "images/home/Victor_Mateevitsi.jpg" }}
   {{ $image := $image.Resize "x740" }}
-  <div class="row section-home-banner" style="background: #fff url({{ $image.RelPermalink }}) no-repeat right;">
+  {{ $imageSmall := resources.Get "images/home/Victor_Mateevitsi_small.jpg" }}
+  {{ $imageSmall := $imageSmall.Resize "x500" }}
+<!-- Smalll displays -->
+  <div class="d-sm-block d-md-none row section-home-banner" style="background: #fff url({{ $imageSmall.RelPermalink }}) no-repeat right bottom;">
+    <div class="col d-flex align-items-center">
+      <div class="col-4 skills">
+        <div><span class="skill1">{{ index (.Params.skills) 0 }}</span></div>
+        <div class="skill-row"><span class="skill2">{{ index (.Params.skills) 1 }}</span></div>
+        <div class="skill-row"><span class="skill3">{{ index (.Params.skills) 2 }}</span></div>
+      </div>
+    </div>
+  </div>
+  <!-- Large displays -->
+  <div class="d-none d-md-block row section-home-banner" style="background: #fff url({{ $image.RelPermalink }}) no-repeat right bottom;">
     <div class="col d-flex align-items-center">
       <div class="col-4 skills">
         <div><span class="skill1">{{ index (.Params.skills) 0 }}</span></div>
