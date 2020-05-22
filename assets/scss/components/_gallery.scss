@@ -3,11 +3,15 @@
 }
 
 .gallery {
+  padding-bottom: $default-spacing;
+  padding-top: $default-spacing;
+  display: inline-block;
+
   figure {
     display: inline-block;
-    width: 33.333%;
     float: left;
     margin: 0;
+    width: 33.333%;
   }
 
   img {

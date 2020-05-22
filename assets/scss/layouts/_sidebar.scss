@@ -1,10 +1,10 @@
 .sibedar {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
 
   h2 {
     text-align: right;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid $body-color;
   }
 
   @media screen and (max-width: 992px) {
@@ -19,11 +19,12 @@
 }
 
 .sibedar-social-icon {
-  color: black;
+  color: $body-color;
 }
 
 .sibedar-posts {
   font-size: 0.8rem;
+  text-align: right;
 
   .list-group-item {
     border: 0;

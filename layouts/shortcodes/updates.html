@@ -1,7 +1,13 @@
+{{ $.Scratch.Set "prev" ((now.AddDate 1 0 0).Format "2006") }}
 <div class="list-group list-group-flush updates">
   {{ range .Site.Data.updates }}
     {{ $date := time .date }}
-    <div class="list-group-item update-item d-flex justify-content-between">
+    {{ $prev := $.Scratch.Get "prev" }}
+    {{ if gt $prev ($date.Format "2006") }}
+    <h1>{{ $date.Format "2006" }}</h1>
+    {{ $.Scratch.Set "prev" ($date.Format "2006") }}
+    {{ end }}
+    <div class="list-group-item update-item d-flex justify-content-between border-0">
       <h4 class="mb-1">{{ .title }}</h4>
       <small>{{ $date.Format "2 January 2006" }}</small>
     </div>
