@@ -15,12 +15,12 @@
         </div>
         {{.Content}}
                 {{ with .Params.pdf }}
-          <h2 class="mt-2">Download</h2>
+          <h2>Download</h2>
           <i class="fa fa-file-pdf-o"></i> <a href={{ . }} target=_blank>Paper PDF</a>
         {{ end }}
 
         {{ with .Params.reference }}
-          <h2 class="mt-2">Reference</h2>
+          <h2>Reference</h2>
           <div class="reference">
             {{ with $.Params.best_paper }}
               <i class="fa fa-trophy"></i>
@@ -30,7 +30,7 @@
 
         {{ with .Params.related_press }}
           <hr class="mt-4"/>
-          <h2 class="mt-2">Related Press</h2>
+          <h2>Related Press</h2>
           <ul class="list-group list-group-flush related-press">
             <!-- Iterate over the post's tags and then iterate over each press item's tags to find a match -->
             {{ range . }}
