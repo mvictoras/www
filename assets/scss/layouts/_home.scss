@@ -11,7 +11,7 @@
 
 .section-home-banner {
   padding: 0;
-  
+
   @media only screen and (min-width: $xsmall-device + 1) {
     .col {
       height: calc(100vh - #{$bar-height} - #{$menu-height});
@@ -20,7 +20,7 @@
       height: -moz-calc(100vh - #{$bar-height} - #{$menu-height}); /* firefox */
     }
   }
-  
+
   @media only screen and (max-width: $xsmall-device) {
     .col {
       height: calc(100vh - #{$bar-height-small} - #{$menu-height});
@@ -35,10 +35,10 @@
   @media only screen and (min-width: $xsmall-device + 1) {
     @include font-size($skill-font-size);
   }
+
   @media only screen and (max-width: $xsmall-device) {
     @include font-size($skill-font-size-xsmall);
   }
-
 
   font-weight: bold;
   text-align: right;
@@ -66,12 +66,11 @@
   @include bar($latest-color, black);
 
   @media only screen and (max-width: $xsmall-device) {
-    
-    height: $bar-height-small; 
+    height: $bar-height-small;
+
     a {
       font-size: 0.8rem;
     }
-
   }
 
   bottom: 0;
