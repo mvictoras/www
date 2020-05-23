@@ -3466,6 +3466,11 @@ lazy-cache@^1.0.3:
   resolved "https://registry.yarnpkg.com/lazy-cache/-/lazy-cache-1.0.4.tgz#a1d78fc3a50474cb80845d3b3b6e1da49a446e8e"
   integrity sha1-odePw6UEdMuAhF07O24dpJpEbo4=
 
+lazysizes@^5.2.1-rc2:
+  version "5.2.1-rc2"
+  resolved "https://registry.yarnpkg.com/lazysizes/-/lazysizes-5.2.1-rc2.tgz#952119348e1da4cf49df2fe76b8fbe7b3fba4e53"
+  integrity sha512-pkaaErZQdfYLTnHjVNotq29GBrCFHfiiCuCJV1Ow5xXg2kFQM/td/Ns2b6NAhbWsw1AM9JKdaykNoqVMLSeZNg==
+
 leven@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/leven/-/leven-3.1.0.tgz#77891de834064cccba82ae7842bb6b14a13ed7f2"
