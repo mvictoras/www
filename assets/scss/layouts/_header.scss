@@ -6,9 +6,11 @@
   @media only screen and (min-width: $xsmall-device + 1) {
     font-size: 3rem;
   }
+
   @media only screen and (max-width: $xsmall-device) {
     font-size: 1.3rem;
   }
+
   font-weight: bold;
 }
 
@@ -18,7 +20,7 @@
 }
 
 .nav-flex-icons {
-  -webkit-flex-direction:row;
-  -ms-flex-direction:row;
-  flex-direction:row
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
