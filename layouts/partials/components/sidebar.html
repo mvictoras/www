@@ -10,7 +10,7 @@
 <div class="sibedar">
   <h2>Latest posts</h2>
   <ul class="list-group list-group-flush sibedar-posts">
-  {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
+  {{ range first 3 (where .Site.RegularPages "Section" "news") }}
     <li class="list-group-item"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
   {{ end }}
   </ul>

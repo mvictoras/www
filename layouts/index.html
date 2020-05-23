@@ -27,7 +27,7 @@
   </div>
   <div class="row">
     <div class="col d-flex align-items-center justify-content-center latest">
-      {{ range first 1 (where .Site.Pages "Section" "posts") }}
+      {{ range first 1 (where .Site.Pages "Section" "news") }}
       <a href="{{ .RelPermalink }}">Latest: {{ .Title }} </a>
       {{ end }}
     </div>
