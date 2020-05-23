@@ -17,7 +17,7 @@ themeColor = "#fff"
 
 googleAnalytics = "UA-6150752-1"
 
-#quality = 85
+quality = 85
 #bgColor = "#fff"
 #landscapePhotoWidths = [900, 700, 500]
 #portraitPhotoWidths = [1500, 1000, 750]
