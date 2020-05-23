@@ -2,7 +2,7 @@
 title: A game-engine based virtual museum authoring and presentation system
 date: 2008-09-10T12:00:31+00:00
 aliases: [ /2008/09/10/a-game-engine-based-virtual-museum-authoring-and-presentation-system/ ]
-featured_image: vm-wide.png
+featured_image: vm-wide.jpg
 layout: paper
 pdf: mateevitsi.game.engine.pdf
 reference: "Mateevitsi, Victor, Michael Sfakianos, George Lepouras, and Costas Vassilakis. \"A game-engine based virtual museum authoring and presentation system.\" In Proceedings of the 3rd international conference on Digital Interactive Media in Entertainment and Arts, pp. 451-457. 2008."

@@ -7,15 +7,15 @@ twitterSite = "@mvictoras"
 twitterCreator = "@mvictoras"
 ogLocale = "en_US"
 schemaType = "Person"
-#schemaLogo = "logo-hyas.png"
+schemaLogo = "logo-vm.png"
 schemaTwitter = "https://twitter.com/mvictoras"
 schemaLinkedIn = "https://www.linkedin.com/in/mvictoras"
-#schemaSection = "news"
+schemaSection = "news"
 #siteLinksSearchBox = false
 
-#themeColor = "#fff"
+themeColor = "#fff"
 
-# googleAnalytics = "UA-99999999-1"
+googleAnalytics = "UA-6150752-1"
 
 #quality = 85
 #bgColor = "#fff"

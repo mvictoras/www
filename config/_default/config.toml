@@ -97,3 +97,6 @@ anchor = "smart"
   [[module.mounts]]
     source = "node_modules/processing-js"
     target = "assets/js/vendor/processing"
+  [[module.mounts]]
+    source = "node_modules/ga-lite/dist"
+    target = "static/js/vendor/ga-lite"
