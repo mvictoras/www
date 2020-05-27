@@ -8,10 +8,10 @@
     {{ end }}
     <div class="row">
       <div class="col-lg-8">
-        <h1>{{ $.Page.Title }}</h1>
+        <h1 class="mt-4">{{ $.Page.Title }}</h1>
         <div class="d-flex justify-content-between my-3">
           <h4 class="text-muted">{{ $.Page.Date.Format "January 2, 2006" }}</h4> 
-          <small>{{- partial "sharing.html" (dict "title" .Page.Title "permalink" .Page.Permalink) -}}</small>
+          <div>{{- partial "sharing.html" (dict "title" .Page.Title "permalink" .Page.Permalink) -}}</div>
         </div>
         {{.Content}}
         {{ with .Params.image_credits }}

@@ -6,7 +6,7 @@
   text-align: center;
 
   a {
-    @include font-size(1.8rem);
+    @include font-size($color-bar-font-size);
 
     word-wrap: break-word;
     font-weight: bold;

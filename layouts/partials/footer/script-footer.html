@@ -7,9 +7,10 @@
   {{ $photoswipeui := resources.Get "js/vendor/photoswipe/photoswipe-ui-default.js" }}
   {{ $processing := resources.Get "js/vendor/processing/processing.js" }}
   {{ $lazysizes := resources.Get "js/vendor/lazysizes/lazysizes.js" -}}
+  {{ $rrssb := resources.Get "js/vendor/rrssb/rrssb.js" }}
   {{ $app := resources.Get "js/app.js" -}}
 
-  {{ $scripts := slice $jquery $bootstrap $prism $autoloader $photoswipe $photoswipeui $processing $lazysizes $app }}
+  {{ $scripts := slice $jquery $bootstrap $prism $autoloader $photoswipe $photoswipeui $processing $lazysizes $rrssb $app }}
   {{ $js := $scripts | resources.Concat "main.js" -}}
   <script src="{{ $js.Permalink }}" defer></script>
 {{ else -}}
@@ -21,9 +22,10 @@
   {{ $photoswipeui := resources.Get "js/vendor/photoswipe/photoswipe-ui-default.min.js" }}
   {{ $processing := resources.Get "js/vendor/processing/processing.min.js" }}
   {{ $lazysizes := resources.Get "js/vendor/lazysizes/lazysizes.min.js" -}}
+  {{ $rrssb := resources.Get "js/vendor/rrssb/rrssb.min.js" }}
   {{ $app := resources.Get "js/app.js" | minify -}}
 
-  {{ $scripts := slice $jquery $bootstrap $prism $autoloader $photoswipe $photoswipeui $processing $lazysizes $app }}
+  {{ $scripts := slice $jquery $bootstrap $prism $autoloader $photoswipe $photoswipeui $processing $lazysizes $rrssb $app }}
 
   {{ $js := $scripts | resources.Concat "main.js" -}}
   {{ $secureJS := $js | resources.Fingerprint "sha512" -}}
