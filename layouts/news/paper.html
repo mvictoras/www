@@ -2,9 +2,7 @@
 <div class="container-fluid single">
   <div class="container">
     {{ with .Resources.GetMatch (printf "*%s*" .Params.featured_image) }}
-    <div class="row">
       <img class="img-fluid" src="{{ (.Fill "1140x500").Permalink }}" alt=" {{ $.Page.Title }}">
-    </div>
     {{ end }}
     <div class="row">
       <div class="col-lg-8">
