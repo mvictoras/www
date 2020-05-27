@@ -14,10 +14,10 @@
 
   @media only screen and (min-width: $xsmall-device + 1) {
     .col {
-      height: calc(100vh - #{$bar-height} - #{$menu-height});
-      height: -o-calc(100vh - #{$bar-height} - #{$menu-height}); /* opera */
-      height: -webkit-calc(100vh - #{$bar-height} - #{$menu-height}); /* google, safari */
-      height: -moz-calc(100vh - #{$bar-height} - #{$menu-height}); /* firefox */
+      height: calc(100vh - #{$bar-height} - #{$menu-height} * 2);
+      height: -o-calc(100vh - #{$bar-height} - #{$menu-height} * 2); /* opera */
+      height: -webkit-calc(100vh - #{$bar-height} - #{$menu-height} * 2); /* google, safari */
+      height: -moz-calc(100vh - #{$bar-height} - #{$menu-height} * 2); /* firefox */
     }
   }
 
@@ -69,7 +69,7 @@
     height: $bar-height-small;
 
     a {
-      font-size: 0.8rem;
+      font-size: $latest-font-size;
     }
   }
 
