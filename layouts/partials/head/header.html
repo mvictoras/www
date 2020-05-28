@@ -8,13 +8,13 @@
     <ul class="navbar-nav ml-auto">
       {{ $currentPage := . }}
       {{ range .Site.Menus.main.ByWeight }}
-        <li class="navbar-item {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">
+        <li class="navbar-item justify-content-center {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">
           <a class="nav-link" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
         </li>
       {{ end }}
     </ul>
-
-    <ul class="navbar-nav nav-flex-icons">
+    <div class="dropdown-divider"></div>
+    <ul class="navbar-nav nav-flex-icons justify-content-center">
       {{ range .Site.Data.social }}
       <li class="navbar-item"><a href="{{ .url }}" target="_blank"><span class="fa-stack fa">
             <i class="fa fa-circle fa-stack-2x {{ .name }}-color"></i>
@@ -22,5 +22,6 @@
           </span></a></li>
       {{ end }}
     </ul>
-  </div>
+    <div class="dropdown-divider"></div>
+</div>
 </nav>
