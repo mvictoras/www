@@ -12,6 +12,7 @@ canvas {
   display: block;
 }
 
+
 /*
 h1 {
   font-size: 3rem;
@@ -21,7 +22,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  margin-top: $default-spacing;
+  margin-to p: $default-spacing;
 }
 
 h4 {
@@ -87,17 +88,17 @@ blockquote {
 }
 
 .twitter-color {
-  color: $twitter-color;
+  color: $twitter-color !important;
 }
 
 .instagram-color {
-  color: $instagram-color;
+  color: $instagram-color !important;
 }
 
 .facebook-color {
-  color: $facebook-color;
+  color: $facebook-color !important;
 }
 
 .linkedin-color {
-  color: $linkedin-color;
+  color: $linkedin-color !important;
 }
