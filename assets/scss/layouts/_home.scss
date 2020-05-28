@@ -21,7 +21,6 @@
     }
   }
 
-
   @media only screen and (min-width: $xsmall-device + 1) {
     .col {
       height: calc(100vh - #{$bar-height} - #{$small-logo-font-size} * 2);
@@ -42,15 +41,14 @@
 }
 
 .skills {
-
-  @media screen and (max-width: $landscape-iphone) and (orientation:landscape) {
+  @media screen and (max-width: $landscape-iphone) and (orientation: landscape) {
     @include font-size($skill-font-size-iphone-landscape);
   }
-  
-  @media screen and (min-width: $landscape-iphone + 1) and (orientation:landscape) {
+
+  @media screen and (min-width: $landscape-iphone + 1) and (orientation: landscape) {
     @include font-size($skill-font-size-ipad-landscape);
   }
-  
+
   @media only screen and (min-width: $xsmall-device + 1) and (orientation: portrait) {
     @include font-size($skill-font-size);
   }
