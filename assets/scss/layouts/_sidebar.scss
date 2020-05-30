@@ -4,11 +4,11 @@
 
   h2 {
     border-bottom: 3px solid $body-color;
-    
+
     @include media-breakpoint-up(lg) {
       text-align: right;
     }
-    
+
     text-align: center;
   }
 }
@@ -16,12 +16,13 @@
 .sidebar-content {
   .list-group-item {
     font-size: $sidebar-font-size;
+
     a {
       color: $body-color;
     }
-}
-  
+  }
+
   @include media-breakpoint-up(lg) {
-      text-align: right;
+    text-align: right;
   }
 }
