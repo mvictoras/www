@@ -7,12 +7,12 @@
       {{ $scratch.Set "dict" (dict "Title" .publication "Date" (time .date) "Content" .text "RelPermalink" .url "target" "_blank") }}
       {{ if .image }}
         {{ $image := $.Resources.GetMatch .image }}
-          {{ $src := ($image.Fill "150x150").RelPermalink }}
+          {{ $src := ($image.Fill $.Site.Params.articlePhotoSize).RelPermalink }}
           {{ $scratch.Set "perm" $src }}
           {{ $scratch.Set "dict" (merge ($scratch.Get "dict") (dict "imgRelPermalink" $src)) }}
       {{ else }}
         {{ $image := $.Resources.GetMatch (print "*" (replace .title ":" "") "*") }}
-          {{ $src := ($image.Fill "150x150").RelPermalink }}
+          {{ $src := ($image.Fill $.Site.Params.articlePhotoSize).RelPermalink }}
           {{ $scratch.Set "perm" $src }}
           {{ $scratch.Set "dict" (merge ($scratch.Get "dict") (dict "imgRelPermalink" $src)) }}
       {{ end }}

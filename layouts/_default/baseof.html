@@ -14,9 +14,9 @@
   {{ end -}}
   <body class="{{ .Scratch.Get "class" }}">
     {{ block "header" . }}{{ partial "head/header.html" . }}{{ end }}
-    <div class="content" role="document">
+    <main class="content" role="main">
       {{- block "main" . }}{{- end }}
-    </div>
+    </main>
     {{ block "footer" . }}{{ partial "footer/footer.html" . }}{{ end }}
     {{ block "script-footer" . }}{{ partial "footer/script-footer.html" . }}{{ end }}
   </body>
