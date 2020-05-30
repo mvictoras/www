@@ -1,41 +1,41 @@
 <div class="sibedar">
   <h2>Social</h2>
-  <ul class="nav navbar-nav sibedar-social">
+  <ul class="list-group sidebar-content">
     {{ range .Site.Data.social }}
-    <li><a href="{{ .url }}" target="_blank">{{ .handle }}<i class="fa fa-{{ .name }} fa-fw sibedar-social-icon"></i></a></li>
+    <li class="list-group-item border-0 py-0"><h5><a href="{{ .url }}" target="_blank">{{ .handle }}<i class="fa fa-{{ .name }} fa-fw"></i></a></h5></li>
     {{end}}
   </ul>
 </div>
 
 <div class="sibedar">
   <h2>Latest posts</h2>
-  <ul class="list-group list-group-flush sibedar-posts">
+  <ul class="list-group list-group-flush sidebar-content">
   {{ range first 3 (where .Site.RegularPages "Section" "news") }}
-    <li class="list-group-item"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  <li class="list-group-item"><h5><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5></li>
   {{ end }}
   </ul>
 </div>
 
 <div class="sibedar">
   <h2>Latest press</h2>
-  <ul class="list-group list-group-flush sibedar-posts">
+  <ul class="list-group list-group-flush sidebar-content">
   {{ range first 3 .Site.Data.press.web }}
-  <li class="list-group-item py-1"><a href="{{ .url }}" target="_blank">{{ .title }} <i class="fa fa-external-link text-muted"></i></a></li>
+  <li class="list-group-item"><h5><a href="{{ .url }}" target="_blank">{{ .title }}</a></h5></li>
   {{ end }}
   </ul>
 </div>
 
 <div class="sibedar">
   <h2>Updates</h2>
-  <div class="list-group list-group-flush sibedar-updates">
+  <div class="list-group list-group-flush siderbar-content">
     {{ range first 5 .Site.Data.updates }}
       {{ $date := time .date }}
-      <div class="list-group-item update-item d-flex justify-content-between">
+      <div class="list-group-item d-flex justify-content-between">
         <h5 class="mb-1">{{ .title | emojify }}</h5>
-        <small class="text-muted text-nowrap">{{ $date.Format "2 Jan" }}</small>
+        <small class="pl-1 text-muted text-nowrap">{{ $date.Format "2 Jan" }}</small>
       </div>
     {{ end }}
-    <div class="list-group-item update-item d-flex justify-content-between">
+    <div class="list-group-item d-flex justify-content-between">
       <a class="mb-1" href="/updates">More</a>
     </div>
   </div>

@@ -3,46 +3,25 @@
   margin-bottom: 20px;
 
   h2 {
-    text-align: right;
     border-bottom: 3px solid $body-color;
-  }
-
-  @media screen and (max-width: 992px) {
-    h2 {
-      text-align: center;
+    
+    @include media-breakpoint-up(lg) {
+      text-align: right;
     }
+    
+    text-align: center;
   }
 }
 
-.sibedar-social {
-  text-align: right;
-}
-
-.sibedar-social-icon {
-  color: $body-color;
-}
-
-.sibedar-posts {
-  font-size: 0.8rem;
-  text-align: right;
-
+.sidebar-content {
   .list-group-item {
-    border: 0;
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
-  }
-}
-
-.sibedar-updates {
-  font-size: 0.8rem;
-
-  .update-item {
-    border: none;
-    padding-top: 3px;
-    padding-bottom: 3px;
-
-    .description {
-      font-size: 0.7rem;
+    font-size: $sidebar-font-size;
+    a {
+      color: $body-color;
     }
+}
+  
+  @include media-breakpoint-up(lg) {
+      text-align: right;
   }
 }

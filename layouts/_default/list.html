@@ -2,7 +2,7 @@
   {{ with .Resources.GetMatch "featured*" }}
   {{ $image := .Resize "1920x" }}
   <div class="row image-with-title" id="{{ $.Page.Title }}" style="background: url({{ $image.Permalink }}) no-repeat bottom center">
-    </div>
+  </div>
   {{ end }}
   <div class="container list">
     <div class="row">
