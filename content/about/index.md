@@ -8,7 +8,7 @@ subsubtitle: "I 'm a Research Scientist at GN in Chicago."
 draft: false
 ---
 # Hi, I \'m Victor!
-<h2 class="text-muted">I 'm a Research Scientist at GN in Chicago</h2>
+<h2 class="text-muted pb-3">I 'm a Chicago-based Research Scientist</h2>
 
 I develop emerging technologies, design futuristic interfaces and interactions, and prototype next-generation hardware devices. In other words, I envision the technology 5-10 years down the road, and then I proceed and build it. Early in my career, I realized that memorable and great experiences are due to well thought Human-Computer Interaction, and that was something I decided to focus on. I am very passionate about designing technologies that improve the quality of life for all people, especially those with disabilities.  
 
@@ -24,9 +24,9 @@ I have been blessed with working on super-exciting projects, at top-tier organiz
 
 After graduating from EVL, I cofounded {{< a link="SpatialCanvas" src="https://www.spatialcanvas.com" >}} with the vision of building the future of ARCloud, before joining {{< a link="GN Advanced Science" src="https://www.spatialcanvas.com" >}}, where I work on next-generation audio solutions, inventing and prototyping the Human-Computer Interaction tools, methodologies, and concepts.
 
-{{< figure src="mateevitsi-gn.jpg" caption="Demonstrating next-gen devices at GN's headquarters in Ballerup" >}}
-
 I draw on a diverse set of skills, including scientific visualization, computer graphics, human computer interaction, electronics, sensors, fabrication and computer vision.
+
+{{< figure src="mateevitsi-gn.jpg" caption="Demonstrating next-gen devices at GN's headquarters in Ballerup" >}}
 
 ### More facts about me
 I play Ice Hockey 🏒 since 13 years of age and was part of the {{< a link="Greek National Ice Hockey Team" src="http://www.eurohockey.com/player/125505-viktor-mateevitsi.html" >}} from 2006 - 2009 participating in the Division 3 IIHF World Championships. Today I play at Johnny's Adult Hockey League with the {{< a link="Centurions" src="https://pointstreak.com/players/players-team.html?teamid=624788&seasonid=19724"  >}}.

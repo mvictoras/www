@@ -8,7 +8,7 @@
     {{ $.Scratch.Set "prev" ($date.Format "2006") }}
     {{ end }}
     <div class="list-group-item update-item d-flex justify-content-between border-0">
-      <h4 class="mb-1">{{ .title }}</h4>
+      <h4 class="mb-1">{{ emojify .title }}</h4>
       <small>{{ $date.Format "2 January 2006" }}</small>
     </div>
   {{ end }}
