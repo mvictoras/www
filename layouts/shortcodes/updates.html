@@ -4,12 +4,12 @@
     {{ $date := time .date }}
     {{ $prev := $.Scratch.Get "prev" }}
     {{ if gt $prev ($date.Format "2006") }}
-    <h1>{{ $date.Format "2006" }}</h1>
+    <h1 class="mt-5">{{ $date.Format "2006" }}</h1>
     {{ $.Scratch.Set "prev" ($date.Format "2006") }}
     {{ end }}
     <div class="list-group-item update-item d-flex justify-content-between border-0">
       <h4 class="mb-1">{{ emojify .title }}</h4>
-      <small>{{ $date.Format "2 January 2006" }}</small>
+      <small class="pl-1 text-muted text-nowrap">{{ $date.Format "2 January" }}</small>
     </div>
   {{ end }}
 </div>
