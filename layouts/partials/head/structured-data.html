@@ -54,7 +54,7 @@
         "@id": "{{ .Permalink }}"
       },
       "headline": "{{ .Title }}",
-      {{ with .Resources.GetMatch (printf "*%s*" .Params.featured_image) }}
+      {{ with .Resources.GetMatch (string (index $.Params.images 0)) }}
       "image": {{ (.Fill "1920x").Permalink }},
       {{ end }}
       "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05CET" }}",

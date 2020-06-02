@@ -3,7 +3,7 @@ title: Futile
 author: mvictoras
 date: 2013-05-07T12:00:00+00:00
 aliases: [ /2013/05/07/futile/ ]
-featured_image: mudbug.jpg
+images: [ mudbug.jpg ]
 ---
 {{< vimeo 65615066 >}}
 

@@ -2,7 +2,7 @@
 title: FruitNinja on the CAVE2
 date: 2013-11-09T12:00:54+00:00
 aliases: [ /2013/11/09/fruitninja-on-the-cave2/ ]
-featured_image: EVL_04081.jpg
+images: [ EVL_04081.jpg ]
 image_credits: "Lance Long, Electronic Visualization Laboratory"
 draft: false
 ---

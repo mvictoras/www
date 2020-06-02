@@ -2,7 +2,7 @@
 title: Scalable visual queries for data exploration on large, high-resolution 3D displays
 date: 2012-11-12T12:00:12+00:00
 aliases: [ /2012/11/12/scalable-visual-queries-for-data-exploration-on-large-high-resolution-3d-displays/ ]
-featured_image: ants-2.jpg
+images: [ ants-2.jpg ]
 layout: paper
 image_credits: "Lance Long, Electronic Visualization Laboratory"
 pdf: ultravis12.pdf

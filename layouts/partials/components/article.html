@@ -8,7 +8,7 @@
     {{ if (isset . "imgRelPermalink") }}
       <img class="card-img-top" src={{ .imgRelPermalink }} alt="{{ .Title }}">  
     {{ else }}
-      {{ with $.Resources.GetMatch (printf "*%s*" .Params.featured_image) }}
+      {{ with $.Resources.GetMatch (string (index $.Params.images 0)) }}
       <img class="card-img-top" src={{ (.Fill $.Site.Params.articlePhotoSize).RelPermalink }} alt="{{ .Title }}">  
       {{ end }}
     {{ end }}

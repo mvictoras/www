@@ -1,7 +1,7 @@
 ---
 title: "Experience SpiderSense at the Wired to Wear exhibit"
 date: 2019-06-14T11:21:33-06:00
-featured_image: "msi-wired-to-wear-featured.jpg"
+images: [ "msi-wired-to-wear-featured.jpg" ]
 image_credits: "JB Spector/Museum of Science and Industry, Chicago."
 related_press: [ "spidersense-msi" ]
 draft: false
