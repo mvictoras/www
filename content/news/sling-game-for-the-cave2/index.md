@@ -3,7 +3,7 @@ title: Slingshot game for the CAVE2
 date: 2014-06-18T12:00:11+00:00
 aliases: [/2014/06/18/sling-game-for-the-cave2/]
 image_credits: "Lance Long, Electronic Visualization Laboratory"
-featured_image: LJL9462.jpg
+images: [ LJL9462.jpg ]
 ---
 {{< youtube 1oxt7ZWtbGg >}} 
 

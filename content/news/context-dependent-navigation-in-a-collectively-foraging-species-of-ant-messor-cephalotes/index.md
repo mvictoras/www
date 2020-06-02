@@ -2,7 +2,7 @@
 title: Context-dependent navigation in a collectively foraging species of ant, Messor cephalotes
 date: 2013-08-01T12:00:22+00:00
 aliases: [ /2013/08/01/context-dependent-navigation-in-a-collectively-foraging-species-of-ant-messor-cephalotes/ ]
-featured_image: DSC_3873.jpg
+images: [ DSC_3873.jpg ]
 layout: paper
 pdf: springer_antkenya_paper_8-13.pdf
 reference: "Offord, C., K. Reda, and V. Mateevitsi. \"Context-dependent navigation in a collectively foraging species of ant, Messor cephalotes.\" Insectes sociaux 60, no. 3 (2013): 361-368."

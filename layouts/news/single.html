@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="container-fluid single">
   <div class="container">
-    {{ with .Resources.GetMatch (printf "*%s*" .Params.featured_image) }}
+    {{ with .Resources.GetMatch (string (index $.Params.images 0)) }}
       <img class="img-fluid" src="{{ (.Fill "1140x500").Permalink }}" alt=" {{ $.Page.Title }}">
     {{ end }}
     <div class="row">

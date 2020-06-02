@@ -4,7 +4,7 @@ date: 2008-02-17T12:00:39+00:00
 aliases: [
     "/2008/02/17/div-iii-ice-hockey-world-cup-qualifications-bosnia-and-herzegovina/"
 ]
-featured_image: "IMG_2702.jpg"
+images: [ "IMG_2702.jpg" ]
 draft: false
 ---
 Without an ice-rink for years and by personally funding most of our equipment and practices, the <a href="http://www.iihf.org" target="_blank">International Ice Hockey Federation (IIHF)</a> decided in 2008 to allow us to participate in the Qualifiers for the Division III Ice Hockey World Championships. After training camps in Zlin, CZ and Pardubice, CZ, we traveled on February 17th to Sarajevo to compete for a spot on the World Championships.

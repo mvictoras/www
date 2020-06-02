@@ -1,7 +1,7 @@
 ---
 title: "Sensing the Environment through SpiderSense"
 date: 2013-02-22T12:00:00-06:00
-featured_image: "spidersense-featured.jpg"
+images: [ "spidersense-featured.jpg" ]
 image_credits: "Lance Long/Electronic Visualization Laboratory"
 related_press: [ "spidersense" ]
 aliases: [

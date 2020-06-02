@@ -2,7 +2,7 @@
 title: 'The OmegaDesk: towards a hybrid 2D and 3D work desk'
 date: 2011-09-26T12:00:39+00:00
 aliases: [ /2011/09/26/the-omegadesk-towards-a-hybrid-2d-and-3d-work-desk/ ]
-featured_image: omegadeks-1.jpg
+images: [ omegadeks-1.jpg ]
 layout: paper
 image_credits: "Lance Long, Electronic Visualization Laboratory"
 pdf: isvc11_febretti.pdf

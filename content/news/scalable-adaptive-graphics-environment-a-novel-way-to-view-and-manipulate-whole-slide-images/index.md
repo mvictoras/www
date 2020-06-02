@@ -2,7 +2,7 @@
 title: 'Scalable Adaptive Graphics Environment: A Novel Way to View and Manipulate Whole-Slide Images'
 date: 2014-09-02T12:00:18+00:00
 aliases: [ /2014/09/02/scalable-adaptive-graphics-environment-a-novel-way-to-view-and-manipulate-whole-slide-images/ ]
-featured_image: wsi-2.jpg
+images: [ wsi-2.jpg ]
 layout: paper
 image_credits: "Dr. Bruce Levy, University of Illinois at Chicago"
 pdf: Scalable_adaptive_graphics_environment_a.pdf

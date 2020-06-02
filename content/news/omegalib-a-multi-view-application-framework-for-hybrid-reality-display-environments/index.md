@@ -2,7 +2,7 @@
 title: 'Omegalib: A multi-view application framework for hybrid reality display environments'
 date: 2014-04-29T12:00:08+00:00
 aliases: [/2014/04/29/omegalib-a-multi-view-application-framework-for-hybrid-reality-display-environments/]
-featured_image: cave2-1.jpg
+images: [ cave2-1.jpg ]
 layout: paper
 image_credits: "Lance Long, Electronic Visualization Laboratory"
 pdf: omegalib-vr14-short.pdf

@@ -2,7 +2,7 @@
 title: 'SAGE2: A New Approach for Data Intensive Collaboration Using Scalable Resolution Shared Displays'
 date: 2014-10-22T12:00:44+00:00
 aliases: [ /2014/10/22/sage2-a-new-approach-for-data-intensive-collaboration-using-scalable-resolution-shared-displays/ ]
-featured_image: sage2.jpg
+images: [ sage2.jpg ]
 layout: paper
 image_credits: "Lance Long, Electronic Visualization Laboratory"
 pdf: collaborate_com2014.pdf

@@ -2,7 +2,7 @@
 title: The Blog Awakeness
 date: 2016-01-15T23:21:47+00:00
 aliases: [ "/2016/01/15/blog/" ]
-featured_image: spark.jpg
+images: [ spark.jpg ]
 ---
 
 I first started this website back in 2008 so I can strengthen my online presence. Since then this place has evolved from a single page with my information, to a portal with all my research, and finally now to a more dynamic entity. Thankfully, during the multiple iterations of it&#8217;s design and functionality, I saved a few screenshots of the evolution over the years. I am in the middle of re-organizing my files and backup solutions and once I am done, I will update this post and add those pictures.

@@ -2,7 +2,7 @@
 title: Video index and search services based on content identification features
 date: 2008-03-31T12:00:01+00:00
 aliases: [ /2008/03/31/video-index-and-search-services-based-on-content-identification-features/ ]
-featured_image: divas-1.jpg
+images: [ divas-1.jpg ]
 layout: paper
 pdf: doumenis-video.pdf
 reference: "Doumenis, Gregory, Serafeim Papastefanos, Victor Mateevitsi, Fotis Andritsopoulos, Nikos Achilleopoulos, and Anton V. Mikhalev. \"Video index and search services based on content identification features.\" In 2008 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting, pp. 1-4. IEEE, 2008."

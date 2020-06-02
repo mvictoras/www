@@ -2,7 +2,7 @@
 title: 'The health bar: a persuasive ambient display to improve the office worker’s well being'
 date: 2014-03-07T12:00:20+00:00
 aliases: [ /2014/03/07/the-health-bar-a-persuasive-ambient-display-to-improve-the-office-workers-well-being/ ]
-featured_image: HealthBar720.jpg
+images: [ HealthBar720.jpg ]
 layout: paper
 image_credits: "Lance Long, Electronic Visualization Laboratory"
 pdf: mateevitsi.healthbar.pdf

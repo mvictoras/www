@@ -2,7 +2,7 @@
 title: A human-computer collaborative workflow for the acquisition and analysis of terrestrial insect movement in behavioral field studies
 date: 2013-08-01T12:00:46+00:00
 aliases: [ /2013/08/01/a-human-computer-collaborative-workflow-for-the-acquisition-and-analysis-of-terrestrial-insect-movement-in-behavioral-field-studies/ ]
-featured_image: Ants.jpg
+images: [ Ants.jpg ]
 layout: paper
 pdf: eurasip_ants.pdf
 reference: "Reda, Khairi, Victor Mateevitsi, and Catherine Offord. \"A human-computer collaborative workflow for the acquisition and analysis of terrestrial insect movement in behavioral field studies.\" EURASIP Journal on Image and Video Processing 2013, no. 1 (2013): 1-17."

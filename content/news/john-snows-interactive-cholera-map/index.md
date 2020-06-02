@@ -2,7 +2,7 @@
 title: John Snow’s Interactive Cholera Map
 date: 2009-09-01T19:41:06+00:00
 aliases: [ /2009/09/01/john-snows-interactive-cholera-map/ ]
-featured_image: CholeraScreenCover.jpg
+images: [ CholeraScreenCover.jpg ]
 draft: false
 ---
 
@@ -26,7 +26,7 @@ Application has been developed in <a href="http://www.processing.org" target="_b
 
 ### Gallery
 
-{{< gallery "CholeraScreen1.png" "CholeraScreen2.png" "CholeraScreen3.png" "CholeraScreen4.png" "CholeraScreen5.png" >}}
+{{< gallery "CholeraScreen1.jpg" "CholeraScreen2.jpg" "CholeraScreen3.jpg" "CholeraScreen4.jpg" "CholeraScreen5.jpg" >}}
 
 ### Acknowledgements
 

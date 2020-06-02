@@ -2,7 +2,7 @@
 title: Immunohistochemical Evaluation of Bleeding Control Induced by Holmium Laser and Biolase Dental Laser As Coagulting Devices of Incisional Wounds
 date: 2014-03-06T12:00:30+00:00
 aliases: [ /2014/03/06/immunohistochemical-evaluation-of-bleeding-control-induced-by-holmium-laser-and-biolase-dental-laser-as-coagulting-devices-of-incisional-wounds/ ]
-featured_image: OmegaDesk.jpg
+images: [ OmegaDesk.jpg ]
 layout: paper
 image_credits: "Lance Long, Electronic Visualization Laboratory"
 pdf: bassiony_radosevish_2014.pdf
