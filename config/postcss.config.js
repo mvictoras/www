@@ -12,6 +12,10 @@ module.exports = {
       ],
       whitelist: [
         'lazyloaded',
+        'facebook-color',
+        'twitter-color',
+        'instagram-color',
+        'linkedin-color',
         ...whitelister([
           './assets/scss/common/_syntax.scss',
           './assets/scss/components/_code.scss',
