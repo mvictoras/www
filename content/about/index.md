@@ -10,7 +10,7 @@ draft: false
 # Hi, I \'m Victor!
 <h2 class="text-muted pb-3">I 'm a Chicago-based Research Scientist</h2>
 
-I develop emerging technologies, design futuristic interfaces and interactions, and prototype next-generation hardware devices. In other words, I envision the technology 5-10 years down the road, and then I proceed to build it. Early in my career, I realized that memorable and great experiences are due to well thought Human-Computer Interaction, and that was something I decided to focus on. I am very passionate about designing technologies that improve the quality of life for all people, especially those with disabilities.  
+I develop emerging technologies, design futuristic interfaces and interactions, and prototype next-generation hardware devices. In other words, I envision the technology 5-10 years down the road, and then I proceed to build it. Early in my career, I realized the endless possibilities of Human-Computer Interaction (HCI). Fascinated by the ways HCI can help understand and enhance human activities and experiences, I decided to focus my academic and professional career on finding new ways to improve the quality of life of real people all over the world—especially those with disabilities. 
 
 {{< figure src="mateevitsi-spidersense2.jpg" caption="The SpiderSense jacket" >}}
 
