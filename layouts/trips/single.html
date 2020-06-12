@@ -1,0 +1,38 @@
+{{ define "main" }}
+<div class="container-fluid single">
+  <div class="row mx-5">
+    <div class="card">
+    {{ with .Resources.GetMatch (index $.Params.images 0) }}
+      <img class="card-img" src={{ .RelPermalink }} alt="{{ $.Page.Title }}">
+    {{ end }}
+      <div class="card-img-overlay">
+        <div class="d-flex flex-row justify-content-end">
+          <h1 class="card-title mr-3">{{ .Page.Title }}</h1>
+          {{ with .Resources.GetMatch .Params.flag }}
+            <img src="{{ .RelPermalink }}" alt="{{ $.Page.Title }} flag">
+          {{ end }}
+        </div>
+        <h2 class="card-text mt-4">{{ .Page.Description }}</h2>
+        {{ with .Resources.GetMatch .Params.map }}
+        <div class="d-flex flex-row justify-content-end">
+          <img src="{{ .RelPermalink }}" alt="{{ $.Page.Title }} map">
+          </div>
+        {{ end }}
+      </div>
+      <div class="card-footer">
+        {{ .Params.days }} DAYS | {{ .Params.cities }} CITIES | {{ .Params.km }} KILOMETERS
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row mx-5">
+        <div class="content">{{ .Page.Content }}</div>
+      
+        <div class="card travelers mt-5">
+          <h5>TRAVELERS</h5>
+        </div>
+</div>
+
+      </div>
+</div>
+{{ end }}

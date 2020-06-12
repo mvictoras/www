@@ -53,6 +53,10 @@ $ yarn start
 - `yarn lint:scripts` - Check JavaScript for errors
 - `yarn build` - Build production theme
 
+## Notes
+Flags: https://www.countryflags.com/en/
+
+
 ## Acknowledgements
 
 Website structure inspired by [Hugo starter](https://github.com/h-enk/hyas)
