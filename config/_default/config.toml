@@ -103,3 +103,12 @@ anchor = "smart"
   [[module.mounts]]
     source = "node_modules/lazysizes"
     target = "assets/js/vendor/lazysizes"
+  [[module.mounts]]
+    source = "node_modules/scrollmagic/scrollmagic"
+    target = "assets/js/vendor/scrollmagic"
+  [[module.mounts]]
+    source = "node_modules/gsap/dist"
+    target = "assets/js/vendor/gsap"
+  [[module.mounts]]
+    source = "node_modules/velocity-animate"
+    target = "assets/js/vendor/velocity"
