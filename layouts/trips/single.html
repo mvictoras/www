@@ -52,7 +52,33 @@
           {{ readFile "/content/trips/ethiopia/world.svg" | safeHTML }} 
         </section>
       </div>
-      <div class="my-5 py-5">
+      <div class="mapMore container-fluid">
+        <div class="row">
+      <div class="col-3">
+          {{ with .Resources.GetMatch .Params.flag }}
+            <img src="{{ .RelPermalink }}" alt="{{ $.Page.Title }} flag">
+          {{ end }}
+      </div>
+            <div class="population col">
+              <div class="d-flex flex-column">
+                <div>POPULATION</div>
+                <div>{{ .Params.population }}</div>
+              </div>
+            </div>
+            <div class="population col">
+              CAPITAL
+            </div>
+            <div class="language col">
+              LANGUAGE
+            </div>
+            <div class="currency col">
+              CURRENCY
+            </div>
+            <div class="timezone col">
+              TIMEZONE
+            </div>
+        </div>
+        </div>
       </div>
     </div>
 </div>

@@ -8,6 +8,11 @@ map: "ethiopiaMap.png"
 days: 14
 cities: 3
 km: 1200
+population: 109M
+capital: Addis Ababa
+language: Amharic
+currency: Birr
+timezone: UTC+3
 draft: false
 ---
 
