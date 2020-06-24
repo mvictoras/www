@@ -112,5 +112,6 @@ anchor = "smart"
   [[module.mounts]]
     source = "node_modules/velocity-animate"
     target = "assets/js/vendor/velocity"
+  [[module.mounts]]
     source = "node_modules/academicons/fonts"
     target = "static/fonts"
