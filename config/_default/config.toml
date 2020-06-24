@@ -103,3 +103,6 @@ anchor = "smart"
   [[module.mounts]]
     source = "node_modules/lazysizes"
     target = "assets/js/vendor/lazysizes"
+  [[module.mounts]]
+    source = "node_modules/academicons/fonts"
+    target = "static/fonts"
