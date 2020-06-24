@@ -21,7 +21,7 @@
 {{/* set the sizes attribute to (min-width: 35em) 1200px, 100vw unless overridden in shortcode */}}
 
 <figure class="figure mx-auto d-block">
-  <img class="figure-img img-fluid mx-auto d-block" src='{{ $file.Permalink }}'
+  <img class="figure-img img-fluid mx-auto d-block lazyload" src='{{ $file.Permalink }}'
     {{ with .Get "caption" }}alt='{{.}}'{{ end }}>
   {{ with .Get "caption" }}<figcaption class="figure-caption text-center">{{ . }}</figcaption>{{ end }}
 </figure>
