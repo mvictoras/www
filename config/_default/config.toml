@@ -115,3 +115,6 @@ anchor = "smart"
   [[module.mounts]]
     source = "node_modules/@svgdotjs/svg.js/dist"
     target = "assets/js/vendor/svg.js"
+  [[module.mounts]]
+    source = "node_modules/academicons/fonts"
+    target = "static/fonts"
