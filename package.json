@@ -19,7 +19,7 @@
     "@fullhuman/postcss-purgecss": "^2.3",
     "autoprefixer": "^9.8",
     "eslint": "^7.6",
-    "ga-lite": "^2.0.5",
+    "ga-lite": "^2.1.0",
     "netlify-lambda": "^2.0",
     "postcss-cli": "^7.1",
     "purgecss-whitelister": "^2.4",
