@@ -1,0 +1,12 @@
+- title: Pixar
+  logo: "/images/pixar-logo.png"
+  desc: "Worked on <a href='https://graphics.pixar.com/usd/docs/index.html' target='_blank'>USD</a>, a library that allows for interchange of elemental assets and animations and is now core of Pixar's 3D graphics pipeline."
+- title: Microsoft Research
+  logo: "/images/msr-logo.png"
+  desc: "Developed a multi-user Mixed Reality library for sharing collocated Augmented Reality experiences with father of VR, <a href='//en.wikipedia.org/wiki/Jaron_Lanier' target='_blank'>Jaron Lanier</a>."
+- title: DreamWorks Animation
+  logo: "/images/dwa-logo.png"
+  desc: "Contributed to the development of <a href='//www.theverge.com/2014/6/12/5804070/the-amazing-animation-software-behind-how-to-train-your-dragon-2' target='_blank'>Premo</a>, the animation tool behind Oscar-nominated movies like <i>How To Train Your Dragon 2.</i>"
+- title: GN Group
+  logo: "/images/gn-logo.png"
+  desc: "Worked on designing and developing next-generation devices, smart interactions and sensor technologies."
