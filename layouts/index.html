@@ -43,30 +43,14 @@
 
       <p>My expertise lies in large-scale visualizations, and prototyping novel ways of interacting with next-gen technology, which sometimes means building hardware prototypes; at other times designing innovative User Experiences. I am agile and well versed in software and hardware development, as well as fabrication. Check my <a href="/posts">blog</a> to see what I am up to, <a href={{ with .Site.GetPage "/contact" }}{{ .Permalink }}{{ end }}>contact me</a> for consulting projects, collaborations, or any questions you have. Find out more about me <a href={{ with .Site.GetPage "/about" }}{{ .Permalink }}{{ end }}>here</a>.</p>
 
-   </div>
- </div>
-
-  {{ partial "social_row.html" (dict "social" .Site.Data.social.twitter) }}
-  <div class="container experience">
-    <div class="row mtb text-center mt-5">
-      <div class="col-md-3">
-        <img src="/images/pixar-logo.png" class="fluid-img" alt="Pixar Logo"/>
-        <p>Worked on <a href="https://graphics.pixar.com/usd/docs/index.html" target="_blank">USD</a>, a library that allows for interchange of elemental assets and animations and is now core of Pixar's 3D graphics pipeline.</p>
-      </div>
-      <div class="col-md-3">
-        <img src="/images/msr-logo.png" class="fluid-img" alt="Microsoft Research">
-        <p>Developed a multi-user Mixed Reality library for sharing collocated Augmented Reality experiences with father of VR, <a href="//en.wikipedia.org/wiki/Jaron_Lanier" target="_blank">Jaron Lanier</a>.</p>
-      </div>
-      <div class="col-md-3">
-        <img src="/images/dwa-logo.png" class="fluid-img" alt="Mortgage Loans">
-        <p>Contributed to the development of <a href="//www.theverge.com/2014/6/12/5804070/the-amazing-animation-software-behind-how-to-train-your-dragon-2" target="_blank">Premo</a>, the animation tool behind Oscar-nominated movies like <i>How To Train Your Dragon 2.</i></p>
-      </div>
-      <div class="col-md-3">
-        <img src="/images/gn-logo.png" class="fluid-img" alt="GN Logo">
-        <p>Worked on designing and developing next-generation devices, smart interactions and sensor technologies.</p>
-      </div>
     </div>
   </div>
+
+
+  {{ partial "social_row.html" (dict "social" .Site.Data.social.twitter) }}
+  
+  {{ partial "components/experience-list" . }}
+  
   {{ partial "social_row.html" (dict "social" .Site.Data.social.instagram) }}
 
   {{ $image := resources.Get "images/home/Mateevitsi_batcave.jpg" }}
