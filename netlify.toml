@@ -10,6 +10,7 @@
 
 [context.deploy-preview]
   command = "yarn build:preview"
+  HUGO_ENV = "staging"
 
 [context.branch-deploy]
   command = "yarn build"
