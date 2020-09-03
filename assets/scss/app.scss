@@ -21,6 +21,10 @@
 /** import academicons **/
 @import "academicons/css/academicons";
 
+/** Import slick-carousel **/
+@import "slick-carousel/slick/slick.scss"
+@import "slick-carousel/slick/slick-theme.scss"
+
 /** Import theme styles */
 @import "common/global";
 @import "components/color-bar";

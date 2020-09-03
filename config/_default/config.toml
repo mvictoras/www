@@ -106,3 +106,6 @@ anchor = "smart"
   [[module.mounts]]
     source = "node_modules/academicons/fonts"
     target = "static/fonts"
+  [[module.mounts]]
+    source = "node_modules/slick-carousel/slick"
+    target = "static/js/vendor/slick"

@@ -38,6 +38,7 @@
     "popper.js": "^1.16.1",
     "prismjs": "^1.21.0",
     "processing-js": "^1.6.6",
-    "rrssb": "^1.14.0"
+    "rrssb": "^1.14.0",
+    "slick-carousel": "^1.8.1"
   }
 }
