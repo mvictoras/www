@@ -15,5 +15,5 @@ $('.carousel-item').each(function(){
 });
 
 $('#carousel-experience').carousel({
-  interval: 5000
+  interval: 5000,
 });

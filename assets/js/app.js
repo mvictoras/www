@@ -1,6 +1,6 @@
 'use strict';
 
-/* global jQuery, PhotoSwipe, PhotoSwipeUI_Default */
+/* global PhotoSwipe, PhotoSwipeUI_Default */
 
 (function($) {
 
