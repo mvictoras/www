@@ -1,2 +1,2 @@
-baseurl = "https://staging.vmateevitsi.com/"
+baseurl = "/"
 canonifyURLs = false
