@@ -3,6 +3,8 @@ $('.carousel-experience').slick({
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 4000,
+  dots: false,
+  arrows: false,
   responsive: [
     {
       breakpoint: 1024,
