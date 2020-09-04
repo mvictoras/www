@@ -26,7 +26,7 @@
   {{ $lazysizes := resources.Get "js/vendor/lazysizes/lazysizes.min.js" -}}
   {{ $rrssb := resources.Get "js/vendor/rrssb/rrssb.min.js" }}
   {{ $experienceCarousel := resources.Get "js/experience-carousel.js" | minify -}}
-  {{ $slick := resources.Get "js/vendor/slick/slick.min.js" -}}
+  {{ $slick := resources.Get "js/vendor/slick/slick.js" | minify -}}
   {{ $app := resources.Get "js/app.js" | minify -}}
 
   {{ $scripts := slice $jquery $bootstrap $prism $autoloader $photoswipe $photoswipeui $processing $lazysizes $rrssb $slick $app $experienceCarousel }}
