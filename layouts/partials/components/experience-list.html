@@ -1,11 +1,7 @@
 <div class="container">
-  <div id="carousel-experience" class="carousel slide carousel-multi-item v-2" data-ride="carousel">
-    <div class="carousel-inner v-2" role="listbox">
-      {{ range $i, $e := .Site.Data.experience }}
-        <div class="carousel-item {{ if (eq $i 0) }}active{{ end }}">
-        {{ partial "components/experience-item.html" $e }}
-        </div>
-      {{ end }}
-    </div>
+  <div class="carousel-experience">
+    {{ range $i, $e := .Site.Data.experience }}
+      {{ partial "components/experience-item.html" $e }}
+    {{ end }}
   </div>
 </div>
