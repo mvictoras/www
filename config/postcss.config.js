@@ -19,6 +19,8 @@ module.exports = {
         ...whitelister([
           './assets/scss/common/_syntax.scss',
           './assets/scss/components/_code.scss',
+          './assets/scss/vendor/slick/slick.scss',
+          './assets/scss/vendot/slick/slick-theme.scss',
         ]),
       ],
     }),
