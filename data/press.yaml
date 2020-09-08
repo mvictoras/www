@@ -86,20 +86,22 @@ print:
 web:
   - date: 2019-03-27
     publication: Hyde Park Herald
-    title: ‘Wired to Wear’ opens at MSI
-    text: "A new exhibit at the Museum of Science and Industry lets visitors grasp the hands-on and present possibilities of wearable technologies and think of the spectacular possibilities ahead. “Wired to Wear” weaves together design, engineering and art from 15 different countries, brands like Google and applied technology from the University of Illinois at Chicago. Anthony Vitagliano, who runs exhibitions and engagement at MSI, said “Wired to Wear” is the world’s first exhibition on wearable technology “from backpacks to jetpacks.” (Indeed, a man with the latter flew over MSI’s north entrance in a press event to launch the exhibition.)"
+    title: "'Wired to Wear' opens at MSI"
+    text: "A new exhibit at the Museum of Science and Industry lets visitors grasp the hands-on and present possibilities of wearable technologies and think of the spectacular possibilities ahead. \"Wired to Wear\" weaves together design, engineering and art from 15 different countries, brands like Google and applied technology from the University of Illinois at Chicago. Anthony Vitagliano, who runs exhibitions and engagement at MSI, said \"Wired to Wear\" is the world's first exhibition on wearable technology \"from backpacks to jetpacks.\" (Indeed, a man with the latter flew over MSI's north entrance in a press event to launch the exhibition.)"
     url: https://hpherald.com/2019/03/27/wired-to-wear-opens-at-msi/
+    image: "uic-msi-spidersense.jpg"
     tags: [ 'spidersense-msi' ]
   - date: 2019-03-21
     publication: Chicago Sun Times
     title: Real-life Iron Man opens Museum of Science and Industry ‘Wired to Wear’ exhibit
     text: "From afar, Richard Browning — dressed in snug, all-black attire and with smoke billowing near his feet — resembled a mime standing over a smoldering fire. Then the scream of four miniature jet engines tore across the courtyard in front of the Museum of Science and Industry, Browning’s 5-foot-9 frame lifted off the ground and he — along with his 55-pound “jet suit” — hurtled toward 100 or so awestruck spectators Thursday morning. “It’s OK. You can take off the headphones now,” Browning said a few moments later, the air rippling behind him as he cut the engines, which resembled four black telescopic camera lenses jutting out from his wrists."
     url: https://chicago.suntimes.com/news/msi-museum-science-industry-wired-to-wear-exhibit-jet-suit/
+    image: "suntimes-msi-spidersense.jpg"
     tags: [ 'spidersense-msi' ]
   - date: 2019-03-21
     publication: PR Newswire
     title: First-Ever Exhibit Dedicated To The Future Of Wearable Technology Opens At Chicago's Museum Of Science And Industry
-    text: " The Museum of Science and Industry, Chicago (MSI) announces the opening of Wired to Wear, the first-ever exhibit dedicated to the future of wearable technology. The 8,000 square foot exhibit brings together cutting-edge technologies from industry pioneers and creative visionaries, showcasing how our clothing is becoming infused with tools to make us stronger, smarter and healthier."
+    text: "The Museum of Science and Industry, Chicago (MSI) announces the opening of Wired to Wear, the first-ever exhibit dedicated to the future of wearable technology. The 8,000 square foot exhibit brings together cutting-edge technologies from industry pioneers and creative visionaries, showcasing how our clothing is becoming infused with tools to make us stronger, smarter and healthier."
     url: https://www.prnewswire.com/news-releases/first-ever-exhibit-dedicated-to-the-future-of-wearable-technology-opens-at-chicagos-museum-of-science-and-industry-300816141.html
     image: "pr-msi.jpg"
     tags: [ 'spidersense-msi' ]
@@ -109,6 +111,13 @@ web:
     text: "Self-lacing sneakers, a jet suit that can travel 30 miles an hour and a headdress that uses brain waves to change color are among the 100 or so wearable fashion pieces on exhibit at The Museum of Science & Industry, starting March 21."
     url: https://www.chicagobusiness.com/arts-entertainment/museum-science-industry-opening-first-ever-wearable-fashion-exhibit
     image: "crains-msi.jpg"
+    tags: [ 'spidersense-msi' ]
+  - date: 2019-03-14
+    publication: "UIC Computer Science Department News"
+    title: "UIC alumnus Victor Mateevitsi’s SpiderSense jacket included in MSI’s Wired to Wear™ exhibition"
+    text: "A jet suit that can travel more than 30 miles per hour and ascend to 12,000 feet. Self-lacing sneakers. And a jacket that allows its wearer to navigate by using vibrations to alert them to obstacles in close proximity."
+    url: https://cs.uic.edu/news-stories/uic-alumnus-victor-mateevitsis-spidersense-jacket-included-in-msis-wired-to-wear-exhibition/
+    image: "uic-msi-spidersense.jpg"
     tags: [ 'spidersense-msi' ]
   - date: 2016-08-10
     publication: Chicago Tribune
