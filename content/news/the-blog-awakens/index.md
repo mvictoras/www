@@ -1,7 +1,7 @@
 ---
-title: The Blog Awakeness
+title: The Blog Awakens
 date: 2016-01-15T23:21:47+00:00
-aliases: [ "/2016/01/15/blog/" ]
+aliases: [ "/2016/01/15/blog/", "/the-blog-awakeness" ]
 images: [ spark.jpg ]
 ---
 
