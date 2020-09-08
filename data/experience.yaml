@@ -1,6 +1,6 @@
 - title: Argonne National Laboratory
   logo: "/images/anl-logo.png"
-  desc: "Currently working on exascale large-scale visualizations running on the supercomputer at the <a href='https://www.alcf.anl.gov' target='_blank'>Argonne Leadership Computing Facility</a>."
+  desc: "Currently working on in-situ large-scale visualizations running on the Supercomputer at the <a href='https://www.alcf.anl.gov' target='_blank'>Argonne Leadership Computing Facility</a>."
 - title: Pixar
   logo: "/images/pixar-logo.png"
   desc: "Worked on <a href='https://graphics.pixar.com/usd/docs/index.html' target='_blank'>USD</a>, a library that allows for interchange of elemental assets and animations and is now core of Pixar's 3D graphics pipeline."
