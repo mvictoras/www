@@ -3,14 +3,13 @@ title: "About"
 date: 2019-06-17T09:43:35-05:00
 type: "about"
 subtitle: "Hi, I 'm Victor!"
-subsubtitle: "I 'm a Research Scientist at GN in Chicago."
 
 draft: false
 ---
 # Hi, I \'m Victor!
-<h2 class="text-muted pb-3">I 'm a Chicago-based Computer Scientist</h2>
+<h2 class="text-muted pb-3">I 'm a Computer Scientist at ANL</h2>
 
-I design interactive visualizations of domain-specific high-resolution large-scale datasets, develop emerging technologies, design futuristic interfaces and interactions, and prototype next-generation hardware devices. In other words, I envision the technology 5-10 years down the road, and then I proceed to build it. Early in my career, I realized the endless possibilities of Computer Graphics and Human-Computer Interaction (HCI). Fascinated by the ways Computer Graphics can help understand complex multi-dimensional data, and by the ways HCI can help understand and enhance human activities and experiences, I decided to focus my academic and professional career on finding new ways to improve data discovery and analysis for domain scientists all over the world. 
+I design interactive visualizations of domain-specific high-resolution large-scale datasets, develop emerging technologies, create futuristic interfaces and interactions, and prototype next-generation hardware devices. In other words, I envision the technology 5-10 years down the road, and then I proceed to build it. Early in my career, I realized the endless possibilities of Computer Graphics and Human-Computer Interaction (HCI). Fascinated by the ways Computer Graphics can help understand complex multi-dimensional data, and by the ways HCI can help understand and enhance human activities and experiences, I decided to focus my academic and professional career on finding new ways to improve data discovery and analysis for domain scientists all over the world. 
 
 {{< figure src="mateevitsi-spidersense2.jpg" caption="The SpiderSense jacket" >}}
 
@@ -22,7 +21,7 @@ I have been fortunate to have worked on super-exciting projects, at top-tier org
 
 {{< figure src="mateevitsi-pixar.jpg" caption="Stroking Sulley's beard" >}}
 
-After graduating from {{< a link="EVL" src="https://www.evl.uic.edu" >}}, I co-founded {{< a link="SpatialCanvas" src="https://www.spatialcanvas.com" >}} with the vision of building the future of ARCloud, before joining {{< a link="GN Advanced Science" src="https://www.spatialcanvas.com" >}}, where I worked on next-generation audio solutions, inventing and prototyping the Human-Computer Interaction tools, methodologies, and concepts. I currently hold a Computer Scientist position at the {{< a link="Argonne Leadership Computing Facility" src="https://www.alcf.anl.gov" >}} (ALCF), {{< a link="Argonne National Laboratory" src="https://www.anl.gov" >}} (ANL), working with the Visualization and Data Analytics team on visualizing exascale large-scale datasets that have been simulated on the supercomputer.
+After graduating from {{< a link="EVL" src="https://www.evl.uic.edu" >}}, I co-founded {{< a link="SpatialCanvas" src="https://www.spatialcanvas.com" >}} with the vision of building the future of ARCloud, before joining {{< a link="GN Advanced Science" src="https://www.spatialcanvas.com" >}}, where I worked on next-generation audio solutions, inventing and prototyping Human-Computer Interaction tools, methodologies, and concepts. I currently hold a Computer Scientist position at the {{< a link="Argonne Leadership Computing Facility" src="https://www.alcf.anl.gov" >}} (ALCF), {{< a link="Argonne National Laboratory" src="https://www.anl.gov" >}} (ANL), working with the Visualization and Data Analytics team on visualizing large-scale datasets that have been simulated on the Supercomputer.
 
 I draw on a diverse set of skills, including scientific visualization, computer graphics, human computer interaction, electronics, sensors, fabrication and computer vision.
 
