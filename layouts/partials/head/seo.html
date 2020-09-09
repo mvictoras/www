@@ -8,6 +8,14 @@
   {{ end -}}
 {{ end -}}
 
+{{ if and ( not .Page.IsSection ) (eq .Page.Type "news") }}
+  <meta name="author" content="{{ .Site.Params.title }}">
+  <meta name="publish_date" property="og:publish_date" content="{{ .Page.PublishDate }}">
+  {{ with .Resources.GetMatch (string (index .Params.images 0)) }}
+    <meta name="image" property="og:image" content=" {{ .Permalink }}">
+  {{ end }}
+{{ end -}}
+
 {{ if .IsHome -}}
   <title>{{ .Site.Params.title }} {{ .Site.Params.titleSeparator }} {{ .Site.Params.titleAddition }}</title>
 {{ else -}}
