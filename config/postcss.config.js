@@ -17,7 +17,7 @@ module.exports = {
         'instagram-color',
         'linkedin-color',
         ...whitelister([
-          './assets/scss/common_global.scss',
+          './assets/scss/common/_global.scss',
           './assets/scss/common/_syntax.scss',
           './assets/scss/components/_code.scss',
         ]),
