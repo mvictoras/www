@@ -10,7 +10,7 @@ module.exports = {
         './layouts/**/*.html',
         './content/**/*.md',      
       ],
-      whitelist: [
+      safelist: [
         'lazyloaded',
         'facebook-color',
         'twitter-color',
@@ -22,7 +22,6 @@ module.exports = {
           './assets/scss/components/_code.scss',
         ]),
       ],
-      whitelistPatterns: [/^slick/],
     }),
   ],
 }
