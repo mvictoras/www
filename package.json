@@ -16,7 +16,7 @@
     "test": "npm run -s lint"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^3.0",
+    "@fullhuman/postcss-purgecss": "^3.1",
     "autoprefixer": "^9.8",
     "eslint": "^7.15.0",
     "ga-lite": "^2.1.0",
