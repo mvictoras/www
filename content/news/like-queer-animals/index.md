@@ -9,3 +9,11 @@ draft: false
 <a href="animal1.usdz" rel="ar">
   {{< figure src="Edgewater.jpg" >}}
 </a>
+
+<a href="animal2.usdz" rel="ar">
+  {{< figure src="Austin.jpg" >}}
+</a>
+
+<a href="animal3.usdz" rel="ar">
+  {{< figure src="Loyola.jpg" >}}
+</a>
