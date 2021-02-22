@@ -17,3 +17,15 @@ draft: false
 <a href="animal3.usdz" rel="ar">
   {{< figure src="Loyola.jpg" >}}
 </a>
+
+<a href="animal4.usdz" rel="ar">
+  {{< figure src="Rogers_Park.jpg" >}}
+</a>
+
+<a href="animal5.usdz" rel="ar">
+  {{< figure src="AIC.jpg" >}}
+</a>
+
+<a href="animal6.usdz" rel="ar">
+  {{< figure src="perseverance.jpg" >}}
+</a>
