@@ -18,7 +18,7 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^3.1",
     "autoprefixer": "^9.8",
-    "eslint": "^7.21.0",
+    "eslint": "^7.29.0",
     "ga-lite": "^2.1.0",
     "netlify-lambda": "^2.0",
     "postcss-cli": "^7.1",
