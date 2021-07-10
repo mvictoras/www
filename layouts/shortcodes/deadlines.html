@@ -1,0 +1,34 @@
+{{ $.Scratch.Set "prev" ((now.AddDate 1 0 0).Format "2006") }}
+<div class="local-timezone"></div>
+<div class="list-group list-group-flush updates">
+  {{ range .Site.Data.conferences }}
+    {{ $title := .title }}
+    {{ $hindex := .hindex }}
+    {{ $year := .year }}
+    {{ $id := .id }}
+    {{ $link := .link }}
+    {{ $deadline := .deadline }}
+    {{ $timezone := .timezone }}
+    {{ $date := .date }}
+    {{ $place := .place }}
+    {{ $abstract_deadline := .abstract_deadline }}
+    {{ $sub := .sub }}
+    <div class="card">
+      <div class="d-flex justify-content-between card-header">
+        <h5>{{ .abbreviation }}</h5>
+        <div class="">{{ .date }}</div>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">{{ .title }}</h5>
+        <p class="card-text">{{ .description }}</p>
+        <ul class="list-group mb-4 mt-4">
+          <li class="list-group-item border-0 py-1"><i class="fa fa-map-marker px-1"></i>{{ .place }}</li>
+          <li class="list-group-item border-0 py-1"><i class="fa fa-clock-o px-1"></i><div timezone="{{ .timezone }}" deadline="{{ .deadline }}"></div></li>
+        </ul>
+      </div>
+      <div class="card-footer">
+        <span class="badge badge-primary">{{ .sub }}</span>
+      </div>
+    </div>
+  {{ end }}
+</div>
