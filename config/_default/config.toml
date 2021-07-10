@@ -112,3 +112,12 @@ anchor = "smart"
   [[module.mounts]]
     source = "node_modules/slick-carousel/slick"
     target = "static/js/vendor/slick"
+  [[module.mounts]]
+    source = "node_modules/jquery-countdown/dist"
+    target = "assets/js/vendor/jquery-countdown"
+  [[module.mounts]]
+    source = "node_modules/moment"
+    target = "assets/js/vendor/moment"
+  [[module.mounts]]
+    source = "node_modules/moment-timezone/builds"
+    target = "assets/js/vendor/moment-timezone"

@@ -10,9 +10,14 @@
   {{ $rrssb := resources.Get "js/vendor/rrssb/rrssb.js" }}
   {{ $experienceCarousel := resources.Get "js/experience-carousel.js" -}}
   {{ $slick := resources.Get "js/vendor/slick/slick.js" -}}
+  {{ $countdown := resources.Get "js/vendor/jquery-countdown/jquery.countdown.js" -}}
+  {{ $moment := resources.Get "js/vendor/moment/moment.js" -}}
+  {{ $moment_timezone := resources.Get "js/vendor/moment-timezone/moment-timezone.min.js" -}}
+  {{ $moment_timezone_with_data := resources.Get "js/vendor/moment-timezone/moment-timezone-with-data.js" -}}
+  {{ $deadlines := resources.Get "js/deadlines.js" -}}
   {{ $app := resources.Get "js/app.js" -}}
 
-  {{ $scripts := slice $jquery $bootstrap $prism $autoloader $photoswipe $photoswipeui $processing $lazysizes $rrssb $slick $app $experienceCarousel }}
+  {{ $scripts := slice $jquery $bootstrap $prism $autoloader $photoswipe $photoswipeui $processing $lazysizes $rrssb $slick $countdown $moment $moment_timezone $moment_timezone_with_data $deadlines $app $experienceCarousel }}
   {{ $js := $scripts | resources.Concat "main.js" -}}
   <script src="{{ $js.Permalink }}" defer></script>
 {{ else -}}
@@ -27,9 +32,14 @@
   {{ $rrssb := resources.Get "js/vendor/rrssb/rrssb.min.js" }}
   {{ $experienceCarousel := resources.Get "js/experience-carousel.js" | minify -}}
   {{ $slick := resources.Get "js/vendor/slick/slick.js" | minify -}}
+  {{ $countdown := resources.Get "js/vendor/jquery-countdown/jquery.countdown.js" | minify -}}
+  {{ $moment := resources.Get "js/vendor/moment/moment.js" | minify -}}
+  {{ $moment_timezone := resources.Get "js/vendor/moment-timezone/moment-timezone.min.js" | minify -}}
+  {{ $moment_timezone_with_data := resources.Get "js/vendor/moment-timezone/moment-timezone-with-data.js" | minify -}}
+  {{ $deadlines := resources.Get "js/deadlines.js" | minify -}}
   {{ $app := resources.Get "js/app.js" | minify -}}
 
-  {{ $scripts := slice $jquery $bootstrap $prism $autoloader $photoswipe $photoswipeui $processing $lazysizes $rrssb $slick $app $experienceCarousel }}
+  {{ $scripts := slice $jquery $bootstrap $prism $autoloader $photoswipe $photoswipeui $processing $lazysizes $rrssb $slick $countdown $moment $moment_timezone $moment_timezone_with_data $deadlines $app $experienceCarousel }}
 
   {{ $js := $scripts | resources.Concat "main.js" -}}
   {{ $secureJS := $js | resources.Fingerprint "sha512" -}}
