@@ -29,7 +29,7 @@
     "stylelint-config-standard": "^22.0"
   },
   "dependencies": {
-    "academicons": "^1.8.6",
+    "academicons": "^1.9.1",
     "bootstrap": "^4.6.0",
     "font-awesome": "^4.7.0",
     "jquery": "^3.6.0",
