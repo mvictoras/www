@@ -21,6 +21,7 @@ module.exports = {
           './assets/scss/common/_global.scss',
           './assets/scss/common/_syntax.scss',
           './assets/scss/components/_code.scss',
+          './assets/scss/vendor/bootstrap/_dropdown.scss',
         ]),
       ],
     }),
