@@ -121,3 +121,6 @@ anchor = "smart"
   [[module.mounts]]
     source = "node_modules/moment-timezone/builds"
     target = "assets/js/vendor/moment-timezone"
+  [[module.mounts]]
+    source = "node_modules/popper.js/dist"
+    target = "assets/js/vendor/popper"
