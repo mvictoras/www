@@ -23,12 +23,14 @@
         <ul class="list-group mb-4 mt-4">
           <li class="list-group-item border-0 py-1"><i class="fa fa-map-marker px-1"></i>{{ .place }}</li>
           <li id="paperDropDown" class="list-group-item border-0 py-1"><i class="fa fa-calendar"></i> Papers: <span class="local-deadline local-paper-{{ .abbreviation }}-{{ .year }}-deadline">{{ .paperDeadline }}</span> <i class="fa fa-clock-o px-1"></i><span class="deadline" timezone="{{ .timezone }}" type="paper" title="{{ .abbreviation }}" description="{{ .description }}" deadline="{{ .paperDeadline }}" year="{{ .year }}" abbreviation="{{ .abbreviation }}" utcOffset="{{ .utcOffset }}"></span></li>
-
+          <li id="shortPaperDropDown" class="list-group-item border-0 py-1"><i class="fa fa-calendar"></i> Short Papers: <span class="local-deadline local-shortPaper-{{ .abbreviation }}-{{ .year }}-deadline">{{ .paperDeadline }}</span> <i class="fa fa-clock-o px-1"></i><span class="deadline" timezone="{{ .timezone }}" type="shortPaper" title="{{ .abbreviation }}" description="{{ .description }}" deadline="{{ .shortPaperDeadline }}" year="{{ .year }}" abbreviation="{{ .abbreviation }}" utcOffset="{{ .utcOffset }}"></span></li>
           <li id="posterDropDown" class="list-group-item border-0 py-1"><i class="fa fa-calendar"></i> Posters: <span class="local-deadline local-poster-{{ .abbreviation }}-{{ .year }}-deadline">{{ .posterDeadline }}</span> <i class="fa fa-clock-o px-1"></i><span class="deadline" timezone="{{ .timezone }}" type="poster" title="{{ .abbreviation }}" description="{{ .description }}" deadline="{{ .posterDeadline }}" year="{{ .year }}" abbreviation="{{ .abbreviation }}" utcOffset="{{ .utcOffset }}"></span></li>
         </ul>
       </div>
       <div class="card-footer">
-        <span class="badge badge-primary">{{ .sub }}</span>
+        {{ range .sub}}
+          <span class="badge badge-primary"> {{ . }}</span>
+        {{ end }}
       </div>
     </div>
   {{ end }}
