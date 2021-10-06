@@ -1,0 +1,84 @@
+- title: "EG Conference on Visualization"
+  description: "The 24th edition of EuroVis will be held in Rome, Italy. The EuroVis 2022 will be hosted by the Sapienza University of Rome organized by Advanced Visualization & Visual Analytics REsearch Group (A.WA.RE). EuroVis is the annual Visualization Conference organized by the Eurographics Working Group on Data Visualization. It has been a Eurographics and IEEE co-supported international visualization symposium held in Europe annually since 1999, as a conference since 2012."
+  place: Rome, Italy
+  abbreviation: EuroVIS 2022
+  year: 2022
+  date: June 13-17, 2022
+  confStartDate: '2022-06-13 00:00:00'
+  confEndDate: '2022-06-17 23:59:59'
+  id: eurovis22
+  link: https://conferences.eg.org/eurovis2022/
+  paperDeadline: '2021-11-24 23:59:59'
+  shortPaperDeadline: '2022-02-28 23:59:59'
+  posterDeadline: '2022-04-11 23:59:59'
+  timezone: 'Etc/GMT'
+  sub: ['visulization']
+- title: "IEEE Pacific Visualization Symposium"
+  description: "Welcome to the 15th IEEE Pacific Visualization Symposium! PacificVis 2022 is planned to be held during April 11, 2022 through April 14, 2022 at Tsukuba Center for Institutes, Japan. Visualization has become an increasingly important research area due to its wide range of applications in many disciplines. PacificVis is an IEEE sponsored international visualization symposium held in the Asia-Pacific region, with the objective to foster greater exchange between visualization researchers and practitioners, and to draw more researchers in the Asia-Pacific region to enter this rapidly growing area of research."
+  place: Tsubuka Center for Institutes, Japan
+  abbreviation: PacificVis 2022
+  year: 2022
+  date: April 11-14, 2022
+  confStartDate: '2022-04-11 00:00:00'
+  confEndDate: '2022-04-14 23:59:59'
+  id: pacificvis22
+  link: http://www.pvis.org
+  paperDeadline: '2021-10-15 21:00:00'
+  timezone: 'US/Pacific'
+  sub: ['visulization']
+- title: "IEEE VIS 2021"
+  description: "The premier forum for advances in visualization and visual analytics"
+  abbreviation: VIS 2021
+  year: 2021
+  id: vis21
+  link: http://ieeevis.org/year/2021/welcome
+  paperDeadline: '2021-03-21 23:59:59'
+  posterDeadline: '2021-06-21 23:59:59'
+  timezone: 'US/Pacific'
+  date: October 24-29, 2021
+  confStartDate: '2021-10-24 00:00:00'
+  confEndDate: '2021-10-29 23:59:59'
+  place: Virtual
+  sub: [visualization]
+- title: "Large Data Analysis and Visualization"
+  description: "The 11th IEEE Large Scale Data Analysis and Visualization (LDAV) symposium, to be held in conjunction with IEEE VIS 2021, is specifically targeting methodological innovation, algorithmic foundations, and possible end-to-end solutions. The LDAV symposium will bring together domain scientists, data analysts, visualization researchers, and users to foster common ground for solving both near- and long-term problems. Paper submissions are solicited for a long and short paper tracks. Topic emphasis is on algorithms, languages, systems, and/or hardware solutions that support the collection, analysis, manipulation, or visualization of large-scale data."
+  abbreviation: LDAV 2021
+  year: 2021
+  id: ldav21
+  link: https://ldav.org/2021/
+  paperDeadline: '2021-06-21 23:59:59'
+  posterDeadline: '2021-08-22 23:59:59'
+  utcOffset: '-12:00'
+  date: October 25, 2021
+  confStartDate: '2021-10-25 00:00:00'
+  confEndDate: '2021-10-25 23:59:59'
+  place: New Orleans, Louisiana
+  sub: [visualization]
+- title: "Supercomputing 2021"
+  description: "The International Conference for High Performance Computing, Networking, Storage, and Analysis"
+  abbreviation: SC 2021
+  year: 2021
+  id: sc21
+  link: https://sc21.supercomputing.org
+  paperDeadline: '2021-04-02 23:59:59'
+  posterDeadline: '2021-08-22 23:59:59'
+  utcOffset: '-12:00'
+  date: November 14-19, 2021
+  confStartDate: '2021-11-14 00:00:00'
+  confEndDate: '2021-11-19 23:59:59'
+  place: St. Louis, MO
+  sub: [HPC]
+- title: "In Situ Infrastructures for Enabling Extreme-scale Analysis and Visualization"
+  description: "The considerable interest in the HPC community regarding in situ analysis and visualization is due to several factors. First is an I/O cost savings, where data is analyzed/visualized while being generated, without first storing to a file system. Second is the potential for increased accuracy, where fine temporal sampling of transient analysis might expose some complex behavior missed in coarse temporal sampling. Third is the ability to use all available resources, CPUs and accelerators, in the computation of analysis products."
+  place: St. Louis, MO
+  abbreviation: ISAV 2021
+  year: 2021
+  date: November 15, 2021
+  confStartDate: '2021-11-15 00:00:00'
+  confEndDate: '2021-11-15 23:59:59'
+  id: isav21
+  link: https://vis.lbl.gov/events/ISAV2021/
+  paperDeadline: '2021-08-27 23:59:59'
+  utcOffset: '-12:00'
+  sub: ['HPC', 'visulization']
+
