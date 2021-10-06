@@ -2,7 +2,7 @@
 title: "Playing With Webgl"
 date: 2020-12-14T15:43:47-06:00
 images: [ anl-logo.jpg ]
-draft: false
+draft: true
 ---
 <div id="webgl-container"></div>
 <video id="camera" style="display:none" width="640" height="480" autoplay></video>
