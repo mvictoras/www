@@ -12,16 +12,3 @@
   confEndDate: '2021-11-19 23:59:00'
   place: St. Louis, MO
   sub: HPC
-- title: "Conference on Empirical Methods in Natural Language Processing"
-  description: "The 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP 2021) invites the submission of long and short papers on substantial, original, and unpublished research in empirical methods for Natural Language Processing. As in recent years, some of the presentations at the conference will be for papers accepted by the Transactions of the ACL (TACL) and Computational Linguistics (CL) journals."
-  abbreviation: EMNLP
-  year: 2021
-  id: emnlp21
-  link: https://2021.emnlp.org/
-  paperDeadline: '2021-10-06 16:05:00'
-  utcOffset: '-12:00'
-  date: November 7-11, 2021
-  confStartDate: '2021-11-07 00:00:00'
-  confEndDate: '2021-11-11 23:59:00'
-  place: Punta Cana, Dominican Republic
-  sub: Natural Language Proc
