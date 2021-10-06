@@ -1,5 +1,5 @@
 {{ $.Scratch.Set "prev" ((now.AddDate 1 0 0).Format "2006") }}
-<div class="local-timezone"></div>
+<h6>Note: All dates, times, calendar invites, durations are in <span class="local-timezone"></span> timezone</h6>
 <div class="list-group list-group-flush updates">
   {{ range .Site.Data.conferences }}
     {{ $title := .title }}
@@ -11,19 +11,20 @@
     {{ $timezone := .timezone }}
     {{ $date := .date }}
     {{ $place := .place }}
-    {{ $abstract_deadline := .abstract_deadline }}
     {{ $sub := .sub }}
-    <div class="card">
+    <div class="card my-3">
       <div class="d-flex justify-content-between card-header">
         <h5>{{ .abbreviation }}</h5>
-        <div class="">{{ .date }}</div>
+        <div class="date" startDate="{{ .confStartDate }}" endDate="{{ .confEndDate }}" timezone="{{ .timezone }}" type="paper" title="{{ .title }}" description="{{ .description }}">{{ .date }}</div>
       </div>
       <div class="card-body">
-        <h5 class="card-title">{{ .title }}</h5>
+        <h5 class="card-title"><a href={{ .link }} target="_blank">{{ .title }}</a></h5>
         <p class="card-text">{{ .description }}</p>
         <ul class="list-group mb-4 mt-4">
           <li class="list-group-item border-0 py-1"><i class="fa fa-map-marker px-1"></i>{{ .place }}</li>
-          <li class="list-group-item border-0 py-1"><i class="fa fa-clock-o px-1"></i><div timezone="{{ .timezone }}" deadline="{{ .deadline }}"></div></li>
+          <li id="paperDropDown" class="list-group-item border-0 py-1"><i class="fa fa-calendar"></i> Papers: <span class="local-deadline local-paper-{{ .abbreviation }}-{{ .year }}-deadline">{{ .paperDeadline }}</span> <i class="fa fa-clock-o px-1"></i><span class="deadline" timezone="{{ .timezone }}" type="paper" title="{{ .abbreviation }}" description="{{ .description }}" deadline="{{ .paperDeadline }}" year="{{ .year }}" abbreviation="{{ .abbreviation }}" utcOffset="{{ .utcOffset }}"></span></li>
+
+          <li id="posterDropDown" class="list-group-item border-0 py-1"><i class="fa fa-calendar"></i> Posters: <span class="local-deadline local-poster-{{ .abbreviation }}-{{ .year }}-deadline">{{ .posterDeadline }}</span> <i class="fa fa-clock-o px-1"></i><span class="deadline" timezone="{{ .timezone }}" type="poster" title="{{ .abbreviation }}" description="{{ .description }}" deadline="{{ .posterDeadline }}" year="{{ .year }}" abbreviation="{{ .abbreviation }}" utcOffset="{{ .utcOffset }}"></span></li>
         </ul>
       </div>
       <div class="card-footer">
