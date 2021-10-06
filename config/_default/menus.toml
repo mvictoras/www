@@ -23,14 +23,20 @@
   weight = 4
 
 [[main]]
+  identifier = "vis-deadlines"
+  name = "vis deadlines"
+  url = "/vis-deadlines/"
+  weight = 5
+
+[[main]]
   identifier = "about"
   name = "about"
   url = "/about/"
-  weight = 5
+  weight = 6
 
 [[main]]
   identifier = "contact"
   name = "contact"
   url = "/contact/"
-  weight = 6
+  weight = 7
 
