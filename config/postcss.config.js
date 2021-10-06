@@ -16,6 +16,7 @@ module.exports = {
         'twitter-color',
         'instagram-color',
         'linkedin-color',
+        'dropdown-toggle',
         ...whitelister([
           './assets/scss/common/_global.scss',
           './assets/scss/common/_syntax.scss',
