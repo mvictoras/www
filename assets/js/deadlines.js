@@ -23,7 +23,8 @@ function addCalendarButton(elem, title, description, start, end) {
     var $this = $(this), 
       abbreviation = $this.attr('abbreviation'),
       deadline = $this.attr('deadline'), 
-      description = $this.attr('description'), 
+      description = $this.attr('description'),
+      id = $this.attr('id'),
       timezone = $this.attr('timezone'),
       title = $this.attr('title'), 
       type = $this.attr('type'), 
@@ -42,7 +43,7 @@ function addCalendarButton(elem, title, description, start, end) {
         localDeadline = moment(deadline + ' ' + utcOffset, "YYYY-MM-DD hh:mm:ss Z").tz(localTimezone);
       }
       let diff = today.diff(localDeadline);
-      $('.local-' + type + '-' + abbreviation + '-' + year + '-deadline').text(localDeadline.format('ddd, MMM Do YYYY, h:mm:ss a zz'));
+      $('.local-' + type + '-' + id + '-' + year + '-deadline').text(localDeadline.format('ddd, MMM Do YYYY, h:mm a zz'));
       if (diff > 0) {
         $(this).html("Passed");
       } else {

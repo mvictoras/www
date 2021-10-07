@@ -131,7 +131,7 @@
     menuItems.className = 'dropdown-menu';
 
 
-    result.innerHTML = '<button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Add</button>';
+    result.innerHTML = '<button class="btn btn-secondary btn-sm vm-btn-add dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Add</button>';
     /*
     result.innerHTML = '<label for="checkbox-for-' +
       calendarId + '" class="add-to-calendar-checkbox">+ Calendar</label>';
