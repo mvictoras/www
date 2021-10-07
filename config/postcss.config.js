@@ -23,6 +23,7 @@ module.exports = {
         'dropdown-toggle',
         'dropdown-menu',
         'dropdown-item',
+        'vm-btn-add',
         ...whitelister([
           './assets/scss/common/_global.scss',
           './assets/scss/common/_syntax.scss',
