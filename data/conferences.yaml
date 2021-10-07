@@ -8,7 +8,7 @@
   confEndDate: '2022-08-11 23:59:59'
   id: siggraph22
   link: https://s2022.siggraph.org
-  sub: ['computer graphics', 'visulization']
+  sub: ['computer graphics', 'visualization']
 - title: "EG Conference on Visualization"
   description: "The 24th edition of EuroVis will be held in Rome, Italy. The EuroVis 2022 will be hosted by the Sapienza University of Rome organized by Advanced Visualization & Visual Analytics REsearch Group (A.WA.RE). EuroVis is the annual Visualization Conference organized by the Eurographics Working Group on Data Visualization. It has been a Eurographics and IEEE co-supported international visualization symposium held in Europe annually since 1999, as a conference since 2012."
   place: Rome, Italy
@@ -23,7 +23,7 @@
   shortPaperDeadline: '2022-02-28 23:59:59'
   posterDeadline: '2022-04-11 23:59:59'
   timezone: 'Etc/GMT'
-  sub: ['visulization']
+  sub: ['visualization']
 - title: "CHI 2022"
   description: "The ACM CHI Conference on Human Factors in Computing Systems is the premier international conference of Human-Computer Interaction (HCI). CHI – pronounced 'kai' – annually brings together researchers and practitioners from all over the world and from diverse cultures, backgrounds, and positionalities, who have as an overarching goal to make the world a better place with interactive digital technologies."
   place: New Orleans, LA, USA
@@ -36,7 +36,7 @@
   link: https://chi2022.acm.org
   paperDeadline: '2021-09-02 23:59:59'
   utcOffset: -12:00
-  sub: ['computer graphics', 'visulization', 'hci']
+  sub: ['computer graphics', 'visualization', 'hci']
 - title: "IEEE Pacific Visualization Symposium"
   description: "Welcome to the 15th IEEE Pacific Visualization Symposium! PacificVis 2022 is planned to be held during April 11, 2022 through April 14, 2022 at Tsukuba Center for Institutes, Japan. Visualization has become an increasingly important research area due to its wide range of applications in many disciplines. PacificVis is an IEEE sponsored international visualization symposium held in the Asia-Pacific region, with the objective to foster greater exchange between visualization researchers and practitioners, and to draw more researchers in the Asia-Pacific region to enter this rapidly growing area of research."
   place: Tsubuka Center for Institutes, Japan
@@ -49,7 +49,7 @@
   link: http://www.pvis.org
   paperDeadline: '2021-10-15 21:00:00'
   timezone: 'US/Pacific'
-  sub: ['visulization']
+  sub: ['visualization']
 - title: "IEEE VIS 2021"
   description: "The premier forum for advances in visualization and visual analytics"
   abbreviation: VIS 2021
@@ -104,5 +104,5 @@
   link: https://vis.lbl.gov/events/ISAV2021/
   paperDeadline: '2021-08-27 23:59:59'
   utcOffset: '-12:00'
-  sub: ['HPC', 'visulization']
+  sub: ['HPC', 'visualization']
 
