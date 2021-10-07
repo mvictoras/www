@@ -2,7 +2,7 @@
 title: Like Queer Animals Demo
 date: 2019-09-01
 images: [ Edgewater.jpg ]
-draft: false
+draft: true
 ---
 
 ### Demo AR Picture
