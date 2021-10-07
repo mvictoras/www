@@ -90,7 +90,7 @@ web:
     text: "This year, 22 high school students mentored by volunteers at the U.S. Department of Energy’s (DOE) Argonne National Laboratory competed in the DuPage County Afro-Academic, Cultural, Technological and Scientific Olympics (ACT-SO). This regional event is part of a national competition to provide African American high school students with pathways into potential careers in science, technology, engineering, and mathematics (STEM). Five of the Argonne-mentored students earned gold medals at the DuPage competition and competed in the national competition this July."
     url: https://www.alcf.anl.gov/news/argonne-mentored-students-take-home-gold-stem-olympics
     image: 'ANL-VRPL.jpg'
-    tags: [ 'ANL', 'virtual reality' ]
+    tags: [ 'ANL', 'act-so-vrpl' ]
   - date: 2021-07-15
     publication: SPACE.com
     title: "Can artificial intelligence help scientists spot gravitational waves?"
