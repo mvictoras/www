@@ -1,5 +1,5 @@
 ---
-title: VIS/HCI deadlines page and paper counter
+title: VIS/HCI deadlines page and counter
 date: 2021-10-07
 images: [ vis-hci-deadlines.png ]
 draft: false

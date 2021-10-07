@@ -84,6 +84,55 @@ print:
     title: Spidey-Sense Suit Tingles When Someone Gets Too Close
     issue: Vol. 217. No. 2905
 web:
+  - date: 2021-08-11
+    publication: ANL News Center
+    title: "Argonne-mentored students take home gold in STEM Olympics"
+    text: "This year, 22 high school students mentored by volunteers at the U.S. Department of Energy’s (DOE) Argonne National Laboratory competed in the DuPage County Afro-Academic, Cultural, Technological and Scientific Olympics (ACT-SO). This regional event is part of a national competition to provide African American high school students with pathways into potential careers in science, technology, engineering, and mathematics (STEM). Five of the Argonne-mentored students earned gold medals at the DuPage competition and competed in the national competition this July."
+    url: https://www.alcf.anl.gov/news/argonne-mentored-students-take-home-gold-stem-olympics
+    image: 'ANL-VRPL.jpg'
+    tags: [ 'ANL', 'virtual reality' ]
+  - date: 2021-07-15
+    publication: SPACE.com
+    title: "Can artificial intelligence help scientists spot gravitational waves?"
+    text: "Scientists hunting for elusive gravitational waves across the universe may be able to supercharge their discoveries with a new tool: artificial intelligence. Gravitational waves are ripples in spacetime, created when a massive object is accelerated or disturbed, such as when a black hole and a neutron star collide. Theorized by Albert Einstein, their existence was confirmed in 2015 with the first gravitational wave discovery by researchers using LIGO (the advanced Laser Interferometer Gravitational-Wave Observatory). Now, just six years later, there have been at least 50 gravitational wave events detected."
+    url: https://www.space.com/artificial-intelligence-gravitational-waves-discoveries
+    image: 'ANL-grav-waves.jpg'
+    tags: [ 'ANL', 'scientific visualization' ]
+  - date: 2021-07-12
+    publication: "Научная Россия"
+    title: "УЧЕНЫЕ ИЩУТ ГРАВИТАЦИОННЫЕ ВОЛНЫ С ПОМОЩЬЮ ИСКУССТВЕННОГО ИНТЕЛЛЕКТА"
+    text: "Исследователи из Аргоннской национальной лаборатории Министерства энергетики США (DOE), Чикагского университета, Иллинойского университета, NVIDIA и IBM разработали новую инфраструктуру искусственного интеллекта промышленного масштаба, которая позволяет быстрее обнаруживать гравитационные волны, сообщает пресс-служба DOE. Подробно о разработке рассказано в журнале Nature Astronomy."
+    url: https://scientificrussia.ru/articles/uchenye-ishchut-gravitatsionnye-volny-s-pomoshchyu-iskusstvennogo-intellekta
+    image: 'ANL-grav-waves.jpg'
+    tags: [ 'ANL', 'scientific visualization' ]
+  - date: 2021-07-09
+    publication: SciTechDaily
+    title: "Scientists Use Artificial Intelligence to Detect Gravitational Waves – Orders of Magnitude Faster"
+    text: "When gravitational waves were first detected in 2015 by the advanced Laser Interferometer Gravitational-Wave Observatory (LIGO), they sent a ripple through the scientific community, as they confirmed another of Einstein’s theories and marked the birth of gravitational wave astronomy. Five years later, numerous gravitational wave sources have been detected, including the first observation of two colliding neutron stars in gravitational and electromagnetic waves."
+    url: https://scitechdaily.com/scientists-use-artificial-intelligence-to-detect-gravitational-waves-orders-of-magnitude-faster/
+    image: 'ANL-grav-waves.jpg'
+    tags: [ 'ANL', 'scientific visualization' ]
+  - date: 2021-07-09
+    publication: SciTechDaily
+    title: "Scientists Use Artificial Intelligence to Detect Gravitational Waves – Orders of Magnitude Faster"
+    text: "When gravitational waves were first detected in 2015 by the advanced Laser Interferometer Gravitational-Wave Observatory (LIGO), they sent a ripple through the scientific community, as they confirmed another of Einstein’s theories and marked the birth of gravitational wave astronomy. Five years later, numerous gravitational wave sources have been detected, including the first observation of two colliding neutron stars in gravitational and electromagnetic waves."
+    url: https://scitechdaily.com/scientists-use-artificial-intelligence-to-detect-gravitational-waves-orders-of-magnitude-faster/
+    image: 'ANL-grav-waves.jpg'
+    tags: [ 'ANL', 'scientific visualization' ]
+  - date: 2021-07-07
+    publication: HPCwire
+    title: "Supercomputers Power AI-Enabled Detection of Gravitational Waves"
+    text: "When gravitational waves were first detected in 2015 by the advanced Laser Interferometer Gravitational-Wave Observatory (LIGO), they sent a ripple through the scientific community, as they confirmed another of Einstein’s theories and marked the birth of gravitational wave astronomy. Five years later, numerous gravitational wave sources have been detected, including the first observation of two colliding neutron stars in gravitational and electromagnetic waves."
+    url: https://www.hpcwire.com/off-the-wire/supercomputers-power-ai-enabled-detection-of-gravitational-waves/
+    image: 'ANL-grav-waves.jpg'
+    tags: [ 'ANL', 'scientific visualization' ]
+  - date: 2021-07-07
+    publication: EurekAlert!
+    title: "Scientists use artificial intelligence to detect gravitational waves"
+    text: "When gravitational waves were first detected in 2015 by the advanced Laser Interferometer Gravitational-Wave Observatory (LIGO), they sent a ripple through the scientific community, as they confirmed another of Einstein’s theories and marked the birth of gravitational wave astronomy. Five years later, numerous gravitational wave sources have been detected, including the first observation of two colliding neutron stars in gravitational and electromagnetic waves."
+    url: https://www.eurekalert.org/news-releases/886805
+    image: 'ANL-grav-waves.jpg'
+    tags: [ 'ANL', 'scientific visualization' ]
   - date: 2019-03-27
     publication: Hyde Park Herald
     title: "'Wired to Wear' opens at MSI"
