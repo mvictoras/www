@@ -16,6 +16,7 @@ module.exports = {
         'twitter-color',
         'instagram-color',
         'linkedin-color',
+        'btn',
         'btn-group',
         'btn-secondary',
         'btn-sm',
