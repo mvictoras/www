@@ -1,27 +1,28 @@
 'use strict';
-
-function addCalendarButton(elem, title, description, start, end) {
-  var myCalendar = createCalendar({
-    options: {
-    },
-    data: {
-      title: title,
-      start: start,
-      end: end,     
-      description: description
-    }
-  });
-  elem.append(myCalendar);
-}
+/* global moment */
+/* global createCalendar */
 
 (function($) {
+  function addCalendarButton(elem, title, description, start, end) {
+    var myCalendar = createCalendar({
+      options: {
+      },
+      data: {
+        title: title,
+        start: start,
+        end: end,     
+        description: description,
+      },
+    });
+    elem.append(myCalendar);
+  }
+
   const localTimezone = moment.tz.guess();
   const today = moment();
 
   // render countdown timer
   $('[deadline]').each(function() {
     var $this = $(this), 
-      abbreviation = $this.attr('abbreviation'),
       deadline = $this.attr('deadline'), 
       description = $this.attr('description'),
       id = $this.attr('id'),
@@ -33,19 +34,19 @@ function addCalendarButton(elem, title, description, start, end) {
 
     title += ' ' + type + ' due';
     
-    if(deadline === "") {
-      $this.parent().addClass("d-none");
+    if(deadline === '') {
+      $this.parent().addClass('d-none');
     } else {
       var localDeadline = moment();
-      if(utcOffset === "") {
+      if(utcOffset === '') {
         localDeadline = moment.tz(deadline, timezone).tz(localTimezone);
       } else {
-        localDeadline = moment(deadline + ' ' + utcOffset, "YYYY-MM-DD hh:mm:ss Z").tz(localTimezone);
+        localDeadline = moment(deadline + ' ' + utcOffset, 'YYYY-MM-DD hh:mm:ss Z').tz(localTimezone);
       }
       let diff = today.diff(localDeadline);
       $('.local-' + type + '-' + id + '-' + year + '-deadline').text(localDeadline.format('ddd, MMM Do YYYY, h:mm a zz'));
       if (diff > 0) {
-        $(this).html("Passed");
+        $(this).html('Passed');
       } else {
         addCalendarButton($(this).parent(), title, description, localDeadline.toDate(), localDeadline.toDate());
         $this.countdown(localDeadline.toDate(), function(event) {
@@ -70,11 +71,9 @@ function addCalendarButton(elem, title, description, start, end) {
     var startDate = eventElem.attr('startDate'), 
       description = eventElem.attr('description'), 
       endDate = eventElem.attr('endDate'),
-      timezone = eventElem.attr('timezone'),
-      title = eventElem.attr('title'), 
-      type = eventElem.attr('type');
+      title = eventElem.attr('title');
    
-    diff = today.diff(endDate);
+    let diff = today.diff(endDate);
     if( diff > 0) {
       $(this).addClass('card-disabled');
     } else {
