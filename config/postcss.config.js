@@ -20,6 +20,8 @@ module.exports = {
         'btn-secondary',
         'btn-sm',
         'dropdown-toggle',
+        'dropdown-menu',
+        'dropdown-item',
         ...whitelister([
           './assets/scss/common/_global.scss',
           './assets/scss/common/_syntax.scss',

@@ -59,7 +59,7 @@
         '&in_loc=' + (event.address || '')
       ].join(''));
 
-      return '<a class="dropdown-item icon-yahoo" target="_blank" href="' +
+      return '<a class="dropdown-item" target="_blank" href="' +
         href + '"><i class="fa fa-yahoo"></i> Yahoo!</a>';
     },
 
