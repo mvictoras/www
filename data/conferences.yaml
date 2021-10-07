@@ -50,6 +50,17 @@
   paperDeadline: '2021-10-15 21:00:00'
   timezone: 'US/Pacific'
   sub: ['visualization']
+- title: "IEEE VIS 2021 - Chicago Satellite Event"
+  description: "Because of COVID, the IEEE VIS conference will follow a virtual format, but the organization committee has encouraged local satellite events, with a small auxiliary program that would complement the virtual program. Our event, a collaboration between University of Illinois at Chicago and Argonne National Laboratory, will fill the gap of in-person experiences and allow the local academic and professional VIS communities to network, come together, and exchange ideas."
+  abbreviation: VIS 2021 - Chicago Satellite event
+  year: 2021
+  id: vischisatellite21
+  link: https://www.evl.uic.edu/vis-chicago/
+  date: October 26, 2021
+  confStartDate: '2021-10-26 07:30:00'
+  confEndDate: '2021-10-26 18:30:00'
+  place: Chicago, IL, USA
+  sub: [visualization]
 - title: "IEEE VIS 2021"
   description: "The premier forum for advances in visualization and visual analytics"
   abbreviation: VIS 2021
@@ -90,11 +101,11 @@
   date: November 14-19, 2021
   confStartDate: '2021-11-14 00:00:00'
   confEndDate: '2021-11-19 23:59:59'
-  place: St. Louis, MO
+  place: St. Louis, MO, USA
   sub: [HPC]
 - title: "In Situ Infrastructures for Enabling Extreme-scale Analysis and Visualization"
   description: "The considerable interest in the HPC community regarding in situ analysis and visualization is due to several factors. First is an I/O cost savings, where data is analyzed/visualized while being generated, without first storing to a file system. Second is the potential for increased accuracy, where fine temporal sampling of transient analysis might expose some complex behavior missed in coarse temporal sampling. Third is the ability to use all available resources, CPUs and accelerators, in the computation of analysis products."
-  place: St. Louis, MO
+  place: St. Louis, MO, USA
   abbreviation: ISAV 2021
   year: 2021
   date: November 15, 2021
