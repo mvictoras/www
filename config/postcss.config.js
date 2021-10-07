@@ -7,15 +7,10 @@ module.exports = {
     autoprefixer(),
     purgecss({
       content: [
-        './layouts/**/*.html',
         './content/**/*.md',      
+        './layouts/**/*.html',
       ],
       safelist: [
-        'lazyloaded',
-        'facebook-color',
-        'twitter-color',
-        'instagram-color',
-        'linkedin-color',
         'btn',
         'btn-group',
         'btn-secondary',
@@ -23,6 +18,11 @@ module.exports = {
         'dropdown-toggle',
         'dropdown-menu',
         'dropdown-item',
+        'facebook-color',
+        'instagram-color',
+        'lazyloaded',
+        'linkedin-color',
+        'twitter-color',
         'vm-btn-add',
         ...whitelister([
           './assets/scss/common/_global.scss',
