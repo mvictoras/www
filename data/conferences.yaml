@@ -116,4 +116,17 @@
   paperDeadline: '2021-08-27 23:59:59'
   utcOffset: '-12:00'
   sub: ['HPC', 'visualization']
+- title: "5th Workshop on In Situ Visualization"
+  description: "Large-scale HPC simulations with their inherent I/O bottleneck have made in situ visualization an essential approach for data analysis, although the idea of in situ visualization dates back to the golden era of coprocessing in the 1990s. In situ coupling of analysis and visualization to a live simulation circumvents writing raw data to disk for post-mortem analysis – an approach that is already inefficient for today’s very large simulation codes. Instead, with in situ visualization, data abstracts are generated that provide a much higher level of expressiveness per byte. Therefore, more details can be computed and stored for later analysis, providing more insight than traditional methods."
+  place: Virtual
+  abbreviation: WOIV 2021
+  year: 2021
+  date: July 2, 2021
+  confStartDate: '2021-07-02 14:00:00'
+  confEndDate: '2021-07-02 17:59:59'
+  id: woiv21
+  link: https://woiv.gitlab.io/woiv21/
+  paperDeadline: '2021-04-25 23:59:59'
+  utcOffset: '-12:00'
+  sub: ['visualization']
 
