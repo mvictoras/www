@@ -24,6 +24,7 @@ module.exports = {
         'linkedin-color',
         'twitter-color',
         'vm-btn-add',
+        'card-disabled',
         ...whitelister([
           './assets/scss/common/_global.scss',
           './assets/scss/common/_syntax.scss',
