@@ -1,3 +1,16 @@
+- title: "25th ACM Conference on Computer-Supported Cooperative Work and Social Computing"
+  description: "CSCW is the premier venue for research in the design and use of technologies that affect groups, organizations, communities, and networks. Bringing together top researchers and practitioners, CSCW explores the technical, social, material, and theoretical challenges of designing technology to support collaborative work and life activities. Join us as we explore how technologies can enable new ways of living and working together."
+  abbreviation: CSCW 2022
+  year: 2022
+  id: cscw22
+  link: https://cscw.acm.org/2022/
+  paperDeadline: '2022-01-15 23:59:59'
+  utcOffset: '-12:00'
+  date: November 12-16, 2022
+  confStartDate: '2022-11-12 00:00:00'
+  confEndDate: '2022-11-16 23:59:59'
+  place: Taipei, Taiwan
+  sub: [computer-supported cooperative work]
 - title: "SIGGRAPH 2022"
   description: "ACM SIGGRAPH is a special interest group within ACM, and SIGGRAPH 2022 is the premier conference for computer graphics and interactive techniques worldwide. This year, we gather in person in Vancouver and virtually to celebrate our diverse, global community and the stories, innovations, and industry advancements that make us SIGGRAPH."
   place: Vancouver, Canada
@@ -50,6 +63,46 @@
   paperDeadline: '2021-10-15 21:00:00'
   timezone: 'US/Pacific'
   sub: ['visualization']
+- title: "The 29th IEEE Conference on Virtual Reality and 3D User Interfaces"
+  description: "Since 1993, the IEEE Virtual Reality conference has been the premier international venue for the presentation of research results in the broad area of virtual reality (VR). Similarly, the IEEE Symposium on 3D User Interfaces (3DUI), which started as a workshop at IEEE VR in 2004, has become the premier venue for 3D user interfaces and 3D interaction in VR environments. As of 2018, VR and 3DUI have been merged into a single IEEE Conference on Virtual Reality and 3D User Interfaces, with the short name IEEE VR."
+  place: Christchurch, New Zealand
+  abbreviation: IEEE VR 2022
+  year: 2022
+  date: March 12-16, 2022
+  confStartDate: '2022-04-12 00:00:00'
+  confEndDate: '2022-04-16 23:59:59'
+  id: ieeevr22
+  link: https://ieeevr.org
+  paperDeadline: '2021-09-01 23:59:59'
+  utcOffset: -12:00
+  sub: ['virtual reality', 'user interfaces']
+- title: "Supercomputing 2021"
+  description: "The International Conference for High Performance Computing, Networking, Storage, and Analysis"
+  abbreviation: SC 2021
+  year: 2021
+  id: sc21
+  link: https://sc21.supercomputing.org
+  paperDeadline: '2021-04-02 23:59:59'
+  posterDeadline: '2021-08-22 23:59:59'
+  utcOffset: '-12:00'
+  date: November 14-19, 2021
+  confStartDate: '2021-11-14 00:00:00'
+  confEndDate: '2021-11-19 23:59:59'
+  place: St. Louis, MO, USA
+  sub: [HPC]
+- title: "In Situ Infrastructures for Enabling Extreme-scale Analysis and Visualization"
+  description: "The considerable interest in the HPC community regarding in situ analysis and visualization is due to several factors. First is an I/O cost savings, where data is analyzed/visualized while being generated, without first storing to a file system. Second is the potential for increased accuracy, where fine temporal sampling of transient analysis might expose some complex behavior missed in coarse temporal sampling. Third is the ability to use all available resources, CPUs and accelerators, in the computation of analysis products."
+  place: St. Louis, MO, USA
+  abbreviation: ISAV 2021
+  year: 2021
+  date: November 15, 2021
+  confStartDate: '2021-11-15 00:00:00'
+  confEndDate: '2021-11-15 23:59:59'
+  id: isav21
+  link: https://vis.lbl.gov/events/ISAV2021/
+  paperDeadline: '2021-08-27 23:59:59'
+  utcOffset: '-12:00'
+  sub: ['HPC', 'visualization']
 - title: "IEEE VIS 2021 - Chicago Satellite Event"
   description: "Because of COVID, the IEEE VIS conference will follow a virtual format, but the organization committee has encouraged local satellite events, with a small auxiliary program that would complement the virtual program. Our event, a collaboration between University of Illinois at Chicago and Argonne National Laboratory, will fill the gap of in-person experiences and allow the local academic and professional VIS communities to network, come together, and exchange ideas."
   abbreviation: VIS 2021 - Chicago Satellite event
@@ -89,33 +142,20 @@
   confEndDate: '2021-10-25 23:59:59'
   place: New Orleans, Louisiana
   sub: [visualization]
-- title: "Supercomputing 2021"
-  description: "The International Conference for High Performance Computing, Networking, Storage, and Analysis"
-  abbreviation: SC 2021
+- title: "24th ACM Conference on Computer-Supported Cooperative Work and Social Computing"
+  description: "CSCW is the premier venue for research in the design and use of technologies that affect groups, organizations, communities, and networks. Bringing together top researchers and practitioners, CSCW explores the technical, social, material, and theoretical challenges of designing technology to support collaborative work and life activities. Join us as we explore how technologies can enable new ways of living and working together."
+  abbreviation: CSCW 2021
   year: 2021
-  id: sc21
-  link: https://sc21.supercomputing.org
-  paperDeadline: '2021-04-02 23:59:59'
-  posterDeadline: '2021-08-22 23:59:59'
+  id: cscw21
+  link: https://cscw.acm.org/2021/
+  paperDeadline: '2021-04-15 23:59:59'
+  posterDeadline: '2021-06-11 23:59:59'
   utcOffset: '-12:00'
-  date: November 14-19, 2021
-  confStartDate: '2021-11-14 00:00:00'
-  confEndDate: '2021-11-19 23:59:59'
-  place: St. Louis, MO, USA
-  sub: [HPC]
-- title: "In Situ Infrastructures for Enabling Extreme-scale Analysis and Visualization"
-  description: "The considerable interest in the HPC community regarding in situ analysis and visualization is due to several factors. First is an I/O cost savings, where data is analyzed/visualized while being generated, without first storing to a file system. Second is the potential for increased accuracy, where fine temporal sampling of transient analysis might expose some complex behavior missed in coarse temporal sampling. Third is the ability to use all available resources, CPUs and accelerators, in the computation of analysis products."
-  place: St. Louis, MO, USA
-  abbreviation: ISAV 2021
-  year: 2021
-  date: November 15, 2021
-  confStartDate: '2021-11-15 00:00:00'
-  confEndDate: '2021-11-15 23:59:59'
-  id: isav21
-  link: https://vis.lbl.gov/events/ISAV2021/
-  paperDeadline: '2021-08-27 23:59:59'
-  utcOffset: '-12:00'
-  sub: ['HPC', 'visualization']
+  date: October 23-27, 2021
+  confStartDate: '2021-10-23 00:00:00'
+  confEndDate: '2021-10-25 23:59:59'
+  place: Virtual
+  sub: [computer-supported cooperative work]
 - title: "5th Workshop on In Situ Visualization"
   description: "Large-scale HPC simulations with their inherent I/O bottleneck have made in situ visualization an essential approach for data analysis, although the idea of in situ visualization dates back to the golden era of coprocessing in the 1990s. In situ coupling of analysis and visualization to a live simulation circumvents writing raw data to disk for post-mortem analysis – an approach that is already inefficient for today’s very large simulation codes. Instead, with in situ visualization, data abstracts are generated that provide a much higher level of expressiveness per byte. Therefore, more details can be computed and stored for later analysis, providing more insight than traditional methods."
   place: Virtual
