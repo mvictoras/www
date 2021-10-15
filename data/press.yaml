@@ -99,6 +99,13 @@ web:
     image: 'ANL-grav-waves.jpg'
     tags: [ 'ANL', 'scientific visualization' ]
   - date: 2021-07-12
+    publication: "Illinois News Live"
+    title: "Scientists use artificial intelligence to detect gravitational waves"
+    text: "Scientific visualization of numerical relativity simulations explaining the collision of two black holes consistent with the merger of black hole binaries GW170814. The simulation was run on the Theta supercomputer using the open source Numerical Relativity community software Einstein Toolkit"
+    url: https://illinoisnewstoday.com/scientists-use-artificial-intelligence-to-detect-gravitational-waves/294796/
+    image: 'ANL-grav-waves.jpg'
+    tags: [ 'ANL', 'scientific visualization' ]
+  - date: 2021-07-12
     publication: "Научная Россия"
     title: "УЧЕНЫЕ ИЩУТ ГРАВИТАЦИОННЫЕ ВОЛНЫ С ПОМОЩЬЮ ИСКУССТВЕННОГО ИНТЕЛЛЕКТА"
     text: "Исследователи из Аргоннской национальной лаборатории Министерства энергетики США (DOE), Чикагского университета, Иллинойского университета, NVIDIA и IBM разработали новую инфраструктуру искусственного интеллекта промышленного масштаба, которая позволяет быстрее обнаруживать гравитационные волны, сообщает пресс-служба DOE. Подробно о разработке рассказано в журнале Nature Astronomy."
