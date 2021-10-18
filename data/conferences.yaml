@@ -103,6 +103,17 @@
   paperDeadline: '2021-08-27 23:59:59'
   utcOffset: '-12:00'
   sub: ['HPC', 'visualization']
+- title: "ACM Interactive Surfaces and Spaces Conference "
+  description: "Welcome to the 2021 ACM Interactive Surfaces and Spaces Conference (ACM ISS 2021). The event will take place from November 14 to 17 in Łódź. ACM Interactive Surfaces and Spaces is the premier venue for research in the design, development, and use of new and emerging interactive surface technologies and interactive spaces. Łódź is the third-largest city in Poland. The city offers a vibrant atmosphere and an eclectic, multicultural heritage to explore. The conference will be a hybrid event. The in-person part of the event will take place at the EC1 - an nineteenth-century power plant turned into a science and meeting centre. We will make final decisions on the exact format of the conference in late summer 2021. We will ensure that anyone can effectively contribute to ISS regardless of what the circumstances in November will be. ISS will offer virtual attendance opportunities."
+  abbreviation: ISS 2021
+  year: 2021
+  id: iss2021
+  link: https://iss.acm.org/2021/
+  date: November 14-17, 2021
+  confStartDate: '2021-11-14 00:00:00'
+  confEndDate: '2021-11-17 23:59:59'
+  place: Łódź, Poland
+  sub: [interactive surfaces, interactive spaces]
 - title: "IEEE VIS 2021 - Chicago Satellite Event"
   description: "Because of COVID, the IEEE VIS conference will follow a virtual format, but the organization committee has encouraged local satellite events, with a small auxiliary program that would complement the virtual program. Our event, a collaboration between University of Illinois at Chicago and Argonne National Laboratory, will fill the gap of in-person experiences and allow the local academic and professional VIS communities to network, come together, and exchange ideas."
   abbreviation: VIS 2021 - Chicago Satellite event
@@ -156,6 +167,17 @@
   confEndDate: '2021-10-25 23:59:59'
   place: Virtual
   sub: [computer-supported cooperative work]
+- title: "34th ACM Symposium on User Interface Software and Technology"
+  description: "The ACM Symposium on User Interface Software and Technology (UIST) is the premier forum for innovations in human-computer interfaces. Sponsored by ACM special interest groups on computer-human interaction (SIGCHI) and computer graphics (SIGGRAPH), UIST brings together people from diverse areas including graphical & web user interfaces, tangible & ubiquitous computing, virtual & augmented reality, multimedia, new input & output devices, and CSCW. The intimate size and intensive program make UIST an ideal opportunity to exchange research results and ideas."
+  place: Virtual
+  abbreviation: UIST 2021
+  year: 2021
+  date: October 10-14, 2021
+  confStartDate: '2021-10-10 14:00:00'
+  confEndDate: '2021-10-14 17:59:59'
+  id: uist21
+  link: https://uist.acm.org/uist2021/
+  sub: [computer-supported cooperative work, user intefaces, tangible computing, ubiquitous computing, augmented reality, virtual reality]
 - title: "5th Workshop on In Situ Visualization"
   description: "Large-scale HPC simulations with their inherent I/O bottleneck have made in situ visualization an essential approach for data analysis, although the idea of in situ visualization dates back to the golden era of coprocessing in the 1990s. In situ coupling of analysis and visualization to a live simulation circumvents writing raw data to disk for post-mortem analysis – an approach that is already inefficient for today’s very large simulation codes. Instead, with in situ visualization, data abstracts are generated that provide a much higher level of expressiveness per byte. Therefore, more details can be computed and stored for later analysis, providing more insight than traditional methods."
   place: Virtual
