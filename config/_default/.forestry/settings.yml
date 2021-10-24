@@ -17,10 +17,10 @@ file_template: ":filename:"
 build:
   preview_env:
   - HUGO_ENV=staging
-  - HUGO_VERSION=0.88.0
+  - HUGO_VERSION=0.88.0+extended
   preview_output_directory: public
   preview_docker_image: forestryio/hugo:node12
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: yarn build
+  instant_preview_command: yarn build:preview
 version: 0.81.0
