@@ -37,6 +37,17 @@
   posterDeadline: '2022-04-11 23:59:59'
   timezone: 'Etc/GMT'
   sub: ['visualization']
+- title: "2022 ECP Annual Meeting"
+  description: "The ECP Annual Meeting is an import resource for collaboration and communication across the project"
+  place: Kansas City, MO, USA
+  abbreviation: ECP 2022
+  year: 2022
+  date: May 2 - May 5, 2022
+  confStartDate: '2022-05-02 00:00:00'
+  confEndDate: '2022-05-05 23:59:59'
+  id: ecp22
+  link: https://www.ecpannualmeeting.com/
+  sub: ['exascale computing project']
 - title: "CHI 2022"
   description: "The ACM CHI Conference on Human Factors in Computing Systems is the premier international conference of Human-Computer Interaction (HCI). CHI – pronounced 'kai' – annually brings together researchers and practitioners from all over the world and from diverse cultures, backgrounds, and positionalities, who have as an overarching goal to make the world a better place with interactive digital technologies."
   place: New Orleans, LA, USA
