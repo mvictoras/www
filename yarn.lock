@@ -1516,10 +1516,10 @@ body-parser@1.19.0, body-parser@^1.19.0:
     raw-body "2.4.0"
     type-is "~1.6.17"
 
-bootstrap@^5.1.3:
-  version "5.1.3"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.1.3.tgz#ba081b0c130f810fa70900acbc1c6d3c28fa8f34"
-  integrity sha512-fcQztozJ8jToQWXxVuEyXWW+dSo8AiXWKwiSSrKWsRB/Qt+Ewwza+JWoLKiTuQLaEPhdNAJ7+Dosc9DOIqNy7Q==
+bootstrap@^4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.6.1.tgz#bc25380c2c14192374e8dec07cf01b2742d222a2"
+  integrity sha512-0dj+VgI9Ecom+rvvpNZ4MUZJz8dcX7WCX+eTID9+/8HgOkv3dsRzi8BGeZJCQU6flWQVYxwTQnEZFrmJSEO7og==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -3311,10 +3311,10 @@ https-browserify@^1.0.0:
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
-hugo-extended@^0.89.2:
-  version "0.89.2"
-  resolved "https://registry.yarnpkg.com/hugo-extended/-/hugo-extended-0.89.2.tgz#74a8c45b7a8e01820f64bf237284d6f5614e6038"
-  integrity sha512-wGM4jrWxKOE1MHqbebNbWOP11WaZbhGMb10L6o6cBOwrwM7YP1T2q5j/ISdAqyvy0QfHluK9L2VcLGz5jX/wQQ==
+hugo-extended@^0.89.4:
+  version "0.89.4"
+  resolved "https://registry.yarnpkg.com/hugo-extended/-/hugo-extended-0.89.4.tgz#377e4a1caff51dc51f7beeac04cb91e15b67cb37"
+  integrity sha512-vaZrvPNqNmNcok2nOb542XmPzlj1qrrzFaux2g1tvu8ecDoE+vkg8i1moCvVxxOgwz1V+NvUxpiVEqcI+e0pcg==
   dependencies:
     careful-downloader "^2.0.1"
     log-symbols "^5.0.0"
