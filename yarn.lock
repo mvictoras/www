@@ -3321,10 +3321,10 @@ https-browserify@^1.0.0:
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
-hugo-extended@^0.91.2:
-  version "0.91.2"
-  resolved "https://registry.yarnpkg.com/hugo-extended/-/hugo-extended-0.91.2.tgz#2362ee952894f891932d3254777b8f1a107e171f"
-  integrity sha512-rYbug5KqtWSyzCaBjG3+QFE4Gkscm2V5ZIK4KzCtE30iZ4RJF6F4F2v2X+FzVbtMNUXQOTjvy4l160qxeKflvQ==
+hugo-extended@^0.92.0:
+  version "0.92.0"
+  resolved "https://registry.yarnpkg.com/hugo-extended/-/hugo-extended-0.92.0.tgz#d82471078792c0f8aaad28f3ac589879d072349e"
+  integrity sha512-z5sJwnNnWGv7Y/tUTmvUDpt0qU9tbMX1yXHLMz/f1bTTGcYFElkQocucjlGtu34yRUnkRwioOpoojiyySg1Z7g==
   dependencies:
     careful-downloader "^2.0.1"
     log-symbols "^5.1.0"
