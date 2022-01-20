@@ -1,3 +1,28 @@
+- title: "ACM Interactive Surfaces and Spaces Conference"
+  description: "We welcome you to the ACM International Conference on Interactive Surfaces and Spaces. As an annual conference series starting in 2006, ACM ISS (formerly known as ACM ITS, International Conference on Interactive Tabletops and Surfaces) is the premier venue for research addressing the design, development and use of new and emerging tabletop, digital surface, interactive spaces and multi-surface technologies. Over the years ISS has been a venue for research and applications of interactive surfaces as well as spaces, which has been acknowledged by the incorporation of 'Space' into our conference identity since 2016."
+  abbreviation: ISS 2022
+  year: 2022
+  id: iss2022
+  link: https://iss.acm.org
+  date: November 20-23, 2022
+  confStartDate: '2022-11-20 00:00:00'
+  confEndDate: '2022-11-23 23:59:59'
+  place: Wellington, New Zealand
+  sub: [interactive surfaces, interactive spaces]
+- title: "Supercomputing 2022"
+  description: "The International Conference for High Performance Computing, Networking, Storage, and Analysis"
+  abbreviation: SC 2022
+  year: 2022
+  id: sc22
+  link: https://sc22.supercomputing.org
+  paperDeadline: '2022-04-25 23:59:59'
+  posterDeadline: '2022-08-05 23:59:59'
+  utcOffset: '-12:00'
+  date: November 13-18, 2022
+  confStartDate: '2022-11-13 00:00:00'
+  confEndDate: '2022-11-18 23:59:59'
+  place: Dallas, TX, USA
+  sub: [HPC]
 - title: "25th ACM Conference on Computer-Supported Cooperative Work and Social Computing"
   description: "CSCW is the premier venue for research in the design and use of technologies that affect groups, organizations, communities, and networks. Bringing together top researchers and practitioners, CSCW explores the technical, social, material, and theoretical challenges of designing technology to support collaborative work and life activities. Join us as we explore how technologies can enable new ways of living and working together."
   abbreviation: CSCW 2022
@@ -11,6 +36,31 @@
   confEndDate: '2022-11-16 23:59:59'
   place: Taipei, Taiwan
   sub: [computer-supported cooperative work]
+- title: "35th ACM Symposium on User Interface Software and Technology"
+  description: "The ACM Symposium on User Interface Software and Technology (UIST) is the premier forum for innovations in human-computer interfaces. Sponsored by ACM special interest groups on computer-human interaction (SIGCHI) and computer graphics (SIGGRAPH), UIST brings together people from diverse areas including graphical & web user interfaces, tangible & ubiquitous computing, virtual & augmented reality, multimedia, new input & output devices, and CSCW. The intimate size and intensive program make UIST an ideal opportunity to exchange research results and ideas."
+  place: Bend, Oregon, USA
+  abbreviation: UIST 2022
+  year: 2022
+  date: October 29 - November 2, 2022
+  confStartDate: '2022-10-29 00:00:00'
+  confEndDate: '2022-11-02 23:59:59'
+  paperDeadline: '2022-03-31 16:59:59'
+  utcOffset: -07:00
+  id: uist22
+  link: https://uist.acm.org/uist2022/
+  sub: [computer-supported cooperative work, user intefaces, tangible computing, ubiquitous computing, augmented reality, virtual reality]
+- title: "IEEE VIS 2022"
+  description: "The premier forum for advances in visualization and visual analytics"
+  abbreviation: VIS 2022
+  year: 2022
+  id: vis22
+  link: http://ieeevis.org/year/2022/welcome
+  timezone: 'US/Pacific'
+  date: October 15-22, 2022
+  confStartDate: '2022-10-15 00:00:00'
+  confEndDate: '2022-10-22 23:59:59'
+  place: Oklahoma City, USA (Hybrid)
+  sub: [visualization]
 - title: "SIGGRAPH 2022"
   description: "ACM SIGGRAPH is a special interest group within ACM, and SIGGRAPH 2022 is the premier conference for computer graphics and interactive techniques worldwide. This year, we gather in person in Vancouver and virtually to celebrate our diverse, global community and the stories, innovations, and industry advancements that make us SIGGRAPH."
   place: Vancouver, Canada
@@ -19,6 +69,9 @@
   date: August 7-11, 2022
   confStartDate: '2022-08-07 00:00:00'
   confEndDate: '2022-08-11 23:59:59'
+  paperDeadline: '2022-01-27 21:59:59'
+  posterDeadline: '2022-04-26 21:59:59'
+  timezone: 'UTC/GMT'
   id: siggraph22
   link: https://s2022.siggraph.org
   sub: ['computer graphics', 'visualization']
@@ -36,6 +89,32 @@
   shortPaperDeadline: '2022-02-28 23:59:59'
   posterDeadline: '2022-04-11 23:59:59'
   timezone: 'Etc/GMT'
+  sub: ['visualization']
+- title: "VisGap - The Gap between Visualization Research and Visualization Software"
+  description: "VisGap’22 aims at gathering experts from all over the visualization community in order to advance the way our field works with software, sustains software, and values the effort our members put into developing said software. This year, we extend the scope of VisGap to include reproducibility and replicability. Both are cornerstones of the scientific method and essential for building trust in visualizations and increasing their acceptance, ultimately fostering adoption in the wild."
+  place: Rome, Italy
+  abbreviation: VisGap 2022
+  year: 2022
+  date: June 13, 2022
+  confStartDate: '2022-06-13 00:00:00'
+  confEndDate: '2022-06-13 23:59:59'
+  id: visgap22
+  link: https://visgap.gitlab.io/visgap22/
+  paperDeadline: '2022-03-09 23:59:59'
+  utcOffset: '-12:00'
+  sub: ['visualization']
+- title: "6th Workshop on In Situ Visualization"
+  description: "Large-scale HPC simulations with their inherent I/O bottleneck have made in situ visualization an essential approach for data analysis, although the idea of in situ visualization dates back to the golden era of coprocessing in the 1990s. In situ coupling of analysis and visualization to a live simulation circumvents writing raw data to disk for post-mortem analysis – an approach that is already inefficient for today’s very large simulation codes. Instead, with in situ visualization, data abstracts are generated that provide a much higher level of expressiveness per byte. Therefore, more details can be computed and stored for later analysis, providing more insight than traditional methods."
+  place: Hamburg, Germany
+  abbreviation: WOIV 2022
+  year: 2022
+  date: June 2, 2022
+  confStartDate: '2022-06-02 00:00:00'
+  confEndDate: '2022-06-02 23:59:59'
+  id: woiv22
+  link: https://woiv.gitlab.io/woiv22/
+  paperDeadline: '2022-02-13 23:59:59'
+  utcOffset: '-12:00'
   sub: ['visualization']
 - title: "2022 ECP Annual Meeting"
   description: "The ECP Annual Meeting is an import resource for collaboration and communication across the project"
@@ -114,7 +193,7 @@
   paperDeadline: '2021-08-27 23:59:59'
   utcOffset: '-12:00'
   sub: ['HPC', 'visualization']
-- title: "ACM Interactive Surfaces and Spaces Conference "
+- title: "ACM Interactive Surfaces and Spaces Conference"
   description: "Welcome to the 2021 ACM Interactive Surfaces and Spaces Conference (ACM ISS 2021). The event will take place from November 14 to 17 in Łódź. ACM Interactive Surfaces and Spaces is the premier venue for research in the design, development, and use of new and emerging interactive surface technologies and interactive spaces. Łódź is the third-largest city in Poland. The city offers a vibrant atmosphere and an eclectic, multicultural heritage to explore. The conference will be a hybrid event. The in-person part of the event will take place at the EC1 - an nineteenth-century power plant turned into a science and meeting centre. We will make final decisions on the exact format of the conference in late summer 2021. We will ensure that anyone can effectively contribute to ISS regardless of what the circumstances in November will be. ISS will offer virtual attendance opportunities."
   abbreviation: ISS 2021
   year: 2021
