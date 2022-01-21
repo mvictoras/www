@@ -164,6 +164,7 @@
   id: bigvis22
   link: https://bigvis.imsi.athenarc.gr/bigvis2022/
   paperDeadline: '2022-01-28 23:59:59'
+  posterDeadline: '2022-01-28 23:59:59'
   utcOffset: -12:00
   sub: ['visualization', 'data management', 'data mining', 'information visualization', 'human-computer interaction', 'machine learning', 'computer graphics']
 - title: "The 29th IEEE Conference on Virtual Reality and 3D User Interfaces"
