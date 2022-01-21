@@ -153,14 +153,27 @@
   paperDeadline: '2021-10-15 21:00:00'
   timezone: 'US/Pacific'
   sub: ['visualization']
+- title: "5th International Workshop on Big Data Visual Exploration and Analytics"
+  description: "The Big Data Visual Exploration and Analytics workshop (BigVis) aims at addressing the above challenges and issues by providing a forum for researchers and practitioners to discuss, exchange, and disseminate their work. BigVis attempts to attract attention from the research areas of: Data Management & Mining, Information Visualization, Human-Computer Interaction, Machine Learning, and Computer Graphics, and highlight novel works that bridge together these communities."
+  place: Edinburgh, UK (Online).
+  abbreviation: BigVis 2022
+  year: 2022
+  date: March 29 2022
+  confStartDate: '2022-03-29 00:00:00'
+  confEndDate: '2022-03-29 23:59:59'
+  id: bigvis22
+  link: https://bigvis.imsi.athenarc.gr/bigvis2022/
+  paperDeadline: '2022-01-28 23:59:59'
+  utcOffset: -12:00
+  sub: ['visualization', 'data management', 'data mining', 'information visualization', 'human-computer interaction', 'machine learning', 'computer graphics']
 - title: "The 29th IEEE Conference on Virtual Reality and 3D User Interfaces"
   description: "Since 1993, the IEEE Virtual Reality conference has been the premier international venue for the presentation of research results in the broad area of virtual reality (VR). Similarly, the IEEE Symposium on 3D User Interfaces (3DUI), which started as a workshop at IEEE VR in 2004, has become the premier venue for 3D user interfaces and 3D interaction in VR environments. As of 2018, VR and 3DUI have been merged into a single IEEE Conference on Virtual Reality and 3D User Interfaces, with the short name IEEE VR."
   place: Christchurch, New Zealand
   abbreviation: IEEE VR 2022
   year: 2022
   date: March 12-16, 2022
-  confStartDate: '2022-04-12 00:00:00'
-  confEndDate: '2022-04-16 23:59:59'
+  confStartDate: '2022-03-12 00:00:00'
+  confEndDate: '2022-03-16 23:59:59'
   id: ieeevr22
   link: https://ieeevr.org
   paperDeadline: '2021-09-01 23:59:59'
