@@ -90,6 +90,20 @@
   posterDeadline: '2022-04-11 23:59:59'
   timezone: 'Etc/GMT'
   sub: ['visualization']
+- title: "Eurographics Symposium on Parallel Graphics and Visualization"
+  description: "The Eurographics Symposium on Parallel Graphics and Visualization (EGPGV) aims to foster the exchange of experiences and knowledge on exploiting and defining new trends in parallel graphics and visualization. This area is of growing importance due to the rapidly increasing availability of multi-core CPUs, GPUs, and cluster systems. Computationally demanding and data-intensive applications in graphics and visualization are strongly affected by this trend and require novel, efficient parallel solutions."
+  place: Rome, Italy
+  abbreviation: EGPGV 2022
+  year: 2022
+  date: June 13, 2022
+  confStartDate: '2022-06-13 00:00:00'
+  confEndDate: '2022-06-13 23:59:59'
+  id: egpgv22
+  link: https://www.egpgv.org/2022/index.html
+  paperDeadline: '2022-02-25 23:59:59'
+  shortPaperDeadline: '2022-02-25 23:59:59'
+  utcOffset: '-12:00'
+  sub: ['visualization', 'parallel graphics', 'large-scale visualizations']
 - title: "VisGap - The Gap between Visualization Research and Visualization Software"
   description: "VisGap’22 aims at gathering experts from all over the visualization community in order to advance the way our field works with software, sustains software, and values the effort our members put into developing said software. This year, we extend the scope of VisGap to include reproducibility and replicability. Both are cornerstones of the scientific method and essential for building trust in visualizations and increasing their acceptance, ultimately fostering adoption in the wild."
   place: Rome, Italy
