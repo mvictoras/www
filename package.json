@@ -20,7 +20,7 @@
     "autoprefixer": "^9.8",
     "eslint": "^8.7.0",
     "ga-lite": "^2.1.4",
-    "hugo-extended": "^0.92.0",
+    "hugo-extended": "^0.92.2",
     "netlify-lambda": "^2.0",
     "postcss-cli": "^7.1",
     "purgecss-whitelister": "^2.4",
