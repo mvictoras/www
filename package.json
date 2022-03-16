@@ -26,7 +26,7 @@
     "purgecss-whitelister": "^2.4",
     "rimraf": "^3.0",
     "shelljs": "^0.8.5",
-    "stylelint": "^14.5",
+    "stylelint": "^14.6",
     "stylelint-config-standard": "^25.0"
   },
   "dependencies": {
