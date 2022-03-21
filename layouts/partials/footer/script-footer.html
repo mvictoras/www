@@ -1,47 +1,48 @@
 {{ if eq (hugo.Environment) "development" -}}
-  {{ $jquery := resources.Get "js/vendor/jquery/jquery.js" }}
-  {{ $bootstrap := resources.Get "js/vendor/bootstrap/bootstrap.bundle.js" }}
-  {{ $prism := resources.Get "js/vendor/prism/prism.js" }}
-  {{ $autoloader := resources.Get "js/vendor/prism/plugins/autoloader/prism-autoloader.js" }}
-  {{ $photoswipe := resources.Get "js/vendor/photoswipe/photoswipe.js" }}
-  {{ $photoswipeui := resources.Get "js/vendor/photoswipe/photoswipe-ui-default.js" }}
-  {{ $processing := resources.Get "js/vendor/processing/processing.js" }}
-  {{ $lazysizes := resources.Get "js/vendor/lazysizes/lazysizes.js" -}}
-  {{ $rrssb := resources.Get "js/vendor/rrssb/rrssb.js" }}
-  {{ $experienceCarousel := resources.Get "js/experience-carousel.js" -}}
-  {{ $slick := resources.Get "js/vendor/slick/slick.js" -}}
-  {{ $countdown := resources.Get "js/vendor/jquery-countdown/jquery.countdown.js" -}}
-  {{ $moment := resources.Get "js/vendor/moment/moment.js" -}}
-  {{ $moment_timezone := resources.Get "js/vendor/moment-timezone/moment-timezone.min.js" -}}
-  {{ $moment_timezone_with_data := resources.Get "js/vendor/moment-timezone/moment-timezone-with-data.js" -}}
-  {{ $add_to_calendar := resources.Get "js/vendor/add-to-calendar/ouical.js" -}}
-  {{ $deadlines := resources.Get "js/deadlines.js" -}}
-  {{ $app := resources.Get "js/app.js" -}}
+  {{ $scripts := ( slice 
+    (resources.Get "js/vendor/jquery/jquery.js")
+    (resources.Get "js/vendor/bootstrap/bootstrap.bundle.js")
+    (resources.Get "js/vendor/prism/prism.js")
+    (resources.Get "js/vendor/prism/plugins/autoloader/prism-autoloader.js")
+    (resources.Get "js/vendor/photoswipe/photoswipe.js")
+    (resources.Get "js/vendor/photoswipe/photoswipe-ui-default.js")
+    (resources.Get "js/vendor/processing/processing.js")
+    (resources.Get "js/vendor/lazysizes/lazysizes.js") 
+    (resources.Get "js/vendor/rrssb/rrssb.js")
+    (resources.Get "js/vendor/slick/slick.js")
+    (resources.Get "js/experience-carousel.js")
+    (resources.Get "js/vendor/jquery-countdown/jquery.countdown.js")
+    (resources.Get "js/vendor/moment/moment.js")
+    (resources.Get "js/vendor/moment-timezone/moment-timezone.min.js")
+    (resources.Get "js/vendor/moment-timezone/moment-timezone-with-data.js")
+    (resources.Get "js/vendor/add-to-calendar/ouical.js")
+    (resources.Get "js/deadlines.js")
+    (resources.Get "js/app.js")
+  ) }}
 
-  {{ $scripts := slice $jquery $bootstrap $prism $autoloader $photoswipe $photoswipeui $processing $lazysizes $rrssb $slick $countdown $moment $moment_timezone $moment_timezone_with_data $add_to_calendar $deadlines $app $experienceCarousel }}
   {{ $js := $scripts | resources.Concat "main.js" -}}
   <script src="{{ $js.Permalink }}" defer></script>
-{{ else -}}
-  {{ $jquery := resources.Get "js/vendor/jquery/jquery.min.js" }}
-  {{ $bootstrap := resources.Get "js/vendor/bootstrap/bootstrap.bundle.min.js" }}
-  {{ $prism := resources.Get "js/vendor/prism/prism.js" | minify }}
-  {{ $autoloader := resources.Get "js/vendor/prism/plugins/autoloader/prism-autoloader.min.js" }}
-  {{ $photoswipe := resources.Get "js/vendor/photoswipe/photoswipe.min.js" }}
-  {{ $photoswipeui := resources.Get "js/vendor/photoswipe/photoswipe-ui-default.min.js" }}
-  {{ $processing := resources.Get "js/vendor/processing/processing.min.js" }}
-  {{ $lazysizes := resources.Get "js/vendor/lazysizes/lazysizes.min.js" -}}
-  {{ $rrssb := resources.Get "js/vendor/rrssb/rrssb.min.js" }}
-  {{ $experienceCarousel := resources.Get "js/experience-carousel.js" | minify -}}
-  {{ $slick := resources.Get "js/vendor/slick/slick.js" | minify -}}
-  {{ $countdown := resources.Get "js/vendor/jquery-countdown/jquery.countdown.js" | minify -}}
-  {{ $moment := resources.Get "js/vendor/moment/moment.js" | minify -}}
-  {{ $moment_timezone := resources.Get "js/vendor/moment-timezone/moment-timezone.min.js" | minify -}}
-  {{ $moment_timezone_with_data := resources.Get "js/vendor/moment-timezone/moment-timezone-with-data.js" | minify -}}
-  {{ $add_to_calendar := resources.Get "js/vendor/add-to-calendar/ouical.js" | minify -}}
-  {{ $deadlines := resources.Get "js/deadlines.js" | minify -}}
-  {{ $app := resources.Get "js/app.js" | minify -}}
-
-  {{ $scripts := slice $jquery $bootstrap $prism $autoloader $photoswipe $photoswipeui $processing $lazysizes $rrssb $slick $countdown $moment $moment_timezone $moment_timezone_with_data $add_to_calendar $deadlines $app $experienceCarousel }}
+  {{ else -}}
+  {{ $scripts := ( slice 
+    (resources.Get "js/vendor/jquery/jquery.min.js")
+    (resources.Get "js/vendor/bootstrap/bootstrap.bundle.min.js")
+    (resources.Get "js/vendor/prism/prism.js" | minify)
+    (resources.Get "js/vendor/prism/plugins/autoloader/prism-autoloader.min.js")
+    (resources.Get "js/vendor/photoswipe/photoswipe.min.js")
+    (resources.Get "js/vendor/photoswipe/photoswipe-ui-default.min.js")
+    (resources.Get "js/vendor/processing/processing.min.js")
+    (resources.Get "js/vendor/lazysizes/lazysizes.min.js")
+    (resources.Get "js/vendor/rrssb/rrssb.min.js")
+    (resources.Get "js/vendor/slick/slick.min.js")
+    (resources.Get "js/vendor/jquery-countdown/jquery.countdown.js" | minify)
+    (resources.Get "js/vendor/moment/moment.js" | minify)
+    (resources.Get "js/vendor/moment-timezone/moment-timezone.min.js" | minify)
+    (resources.Get "js/vendor/moment-timezone/moment-timezone-with-data.js" | minify)
+    (resources.Get "js/vendor/add-to-calendar/ouical.js" | minify)
+    (resources.Get "js/deadlines.js" | minify)
+    (resources.Get "js/experience-carousel.js" | minify)
+    (resources.Get "js/app.js" | minify)
+  ) }}
 
   {{ $js := $scripts | resources.Concat "main.js" -}}
   {{ $secureJS := $js | resources.Fingerprint "sha512" -}}
