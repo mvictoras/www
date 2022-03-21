@@ -15,6 +15,7 @@ module.exports = {
         'btn-group',
         'btn-secondary',
         'btn-sm',
+        'carousel-experience',
         'dropdown-toggle',
         'dropdown-menu',
         'dropdown-item',
