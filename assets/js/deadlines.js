@@ -3,20 +3,22 @@
 /* global createCalendar */
 
 (function($) {
-  if(window.location.pathname.includes("vis-deadlines")) {
-    function addCalendarButton(elem, title, description, start, end) {
-      var myCalendar = createCalendar({
-        options: {
-        },
-        data: {
-          title: title,
-          start: start,
-          end: end,     
-          description: description,
-        },
-      });
-      elem.append(myCalendar);
-    }
+  function addCalendarButton(elem, title, description, start, end) {
+    var myCalendar = createCalendar({
+      options: {
+      },
+      data: {
+        title: title,
+        start: start,
+        end: end,     
+        description: description,
+      },
+    });
+    elem.append(myCalendar);
+  }
+
+  if(window.location.pathname.includes('vis-deadlines')) {
+    
 
     const localTimezone = moment.tz.guess();
     const today = moment();
