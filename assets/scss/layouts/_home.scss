@@ -16,8 +16,6 @@
     .col {
       height: calc(100vh - #{$bar-height} - #{$default-logo-font-size} * 2);
       height: -o-calc(100vh - #{$bar-height} - #{$default-logo-font-size} * 2); /* opera */
-      height: -webkit-calc(100vh - #{$bar-height} - #{$default-logo-font-size} * 2); /* google, safari */
-      height: -moz-calc(100vh - #{$bar-height} - #{$default-logo-font-size} * 2); /* firefox */
     }
   }
 
@@ -25,8 +23,6 @@
     .col {
       height: calc(100vh - #{$bar-height} - #{$small-logo-font-size} * 2);
       height: -o-calc(100vh - #{$bar-height} - #{$small-logo-font-size} * 2); /* opera */
-      height: -webkit-calc(100vh - #{$bar-height} - #{$small-logo-font-size} * 2); /* google, safari */
-      height: -moz-calc(100vh - #{$bar-height} - #{$small-logo-font-size} * 2); /* firefox */
     }
   }
 
@@ -34,8 +30,6 @@
     .col {
       height: calc(100vh - #{$bar-height-small} - #{$xsmall-logo-font-size} * 2);
       height: -o-calc(100vh - #{$bar-height-small} - #{$xsmall-logo-font-size} * 2); /* opera */
-      height: -webkit-calc(100vh - #{$bar-height-small} - #{$xsmall-logo-font-size} * 2); /* google, safari */
-      height: -moz-calc(100vh - #{$bar-height-small} - #{$xsmall-logo-font-size} * 2); /* firefox */
     }
   }
 }
