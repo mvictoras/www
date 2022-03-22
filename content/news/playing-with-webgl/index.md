@@ -12,7 +12,7 @@ draft: true
 <script>
 
 window.onload = function() {
-	runSketch();
+ runSketch();
 };
 
 function animate() {
@@ -42,7 +42,7 @@ function runSketch() {
     video = document.getElementById( 'camera' );
 
     // Initialize the camera
-		camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0, 1);
+  camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0, 1);
     const texture = new THREE.VideoTexture( video );
 
     const geometry = new THREE.PlaneBufferGeometry(2, 2);
@@ -67,22 +67,22 @@ function runSketch() {
       } ).catch( function ( error ) {
         console.error( 'Unable to access the camera/webcam.', error );
       } );
-    }; */
+};*/
   };
 function animate() {
-		requestAnimationFrame(animate);
-		render();
-		//stats.update();
-	};
+  requestAnimationFrame(animate);
+  render();
+  //stats.update();
+ };
 
-	/*
-	 * Renders the sketch
-	 */
-	function render() {
-		//uniforms.u_time.value = clock.getElapsedTime();
-		//uniforms.u_frame.value += 1.0;
-		renderer.render(scene, camera);
-	};
+ /*
+  * Renders the sketch
+  */
+ function render() {
+  //uniforms.u_time.value = clock.getElapsedTime();
+  //uniforms.u_frame.value += 1.0;
+  renderer.render(scene, camera);
+ };
 };
 
 // Grab elements, create settings, etc.

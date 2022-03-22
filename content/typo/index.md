@@ -8,18 +8,25 @@ subsubtitle: "I 'm a Research Scientist at GN in Chicago."
 draft: true
 ---
 # Headings
+
 # h1 heading
+
 ## h2 heading
+
 ### h3 heading
+
 #### h4 heading
+
 ##### h5 heading
+
 ###### h6 heading
 
 # Text
+
 This is how text looks like
 
 # Code
-```bash
-$ ls -la
-```
 
+```bash
+ls -la
+```

@@ -7,9 +7,10 @@ subtitle: "Hi, I 'm Victor!"
 draft: false
 ---
 # Hi, I \'m Victor!
+
 <h2 class="text-muted pb-3">I 'm a Computer Scientist at ANL</h2>
 
-I design interactive visualizations of domain-specific high-resolution large-scale datasets, develop emerging technologies, create futuristic interfaces and interactions, and prototype next-generation hardware devices. In other words, I envision the technology 5-10 years down the road, and then I proceed to build it. Early in my career, I realized the endless possibilities of Computer Graphics and Human-Computer Interaction (HCI). Fascinated by the ways Computer Graphics can help understand complex multi-dimensional data, and by the ways HCI can help understand and enhance human activities and experiences, I decided to focus my academic and professional career on finding new ways to improve data discovery and analysis for domain scientists all over the world. 
+I design interactive visualizations of domain-specific high-resolution large-scale datasets, develop emerging technologies, create futuristic interfaces and interactions, and prototype next-generation hardware devices. In other words, I envision the technology 5-10 years down the road, and then I proceed to build it. Early in my career, I realized the endless possibilities of Computer Graphics and Human-Computer Interaction (HCI). Fascinated by the ways Computer Graphics can help understand complex multi-dimensional data, and by the ways HCI can help understand and enhance human activities and experiences, I decided to focus my academic and professional career on finding new ways to improve data discovery and analysis for domain scientists all over the world.
 
 {{< figure src="mateevitsi-spidersense2.jpg" caption="The SpiderSense jacket" >}}
 
@@ -28,6 +29,7 @@ I draw on a diverse set of skills, including scientific visualization, computer 
 {{< figure src="mateevitsi-gn.jpg" caption="Demonstrating next-gen devices at the GN headquarters in Ballerup, Denmark" >}}
 
 ### More facts about me
+
 I play Ice Hockey 🏒 as long as I can remember. From 2006 - 2009 I was selected in the {{< a link="Greek National Ice Hockey Team" src="http://www.eurohockey.com/player/125505-viktor-mateevitsi.html" >}} and participated in the Division 3 IIHF World Championships. Today I play at Johnny's Adult Hockey League with the {{< a link="Centurions" src="https://pointstreak.com/players/players-team.html?teamid=624788&seasonid=19724"  >}}.
 
 {{< figure src="mateevitsi-ice-hockey.jpg" caption="Training camp in Czech Republik before the World Champs" >}}

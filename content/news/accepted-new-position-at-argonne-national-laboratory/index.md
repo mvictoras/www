@@ -13,4 +13,3 @@ Formed on July 1st 1946 to conduct “cooperative research in nucleonics”, the
 
 {{< figure src="theta.jpg" caption="The Theta Supercomputer. Image credit: Argonne Leadership Computing Facility" >}}
 This will be my second week at ANL and I couldn’t be more excited! First, I will be collaborating with some of the best domain scientists in the world, working on real-world problems with immense applications. Second, I will be utilizing ALCF’s Supercomputers, one of which, is an 11.69-petaflops Supercomputer with 843 TB of memory (hello, Theta!), and working with the team on Aurora, the first exascale computer of the world. Needless to say, I am already loving it!
-
