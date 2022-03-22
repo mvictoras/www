@@ -24,4 +24,3 @@ twitter: mvictoras
   <li class="list-group-item border-0 py-1"><i class="ai ai-publons"></i> <a href="https://publons.com/researcher/1704047/victor-mateevitsi/" target="_blank">Victor Mateevitsi</a></li>
 
 </ul>
-

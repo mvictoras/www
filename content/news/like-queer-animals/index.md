@@ -6,6 +6,7 @@ draft: true
 ---
 
 ### Demo AR Picture
+
 <a href="animal1.usdz" rel="ar">
   {{< figure src="Edgewater.jpg" >}}
 </a>

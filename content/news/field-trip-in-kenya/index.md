@@ -9,4 +9,4 @@ For the 2012 Spring Semester I registered with the Computational Ecology class 
 
 More pictures to come.
 
-{{< gallery "IMG_8561.jpg"	"IMG_8562.jpg"	"IMG_8571.jpg" >}}
+{{< gallery "IMG_8561.jpg" "IMG_8562.jpg" "IMG_8571.jpg" >}}
