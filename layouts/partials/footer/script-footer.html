@@ -1,50 +1,30 @@
-{{ if eq (hugo.Environment) "development" -}}
-  {{ $scripts := ( slice 
-    (resources.Get "js/vendor/jquery/jquery.js")
-    (resources.Get "js/vendor/bootstrap/bootstrap.bundle.js")
-    (resources.Get "js/vendor/prism/prism.js")
-    (resources.Get "js/vendor/prism/plugins/autoloader/prism-autoloader.js")
-    (resources.Get "js/vendor/photoswipe/photoswipe.js")
-    (resources.Get "js/vendor/photoswipe/photoswipe-ui-default.js")
-    (resources.Get "js/vendor/processing/processing.js")
-    (resources.Get "js/vendor/lazysizes/lazysizes.js") 
-    (resources.Get "js/vendor/rrssb/rrssb.js")
-    (resources.Get "js/vendor/slick/slick.js")
-    (resources.Get "js/experience-carousel.js")
-    (resources.Get "js/vendor/jquery-countdown/jquery.countdown.js")
-    (resources.Get "js/vendor/moment/moment.js")
-    (resources.Get "js/vendor/moment-timezone/moment-timezone.min.js")
-    (resources.Get "js/vendor/moment-timezone/moment-timezone-with-data.js")
-    (resources.Get "js/vendor/add-to-calendar/ouical.js")
-    (resources.Get "js/deadlines.js")
-    (resources.Get "js/app.js")
-  ) }}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/jquery/jquery.js" "load" "defer" "transpile" true) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/lazysizes/lazysizes.js" "load" "async" "transpile" false) -}}
+{{ partial "footer/esbuild" (dict "src" "js/app.js" "targetPath" "main.js" "load" "defer" "transpile" false) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/bootstrap/bootstrap.bundle.js" "load" "async" "transpile" false) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/prism/prism.js" "load" "async" "transpile" false) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/prism/plugins/autoloader/prism-autoloader.js" "load" "async" "transpile" false) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/photoswipe/photoswipe.js" "load" "async" "transpile" false) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/photoswipe/photoswipe-ui-default.js" "load" "async" "transpile" false) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/processing/processing.js" "load" "async" "transpile" false) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/rrssb/rrssb.js" "load" "defer" "transpile" false) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/slick/slick.js" "load" "defer" "transpile" false) -}}
+{{ partial "footer/esbuild" (dict "src" "js/experience-carousel.js" "load" "defer" "transpile" true) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/jquery-countdown/jquery.countdown.js" "load" "defer" "transpile" false) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/moment/moment.js" "load" "async" "transpile" false) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/moment-timezone/moment-timezone.min.js" "load" "async" "transpile" false) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/moment-timezone/moment-timezone-with-data.js" "load" "async" "transpile" false) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/add-to-calendar/ouical.js" "load" "async" "transpile" false) -}}
+{{ partial "footer/esbuild" (dict "src" "js/deadlines.js" "load" "async" "transpile" false) -}}
 
-  {{ $js := $scripts | resources.Concat "main.js" -}}
-  <script src="{{ $js.Permalink }}" defer></script>
-  {{ else -}}
-  {{ $scripts := ( slice 
-    (resources.Get "js/vendor/jquery/jquery.min.js")
-    (resources.Get "js/vendor/bootstrap/bootstrap.bundle.min.js")
-    (resources.Get "js/vendor/prism/prism.js" | minify)
-    (resources.Get "js/vendor/prism/plugins/autoloader/prism-autoloader.min.js")
-    (resources.Get "js/vendor/photoswipe/photoswipe.min.js")
-    (resources.Get "js/vendor/photoswipe/photoswipe-ui-default.min.js")
-    (resources.Get "js/vendor/processing/processing.min.js")
-    (resources.Get "js/vendor/lazysizes/lazysizes.min.js")
-    (resources.Get "js/vendor/rrssb/rrssb.min.js")
-    (resources.Get "js/vendor/slick/slick.min.js")
-    (resources.Get "js/vendor/jquery-countdown/jquery.countdown.js" | minify)
-    (resources.Get "js/vendor/moment/moment.js" | minify)
-    (resources.Get "js/vendor/moment-timezone/moment-timezone.min.js" | minify)
-    (resources.Get "js/vendor/moment-timezone/moment-timezone-with-data.js" | minify)
-    (resources.Get "js/vendor/add-to-calendar/ouical.js" | minify)
-    (resources.Get "js/deadlines.js" | minify)
-    (resources.Get "js/experience-carousel.js" | minify)
-    (resources.Get "js/app.js" | minify)
-  ) }}
-
-  {{ $js := $scripts | resources.Concat "main.js" -}}
-  {{ $secureJS := $js | resources.Fingerprint "sha512" -}}
-  <script src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{/* EXAMPLE - only load script for production
+{{ if eq (hugo.Environment) "production" -}}
+  {{ partial "footer/esbuild" (dict "src" "js/instantpage.js" "load" "async" "transpile" false) -}}
 {{ end -}}
+*/}}
+
+{{/* EXAMPLE - only load script for a page type e.g. contact or gallery
+{{ if eq .Type "gallery" }}
+  {{ partial "footer/esbuild" (dict "src" "js/gallery.js" "load" "async" "transpile" false) -}}
+{{ end }}
+*/}}

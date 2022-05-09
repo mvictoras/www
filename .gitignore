@@ -28,3 +28,5 @@ themes/default/assets/css/vendor
 themes/default/assets/js/vendor
 themes/default/assets/scss/vendor
 themes/default/assets/vendor
+
+.netlify

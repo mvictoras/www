@@ -1,15 +1,32 @@
+# Homepage
 title = "Victor A. Mateevitsi, PhD"
 titleSeparator = "-"
 titleAddition = "Researcher, Scientist, Engineer"
 description = "I am a Human-Computer Interaction Research Scientist at GN Advanced Science, founder and chair of ChicagoCHI and co-founder of PICKLE. I also consult startups and companies on HCI, UX, Virtual Reality, Augmented Reality and emerging technologies"
+
+## Open Graph
 images = ["VictorMateevitsi.jpg"]
+ogLocale = "en_US"
+titleHome = "Victor's Homepage"
+
+## Twitter Cards
 twitterSite = "@mvictoras"
 twitterCreator = "@mvictoras"
-ogLocale = "en_US"
+
+## JSON-LD
 schemaType = "Person"
+schemaName = "Victor Mateevitsi"
+schemaAuthor = "Victor Mateevitsi"
+schemaLocale = "en-US"
 schemaLogo = "logo-vm.png"
+schemaLogoWidth = 500
+schemaLogoHeight = 500
+schemaImage = "VictorMateevitsi.jpg"
+schemaImageWidth = 1200
+schemaImageHeight = 630
 schemaTwitter = "https://twitter.com/mvictoras"
 schemaLinkedIn = "https://www.linkedin.com/in/mvictoras"
+schemaAuthorGitHub = "https://github.com/mvictoras"
 schemaSection = "news"
 #siteLinksSearchBox = false
 
@@ -23,3 +40,5 @@ quality = 85
 #portraitPhotoWidths = [1500, 1000, 750]
 #lqipWidth = "20x"
 articlePhotoSize = "688x381"
+
+footer = "Victor A. Mateevitsi. Made with  <div class='heart-emoji'><span style='color: #e25555;'>&#9829;</span></div>  in Chicago, IL"
