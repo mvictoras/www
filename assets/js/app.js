@@ -1,5 +1,34 @@
 'use strict';
 
+import jquery from 'jquery';
+window.jQuery = jquery;
+window.$ = jquery;
+
+/*
+requirejs.config({
+    baseUrl: 'js/vendor/jquery',
+    paths: {
+        // the left side is the module ID,
+        // the right side is the path to
+        // the jQuery file, relative to baseUrl.
+        // Also, the path should NOT include
+        // the '.js' file extension. This example
+        // is using jQuery 1.9.0 located at
+        // js/lib/jquery-1.9.0.js, relative to
+        // the HTML page.
+        jquery: 'jquery'
+    }
+});
+*/
+import { listen } from 'quicklink/dist/quicklink.mjs';
+listen();
+
+// lazy sizes for image loading
+import 'lazysizes';
+
+// global alert
+import './assets/js/alert';
+
 /* global PhotoSwipe, PhotoSwipeUI_Default */
 
 (function($) {
@@ -18,7 +47,7 @@
       };
     container.push(item);
   });
-  
+
   // Define click event on gallery item
   $('#gallery').find('a').click(function(event) {
 

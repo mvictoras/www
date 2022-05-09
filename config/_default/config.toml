@@ -1,8 +1,10 @@
-baseURL = "/"
+baseURL = "https://www.vmateevitsi.com/"
+canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
 enableEmoji = true
+enableGitInfo = false
 enableRobotsTXT = true
 languageCode = "en-US"
 paginate = 7
@@ -47,11 +49,16 @@ notAlternative = true
     style = "dracula"
     tabWidth = 4
 
+[caches]
+  [caches.getjson]
+    dir = ":cacheDir/:project"
+    maxAge = "10s"
+
 [sitemap]
   changefreq = "monthly"
   filename = "sitemap.xml"
   priority = 0.5
-  
+
 [imaging]
 # See https://github.com/disintegration/imaging
 # CatmullRom is a sharp bicubic filter which should fit the docs site well with its many screenshots.
@@ -124,3 +131,30 @@ anchor = "smart"
   [[module.mounts]]
     source = "node_modules/popper.js/dist"
     target = "assets/js/vendor/popper"
+  [[module.mounts]]
+    source = "node_modules/requirejs"
+    target = "assets/js/vendor/requirejs"
+
+[taxonomies]
+  category = "categories"
+
+[permalinks]
+  blog = "/:title/"
+
+[minify.tdewolff.html]
+  keepWhitespace = false
+
+[related]
+  threshold = 80
+  includeNewer = true
+  toLower = false
+    [[related.indices]]
+    name = "categories"
+    weight = 100
+    [[related.indices]]
+    name = "date"
+    weight = 10
+
+[security]
+  [security.exec]
+    allow = ['^npx$', '^babel$']

@@ -1,19 +1,43 @@
 [build]
   publish = "public"
-  command = "yarn build"
-  functions = "functions/"
+  functions = "functions"
 
 [build.environment]
-  HUGO_VERSION = "0.88.0"
-  NODE_VERSION = "16.10.0"
-  NPM_VERSION = "7.24.0"
-  YARN_VERSION = "1.22.15"
+  NODE_VERSION = "16.13.1"
+  NPM_VERSION = "8.1.2"
+
+[context.production]
+  command = "npm run build"
 
 [context.deploy-preview]
-  command = "yarn build:preview"
-
-[context.deploy-preview.environment]
-  HUGO_ENV = "staging"
+  command = "npm run build -- -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-  command = "yarn build"
+  command = "npm run build -- -b $DEPLOY_PRIME_URL"
+
+[context.next]
+  command = "npm run build"
+
+[context.next.environment]
+  HUGO_ENV = "next"
+
+[[plugins]]
+  package = "netlify-plugin-submit-sitemap"
+
+	[plugins.inputs]
+    baseUrl = "https://www.vmateevitsi.com/"
+    sitemapPath = "/sitemap.xml"
+    ignorePeriod = 0
+    providers = [
+      "google",
+      "bing",
+      "yandex"
+    ]
+
+[dev]
+  framework = "#custom"
+  command = "npm run start"
+  targetPort = 1313
+  port = 8888
+  publish = "public"
+  autoLaunch = false
