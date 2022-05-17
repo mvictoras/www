@@ -2893,9 +2893,9 @@ https-browserify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/https-browserify/-/https-browserify-1.0.0.tgz"
 
-hugo-extended@^0.96.0:
-  version "0.96.0"
-  resolved "https://registry.yarnpkg.com/hugo-extended/-/hugo-extended-0.96.0.tgz#96f82848e13a9fa616725b0e0fb6f0ea5816e3e5"
+hugo-extended@^0.99.0:
+  version "0.99.0"
+  resolved "https://registry.yarnpkg.com/hugo-extended/-/hugo-extended-0.99.0.tgz#1bb7faa01038290a034dde51bfbb05ceeb0857eb"
   dependencies:
     careful-downloader "^2.0.2"
     log-symbols "^5.1.0"
