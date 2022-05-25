@@ -1350,7 +1350,7 @@ braces@^2.3.1, braces@^2.3.2:
     split-string "^3.0.2"
     to-regex "^3.0.1"
 
-braces@^3.0.1, braces@~3.0.2:
+braces@^3.0.1, braces@^3.0.2, braces@~3.0.2:
   version "3.0.2"
   resolved "https://registry.npmjs.org/braces/-/braces-3.0.2.tgz"
   dependencies:
@@ -2864,9 +2864,9 @@ hosted-git-info@^4.0.1:
   dependencies:
     lru-cache "^6.0.0"
 
-html-tags@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.npmjs.org/html-tags/-/html-tags-3.1.0.tgz"
+html-tags@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/html-tags/-/html-tags-3.2.0.tgz#dbb3518d20b726524e4dd43de397eb0a95726961"
 
 http-cache-semantics@^4.0.0:
   version "4.1.0"
@@ -3294,9 +3294,9 @@ kind-of@^6.0.0, kind-of@^6.0.2, kind-of@^6.0.3:
   version "6.0.3"
   resolved "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz"
 
-known-css-properties@^0.24.0:
-  version "0.24.0"
-  resolved "https://registry.npmjs.org/known-css-properties/-/known-css-properties-0.24.0.tgz"
+known-css-properties@^0.25.0:
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/known-css-properties/-/known-css-properties-0.25.0.tgz#6ebc4d4b412f602e5cfbeb4086bd544e34c0a776"
 
 lazy-cache@^1.0.3:
   version "1.0.4"
@@ -3555,7 +3555,7 @@ methods@~1.1.2:
   version "1.1.2"
   resolved "https://registry.npmjs.org/methods/-/methods-1.1.2.tgz"
 
-micromatch@4.0.4, micromatch@^4.0.4:
+micromatch@4.0.4:
   version "4.0.4"
   resolved "https://registry.npmjs.org/micromatch/-/micromatch-4.0.4.tgz"
   dependencies:
@@ -3579,6 +3579,13 @@ micromatch@^3.1.10, micromatch@^3.1.4:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.2"
+
+micromatch@^4.0.4, micromatch@^4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.5.tgz#bc8999a7cbbf77cdc89f132f6e467051b49090c6"
+  dependencies:
+    braces "^3.0.2"
+    picomatch "^2.3.1"
 
 miller-rabin@^4.0.0:
   version "4.0.1"
@@ -3724,9 +3731,13 @@ nanoclone@^0.2.1:
   version "0.2.1"
   resolved "https://registry.npmjs.org/nanoclone/-/nanoclone-0.2.1.tgz"
 
-nanoid@^3.1.23, nanoid@^3.3.1:
+nanoid@^3.1.23:
   version "3.3.1"
   resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.3.1.tgz"
+
+nanoid@^3.3.4:
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.4.tgz#730b67e3cd09e2deacf03c027c81c9d9dbc5e8ab"
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -3853,10 +3864,6 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
 normalize-range@^0.1.2:
   version "0.1.2"
   resolved "https://registry.npmjs.org/normalize-range/-/normalize-range-0.1.2.tgz"
-
-normalize-selector@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npmjs.org/normalize-selector/-/normalize-selector-0.2.0.tgz"
 
 normalize-url@^6.0.1:
   version "6.1.0"
@@ -4112,6 +4119,10 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3:
   version "2.3.0"
   resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.3.0.tgz"
 
+picomatch@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
+
 pify@^2.3.0:
   version "2.3.0"
   resolved "https://registry.npmjs.org/pify/-/pify-2.3.0.tgz"
@@ -4203,9 +4214,9 @@ postcss-scss@^4.0.2:
   version "4.0.3"
   resolved "https://registry.npmjs.org/postcss-scss/-/postcss-scss-4.0.3.tgz"
 
-postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.6, postcss-selector-parser@^6.0.9:
-  version "6.0.9"
-  resolved "https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.0.9.tgz"
+postcss-selector-parser@^6.0.10, postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.6:
+  version "6.0.10"
+  resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.10.tgz#79b61e2c0d1bfc2602d549e11d0876256f8df88d"
   dependencies:
     cssesc "^3.0.0"
     util-deprecate "^1.0.2"
@@ -4221,11 +4232,11 @@ postcss@^7.0.0, postcss@^7.0.32, postcss@^7.0.7:
     picocolors "^0.2.1"
     source-map "^0.6.1"
 
-postcss@^8.2.1, postcss@^8.4.12:
-  version "8.4.12"
-  resolved "https://registry.npmjs.org/postcss/-/postcss-8.4.12.tgz"
+postcss@^8.2.1, postcss@^8.4.14:
+  version "8.4.14"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.14.tgz#ee9274d5622b4858c1007a74d76e42e56fd21caf"
   dependencies:
-    nanoid "^3.3.1"
+    nanoid "^3.3.4"
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
@@ -5027,9 +5038,9 @@ stylelint-scss@^4.0.0:
     postcss-selector-parser "^6.0.6"
     postcss-value-parser "^4.1.0"
 
-stylelint@^14.6:
-  version "14.6.1"
-  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-14.6.1.tgz#aff137b0254515fc36b91921d88a3eb2edc194bf"
+stylelint@^14.8:
+  version "14.8.5"
+  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-14.8.5.tgz#0fcbf5b6821283b5a249dde36d70f1158da0a2a3"
   dependencies:
     balanced-match "^2.0.0"
     colord "^2.9.2"
@@ -5044,23 +5055,22 @@ stylelint@^14.6:
     global-modules "^2.0.0"
     globby "^11.1.0"
     globjoin "^0.1.4"
-    html-tags "^3.1.0"
+    html-tags "^3.2.0"
     ignore "^5.2.0"
     import-lazy "^4.0.0"
     imurmurhash "^0.1.4"
     is-plain-object "^5.0.0"
-    known-css-properties "^0.24.0"
+    known-css-properties "^0.25.0"
     mathml-tag-names "^2.1.3"
     meow "^9.0.0"
-    micromatch "^4.0.4"
+    micromatch "^4.0.5"
     normalize-path "^3.0.0"
-    normalize-selector "^0.2.0"
     picocolors "^1.0.0"
-    postcss "^8.4.12"
+    postcss "^8.4.14"
     postcss-media-query-parser "^0.2.3"
     postcss-resolve-nested-selector "^0.1.1"
     postcss-safe-parser "^6.0.0"
-    postcss-selector-parser "^6.0.9"
+    postcss-selector-parser "^6.0.10"
     postcss-value-parser "^4.2.0"
     resolve-from "^5.0.0"
     specificity "^0.4.1"
