@@ -22,7 +22,7 @@
     "autoprefixer": "^9.8",
     "eslint": "^8.12.0",
     "ga-lite": "^2.1.6",
-    "hugo-extended": "^0.96.0",
+    "hugo-extended": "^0.100.0",
     "markdownlint-cli2": "^0.4.0",
     "netlify-lambda": "^2.0",
     "postcss-cli": "^7.1",
