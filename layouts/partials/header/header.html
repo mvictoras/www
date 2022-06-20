@@ -1,16 +1,27 @@
-{{ if .Site.Params.alert -}}
-  {{ partial "header/alert.html" . }}
-{{ end -}}
+<nav class="navbar navbar-expand-lg navbar-light ">
+  <a class="navbar-brand" href="{{ "/" | relURL}}">{{ .Site.Params.title }}</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<header class="navbar navbar-light">
-  <div class="container">
-    <a class="navbar-brand monospace" href="{{ "/" | absURL }}">{{ .Site.Params.Title }}</a>
-    <div class="ms-auto">
-    {{ range .Site.Menus.main }}
-      <span class="navbar-text">
-        <a href="{{ .URL }}">{{- .Name -}}</a>
-      </span>
-    {{ end }}
-    </div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ms-auto">
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main.ByWeight }}
+        <li class="navbar-item justify-content-center {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">
+          <a class="nav-link" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+        </li>
+      {{ end }}
+    </ul>
+    <div class="dropdown-divider"></div>
+    <ul class="navbar-nav nav-flex-icons justify-content-center">
+      {{ range .Site.Data.social }}
+      <li class="navbar-item"><a href="{{ .url }}" target="_blank"><span class="fa-stack fa">
+            <i class="fa fa-circle fa-stack-2x {{ .name }}-color"></i>
+            <i class="fa fa-{{ .name }} text-white fa-stack-1x"></i>
+          </span></a></li>
+      {{ end }}
+    </ul>
+    <div class="dropdown-divider"></div>
   </div>
-</header>
+</nav>
