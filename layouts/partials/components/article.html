@@ -6,10 +6,10 @@
 
   <div class="card">
     {{ if (isset . "imgRelPermalink") }}
-      <img class="card-img-top lazyload" src={{ .imgRelPermalink }} alt="{{ .Title }}">  
+      <img class="card-img-top lazyload" src={{ .imgRelPermalink }} alt="{{ .Title }}">
     {{ else }}
       {{ with $.Resources.GetMatch (string (index $.Params.images 0)) }}
-      <img class="card-img-top lazyload" src={{ (.Fill $.Site.Params.articlePhotoSize).RelPermalink }} alt="{{ .Title }}">  
+      <img class="card-img-top lazyload" src={{ (.Fill $.Site.Params.articlePhotoSize).RelPermalink }} alt="{{ .Title }}">
       {{ end }}
     {{ end }}
     <div class="card-body">

@@ -7,9 +7,9 @@
   <div class="container list">
     <div class="row">
       <div class="col-lg-8">
-        {{ if in (.Scratch.Get "class") "press" }}
+        {{ if (eq .Page.Type "press") }}
           {{ block "items-list" . }}{{ partial "press/list.html" . }}{{ end }}
-        {{ else if in (.Scratch.Get "class") "news" }}
+        {{ else if (eq .Page.Type "news") }}
           {{ block "articles-list" . }}{{ partial "news/list.html" . }}{{ end }}
         {{ else }}
           {{ block "videos-list" . }}{{ partial "videos/list.html" . }}{{ end }}

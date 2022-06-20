@@ -1,3 +1,6 @@
+import $ from 'jquery';
+import 'slick-carousel';
+
 $('.carousel-experience').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
