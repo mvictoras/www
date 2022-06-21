@@ -1,9 +1,11 @@
-{{/* USAGE:  {{ partial "footer/esbuild" (dict "src" "js/file.js" "targetPath" "main.js" "load" "async/defer" "transpile" true/false) }}  */}}
+{{/* USAGE:  {{ partial "footer/esbuild" (dict "src" "js/file.js" "targetPath" "main.js" "load" "async/defer" "transpile" true/false "scratch" .Scratch "concat" true/false) }}  */}}
 {{ $src := .src -}}
 {{ $targetPath := .targetPath | default $src -}}
 {{ $load := .load -}}
+{{ $scratch := .scratch -}}
 {{ $js := "" -}}
 
+{{ $bundle := $scratch.Get "bundle" }}
 {{ if .transpile -}}
   {{ $js = resources.Get $src | js.Build | babel (dict "noComments" true "minified" true "compact" true "config" "config/babel.config.js") | fingerprint "sha512" -}}
 {{ else if eq (hugo.Environment) "development" -}}
@@ -12,8 +14,18 @@
   {{ $js = resources.Get $src | js.Build (dict "targetPath" $targetPath "minify" true ) | fingerprint "sha512" -}}
 {{ end -}}
 
-{{ print "<script " $load | safeHTML }}
-  type="text/javascript"
-  src="{{- $js.RelPermalink -}}"
-  integrity="{{- $js.Data.Integrity -}}">
-</script>
+{{ if eq $bundle nil }}
+  {{ $bundle = slice (resources.Get $src) }}
+{{ else }}
+  {{ $bundle = $bundle | append (resources.Get $src) }}
+{{ end }}
+
+{{ $scratch.Set "bundle" $bundle }}
+
+{{ if not .concat }}
+  {{ print "<script " $load | safeHTML }}
+    type="text/javascript"
+    src="{{- $js.RelPermalink -}}"
+    integrity="{{- $js.Data.Integrity -}}">
+  </script>
+{{ end }}
