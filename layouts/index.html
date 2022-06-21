@@ -1,10 +1,6 @@
 {{ define "main" }}
 <div class="container-fluid">
 
-  {{ $image := resources.Get "images/home/Victor_Mateevitsi.jpg" }}
-  {{ $image := $image.Resize "x740" }}
-  {{ $imageSmall := resources.Get "images/home/Victor_Mateevitsi_small.jpg" }}
-  {{ $imageSmall := $imageSmall.Resize "x500" }}
 <!-- Smalll displays -->
   <div class="d-sm-block d-md-none row section-home-banner home-image-sm">
     <div class="col d-flex align-items-center">
@@ -34,8 +30,6 @@
 
   </div>
 
-  {{ $image := resources.Get "images/home/Mateevitsi_SpiderSense_VR.jpg" }}
-  {{ $image := $image.Resize "1920x" }}
   <div class="row parallax home-image-parallax-spidersense">
     <div class="container">
       <p>I am a Computer Scientist at the
@@ -53,8 +47,6 @@
 
   {{ partial "social_row.html" (dict "social" .Site.Data.social.instagram) }}
 
-  {{ $image := resources.Get "images/home/Mateevitsi_batcave.jpg" }}
-  {{ $image := $image.Resize "1920x" }}
   <div class="row parallax home-image-parallax-batcave">
     <div class="container">
       <p>I love crazy ideas, difficult problems and emerging technologies. Do you or your idea fit the profile? <a href="/contact">Let's work together</a>, I can help!</p>
