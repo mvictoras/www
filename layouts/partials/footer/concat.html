@@ -13,8 +13,6 @@
 {{ end -}}
 
 {{ print "<script " $load | safeHTML }}
-  nonce="aFgh64Gh2Sdfh7"
   type="text/javascript"
-  src="{{- $js.RelPermalink -}}"
-  integrity="{{- $js.Data.Integrity -}}">
+  src="{{- $js.RelPermalink -}}">
 </script>
