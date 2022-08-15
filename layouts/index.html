@@ -1,59 +1,49 @@
 {{ define "main" }}
-<div class="container-fluid">
 
-<!-- Smalll displays -->
-  <div class="d-sm-block d-md-none row section-home-banner home-image-sm">
-    <div class="col d-flex align-items-center">
-      <div class="col-4 skills">
-        <div><span class="skill1">{{ index (.Params.skills) 0 }}</span></div>
-        <div class="skill-row"><span class="skill2">{{ index (.Params.skills) 1 }}</span></div>
-        <div class="skill-row"><span class="skill3">{{ index (.Params.skills) 2 }}</span></div>
-      </div>
+<div class="container">
+  <div class="row align-items-center">
+    <div class="col-4 skills">
+      <div class="py-4"><span class="skill1">{{ index (.Params.skills) 0 }}</span></div>
+      <div class="py-4"><span class="skill2">{{ index (.Params.skills) 1 }}</span></div>
+      <div class="py-4"><span class="skill3">{{ index (.Params.skills) 2 }}</span></div>
+    </div>
+    <div class="col-8 align-self-end">
+      <img src="index_mateevitsi.jpg" class="img-fluid float-end" alt="Victor Mateevitsi wearing a HoloLens and holding Groku">
     </div>
   </div>
-  <!-- Large displays -->
-  <div class="d-none d-md-block row section-home-banner home-image-md">
-    <div class="col d-flex align-items-center">
-      <div class="col-4 skills">
-        <div><span class="skill1">{{ index (.Params.skills) 0 }}</span></div>
-        <div class="skill-row"><span class="skill2">{{ index (.Params.skills) 1 }}</span></div>
-        <div class="skill-row"><span class="skill3">{{ index (.Params.skills) 2 }}</span></div>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col d-flex align-items-center justify-content-center latest">
-      {{ range first 1 (where .Site.Pages "Section" "news") }}
-      <a href="{{ .RelPermalink }}">Latest: {{ .Title }} </a>
-      {{ end }}
-    </div>
-
-  </div>
-
-  <div class="row parallax home-image-parallax-spidersense">
-    <div class="container">
-      <p>I am a Computer Scientist at the
-      <a href="https://www.alcf.anl.gov" target="_blank">Argonne Leadership Computing Facility</a> at the <a href="https://www.anl.gov" target="_blank">Argonne National Laboratory</a>, founder and chair of <a href="https://www.chicagochi.org" target="_blank">ChicagoCHI</a> and co-founder of <a href="https://www.thisispickle.com/" target="_blank">PICKLE</a>. I also consult startups and companies on HCI, UX, Virtual Reality, Augmented Reality and emerging technologies. When I am not working I play ice hockey, snowboard, sail, read, make things at <a href="https://www.pumpingstationone.org" target="_blank">Pumping Station: One</a>, or develop future technologies, like <a href={{ with .Site.GetPage "/news/sensing-the-environment-through-spidersense" }}{{ .Permalink }}{{ end }}>SpiderSense</a>.</p>
-
-      <p>My expertise lies in large-scale visualizations, and prototyping novel ways of interacting with next-gen technology, which sometimes means building hardware prototypes; at other times designing innovative User Experiences. I am agile and well versed in software and hardware development, as well as fabrication. Check the <a href="/news">news page</a> to see what I am up to, <a href={{ with .Site.GetPage "/contact" }}{{ .Permalink }}{{ end }}>contact me</a> for consulting projects, collaborations, or any questions you have. Find out more about me <a href={{ with .Site.GetPage "/about" }}{{ .Permalink }}{{ end }}>here</a>.</p>
-
-    </div>
-  </div>
-
-
-  {{ partial "social_row.html" (dict "social" .Site.Data.social.twitter) }}
-
-  {{ partial "components/experience-list" . }}
-
-  {{ partial "social_row.html" (dict "social" .Site.Data.social.instagram) }}
-
-  <div class="row parallax home-image-parallax-batcave">
-    <div class="container">
-      <p>I love crazy ideas, difficult problems and emerging technologies. Do you or your idea fit the profile? <a href="/contact">Let's work together</a>, I can help!</p>
-      <p>I also love travelling, exchanging ideas and sharing knowledge. I have been a <a href="https://youtu.be/gtU-6cxi1OA" target="_blank">TEDx speaker</a> and spoken to world-class conferences, like the <a href="https://youtu.be/D2BZ5wCTwGU" target="_blank">Augmented World Exposition (AWE)</a>. I'd be honored to participate at your next panel, conference or event. Feel free to <a href="/contact">contact me</a>.</p>
-    </div>
-  </div>
-  {{ partial "social_row.html" (dict "social" .Site.Data.social.facebook) }}
 </div>
+
+<div class="container-fluid px-0">
+  <div class="col d-flex align-items-center justify-content-center latest">
+    {{ range first 1 (where .Site.Pages "Section" "news") }}
+    <a href="{{ .RelPermalink }}">Latest: {{ .Title }} </a>
+    {{ end }}
+  </div>
+</div>
+
+<div class="px-0 parallax home-image-parallax-spidersense">
+  <div class="container">
+    <p>I am a Computer Scientist at the
+    <a href="https://www.alcf.anl.gov" target="_blank">Argonne Leadership Computing Facility</a> at the <a href="https://www.anl.gov" target="_blank">Argonne National Laboratory</a>, founder and chair of <a href="https://www.chicagochi.org" target="_blank">ChicagoCHI</a> and co-founder of <a href="https://www.thisispickle.com/" target="_blank">PICKLE</a>. I also consult startups and companies on HCI, UX, Virtual Reality, Augmented Reality and emerging technologies. When I am not working I play ice hockey, snowboard, sail, read, make things at <a href="https://www.pumpingstationone.org" target="_blank">Pumping Station: One</a>, or develop future technologies, like <a href={{ with .Site.GetPage "/news/sensing-the-environment-through-spidersense" }}{{ .Permalink }}{{ end }}>SpiderSense</a>.</p>
+
+    <p>My expertise lies in large-scale visualizations, and prototyping novel ways of interacting with next-gen technology, which sometimes means building hardware prototypes; at other times designing innovative User Experiences. I am agile and well versed in software and hardware development, as well as fabrication. Check the <a href="/news">news page</a> to see what I am up to, <a href={{ with .Site.GetPage "/contact" }}{{ .Permalink }}{{ end }}>contact me</a> for consulting projects, collaborations, or any questions you have. Find out more about me <a href={{ with .Site.GetPage "/about" }}{{ .Permalink }}{{ end }}>here</a>.</p>
+
+  </div>
+</div>
+
+
+{{ partial "social_row.html" (dict "social" .Site.Data.social.twitter) }}
+
+{{ partial "components/experience-list" . }}
+
+{{ partial "social_row.html" (dict "social" .Site.Data.social.instagram) }}
+
+<div class="px-0 parallax home-image-parallax-batcave">
+  <div class="container">
+    <p>I love crazy ideas, difficult problems and emerging technologies. Do you or your idea fit the profile? <a href="/contact">Let's work together</a>, I can help!</p>
+    <p>I also love travelling, exchanging ideas and sharing knowledge. I have been a <a href="https://youtu.be/gtU-6cxi1OA" target="_blank">TEDx speaker</a> and spoken to world-class conferences, like the <a href="https://youtu.be/D2BZ5wCTwGU" target="_blank">Augmented World Exposition (AWE)</a>. I'd be honored to participate at your next panel, conference or event. Feel free to <a href="/contact">contact me</a>.</p>
+  </div>
+</div>
+{{ partial "social_row.html" (dict "social" .Site.Data.social.facebook) }}
 
 {{ end }}

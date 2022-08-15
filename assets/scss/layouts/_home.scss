@@ -1,11 +1,3 @@
-.home-image-sm {
-  background: #fff url(/images/Victor_Mateevitsi_small_hu04c03f7207a6dae93f829311405981d3_14571384_0x500_resize_q75_catmullrom.jpg) no-repeat right bottom;
-}
-
-.home-image-md {
-  background: #fff url(/images/Victor_Mateevitsi_hud43ad085dd0329078fd7261ef47ecee0_15716559_0x740_resize_q75_catmullrom.jpg) no-repeat right bottom;
-}
-
 .home-image-parallax-spidersense {
   background-image: url(/images/Mateevitsi_SpiderSense_VR_hub24077e8499f5664e9b792c14d04a14c_267391_1920x0_resize_q75_catmullrom.jpg);
 }
@@ -25,51 +17,21 @@
   }
 }
 
-.section-home-banner {
-  padding: 0;
-
-  @media only screen and (min-width: $small-device + 1) {
-    .col {
-      height: calc(100vh - #{$bar-height} - #{$default-logo-font-size} * 2);
-      height: -o-calc(100vh - #{$bar-height} - #{$default-logo-font-size} * 2); /* opera */
-    }
-  }
-
-  @media only screen and (min-width: $xsmall-device + 1) {
-    .col {
-      height: calc(100vh - #{$bar-height} - #{$small-logo-font-size} * 2);
-      height: -o-calc(100vh - #{$bar-height} - #{$small-logo-font-size} * 2); /* opera */
-    }
-  }
-
-  @media only screen and (max-width: $xsmall-device) {
-    .col {
-      height: calc(100vh - #{$bar-height-small} - #{$xsmall-logo-font-size} * 2);
-      height: -o-calc(100vh - #{$bar-height-small} - #{$xsmall-logo-font-size} * 2); /* opera */
-    }
-  }
-}
-
 .skills {
-  @media screen and (max-width: $landscape-iphone) and (orientation: landscape) {
-    @include font-size($skill-font-size-iphone-landscape);
+  @include font-size(3rem);
+
+  @include media-breakpoint-down(lg) {
+    @include font-size(2.5rem);
   }
 
-  @media screen and (min-width: $landscape-iphone + 1) and (orientation: landscape) {
-    @include font-size($skill-font-size-ipad-landscape);
+  @include media-breakpoint-down(md) {
+    @include font-size(2rem);
   }
 
-  @media only screen and (min-width: $xsmall-device + 1) and (orientation: portrait) {
-    @include font-size($skill-font-size);
+  @include media-breakpoint-down(sm) {
+    @include font-size(2rem);
   }
-
-  @media only screen and (max-width: $xsmall-device) and (orientation: portrait) {
-    @include font-size($skill-font-size-xsmall);
-  }
-
   font-weight: bold;
-  text-align: right;
-  display: inline-block;
   color: black;
 }
 
@@ -85,32 +47,8 @@
   background-color: $skill3-color;
 }
 
-.skill-row {
-  @media only screen and (orientation: portrait) {
-    margin-top: 55px;
-  }
-
-  @media only screen and (max-width: $landscape-iphone) and (orientation: landscape) {
-    margin-top: 25px;
-  }
-
-  @media only screen and (min-width: $landscape-iphone + 1) and (orientation: landscape) {
-    margin-top: 45px;
-  }
-}
-
 .latest {
   @include bar($latest-color, black);
-
-  @media only screen and (max-width: $xsmall-device) {
-    height: $bar-height-small;
-
-    a {
-      font-size: $latest-font-size;
-    }
-  }
-
-  bottom: 0;
 }
 
 .twitter {
