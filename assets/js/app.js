@@ -26,9 +26,6 @@ listen();
 // lazy sizes for image loading
 import 'lazysizes';
 
-// global alert
-import './assets/js/alert';
-
 /* global PhotoSwipe, PhotoSwipeUI_Default */
 
 (function($) {
