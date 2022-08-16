@@ -1,7 +1,7 @@
 <div class="container not-padded">
-  <nav class="navbar navbar-expand-lg navbar-light px-0">
+  <nav class="navbar navbar-expand-xl navbar-light px-0">
     <a class="navbar-brand px-0" href="{{ "/" | relURL}}">{{ .Site.Params.title }}</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -9,15 +9,15 @@
       <ul class="navbar-nav ms-auto">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main.ByWeight }}
-          <li class="navbar-item justify-content-center {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">
-            <a class="nav-link" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+          <li class="nav-item justify-content-center {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">
+            <a class="nav-link text-nowrap text-uppercase text-center" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
           </li>
         {{ end }}
       </ul>
       <div class="dropdown-divider"></div>
       <ul class="navbar-nav nav-flex-icons justify-content-center">
         {{ range .Site.Data.social }}
-        <li class="navbar-item"><a href="{{ .url }}" target="_blank"><span class="fa-stack fa">
+        <li class="nav-item"><a href="{{ .url }}" target="_blank"><span class="fa-stack fa">
               <i class="fa fa-circle fa-stack-2x {{ .name }}-color"></i>
               <i class="fa fa-{{ .name }} text-white fa-stack-1x"></i>
             </span></a></li>

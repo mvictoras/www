@@ -6,17 +6,6 @@
   background-image: url(/images/Mateevitsi_batcave_hu839df68b59191f670988ad210d60a093_370657_1920x0_resize_q75_catmullrom.jpg);
 }
 
-.experience {
-  padding-bottom: 50px;
-
-  h1 {
-    font-weight: normal;
-    letter-spacing: 20px;
-    text-align: center;
-    padding-top: 1rem;
-  }
-}
-
 .skills {
   @include font-size(3rem);
 
