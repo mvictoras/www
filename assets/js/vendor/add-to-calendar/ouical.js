@@ -1,4 +1,4 @@
-;(function(exports) {
+//(function(exports) {
   var MS_IN_MINUTES = 60 * 1000;
 
   var formatTime = function(date) {
@@ -26,8 +26,8 @@
         '&location=' + (event.address || ''),
         '&sprop=&sprop=name:'
       ].join(''));
-      return '<a class="dropdown-item" target="_blank" href="' +
-        href + '"><i class="fa fa-google"></i> Google</a>';
+      return '<li><a class="dropdown-item" target="_blank" href="' +
+        href + '"><i class="fa fa-google"></i> Google</a></li>';
     },
 
     yahoo: function(event) {
@@ -59,8 +59,8 @@
         '&in_loc=' + (event.address || '')
       ].join(''));
 
-      return '<a class="dropdown-item" target="_blank" href="' +
-        href + '"><i class="fa fa-yahoo"></i> Yahoo!</a>';
+      return '<li><a class="dropdown-item" target="_blank" href="' +
+        href + '"><i class="fa fa-yahoo"></i> Yahoo!</a></li>';
     },
 
     ics: function(event, eClass, calendarName) {
@@ -81,8 +81,8 @@
           'END:VEVENT',
           'END:VCALENDAR'].join('\n'));
 
-      return '<a class="dropdown-item" target="_blank" href="' +
-        href + '"><i class="fa ' + eClass + '"></i> ' + calendarName + '</a>';
+      return '<li><a class="dropdown-item" target="_blank" href="' +
+        href + '"><i class="fa ' + eClass + '"></i> ' + calendarName + '</a></li>';
     },
 
     ical: function(event) {
@@ -126,12 +126,12 @@
   };
 
   var generateMarkup = function(calendars, clazz, calendarId) {
-    var result = document.createElement('span');
-    var menuItems = document.createElement('div');
+    var result = document.createElement('div');
+    var menuItems = document.createElement('ul');
     menuItems.className = 'dropdown-menu';
 
 
-    result.innerHTML = '<button class="btn btn-secondary btn-sm vm-btn-add dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Add</button>';
+    result.innerHTML = '<button class="btn btn-secondary btn-sm vm-btn-add dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Add</button>';
     /*
     result.innerHTML = '<label for="checkbox-for-' +
       calendarId + '" class="add-to-calendar-checkbox">+ Calendar</label>';
@@ -142,7 +142,7 @@
     });
 
     result.appendChild(menuItems);
-    result.className = 'btn-group';
+    result.className = 'btn-group col-1';
     result.classList.add('ml-2');
     if (clazz !== undefined) {
       result.className += (' ' + clazz);
@@ -166,7 +166,7 @@
       Math.floor(Math.random() * 1000000); // Generate a 6-digit random ID
   };
 
-  exports.createCalendar = function(params) {
+  createCalendar = function(params) {
     if (!validParams(params)) {
       console.log('Event details missing.');
       return;
@@ -176,4 +176,4 @@
                           getClass(params),
                           getOrGenerateCalendarId(params));
   };
-})(this);
+//})(this);

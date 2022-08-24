@@ -4,10 +4,8 @@
   {{- partial "head/body-class.html" . -}}
   <body class="{{ delimit (.Scratch.Get "class") " " }}">
     {{ partial "header/header.html" . }}
-    <div class="container-fluid p-0" role="document">
-      <div class="content">
-        {{ block "main" . }}{{ end }}
-      </div>
+    <div class="container-fluid px-0" role="document">
+      {{ block "main" . }}{{ end }}
     </div>
     {{ block "sidebar-footer" . }}{{ end }}
     {{ partial "footer/footer.html" . }}

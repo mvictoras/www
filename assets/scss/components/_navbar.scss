@@ -1,7 +1,4 @@
-.navbar {
-  padding: .5rem 1rem;
-}
-
-.navbar .navbar-collapse {
-  text-align: center;
+.navbar-brand {
+  @include font-size(2rem);
+  font-weight: bold;
 }

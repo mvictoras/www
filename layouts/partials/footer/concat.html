@@ -1,0 +1,18 @@
+{{/* USAGE:  {{ partial "footer/concat" (dict "load" "async/defer" "transpile" true/false "scratch" .Scratch) }}  */}}
+{{ $load := .load -}}
+{{ $scratch := .scratch -}}
+{{ $js := "" -}}
+
+{{ $bundle := $scratch.Get "bundle" | resources.Concat "js/bundle.js" -}}
+{{ if .transpile -}}
+  {{ $js = $bundle | js.Build | babel (dict "noComments" true "minified" true "compact" true "config" "config/babel.config.js") | fingerprint "sha512" -}}
+{{ else if eq (hugo.Environment) "development" -}}
+  {{ $js = $bundle | js.Build (dict "sourceMap" "inline") | fingerprint "sha512" -}}
+{{ else -}}
+  {{ $js = $bundle | js.Build (dict "minify" true ) | fingerprint "sha512" -}}
+{{ end -}}
+
+{{ print "<script " $load | safeHTML }}
+  type="text/javascript"
+  src="{{- $js.RelPermalink -}}">
+</script>

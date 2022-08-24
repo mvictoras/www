@@ -1,13 +1,138 @@
+- title: "26th ACM Conference on Computer-Supported Cooperative Work and Social Computing"
+  description: "CSCW is the premier international venue for research in the design and use of technologies that affect groups, organizations, communities, and networks. We invite authors to submit their best research on all topics relevant to collaborative or social computing. Accepted papers are published in two annual CSCW issues of the journal series Proceedings of the ACM on Human Computer Interaction (PACM HCI)."
+  abbreviation: CSCW 2023
+  year: 2023
+  date: October 13-18, 2023
+  confStartDate: '2023-10-13 00:00:00'
+  confEndDate: '2023-10-18 23:59:59'
+  id: cscw23
+  link: https://cscw.acm.org/2023/
+  deadlines:
+  - type: 'Paper (January 2023 Cycle)'
+    date: '2023-01-15 23:59:59'
+    utcOffset: -12:00
+  - type: 'Paper (July 2022 Cycle)'
+    date: '2022-07-15 23:59:59'
+    utcOffset: -12:00
+  place: Minneapolis, MN, USA
+  sub: [computer-supported cooperative work]
+- title: "EG Conference on Visualization"
+  description: "EuroVis is the annual Visualization Conference organized by the Eurographics Working Group on Data Visualization. It has been a Eurographics and IEEE co-supported international visualization symposium held in Europe annually since 1999, as a conference since 2012."
+  place: Leipzig, Germany
+  abbreviation: EuroVIS 2023
+  year: 2023
+  date: June 12-16, 2023
+  confStartDate: '2023-06-12 00:00:00'
+  confEndDate: '2023-06-16 23:59:59'
+  id: eurovis23
+  link: https://conferences.eg.org/eurovis2023/
+  sub: ['visualization']
+- title: "CHI 2023"
+  description: "The ACM CHI Conference on Human Factors in Computing Systems is the premier international conference of Human-Computer Interaction (HCI). CHI – pronounced ‘kai’ – annually brings together researchers and practitioners from all over the world and from diverse cultures, backgrounds, and positionalities, who have as an overarching goal to make the world a better place with interactive digital technologies."
+  place: Hamburg, Germany and Hybrid
+  abbreviation: CHI 2023
+  year: 2023
+  date: April 23-28, 2023
+  confStartDate: '2023-04-23 00:00:00'
+  confEndDate: '2023-04-28 23:59:59'
+  id: chi23
+  link: https://chi2023.acm.org
+  deadlines:
+    - type: 'Paper Abstracts'
+      date: '2022-09-09 23:59:59'
+      utcOffset: -12:00
+    - type: 'Papers'
+      date: '2022-09-15 23:59:59'
+      utcOffset: -12:00
+    - type: 'Case Studies of HCI in Practice'
+      date: '2022-10-13 23:59:59'
+      utcOffset: -12:00
+    - type: 'Late-Breaking Work'
+      date: '2023-01-19 23:59:59'
+      utcOffset: -12:00
+    - type: 'Interactivity'
+      date: '2023-01-19 23:59:59'
+      utcOffset: -12:00
+    - type: 'alt.chi'
+      date: '2022-12-15 23:59:59'
+      utcOffset: -12:00
+    - type: 'Journals'
+      date: '2022-11-14 23:59:59'
+      utcOffset: -12:00
+  sub: ['computer graphics', 'visualization', 'hci']
+- title: "IEEE Pacific Visualization Symposium"
+  description: "Visualization has become an increasingly important research area due to its wide range of applications in many disciplines. PacificVis is an IEEE sponsored international visualization symposium held in the Asia-Pacific region, with the objective to foster greater exchange between visualization researchers and practitioners, and to draw more researchers in the Asia-Pacific region to enter this rapidly growing area of research."
+  place: Seoul, Korea
+  abbreviation: PacificVis 2023
+  year: 2023
+  date: April 18-21, 2023
+  confStartDate: '2023-04-18 00:00:00'
+  confEndDate: '2023-04-21 23:59:59'
+  id: pacificvis23
+  link: http://www.pvis.org
+  #deadlines:
+  #  - type: 'Papers'
+  #    date: 'TBD'
+  #    timezone: 'US/Pacific'
+  #  - type: 'Visualization Notes'
+  #    date: 'TBD'
+  #    timezone: 'US/Pacific'
+  sub: ['visualization']
+- title: "The 30th IEEE Conference on Virtual Reality and 3D User Interfaces"
+  description: "Since 1993, the IEEE Virtual Reality conference has been the premier international venue for the presentation of research results in the broad area of virtual reality (VR). Similarly, the IEEE Symposium on 3D User Interfaces (3DUI), which started as a workshop at IEEE VR in 2004, has become the premier venue for 3D user interfaces and 3D interaction in VR environments. As of 2018, VR and 3DUI have been merged into a single IEEE Conference on Virtual Reality and 3D User Interfaces, with the short name IEEE VR."
+  place: Shanghai, China
+  abbreviation: IEEE VR 2023
+  year: 2023
+  date: March 25-29, 2023
+  confStartDate: '2023-03-25 00:00:00'
+  confEndDate: '2023-03-29 23:59:59'
+  id: ieeevr23
+  link: https://ieeevr.org/2023/
+  deadlines:
+    - type: 'Paper Abstracts'
+      date: '2022-09-07 23:59:59'
+      utcOffset: -12:00
+    - type: 'Papers'
+      date: '2022-09-14 23:59:59'
+      utcOffset: -12:00
+  sub: ['virtual reality', 'user interfaces']
+- title: "2023 ECP Annual Meeting"
+  description: "The ECP Annual Meeting is an import resource for collaboration and communication across the project"
+  place: Houston, TX, USA
+  abbreviation: ECP 2023
+  year: 2023
+  date: January 17-20, 2023
+  confStartDate: '2023-01-17 00:00:00'
+  confEndDate: '2023-01-20 23:59:59'
+  id: ecp23
+  link: https://www.ecpannualmeeting.com/
+  sub: ['exascale computing project']
 - title: "ACM Interactive Surfaces and Spaces Conference"
   description: "We welcome you to the ACM International Conference on Interactive Surfaces and Spaces. As an annual conference series starting in 2006, ACM ISS (formerly known as ACM ITS, International Conference on Interactive Tabletops and Surfaces) is the premier venue for research addressing the design, development and use of new and emerging tabletop, digital surface, interactive spaces and multi-surface technologies. Over the years ISS has been a venue for research and applications of interactive surfaces as well as spaces, which has been acknowledged by the incorporation of 'Space' into our conference identity since 2016."
   abbreviation: ISS 2022
   year: 2022
   id: iss2022
-  link: https://iss.acm.org
+  link: https://conf.researchr.org/home/iss-2022
   date: November 20-23, 2022
   confStartDate: '2022-11-20 00:00:00'
   confEndDate: '2022-11-23 23:59:59'
   place: Wellington, New Zealand
+  deadlines:
+    - type: 'Demos'
+      date: '2022-09-01 23:59:59'
+      utcOffset: -12:00
+    - type: 'Doctoral Symposium'
+      date: '2022-09-01 23:59:59'
+      utcOffset: -12:00
+    - type: 'Tutorials'
+      date: '2022-09-01 23:59:59'
+      utcOffset: -12:00
+    - type: 'Posters'
+      date: '2022-09-01 23:59:59'
+      utcOffset: -12:00
+    - type: 'Case Studies'
+      date: '2022-09-01 23:59:59'
+      utcOffset: -12:00
   sub: [interactive surfaces, interactive spaces]
 - title: "Supercomputing 2022"
   description: "The International Conference for High Performance Computing, Networking, Storage, and Analysis"
@@ -71,7 +196,7 @@
   confEndDate: '2022-08-11 23:59:59'
   paperDeadline: '2022-01-27 21:59:59'
   posterDeadline: '2022-04-26 21:59:59'
-  timezone: 'UTC/GMT'
+  utcOffset: -12:00
   id: siggraph22
   link: https://s2022.siggraph.org
   sub: ['computer graphics', 'visualization']
