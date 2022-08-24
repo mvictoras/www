@@ -2,6 +2,9 @@
 /* global moment */
 /* global createCalendar */
 
+import moment from "moment";
+/*import createCalendar from "./main";*/
+
 (function($) {
   function addCalendarButton(elem, title, description, start, end) {
     var myCalendar = createCalendar({
@@ -24,7 +27,8 @@
     const today = moment();
 
     // render countdown timer
-    $('[deadline]').each(function() {
+    $('.event').each(function(i, obj) {
+      var test = 5;
       var $this = $(this), 
         deadline = $this.attr('deadline'), 
         description = $this.attr('description'),
@@ -47,12 +51,13 @@
           localDeadline = moment(deadline + ' ' + utcOffset, 'YYYY-MM-DD hh:mm:ss Z').tz(localTimezone);
         }
         let diff = today.diff(localDeadline);
-        $('.local-' + type + '-' + id + '-' + year + '-deadline').text(localDeadline.format('ddd, MMM Do YYYY, h:mm a zz'));
+        
+        $(obj).find('.local-datetime').text(localDeadline.format('ddd, MMM Do YYYY, h:mm a zz'));
         if (diff > 0) {
-          $(this).html('Passed');
+          $(obj).find('.local-counter').html('Passed');
         } else {
-          addCalendarButton($(this).parent(), title, description, localDeadline.toDate(), localDeadline.toDate());
-          $this.countdown(localDeadline.toDate(), function(event) {
+          addCalendarButton($(obj).find('.add-button'), title, description, localDeadline.toDate(), localDeadline.toDate());
+          $(obj).find('.local-counter').countdown(localDeadline.toDate(), function(event) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
           });
         }
@@ -75,7 +80,7 @@
       description = eventElem.attr('description'), 
       endDate = eventElem.attr('endDate'),
       title = eventElem.attr('title');
-   
+    
     let diff = today.diff(endDate);
     if( diff > 0) {
       $(this).addClass('card-disabled');

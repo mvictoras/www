@@ -33,3 +33,9 @@
   name = "about"
   url = "/about/"
   weight = 6
+
+[[main]]
+  identifier = "contact"
+  name = "contact"
+  url = "/contact/"
+  weight = 7
