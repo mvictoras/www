@@ -3,6 +3,10 @@
 .heart-emoji {
   animation: animation 1000ms linear infinite both;
   display: inline-block;
+
+  span {
+    color: #e25555;
+  }
 }
 
 @keyframes animation {

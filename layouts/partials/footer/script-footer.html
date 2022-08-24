@@ -1,21 +1,24 @@
-{{ partial "footer/esbuild" (dict "src" "js/vendor/jquery/jquery.js" "load" "defer" "transpile" true) -}}
-{{ partial "footer/esbuild" (dict "src" "js/vendor/lazysizes/lazysizes.js" "load" "async" "transpile" false) -}}
-{{ partial "footer/esbuild" (dict "src" "js/app.js" "targetPath" "main.js" "load" "defer" "transpile" false) -}}
-{{ partial "footer/esbuild" (dict "src" "js/vendor/bootstrap/bootstrap.bundle.js" "load" "async" "transpile" false) -}}
-{{ partial "footer/esbuild" (dict "src" "js/vendor/prism/prism.js" "load" "async" "transpile" false) -}}
-{{ partial "footer/esbuild" (dict "src" "js/vendor/prism/plugins/autoloader/prism-autoloader.js" "load" "async" "transpile" false) -}}
-{{ partial "footer/esbuild" (dict "src" "js/vendor/photoswipe/photoswipe.js" "load" "async" "transpile" false) -}}
-{{ partial "footer/esbuild" (dict "src" "js/vendor/photoswipe/photoswipe-ui-default.js" "load" "async" "transpile" false) -}}
-{{ partial "footer/esbuild" (dict "src" "js/vendor/processing/processing.js" "load" "async" "transpile" false) -}}
-{{ partial "footer/esbuild" (dict "src" "js/vendor/rrssb/rrssb.js" "load" "defer" "transpile" false) -}}
-{{ partial "footer/esbuild" (dict "src" "js/vendor/slick/slick.js" "load" "defer" "transpile" true) -}}
-{{ partial "footer/esbuild" (dict "src" "js/experience-carousel.js" "load" "defer" "transpile" true) -}}
-{{ partial "footer/esbuild" (dict "src" "js/vendor/jquery-countdown/jquery.countdown.js" "load" "defer" "transpile" false) -}}
-{{ partial "footer/esbuild" (dict "src" "js/vendor/moment/moment.js" "load" "async" "transpile" false) -}}
-{{ partial "footer/esbuild" (dict "src" "js/vendor/moment-timezone/moment-timezone.min.js" "load" "async" "transpile" false) -}}
-{{ partial "footer/esbuild" (dict "src" "js/vendor/moment-timezone/moment-timezone-with-data.js" "load" "async" "transpile" false) -}}
-{{ partial "footer/esbuild" (dict "src" "js/vendor/add-to-calendar/ouical.js" "load" "async" "transpile" false) -}}
-{{ partial "footer/esbuild" (dict "src" "js/deadlines.js" "load" "async" "transpile" false) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/jquery/jquery.js" "load" "defer" "transpile" true "scratch" .Scratch "concat" true) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/lazysizes/lazysizes.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
+{{ partial "footer/esbuild" (dict "src" "js/app.js" "targetPath" "main.js" "load" "defer" "transpile" false "scratch" .Scratch "concat" true) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/bootstrap/bootstrap.bundle.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/prism/prism.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/prism/plugins/autoloader/prism-autoloader.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/photoswipe/photoswipe.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/photoswipe/photoswipe-ui-default.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/processing/processing.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/rrssb/rrssb.js" "load" "defer" "transpile" false "scratch" .Scratch "concat" true) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/slick/slick.js" "load" "defer" "transpile" true "scratch" .Scratch "concat" true) -}}
+{{ partial "footer/esbuild" (dict "src" "js/experience-carousel.js" "load" "defer" "transpile" true "scratch" .Scratch "concat" true) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/jquery-countdown/jquery.countdown.js" "load" "defer" "transpile" false "scratch" .Scratch "concat" true) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/moment/moment.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/moment-timezone/moment-timezone.min.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/moment-timezone/moment-timezone-with-data.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
+{{ partial "footer/esbuild" (dict "src" "js/vendor/add-to-calendar/ouical.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
+{{ partial "footer/esbuild" (dict "src" "js/deadlines.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
+
+{{/* If you don't want to concat remove this line */}}
+{{ partial "footer/concat" (dict "load" "async" "transpile" false "scratch" .Scratch) -}}
 
 {{/* EXAMPLE - only load script for production
 {{ if eq (hugo.Environment) "production" -}}

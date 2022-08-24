@@ -1,59 +1,26 @@
-.experience {
-  padding-bottom: 50px;
-
-  h1 {
-    font-weight: normal;
-    letter-spacing: 20px;
-    text-align: center;
-    padding-top: 1rem;
-  }
+.home-image-parallax-spidersense {
+  background-image: url(/images/Mateevitsi_SpiderSense_VR_hub24077e8499f5664e9b792c14d04a14c_267391_1920x0_resize_q75_catmullrom.jpg);
 }
 
-.section-home-banner {
-  padding: 0;
-
-  @media only screen and (min-width: $small-device + 1) {
-    .col {
-      height: calc(100vh - #{$bar-height} - #{$default-logo-font-size} * 2);
-      height: -o-calc(100vh - #{$bar-height} - #{$default-logo-font-size} * 2); /* opera */
-    }
-  }
-
-  @media only screen and (min-width: $xsmall-device + 1) {
-    .col {
-      height: calc(100vh - #{$bar-height} - #{$small-logo-font-size} * 2);
-      height: -o-calc(100vh - #{$bar-height} - #{$small-logo-font-size} * 2); /* opera */
-    }
-  }
-
-  @media only screen and (max-width: $xsmall-device) {
-    .col {
-      height: calc(100vh - #{$bar-height-small} - #{$xsmall-logo-font-size} * 2);
-      height: -o-calc(100vh - #{$bar-height-small} - #{$xsmall-logo-font-size} * 2); /* opera */
-    }
-  }
+.home-image-parallax-batcave {
+  background-image: url(/images/Mateevitsi_batcave_hu839df68b59191f670988ad210d60a093_370657_1920x0_resize_q75_catmullrom.jpg);
 }
 
 .skills {
-  @media screen and (max-width: $landscape-iphone) and (orientation: landscape) {
-    @include font-size($skill-font-size-iphone-landscape);
+  @include font-size(3rem);
+
+  @include media-breakpoint-down(lg) {
+    @include font-size(2.5rem);
   }
 
-  @media screen and (min-width: $landscape-iphone + 1) and (orientation: landscape) {
-    @include font-size($skill-font-size-ipad-landscape);
+  @include media-breakpoint-down(md) {
+    @include font-size(2rem);
   }
 
-  @media only screen and (min-width: $xsmall-device + 1) and (orientation: portrait) {
-    @include font-size($skill-font-size);
+  @include media-breakpoint-down(sm) {
+    @include font-size(2rem);
   }
-
-  @media only screen and (max-width: $xsmall-device) and (orientation: portrait) {
-    @include font-size($skill-font-size-xsmall);
-  }
-
   font-weight: bold;
-  text-align: right;
-  display: inline-block;
   color: black;
 }
 
@@ -69,32 +36,8 @@
   background-color: $skill3-color;
 }
 
-.skill-row {
-  @media only screen and (orientation: portrait) {
-    margin-top: 55px;
-  }
-
-  @media only screen and (max-width: $landscape-iphone) and (orientation: landscape) {
-    margin-top: 25px;
-  }
-
-  @media only screen and (min-width: $landscape-iphone + 1) and (orientation: landscape) {
-    margin-top: 45px;
-  }
-}
-
 .latest {
   @include bar($latest-color, black);
-
-  @media only screen and (max-width: $xsmall-device) {
-    height: $bar-height-small;
-
-    a {
-      font-size: $latest-font-size;
-    }
-  }
-
-  bottom: 0;
 }
 
 .twitter {
