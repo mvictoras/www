@@ -61,7 +61,7 @@
     "prismjs": "^1.27.0",
     "processing-js": "^1.6.6",
     "purgecss-whitelister": "^2.4",
-    "quicklink": "^2.2.0",
+    "quicklink": "^2.3.0",
     "requirejs": "^2.3.6",
     "rimraf": "^3.0",
     "rrssb": "^1.14.0",
