@@ -134,6 +134,9 @@ anchor = "smart"
   [[module.mounts]]
     source = "node_modules/requirejs"
     target = "assets/js/vendor/requirejs"
+  [[module.mounts]]
+    source = "node_modules/animejs/lib"
+    target = "assets/js/vendor/animejs"
 
 [taxonomies]
   category = "categories"

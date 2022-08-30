@@ -51,3 +51,22 @@
 .facebook {
   @include bar($facebook-color, white);
 }
+
+.fingers {
+  background-image: url("images/fingers.png");
+  background-size: cover;
+  z-index: 1;
+}
+
+.mateevitsi {
+  background-image: url("images/mateevitsi.png");
+  background-size: cover;
+  z-index: 2;
+}
+
+.groku {
+  z-index: -1;
+}
+
+.vm-featured-image {
+}

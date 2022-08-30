@@ -68,3 +68,24 @@ import 'lazysizes';
   });
 
 }(jQuery));
+
+anime({
+  targets: '.groku',
+  keyframes: [
+    {translateY: 10},
+    {translateY: -10}
+  ],
+  easing: 'easeInOutSine',
+  duration: 8000,
+  loop: true
+});
+
+
+/**
+var anim = anime({
+  targets: 'div',
+  translateX: 250,
+  rotate: '1turn',
+  backgroundColor: '#FFF',
+  duration: 800
+});*/
