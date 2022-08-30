@@ -71,12 +71,9 @@ import 'lazysizes';
 
 anime({
   targets: '.groku',
-  keyframes: [
-    {translateY: 10},
-    {translateY: -10}
-  ],
+  translateY: 10,
   easing: 'easeInOutSine',
-  duration: 8000,
+  direction: 'alternate',
   loop: true
 });
 
