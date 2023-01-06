@@ -32,7 +32,7 @@ schemaSection = "news"
 
 themeColor = "#fff"
 
-googleAnalytics = "UA-6150752-1"
+googleAnalytics = 'G-J3GED6S9RV'
 
 quality = 85
 #bgColor = "#fff"
