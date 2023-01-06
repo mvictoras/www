@@ -1,3 +1,61 @@
+- title: "Supercomputing 2023"
+  description: "The International Conference for High Performance Computing, Networking, Storage, and Analysis"
+  place: Denver, CO, USA
+  abbreviation: SC 2023
+  year: 2023
+  id: sc23
+  link: https://sc23.supercomputing.org
+  date: November 12-17, 2022
+  confStartDate: '2023-11-12 00:00:00'
+  confEndDate: '2023-11-17 23:59:59'
+  deadlines:
+  - type: 'Papers (Abstract)'
+    date: '2023-03-30 23:59:59'
+    utcOffset: -12:00
+  sub: [HPC]
+- title: "ACM Interactive Surfaces and Spaces Conference"
+  description: "We welcome you to the ACM International Conference on Interactive Surfaces and Spaces. As an annual conference series starting in 2006, ACM ISS (formerly known as ACM ITS, International Conference on Interactive Tabletops and Surfaces) is the premier venue for research addressing the design, development and use of new and emerging tabletop, digital surface, interactive spaces and multi-surface technologies. Over the years ISS has been a venue for research and applications of interactive surfaces as well as spaces, which has been acknowledged by the incorporation of 'Space' into our conference identity since 2016."
+  abbreviation: ISS 2023
+  year: 2023
+  id: iss2023
+  link: https://conf.researchr.org/home/iss-2023
+  date: November 5-8, 2023
+  confStartDate: '2023-11-05 00:00:00'
+  confEndDate: '2023-11-08 23:59:59'
+  place: Pittsburgh, PA, USA
+  deadlines:
+    - type: 'Papers'
+      date: '2023-02-15 23:59:59'
+  sub: [interactive surfaces, interactive spaces]
+- title: "36th ACM Symposium on User Interface Software and Technology"
+  description: "The ACM Symposium on User Interface Software and Technology (UIST) is the premier forum for innovations in human-computer interfaces. Sponsored by ACM special interest groups on computer-human interaction (SIGCHI) and computer graphics (SIGGRAPH), UIST brings together people from diverse areas including graphical & web user interfaces, tangible & ubiquitous computing, virtual & augmented reality, multimedia, new input & output devices, and CSCW. The intimate size and intensive program make UIST an ideal opportunity to exchange research results and ideas."
+  place: San Fransisco, CA, USA
+  abbreviation: UIST 2023
+  year: 2023
+  date: October 29 - November 1, 2023
+  confStartDate: '2023-10-29 00:00:00'
+  confEndDate: '2023-11-01 23:59:59'
+  id: uist23
+  link: https://uist.acm.org/uist2023/
+  sub: [computer-supported cooperative work, user intefaces, tangible computing, ubiquitous computing, augmented reality, virtual reality]
+- title: "IEEE VIS 2023"
+  description: "The premier forum for advances in visualization and visual analytics"
+  abbreviation: VIS 2023
+  year: 2023
+  id: vis23
+  link: http://ieeevis.org/year/2023/welcome
+  date: October 22-27, 2022
+  confStartDate: '2023-10-22 00:00:00'
+  confEndDate: '2023-10-27 23:59:59'
+  place: Melbourne, Australia
+  deadlines:
+  - type: 'Papers (Abstract)'
+    date: '2023-01-21 23:59:59'
+    utcOffset: -12:00
+  - type: 'Short Papers'
+    date: '2023-04-30 23:59:59'
+    utcOffset: -12:00
+  sub: [visualization]
 - title: "26th ACM Conference on Computer-Supported Cooperative Work and Social Computing"
   description: "CSCW is the premier international venue for research in the design and use of technologies that affect groups, organizations, communities, and networks. We invite authors to submit their best research on all topics relevant to collaborative or social computing. Accepted papers are published in two annual CSCW issues of the journal series Proceedings of the ACM on Human Computer Interaction (PACM HCI)."
   abbreviation: CSCW 2023
@@ -16,6 +74,71 @@
     utcOffset: -12:00
   place: Minneapolis, MN, USA
   sub: [computer-supported cooperative work]
+- title: "SIGGRAPH 2023"
+  description: "ACM SIGGRAPH is a special interest group within ACM, and SIGGRAPH 2023 is the premier conference for computer graphics and interactive techniques worldwide. This year, we gather in person in Vancouver and virtually to celebrate our diverse, global community and the stories, innovations, and industry advancements that make us SIGGRAPH."
+  place: Los Angeles, CA, USA
+  abbreviation: SIGGRAPH 2023
+  year: 2023
+  date: August 5-10, 2023
+  confStartDate: '2023-05-05 00:00:00'
+  confEndDate: '2023-05-10 23:59:59'
+  id: siggraph23
+  link: https://s2023.siggraph.org
+  deadlines:
+  - type: 'Technical Papers'
+    date: '2023-01-24 23:59:59'
+    utcOffset: -12:00
+  - type: 'Art Papers'
+    date: '2023-01-20 23:59:59'
+    utcOffset: -12:00
+  sub: ['computer graphics', 'visualization']
+- title: "Eurographics Symposium on Parallel Graphics and Visualization"
+  description: "The Eurographics Symposium on Parallel Graphics and Visualization (EGPGV) aims to foster the exchange of experiences and knowledge on exploiting and defining new trends in parallel graphics and visualization. This area is of growing importance due to the rapidly increasing availability of multi-core CPUs, GPUs, and cluster systems. Computationally demanding and data-intensive applications in graphics and visualization are strongly affected by this trend and require novel, efficient parallel solutions."
+  place: Leipzig, Germany
+  abbreviation: EGPGV 2023
+  year: 2023
+  date: June 12, 2023
+  confStartDate: '2023-06-12 00:00:00'
+  confEndDate: '2023-06-12 23:59:59'
+  id: egpgv23
+  link: https://www.egpgv.org/2023/index.html
+  deadlines:
+  - type: 'Early submission (Abstract)'
+    date: '2022-12-16 23:59:59'
+    utcOffset: -12:00
+  - type: 'Regular submission (Abstract)'
+    date: '2023-02-24 23:59:59'
+    utcOffset: -12:00
+  sub: ['visualization', 'parallel graphics', 'large-scale visualizations']
+- title: "VisGap - The Gap between Visualization Research and Visualization Software"
+  description: "VisGap’22 aims at gathering experts from all over the visualization community in order to advance the way our field works with software, sustains software, and values the effort our members put into developing said software. This year, we extend the scope of VisGap to include reproducibility and replicability. Both are cornerstones of the scientific method and essential for building trust in visualizations and increasing their acceptance, ultimately fostering adoption in the wild."
+  place: Leipzig, Germany
+  abbreviation: VisGap 2023
+  year: 2023
+  date: June 12, 2023
+  confStartDate: '2023-06-12 00:00:00'
+  confEndDate: '2023-06-12 23:59:59'
+  id: visgap23
+  link: https://visgap.gitlab.io/visgap23/
+  deadlines:
+  - type: 'Early submission'
+    date: '2022-12-16 23:59:59'
+    utcOffset: -12:00
+  - type: 'Regular submission'
+    date: '2023-03-01 23:59:59'
+    utcOffset: -12:00
+  sub: ['visualization']
+- title: "7th International Workshop on In Situ Visualization"
+  description: "Large-scale HPC simulations with their inherent I/O bottleneck have made in situ visualization an essential approach for data analysis, although the idea of in situ visualization dates back to the golden era of coprocessing in the 1990s. In situ coupling of analysis and visualization to a live simulation circumvents writing raw data to disk for post-mortem analysis – an approach that is already inefficient for today’s very large simulation codes. Instead, with in situ visualization, data abstracts are generated that provide a much higher level of expressiveness per byte. Therefore, more details can be computed and stored for later analysis, providing more insight than traditional methods."
+  place: Hamburg, Germany
+  abbreviation: WOIV 2023
+  year: 2023
+  date: May 21-25, 2023
+  confStartDate: '2023-05-21 00:00:00'
+  confEndDate: '2023-05-25 23:59:59'
+  id: woiv23
+  link: https://woiv.gitlab.io/woiv23/
+  sub: ['visualization']
 - title: "EG Conference on Visualization"
   description: "EuroVis is the annual Visualization Conference organized by the Eurographics Working Group on Data Visualization. It has been a Eurographics and IEEE co-supported international visualization symposium held in Europe annually since 1999, as a conference since 2012."
   place: Leipzig, Germany
@@ -26,6 +149,20 @@
   confEndDate: '2023-06-16 23:59:59'
   id: eurovis23
   link: https://conferences.eg.org/eurovis2023/
+  deadlines:
+  - type: 'Full Paper (Abstract)'
+    date: '2022-11-25 23:59:59'
+    timezone: 'Etc/GMT'
+  - type: 'STARs (sketch)'
+    date: '2022-10-24 23:59:59'
+    timezone: 'Etc/GMT'
+  - type: 'Short Paper'
+    date: '2023-02-27 23:59:59'
+    timezone: 'Etc/GMT'
+  - type: 'Dirk Bartz Price'
+    date: '2023-02-10 23:59:59'
+    timezone: 'Etc/GMT'
+  sub: ['visualization']
   sub: ['visualization']
 - title: "CHI 2023"
   description: "The ACM CHI Conference on Human Factors in Computing Systems is the premier international conference of Human-Computer Interaction (HCI). CHI – pronounced ‘kai’ – annually brings together researchers and practitioners from all over the world and from diverse cultures, backgrounds, and positionalities, who have as an overarching goal to make the world a better place with interactive digital technologies."
@@ -70,14 +207,35 @@
   confEndDate: '2023-04-21 23:59:59'
   id: pacificvis23
   link: http://www.pvis.org
-  #deadlines:
-  #  - type: 'Papers'
-  #    date: 'TBD'
-  #    timezone: 'US/Pacific'
-  #  - type: 'Visualization Notes'
-  #    date: 'TBD'
-  #    timezone: 'US/Pacific'
+  deadlines:
+    - type: 'Papers (Abstract)'
+      date: '2022-10-21 21:00:00'
+      timezone: 'US/Pacific'
+    - type: 'Posters'
+      date: '2023-02-17 21:00:00'
+      timezone: 'US/Pacific'
+    - type: 'Visualization Notes'
+      date: '2022-12-21 21:00:00'
+      timezone: 'US/Pacific'
+    - type: 'Visual Storytelling Contest'
+      date: '2023-01-19 21:00:00'
+      timezone: 'US/Pacific'
   sub: ['visualization']
+- title: "6th International Workshop on Big Data Visual Exploration and Analytics"
+  description: "The Big Data Visual Exploration and Analytics workshop (BigVis) aims at addressing the above challenges and issues by providing a forum for researchers and practitioners to discuss, exchange, and disseminate their work. BigVis attempts to attract attention from the research areas of: Data Management & Mining, Information Visualization, Human-Computer Interaction, Machine Learning, and Computer Graphics, and highlight novel works that bridge together these communities."
+  place: Ioannina, Greece
+  abbreviation: BigVis 2023
+  year: 2023
+  date: March 29 2023
+  confStartDate: '2023-03-29 00:00:00'
+  confEndDate: '2023-03-29 23:59:59'
+  id: bigvis23
+  link: https://bigvis.imsi.athenarc.gr/bigvis2023/
+  deadlines:
+    - type: 'Regular/Short Research papers, Work-in-progress, Vision & Demos papers'
+      date: '2023-01-23 23:59:59'
+      utcOffset: -12:00
+  sub: ['visualization', 'data management', 'data mining', 'information visualization', 'human-computer interaction', 'machine learning', 'computer graphics']
 - title: "The 30th IEEE Conference on Virtual Reality and 3D User Interfaces"
   description: "Since 1993, the IEEE Virtual Reality conference has been the premier international venue for the presentation of research results in the broad area of virtual reality (VR). Similarly, the IEEE Symposium on 3D User Interfaces (3DUI), which started as a workshop at IEEE VR in 2004, has become the premier venue for 3D user interfaces and 3D interaction in VR environments. As of 2018, VR and 3DUI have been merged into a single IEEE Conference on Virtual Reality and 3D User Interfaces, with the short name IEEE VR."
   place: Shanghai, China
