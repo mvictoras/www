@@ -32,8 +32,6 @@ schemaSection = "news"
 
 themeColor = "#fff"
 
-googleAnalytics = 'G-J3GED6S9RV'
-
 quality = 85
 #bgColor = "#fff"
 #landscapePhotoWidths = [900, 700, 500]
