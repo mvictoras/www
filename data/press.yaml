@@ -180,13 +180,13 @@ web:
     title: "Chicago and Catalyze launch mHUB, a new home for upstart manufacturers"
     text: "The city of Chicago is launching a new hub for manufacturers, and maker haven Catalyze Chicago will be at its heart. Catalyze has been working with World Business Chicago for about a year on the creation of the new space, called mHUB, said Catalyze founder Bill Fienup. The center will be equipped with everything a maker needs to create and prototype a product, he said, and eventually will bring industry experts, mentors, universities and other incubators under one roof."
     url: https://www.chicagotribune.com/business/blue-sky/ct-chicago-launches-mhub-manufacturing-incubator-bsi-20160810-story.html
-    image: "tribune-catalyze.jpg"
+    image: "spidersense.jpg"
   - date: 2016-03-23
     publication: Chicago Tribune
     title: "Can a Spider-Man-inspired jacket help the blind get around Chicago?"
     text: "The vibrations are gentle at first, like a text coming through to a pocketed phone. But the intensity increases — almost like the hair rising on the back of your neck when someone's following you. Actually, it's exactly like that, said Victor Mateevitsi, inventor of a jacket that vibrates if something — or someone — is close."
     url: https://www.chicagotribune.com/business/blue-sky/ct-spidersense-jacket-makers-bsi-20160323-story.html
-    image: "tribune-spidersense.png"
+    image: "spidersense.jpg"
   - date: 2016-02-09
     publication: UIC News
     title: Student’s SpiderSense featured on Discovery Science
@@ -278,7 +278,7 @@ web:
   - date: 2013-11-19
     publication: UIC News
     title: Middle-school kids create a virtual future in 3-D
-    text: "For anyone interested in computers, the Electronic Visualization Laboratory seems like Wonderland, with incredible computing power, walls covered in video displays, and CAVE2, the world’s most sophisticated 3-D environment. For the past 10 weeks, three Chicago elementary-school students have been EVL apprentices, developing their own project and learning what a career in computer science could be like." 
+    text: "For anyone interested in computers, the Electronic Visualization Laboratory seems like Wonderland, with incredible computing power, walls covered in video displays, and CAVE2, the world’s most sophisticated 3-D environment. For the past 10 weeks, three Chicago elementary-school students have been EVL apprentices, developing their own project and learning what a career in computer science could be like."
     url: https://today.uic.edu/students-explore-world-of-computer-science-in-3-d
   - date: 2013-11-12
     publication: UIC News
@@ -290,7 +290,7 @@ web:
     title: Colour-changing clothes could make tech fashionable
     text: "You can choose your clothes, but can you control them? A new line of clothing that incorporates tiny, flexible LEDs right into jackets and dresses could be the first fully controllable electronic clothing that’s ready for the shop rack. The collection, called Lüme, was shown last week at the International Symposium on Wearable Computers in Zurich, Switzerland. It consists of a bomber jacket, a tunic, and an open-backed dress – all of which have controllable LEDs built-in that can be controlled by a smartphone app. The LEDs are enmeshed in fabric so they don’t touch the wearer’s skin, and they shine out through several layers of fabric that diffuse the light for a softer glow."
     url: https://www.newscientist.com/article/dn24232-colour-changing-clothes-could-make-tech-fashionable/
-    tags: ['opinion'] 
+    tags: ['opinion']
   - date: 2013-06-19
     publication: Deadline
     title: Academy Science and Technology Council Names 2013 Interns
@@ -303,7 +303,7 @@ web:
     text: "When firefighters enter a burning building, they usually go in blind. Smoke often shrouds their view and it can be hard to know exactly where they are, or where the fire is. A virtual reality project called ProFiTex at the Vienna University of Technology in Austria is attempting to change that by giving firefighters a head-up display which helps them navigate in the dark. The system uses head-mounted infrared sensors that overlay surface temperatures onto the display, which also shows a 3D model of the surroundings created by a head-mounted depth camera. This gives firefighters an idea of how hot their surroundings are, whether it is safe to enter a room and the layout of the rooms in front of them."
     url: https://www.newscientist.com/article/dn23716-virtual-reality-display-lets-fire-crews-see-in-a-blaze/
     tags: ['opinion']
-    image: "newscientist-vr.jpg"
+    image: "spidersense.jpg"
   - date: 2013-04-17
     publication: UIC News
     title: UIC computer science student interns at Pixar
@@ -340,7 +340,7 @@ web:
     title: Scientists (finally) build Spider-Man suit with 'SpiderSense'
     text: "It's the invention of which comics nerds have always dreamed. A team of scientists at the University of Illinois at Chicago has created an extrasensory suit inspired by the Marvel superhero Spider-Man that allows its wearers to feel approaching danger. The getup, dubbed SpiderSense, is more of a wearable network of ultrasound sensors than an actual suit. But like the fictional Peter Parker's own superhuman \"spider-sense,\" it detects oncoming objects, obstacles and potential attackers in the vicinity and applies pressure to the skin, providing early warning."
     url: https://www.theglobeandmail.com/life/scientists-finally-build-spider-man-suit-with-spidersense/article10201997/
-    image: "globe-spidersense.jpg"
+    image: "spidersense.jpg"
     country: Canada
   - date: 2013-03-18
     publication: ACM Tech News
@@ -366,7 +366,7 @@ web:
     title: "Quân đội Mỹ sẽ phát triển trang phục \"Giác quan thứ sáu\"?"
     text: "Victor Mateevitsi, nghiên cứu sinh tiến sĩ thuộc Đại học Illinois, Chicago đang phát triển một bộ trang phục “Giác quan thứ sáu” có thể mặc được. Anh đặt tên cho dự án này là SpiderSense (tạm dịch là Giác quan người Nhện) với hình ảnh anh hùng truyện tranh Marvel."
     url: https://anninhthudo.vn/quan-su/quan-doi-my-se-phat-trien-trang-phuc-giac-quan-thu-sau/488382.antd
-    image: "an-spidersense.jpg"
+    image: "spidersense.jpg"
     country: Vietnam
   - date: 2013-03-03
     publication: Examiner.com
@@ -376,7 +376,7 @@ web:
     title: "SpiderSense: a Suit That Gives Man a 'Spider Sense'"
     text: "“My spider sense is tingling!” Thanks to Peter Parker, we all know that means impending danger. Inspired by Spider Man’s famous 6th sense, students at the University of Illinois have designed a suit that senses the near environment and informs the wearer of surrouding objects by gently pushing on his skin. The suit is called the “SpiderSense” and aims to give environmental feedback without sight."
     url: https://www.engineering.com/ElectronicsDesign/ElectronicsDesignArticles/ArticleID/5393/SpiderSense-a-Suit-That-Gives-Man-a-Spider-Sense.aspx
-    image: "engineering-spidersense.png"
+    image: "spidersense.jpg"
   - date: 2013-02-28
     publication: Europa Press
     title: Un traje permite recrear el sentido arácnido de Spider-Man
@@ -427,7 +427,7 @@ web:
     title: "We can all be Peter Parker: New suit gives wearer 'SpiderSense'"
     text: "As all comic fans know, what makes Spider-Man successful at this superhero schtick is because he’s known for more than the whole sticking-to-walls thing he’s named after. No, it’s all the other powers and abilities that he gained at the same time (or invented; where would Spidey be without his webbing, after all?): The proportionate strength, the increased agility and… oh, yeah, the Spider-Sense. Now, a scientist from the University of Illinois in Chicago has built a suit that mimics that last ability for its wearers, taking us one step closer to our own crime-fighting futures. As if to make the inspiration for his suit particularly clear, creator Victor Mateevitsi even named it “SpiderSense,” and described ways in which it could turn anybody into Peter Parker’s alter-ego – well, at least partially."
     url: https://www.digitaltrends.com/cool-tech/now-were-all-peter-parker-new-suit-gives-wearer-spidersense/
-    image: "digitaltrends-spidersense.jpg"
+    image: "spidersense.jpg"
   - date: 2013-02-25
     publication: Bright.nl
     title: SpiderSense-pak laat je je omgeving voelen
@@ -474,7 +474,7 @@ web:
     title: Η στολή του Spiderman που σε κάνει… spiderman!
     text: "Ο Victor Mateevitsi από το Πανεπιστήμιο του Ιλινόις κατάφερε και δημιούργησε τη στολή με ονομασία SpiderSense, η οποία ενσωματώνει ρομποτικούς βραχίονες με μικρόφωνα τα οποία μπορούν να στέλνουν και να λαμβάνουν υπερηχητικές ανακλάσεις από τα τριγύρω αντικείμενα. Όταν ένα μικρόφωνο αντιληφθεί ένα αντικείμενο κοντά, τότε η στολή ανταποκρίνεται στέλνοντας μία πίεση προς το σώμα και κατευθύνοντας το προς το στόχο. Η κάλυψη των 360 μοιρών προσδίδεται με τη χρήση 7 μικροφώνων."
     url: http://www.gazzetta.gr/texnologia/article/374679-i-stoli-toy-spiderman-poy-se-kanei-spiderman-pic
-    image: "gazzetta-spidersense.jpg"
+    image: "spidersense.jpg"
     country: Greece
   - date: 2013-02-23
     publication: Forbes
@@ -502,7 +502,7 @@ web:
     title: Amazing SpiderSense Suit Lets You "Feel" Nearby Objects
     text: "Victor Mateevitsi has built a suit that's so responsive users can \"feel\" nearby objects. In fact, the \"SpiderSense\" suit is so sensitive it elicits a tingling sensation in its users, allowing them to navigate areas with their eyes closed. Can you imagine how that might improve the life of someone who is visually impaired?"
     url: https://www.technobuffalo.com/spidersense-suit-victor-mateevitsi
-    image: "technobuffalo-spidersense.jpg"
+    image: "spidersense.jpg"
   - date: 2013-02-23
     publication: Phys.org
     title: Wearable display meets blindfold test for sensing danger
