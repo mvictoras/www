@@ -5,7 +5,7 @@
   <h2>Social</h2>
   <ul class="list-group sidebar-content">
     {{ range .Site.Data.social }}
-    <li class="list-group-item border-0 py-0"><h5><a href="{{ .url }}" target="_blank">{{ .handle }}<i class="fa fa-{{ .name }} fa-fw"></i></a></h5></li>
+    <li class="list-group-item border-0 py-0"><h5><a href="{{ .url }}" target="_blank">{{ .handle }}<i class="fa-brands fa-{{ .name }} fa-fw"></i></a></h5></li>
     {{end}}
   </ul>
 </div>

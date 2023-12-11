@@ -7,12 +7,14 @@ draft: false
 ## Feel free to contact me!
 
 <ul class="list-group mb-4 mt-4">
-  <li class="list-group-item border-0 py-1"><i class="fa fa-facebook fa-fw"></i><a href="https://www.facebook.com/vmateevitsi" target="_blank">vmateevitsi</a></li>
-  <li class="list-group-item border-0 py-1"><i class="fa fa-instagram fa-fw"></i><a href="https://www.instagram.com/mvictoras" target="_blank">mvictoras</a></li>
-  <li class="list-group-item border-0 py-1"><i class="fa fa-linkedin fa-fw"></i><a href="https://www.linkedin.com/in/mvictoras" target="_blank">mvictoras</a></li>
-  <li class="list-group-item border-0 py-1"><i class="fa fa-github fa-fw"></i><a href="https://github.com/mvictoras" target="_blank">mvictoras</a></li>
-  <li class="list-group-item border-0 py-1"><i class="fa fa-youtube fa-fw"></i><a href="https://www.youtube.com/channel/UCCZzJu2K2pjlIk2qzj4-_lw" target="_blank">mvictoras</a></li>
-  <li class="list-group-item border-0 py-1"><i class="fa fa-vimeo fa-fw"></i><a href="https://vimeo.com/mvictoras" target="_blank">mvictoras</a></li>
+  <li class="list-group-item border-0 py-1"><i class="fa-brands fa-facebook fa-fw"></i><a href="https://www.facebook.com/vmateevitsi" target="_blank">vmateevitsi</a></li>
+  <li class="list-group-item border-0 py-1"><i class="fa-brands fa-instagram fa-fw"></i><a href="https://www.instagram.com/mvictoras" target="_blank">mvictoras</a></li>
+  <li class="list-group-item border-0 py-1"><i class="fa-brands fa-threads fa-fw"></i><a href="https://www.threads.net/@mvictoras" target="_blank">mvictoras</a></li>
+  <li class="list-group-item border-0 py-1"><i class="fa-brands fa-linkedin fa-fw"></i><a href="https://www.linkedin.com/in/mvictoras" target="_blank">mvictoras</a></li>
+  <li class="list-group-item border-0 py-1"><i class="fa fa-square fa-fw"></i>vmateevitsi.com</li>
+  <li class="list-group-item border-0 py-1"><i class="fa-brands fa-github fa-fw"></i><a href="https://github.com/mvictoras" target="_blank">mvictoras</a></li>
+  <li class="list-group-item border-0 py-1"><i class="fa-brands fa-youtube fa-fw"></i><a href="https://www.youtube.com/channel/UCCZzJu2K2pjlIk2qzj4-_lw" target="_blank">mvictoras</a></li>
+  <li class="list-group-item border-0 py-1"><i class="fa-brands fa-vimeo fa-fw"></i><a href="https://vimeo.com/mvictoras" target="_blank">mvictoras</a></li>
   <li class="list-group-item border-0 py-1"><i class="fa fa-envelope fa-fw"></i>{{< cloakemail "victor@mateevitsi.com" >}}</li>
   <li class="list-group-item border-0 py-1"><i class="ai ai-orcid"></i> <a href="http://orcid.org/0000-0002-6677-7520" target="_blank">0000-0002-6677-7520</a></li>
   <li class="list-group-item border-0 py-1"><i class="ai ai-academia"></i> <a href="https://independent.academia.edu/VictorMateevitsi" target="_blank">Victor Mateevitsi</a></li>
