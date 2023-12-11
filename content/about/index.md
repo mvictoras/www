@@ -30,6 +30,6 @@ I draw on a diverse set of skills, including scientific visualization, computer 
 
 ### More facts about me
 
-I play Ice Hockey 🏒 as long as I can remember. From 2006 - 2009 I was selected in the {{< a link="Greek National Ice Hockey Team" src="http://www.eurohockey.com/player/125505-viktor-mateevitsi.html" >}} and participated in the Division 3 IIHF World Championships. Today I play at Johnny's Adult Hockey League with the {{< a link="Centurions" src="https://pointstreak.com/players/players-team.html?teamid=624788&seasonid=19724"  >}}.
+I play Ice Hockey 🏒 as long as I can remember. From 2006 - 2009 I was selected in the {{< a link="Greek National Ice Hockey Team" src="http://www.eurohockey.com/player/125505-viktor-mateevitsi.html" >}} and participated in the Division 3 IIHF World Championships. Today I play at Johnny's Adult Hockey League with the Loose Cannons.
 
 {{< figure src="mateevitsi-ice-hockey.jpg" caption="Training camp in Czech Republik before the World Champs" >}}
