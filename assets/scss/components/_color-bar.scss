@@ -1,12 +1,10 @@
-@mixin bar($background-color, $color) {
-  height: $bar-height;
-  max-height: $bar-height;
+@mixin bar($background-color, $color, $font-size) {
   width: 100%;
   background-color: $background-color;
   text-align: center;
 
   a {
-    @include font-size($color-bar-font-size);
+    @include font-size($font-size);
 
     word-wrap: break-word;
     font-weight: bold;
