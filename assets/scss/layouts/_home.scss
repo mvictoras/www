@@ -37,19 +37,19 @@
 }
 
 .latest {
-  @include bar($latest-color, black);
+  @include bar($latest-color, black, $latest-font-size);
 }
 
 .twitter {
-  @include bar($twitter-color, white);
+  @include bar($twitter-color, white, $color-bar-font-size);
 }
 
 .instagram {
-  @include bar($instagram-color, white);
+  @include bar($instagram-color, white, $color-bar-font-size);
 }
 
 .facebook {
-  @include bar($facebook-color, white);
+  @include bar($facebook-color, white, $color-bar-font-size);
 }
 
 .fingers {
