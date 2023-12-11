@@ -9,7 +9,9 @@
 @import "bootstrap/scss/bootstrap";
 
 /** Import font-awesome  */
-@import "font-awesome/scss/font-awesome";
+@import "@fortawesome/fontawesome-free/scss/fontawesome";
+@import "@fortawesome/fontawesome-free/scss/brands";
+@import "@fortawesome/fontawesome-free/scss/solid";
 
 /** Import rrssb **/
 @import "rrssb/scss/rrssb";

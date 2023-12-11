@@ -88,8 +88,8 @@ anchor = "smart"
     source = "node_modules/rrssb/js"
     target = "assets/js/vendor/rrssb"
   [[module.mounts]]
-    source = "node_modules/font-awesome/fonts"
-    target = "static/fonts"
+    source = "node_modules/@fortawesome/fontawesome-free/webfonts"
+    target = "static/webfonts"
   [[module.mounts]]
     source = "node_modules/prismjs"
     target = "assets/js/vendor/prism"
