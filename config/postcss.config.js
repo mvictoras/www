@@ -23,7 +23,7 @@ module.exports = {
         'instagram-color',
         'lazyloaded',
         'linkedin-color',
-        'twitter-color',
+==
         'vm-btn-add',
         'card-disabled',
         ...whitelister([
