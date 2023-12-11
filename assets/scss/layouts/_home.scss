@@ -40,10 +40,6 @@
   @include bar($latest-color, black, $latest-font-size);
 }
 
-.twitter {
-  @include bar($twitter-color, white, $color-bar-font-size);
-}
-
 .instagram {
   @include bar($instagram-color, white, $color-bar-font-size);
 }

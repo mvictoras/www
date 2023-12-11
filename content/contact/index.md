@@ -2,7 +2,6 @@
 title: "Contact"
 date: 2019-06-17T09:43:39-05:00
 draft: false
-twitter: mvictoras
 ---
 
 ## Feel free to contact me!
@@ -11,7 +10,6 @@ twitter: mvictoras
   <li class="list-group-item border-0 py-1"><i class="fa fa-facebook fa-fw"></i><a href="https://www.facebook.com/vmateevitsi" target="_blank">vmateevitsi</a></li>
   <li class="list-group-item border-0 py-1"><i class="fa fa-instagram fa-fw"></i><a href="https://www.instagram.com/mvictoras" target="_blank">mvictoras</a></li>
   <li class="list-group-item border-0 py-1"><i class="fa fa-linkedin fa-fw"></i><a href="https://www.linkedin.com/in/mvictoras" target="_blank">mvictoras</a></li>
-  <li class="list-group-item border-0 py-1"><i class="fa fa-twitter fa-fw"></i><a href="https://twitter.com/mvictoras" target="_blank">mvictoras</a></li>
   <li class="list-group-item border-0 py-1"><i class="fa fa-github fa-fw"></i><a href="https://github.com/mvictoras" target="_blank">mvictoras</a></li>
   <li class="list-group-item border-0 py-1"><i class="fa fa-youtube fa-fw"></i><a href="https://www.youtube.com/channel/UCCZzJu2K2pjlIk2qzj4-_lw" target="_blank">mvictoras</a></li>
   <li class="list-group-item border-0 py-1"><i class="fa fa-vimeo fa-fw"></i><a href="https://vimeo.com/mvictoras" target="_blank">mvictoras</a></li>
