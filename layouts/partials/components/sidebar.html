@@ -1,45 +1,44 @@
 {{ block "sidebar" .}} {{ end }}
 
-
-<div class="sibedar">
-  <h2>Social</h2>
-  <ul class="list-group sidebar-content">
+<div class="pb-4">
+  <h3 class="text-end border-bottom border-3 border-dark">Social</h3>
+  <ul class="list-group text-end">
     {{ range .Site.Data.social }}
-    <li class="list-group-item border-0 py-0"><h5><a href="{{ .url }}" target="_blank">{{ .handle }}<i class="fa-brands fa-{{ .name }} fa-fw"></i></a></h5></li>
+    <li class="list-group-item border-0 p-0 border-0 p-0"><div><a href="{{ .url }}" class="link-dark link-underline-opacity-0" target="_blank">{{ .handle }}<i class="fa-brands fa-{{ .name }} fa-fw"></i></a></div></li>
     {{end}}
   </ul>
 </div>
 
-<div class="sibedar">
-  <h2>Latest posts</h2>
-  <ul class="list-group list-group-flush sidebar-content">
+<div class="pb-4">
+  <h3 class="text-end border-bottom border-3 border-dark">Latest posts</h3>
+  <ul class="list-group list-group-flush text-end">
   {{ range first 3 (where .Site.RegularPages "Section" "news") }}
-  <li class="list-group-item"><h5><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5></li>
+  <li class="list-group-item border-0 px-0 py-1"><div><a href="{{ .RelPermalink }}" class="link-dark link-underline-opacity-0">{{ .Title }}</a></div></li>
   {{ end }}
   </ul>
 </div>
 
-<div class="sibedar">
-  <h2>Latest press</h2>
-  <ul class="list-group list-group-flush sidebar-content">
+<div class="pb-4">
+  <h3 class="text-end border-bottom border-3 border-dark">Latest press</h3>
+  <ul class="list-group list-group-flush text-end">
   {{ range first 3 .Site.Data.press.web }}
-  <li class="list-group-item"><h5><a href="{{ .url }}" target="_blank">{{ .title }}</a></h5></li>
+  <li class="list-group-item border-0 px-0 py-1"><div><a href="{{ .url }}" class="link-dark link-underline-opacity-0" target="_blank">{{ .title }}</a></div></li>
   {{ end }}
   </ul>
 </div>
 
-<div class="sibedar">
-  <h2>Updates</h2>
-  <div class="list-group list-group-flush siderbar-content">
+<div class="pb-4">
+  <h3 class="text-end border-bottom border-3 border-dark">Updates</h3>
+  <div class="list-group list-group-flush text-end">
     {{ range first 5 .Site.Data.updates }}
       {{ $date := time .date }}
-      <div class="list-group-item d-flex justify-content-between">
-        <h5 class="mb-1">{{ .title | emojify }}</h5>
-        <small class="pl-1 text-muted text-nowrap">{{ $date.Format "2 Jan" }}</small>
+      <div class="list-group-item border-0 px-0 py-1 d-flex justify-content-between">
+        <div class="text-start m-0">{{ .title | emojify }}</div>
+        <small class="pl-1 text-muted text-nowrap d-flex align-items-center">{{ $date.Format "2 Jan" }}</small>
       </div>
     {{ end }}
-    <div class="list-group-item d-flex justify-content-between">
-      <a class="mb-1" href="/updates">More</a>
+    <div class="list-group-item border-0 p-0 d-flex position-relative start-50">
+      <a class="mb-1 text-center" href="/updates">More</a>
     </div>
   </div>
 </div>
@@ -53,15 +52,15 @@
 {{ end }}
 
 {{ if $.Scratch.Get "hasEvents" }}
-<div class="sibedar">
-  <h2>Where to find me</h2>
+<div class="pb-4">
+  <h3 class="text-end border-bottom border-3 border-dark">Where to find me</h3>
   <div class="list-group list-group-flush sibedar-updates">
     {{ range first 5 .Site.Data.events }}
       {{ $date := time .date }}
       {{ if $date.After now }}
-        <div class="list-group-item update-item">
+        <div class="list-group-item border-0 p-0 update-item">
           <div class="d-flex w-100 justify-content-between">
-            <a href="{{ .url }}" target="_blank"><h5 class="mb-1">{{ .title }}</h5></a>
+            <a href="{{ .url }}" class="link-dark link-underline-opacity-0" target="_blank"><div class="mb-1">{{ .title }}</div></a>
             <small class="text-muted">{{ $date.Format "2 Jan" }}</small>
           </div>
           <p class="mb-1 description">{{ .description }}</p>
