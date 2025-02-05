@@ -8,13 +8,13 @@ linkedin:
   handle: "mvictoras"
   url: "https://www.linkedin.com/in/mvictoras"
 
-facebook:
-  name: "facebook"
-  handle: "vmateevitsi"
-  url: "https://www.facebook.com/vmateevitsi"
+bluesky:
+  name: "bluesky"
+  handle: "vmateevitsi.com"
+  url: "https://bsky.app/profile/vmateevitsi.com"
 
 threads:
   name: "threads"
-  handle: "@mvictoras"
+  handle: "mvictoras"
   url: "https://www.threads.net/@mvictoras"
     

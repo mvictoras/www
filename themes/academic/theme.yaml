@@ -1,0 +1,12 @@
+# theme.yaml configuration file
+
+name: Academic Theme for Hugo
+license: MIT
+description: Hugo Academic Theme
+tags:
+  - academic
+min_version: 0.80.0
+
+author:
+  name: Victor Mateevitsi
+  homepage: https://www.vmateevitsi.com

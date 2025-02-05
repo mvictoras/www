@@ -19,6 +19,7 @@ module.exports = {
         'dropdown-menu',
         'dropdown-item',
         'facebook-color',
+        'bluesky-color',
         'heart-emoji',
         'instagram-color',
         'lazyloaded',
