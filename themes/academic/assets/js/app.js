@@ -53,7 +53,7 @@ listen();
 }(jQuery));
 
 anime({
-  targets: '.groku',
+  targets: '.home-image-groku',
   translateY: 10,
   easing: 'easeInOutSine',
   direction: 'alternate',
