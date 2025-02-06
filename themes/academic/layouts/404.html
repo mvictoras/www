@@ -1,10 +1,16 @@
 {{ define "main" }}
-<div class="row justify-content-center">
-  <div class="col-lg-7">
-    <article>
-      <h1>Page not found :(</h1>
-      <p>The page you are looking for doesn't exist or has been moved.</p>
-    </article>
+<div class="row justify-content-center glitch-container">
+  <div class="glitch">
+    <div class="glitch__container">
+      <div class="glitch__text">
+        <h1 class="glitch__text__title glitch-effect">
+          <strong>404</strong> <br> PAGE NOT FOUND
+          <span class="glitch-effect-text-clr1"><strong>404</strong> <br> PAGE NOT FOUND</span>
+          <span class="glitch-effect-text-clr2"><strong>404</strong> <br> PAGE NOT FOUND</span>
+        </h1>
+      </div>
+    </div>
   </div>
+  <canvas class="particles"></canvas>
 </div>
 {{ end }}

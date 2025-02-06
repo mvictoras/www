@@ -1,0 +1,90 @@
+.glitch-container {
+  font-family: sans-serif;
+}
+
+.glitch {
+  &__container {
+    position: relative;
+    margin: 0 auto;
+    width: 84vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__text {
+    padding: 0 1vw;
+    color: #111;
+    text-align: center;
+
+    &__title {
+      display: inline-block;
+      font-size: 5vw;
+      white-space: nowrap;
+      line-height: 1;
+      
+      & strong {
+        font-size: 20vw;
+      }
+
+      &.glitch-effect {
+        position: relative;
+        display: inline-block;
+
+        &.slice {
+          &::after {
+            content: '';
+            background-color: #fff;
+            height: 5%;
+            width: 110%;
+            position: absolute;
+            top: 30%;
+            left: -5%;
+            z-index: 1;
+          }
+
+          &::before {
+            content: '';
+            background-color: #fff;
+            height: 10%;
+            width: 110%;
+            position: absolute;
+            top: 60%;
+            left: -5%;
+            z-index: 1;
+          }
+        }
+
+        span {
+          position: absolute;
+          top: 0;
+          display: none;
+          z-index: -1;
+
+          &.glitch-effect-text-clr1 {
+            color: rgba(#f0f, 0.9);
+            left: -2px;
+          }
+
+          &.glitch-effect-text-clr2 {
+            color: rgba(#00fffa, 0.9);
+            right: -2px;
+          }
+        }
+
+        &.active span {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
+.particles {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
