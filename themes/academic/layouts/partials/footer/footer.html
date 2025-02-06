@@ -3,5 +3,8 @@
 {{ else }}
   <footer class="footer text-center mt-4">
 {{ end }}
+
+  {{ partial "footer/menu.html" . }}
+  
   <div class="footer footer-copyright text-center">&copy; {{ now.Format "2006" }} {{ .Site.Params.footer | safeHTML }}</div>
 </footer>

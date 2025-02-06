@@ -8,8 +8,8 @@ contact: |
   <p>I love crazy ideas, difficult problems and emerging technologies. Do you or your idea fit the profile? <a href='/contact'>Let's work together</a>, I can help!</p>
   <p>I also love traveling, exchanging ideas and sharing knowledge. I have been a <a href='https://youtu.be/gtU-6cxi1OA' target="_blank">TEDx speaker</a> and spoken to world-class conferences, like the <a href='https://youtu.be/D2BZ5wCTwGU' target="_blank">Augmented World Exposition (AWE)</a>. I'd be honored to participate at your next panel, conference or event. Feel free to <a href='/contact'>contact me</a>.</p>
 
-about_parallax_css: home-image-parallax-spidersense
-contact_parallax_css: home-image-parallax-batcave
+about_image: "images/Mateevitsi_SpiderSense_VR_hub24077e8499f5664e9b792c14d04a14c_267391_1920x0_resize_q75_catmullrom.jpg"
+contact_image: "images/Mateevitsi_batcave_hu839df68b59191f670988ad210d60a093_370657_1920x0_resize_q75_catmullrom.jpg"
 hero_image: |
   <div class="col-8 align-self-end p-0 home-image-fingers">
     <div class="w-100 h-100 d-flex p-0 home-image-mateevitsi">

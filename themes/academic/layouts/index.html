@@ -8,13 +8,13 @@
         <div class="py-4"><span class="skill2">{{ index (.Params.skills) 1 }}</span></div>
         <div class="py-4"><span class="skill3">{{ index (.Params.skills) 2 }}</span></div>
         </div>
-        {{ .Params.hero_image }}
+        {{ .Params.hero_image | safeHTML}}
     </div>
   </div>
 
 
   {{/* About me */}}
-  <div class="px-0 parallax {{ .Params.about_parallax_css }}">
+  <div class="px-0 parallax" style="background-image: url( {{ .Params.about_image }})">
     <div class="container">
         {{ .Content }} 
     </div>
@@ -31,7 +31,7 @@
   
 
   {{/* Contact me */}}
-  <div class="px-0 parallax {{ .Params.contact_parallax_css }}">
+  <div class="px-0 parallax" style="background-image: url( {{ .Params.contact_image }})">
     <div class="container">
         {{ .Params.contact | safeHTML }}
     </div>
