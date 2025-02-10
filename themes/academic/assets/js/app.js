@@ -84,24 +84,3 @@ tl
 
   .fromTo(glitch, 0.2, { x: 0 }, { x: 5, ease: SteppedEase.config(2), repeat: 1, delay: 1, className: '+=active' })
   .set(glitch, { className: '-=active' })
-
-
-Particles.init({
-selector: '.particles',
-color: '#111',
-sizeVariations: 3,
-maxParticles: 140,
-responsive: [
-  {
-    breakpoint: 768,
-    options: {
-      maxParticles: 70
-    }
-  }, {
-    breakpoint: 320,
-    options: {
-      maxParticles: 35
-    }
-  }
-]
-})
