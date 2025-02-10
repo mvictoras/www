@@ -18,13 +18,14 @@
 {{ partial "footer/esbuild" (dict "src" "js/vendor/add-to-calendar/ouical.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
 {{ partial "footer/esbuild" (dict "src" "js/deadlines.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+
+{{ if (eq .Kind "404") }}
+  {{ partial "footer/esbuild" (dict "src" "js/vendor/gsap/TweenMax.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
+  {{ partial "footer/esbuild" (dict "src" "js/404.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
+{{ end }}
 
 {{/* If you don't want to concat remove this line */}}
 {{ partial "footer/concat" (dict "load" "async" "transpile" false "scratch" .Scratch) -}}
-
-
 
 {{/* EXAMPLE - only load script for production
 {{ if eq (hugo.Environment) "production" -}}

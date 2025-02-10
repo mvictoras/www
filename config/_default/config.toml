@@ -138,6 +138,9 @@ anchor = "smart"
   [[module.mounts]]
     source = "node_modules/animejs/lib"
     target = "assets/js/vendor/animejs"
+  [[module.mounts]]
+    source = "node_modules/gsap"
+    target = "assets/js/vendor/gsap"
 
 [taxonomies]
   category = "categories"

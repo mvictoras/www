@@ -24,7 +24,6 @@ module.exports = {
         'instagram-color',
         'lazyloaded',
         'linkedin-color',
-==
         'vm-btn-add',
         'card-disabled',
         ...whitelister([
