@@ -1,5 +1,5 @@
 .skills {
-  @include font-size(3rem);
+  @include font-size(2.5rem);
 
   @include media-breakpoint-down(lg) {
     @include font-size(2.5rem);
@@ -18,12 +18,15 @@
 
 .skill1 {
   background-color: $skill1-color;
+  @include glitch($skill1-color);
 }
 
 .skill2 {
   background-color: $skill2-color;
+  @include glitch($skill2-color, 0.15s, 0.15s);
 }
 
 .skill3 {
   background-color: $skill3-color;
+  @include glitch($skill3-color, 0.3s, 0.3s);
 }

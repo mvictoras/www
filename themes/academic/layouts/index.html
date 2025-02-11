@@ -1,12 +1,12 @@
 {{ define "main" }}
 
   {{/* Featured image */}}
-  <div class="container">
+  <div class="container glitch-container">
     <div class="row align-items-center">
         <div class="col-4 skills">
-        <div class="py-4"><span class="skill1">{{ index (.Params.skills) 0 }}</span></div>
-        <div class="py-4"><span class="skill2">{{ index (.Params.skills) 1 }}</span></div>
-        <div class="py-4"><span class="skill3">{{ index (.Params.skills) 2 }}</span></div>
+        <div class="my-5 py-2 px-1 skill1"><span class="glitch" data-text="Rεs@ercheR">{{ index (.Params.skills) 0 }}</span></div>
+        <div class="my-5 py-2 px-1 skill2"><span class="glitch" data-text="eng1n3er">{{ index (.Params.skills) 1 }}</span></div>
+        <div class="my-5 py-2 px-1 skill3"><span class="glitch" data-text="sc1entiSt">{{ index (.Params.skills) 2 }}</span></div>
         </div>
         {{ .Params.hero_image | safeHTML}}
     </div>
