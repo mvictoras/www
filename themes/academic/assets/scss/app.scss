@@ -13,9 +13,6 @@
 @import "@fortawesome/fontawesome-free/scss/brands";
 @import "@fortawesome/fontawesome-free/scss/solid";
 
-/** Import rrssb **/
-@import "rrssb/scss/rrssb";
-
 /** import photoswipe **/
 @import "photoswipe/src/css/main";
 @import "photoswipe/src/css/default-skin/default-skin";
@@ -53,5 +50,3 @@
 
 /** Import prismjs */
 @import "prismjs/themes/prism";
-
-$enable-responsive-font-sizes: true;

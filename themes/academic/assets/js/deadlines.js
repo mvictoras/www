@@ -28,7 +28,6 @@ import moment from "moment";
 
     // render countdown timer
     $('.event').each(function(i, obj) {
-      var test = 5;
       var $this = $(this), 
         deadline = $this.attr('deadline'), 
         description = $this.attr('description'),
