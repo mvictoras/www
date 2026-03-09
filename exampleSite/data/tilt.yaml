@@ -1,0 +1,7 @@
+# "Things I Learned Today" — interesting links and discoveries.
+# Each entry needs: title, url, date. Optional: source, source_url
+- title: "Interesting article about a fascinating topic"
+  url: https://example.com/interesting-article
+  date: 2024-01-15
+  source: "Example Source"
+  source_url: https://example.com

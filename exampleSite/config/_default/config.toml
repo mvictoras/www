@@ -1,0 +1,96 @@
+baseURL = "https://example.com/"
+canonifyURLs = false
+disableAliases = true
+disableHugoGeneratorInject = true
+disableKinds = ["taxonomy", "term"]
+enableEmoji = true
+enableGitInfo = false
+enableRobotsTXT = true
+languageCode = "en-US"
+rssLimit = 10
+theme = ["hugo-cloak-email", "academic"]
+timeout = 60000
+
+# Uncomment and set your Google Analytics ID
+# googleAnalytics = "G-XXXXXXXXXX"
+
+[pagination]
+  pagerSize = 7
+
+[outputs]
+home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+
+[mediaTypes."text/netlify"]
+suffixes = [""]
+delimiter = ""
+
+[outputFormats.REDIRECTS]
+mediatype = "text/netlify"
+baseName = "_redirects"
+isPlainText = true
+notAlternative = true
+
+[outputFormats.HEADERS]
+mediatype = "text/netlify"
+baseName = "_headers"
+isPlainText = true
+notAlternative = true
+
+[caches]
+  [caches.getjson]
+    dir = ":cacheDir/:project"
+    maxAge = "10s"
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[imaging]
+resampleFilter = "CatmullRom"
+quality = 75
+anchor = "smart"
+
+[module]
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "node_modules/@fortawesome/fontawesome-free/webfonts"
+    target = "static/webfonts"
+  [[module.mounts]]
+    source = "node_modules/prismjs"
+    target = "assets/js/vendor/prism"
+  [[module.mounts]]
+    source = "node_modules/prismjs"
+    target = "static/typo"
+  [[module.mounts]]
+    source = "node_modules/academicons/fonts"
+    target = "static/fonts"
+
+[taxonomies]
+  category = "categories"
+
+[permalinks]
+  blog = "/:title/"
+
+[minify.tdewolff.html]
+  keepWhitespace = false
+
+[related]
+  threshold = 80
+  includeNewer = true
+  toLower = false
+    [[related.indices]]
+    name = "categories"
+    weight = 100
+    [[related.indices]]
+    name = "date"
+    weight = 10
+
+[security]
+  [security.exec]
+    allow = ['^npx$', '^babel$', '^postcss$', '^sass$']

@@ -1,0 +1,13 @@
+# Work experience items displayed in the homepage carousel.
+# Each entry needs: title, logo (path to image in static/), desc (supports HTML)
+- title: Company Name
+  logo: "/images/company-logo.png"
+  desc: "Describe your role and achievements. Supports <a href='https://example.com' target='_blank'>HTML links</a>."
+
+- title: Previous Company
+  logo: "/images/prev-company-logo.png"
+  desc: "What you worked on and accomplished during your time here."
+
+- title: University / Lab
+  logo: "/images/university-logo.png"
+  desc: "Research or academic work you contributed to."

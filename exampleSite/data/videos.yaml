@@ -1,0 +1,7 @@
+# Video content entries. Supports youtube and soundcloud types.
+# Each entry needs: title, type (youtube/soundcloud), id, desc, date
+- title: "Example Talk at Conference"
+  type: youtube
+  id: dQw4w9WgXcQ
+  desc: "Keynote presentation at Example Conference 2024"
+  date: 2024-01-15

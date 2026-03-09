@@ -1,0 +1,17 @@
+# Social media links displayed in the header/sidebar.
+# Each entry needs: name (used for icon class), handle, url
+# Icon classes use Font Awesome brands: fa-brands fa-{name}
+github:
+  name: "github"
+  handle: "yourusername"
+  url: "https://github.com/yourusername"
+
+linkedin:
+  name: "linkedin"
+  handle: "yourusername"
+  url: "https://www.linkedin.com/in/yourusername"
+
+bluesky:
+  name: "bluesky"
+  handle: "you.bsky.social"
+  url: "https://bsky.app/profile/you.bsky.social"

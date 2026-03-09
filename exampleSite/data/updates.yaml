@@ -1,0 +1,13 @@
+# Personal/professional updates displayed as a timeline.
+# Each entry needs: title (supports emoji shortcodes), date (YYYY-MM-DD)
+- title: ":rocket: Launched new project"
+  date: 2024-03-15
+
+- title: "Published paper at Conference 2024"
+  date: 2024-02-20
+
+- title: ":tada: Started new position"
+  date: 2024-01-10
+
+- title: ":airplane: Attended workshop in Berlin"
+  date: 2023-12-01

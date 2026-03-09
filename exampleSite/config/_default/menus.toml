@@ -1,0 +1,47 @@
+[[main]]
+  identifier = "home"
+  name = "home"
+  url = "/"
+  weight = 1
+
+[[main]]
+  identifier= "news"
+  name = "news"
+  url = "/news/"
+  weight = 2
+
+[[main]]
+  identifier = "about"
+  name = "about"
+  url = "/about/"
+  weight = 3
+
+[[main]]
+  identifier = "contact"
+  name = "contact"
+  url = "/contact/"
+  weight = 4
+
+[[footer]]
+  identifier = "home"
+  name = "home"
+  url = "/"
+  weight = 1
+
+[[footer]]
+  identifier= "news"
+  name = "news"
+  url = "/news/"
+  weight = 2
+
+[[footer]]
+  identifier = "about"
+  name = "about"
+  url = "/about/"
+  weight = 3
+
+[[footer]]
+  identifier = "contact"
+  name = "contact"
+  url = "/contact/"
+  weight = 4

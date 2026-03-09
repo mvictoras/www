@@ -1,0 +1,47 @@
+# General
+defaultContentLanguage = "en"
+
+# Homepage
+title = "Your Name"
+titleSeparator = "-"
+titleAddition = "Your Tagline Here"
+description = "A brief description of yourself and your work for SEO purposes"
+
+## Open Graph
+images = ["profile.jpg"]
+ogLocale = "en_US"
+titleHome = "Your Homepage"
+
+## Twitter Cards
+twitterSite = "@yourusername"
+twitterCreator = "@yourusername"
+
+## JSON-LD (structured data for search engines)
+schemaType = "Person"
+schemaName = "Your Name"
+schemaAuthor = "Your Name"
+schemaLocale = "en-US"
+schemaLogo = "logo.png"
+schemaLogoWidth = 500
+schemaLogoHeight = 500
+schemaImage = "profile.jpg"
+schemaImageWidth = 1200
+schemaImageHeight = 630
+schemaTwitter = "https://twitter.com/yourusername"
+schemaLinkedIn = "https://www.linkedin.com/in/yourusername"
+schemaAuthorGitHub = "https://github.com/yourusername"
+schemaSection = "news"
+
+themeColor = "#fff"
+
+quality = 85
+articlePhotoSize = "688x381"
+
+# Email domain for the email shortcode (e.g., "example.com")
+# email_domain = "example.com"
+
+# Footer text (supports HTML)
+footer = "Your Name. Built with Hugo Academic Theme"
+
+# Additional CSS files to load
+# custom_css = ["css/custom.css"]

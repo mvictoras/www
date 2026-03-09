@@ -1,0 +1,8 @@
+# Upcoming events displayed in the sidebar.
+# Each entry needs: title, location, city, description, url, date
+- title: Example Conference 2025
+  location: Convention Center
+  city: San Francisco
+  description: "Annual gathering of researchers and practitioners."
+  url: https://example-conference.org
+  date: 2025-06-15

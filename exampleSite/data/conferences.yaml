@@ -1,0 +1,32 @@
+# Conference deadlines with countdown timers.
+# Used by the deadlines shortcode on the /vis-deadlines/ page.
+- title: "Example Conference 2025"
+  description: "The International Conference on Example Topics"
+  place: San Francisco, CA, USA
+  abbreviation: EXCONF 2025
+  id: exconf25
+  link: https://example-conference.org
+  confStartDate: '2025-06-15 00:00:00'
+  confEndDate: '2025-06-20 23:59:59'
+  deadlines:
+  - type: 'Papers'
+    date: '2025-01-15 23:59:59'
+    utcOffset: -12:00
+  - type: 'Posters'
+    date: '2025-03-01 23:59:59'
+    utcOffset: -12:00
+  sub: [topic1, topic2, topic3]
+
+- title: "Another Symposium 2025"
+  description: "Annual symposium on research and innovation"
+  place: London, UK
+  abbreviation: ASYMP 2025
+  id: asymp25
+  link: https://another-symposium.org
+  confStartDate: '2025-09-10 00:00:00'
+  confEndDate: '2025-09-13 23:59:59'
+  deadlines:
+  - type: 'Full Papers'
+    date: '2025-04-30 23:59:59'
+    utcOffset: -12:00
+  sub: [research, design]
