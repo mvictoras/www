@@ -17,10 +17,7 @@
       <div class="dropdown-divider"></div>
       <ul class="navbar-nav nav-flex-icons justify-content-center">
         {{ range site.Data.social }}
-        <li class="nav-item"><a href="{{ .url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .name }}"><span class="fa-stack fa">
-              <i class="fa fa-circle fa-stack-2x {{ .name }}-color"></i>
-              <i class="fa-brands fa-{{ .name }} text-white fa-stack-1x"></i>
-            </span></a></li>
+        <li class="nav-item"><a class="nav-link px-2" href="{{ .url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .name }}"><i class="fa-brands fa-{{ .name }}"></i></a></li>
         {{ end }}
       </ul>
       <div class="dropdown-divider"></div>
