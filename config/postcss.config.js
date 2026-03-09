@@ -4,7 +4,7 @@ const purgecss = require('@fullhuman/postcss-purgecss');
 module.exports = {
   plugins: [
     autoprefixer(),
-    purgecss.purgeCSSPlugin({
+    purgecss({
       content: [
         './content/**/*.md',
         './layouts/**/*.html',
