@@ -17,7 +17,7 @@
       <div class="dropdown-divider"></div>
       <ul class="navbar-nav nav-flex-icons justify-content-center">
         {{ range .Site.Data.social }}
-        <li class="nav-item"><a href="{{ .url }}" target="_blank"><span class="fa-stack fa">
+        <li class="nav-item"><a href="{{ .url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .name }}"><span class="fa-stack fa">
               <i class="fa fa-circle fa-stack-2x {{ .name }}-color"></i>
               <i class="fa-brands fa-{{ .name }} text-white fa-stack-1x"></i>
             </span></a></li>
