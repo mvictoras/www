@@ -1,0 +1,139 @@
+graduate:
+  - name: "Colleen Heinemann"
+    role: "Research Intern"
+    institution: "Argonne National Laboratory"
+    year: 2024
+
+  - name: "Hal Brynteson"
+    role: "Research Intern"
+    institution: "Argonne National Laboratory"
+    year: 2024
+
+  - name: "Andres Sewell"
+    role: "Research Intern"
+    institution: "Argonne National Laboratory"
+    year: 2024
+
+  - name: "Andres Sewell"
+    role: "Research Intern"
+    institution: "Argonne National Laboratory"
+    year: 2023
+
+  - name: "Qi Wu"
+    role: "Research Intern"
+    institution: "Argonne National Laboratory"
+    year: 2022
+
+  - name: "Jason Ortiz"
+    role: "Research Intern"
+    institution: "Argonne National Laboratory"
+    year: 2022
+
+  - name: "Yue Ma"
+    role: "Research Intern (Co-supervised with Maoyuan Sun)"
+    institution: "Argonne National Laboratory"
+    year: 2022
+
+  - name: "Isaac Nealey"
+    role: "Research Intern"
+    institution: "Argonne National Laboratory"
+    year: 2021
+
+  - name: "Isaac Nealey"
+    role: "Research Intern"
+    institution: "Argonne National Laboratory"
+    year: 2020
+
+undergraduate:
+  - name: "Athena Angara"
+    role: "Research Intern"
+    institution: "Argonne National Laboratory"
+    year: 2024
+
+  - name: "Faith Gabrielle Salinas"
+    role: "Research Intern"
+    institution: "Argonne National Laboratory"
+    year: 2024
+
+  - name: "Ricky Massa"
+    role: "Research Intern"
+    institution: "Argonne National Laboratory"
+    year: 2024
+
+  - name: "Abdullah Ali"
+    role: "Research Intern"
+    institution: "Argonne National Laboratory"
+    year: 2024
+
+  - name: "Aaqel Shaik"
+    role: "Research Intern"
+    institution: "Argonne National Laboratory"
+    year: 2024
+
+  - name: "James Morrissette"
+    role: "Research Intern"
+    institution: "Argonne National Laboratory"
+    year: 2024
+
+  - name: "James Morrissette"
+    role: "Research Intern"
+    institution: "Argonne National Laboratory"
+    year: 2023
+
+  - name: "Anthony Buccaro"
+    role: "Research Intern"
+    institution: "Argonne National Laboratory"
+    year: 2021
+
+  - name: "Jagrut Patel"
+    role: "Research Intern"
+    institution: "University of Illinois at Chicago"
+    year: 2014
+
+  - name: "Panagiotis Karvounis"
+    role: "Thesis"
+    institution: "National Technical University of Athens"
+    year: 2009
+
+  - name: "Constantinos Kolovos"
+    role: "Thesis"
+    institution: "National Technical University of Athens"
+    year: 2008
+
+k12:
+  - name: "Daniel J. Mason"
+    role: "ACT-SO"
+    institution: "Argonne National Laboratory"
+    year: 2023
+    award: "1st place at ACT-SO State level"
+
+  - name: "James Morrissette"
+    role: "ACT-SO"
+    institution: "Argonne National Laboratory"
+    year: 2021
+    award: "1st place at ACT-SO State level, 2nd place at Nationals"
+
+  - name: "Glen Poole"
+    role: "SPARK"
+    institution: "University of Illinois at Chicago"
+    year: 2014
+
+  - name: "Dexter Wells"
+    role: "SPARK"
+    institution: "University of Illinois at Chicago"
+    year: 2014
+
+  - name: "Antwan McBee"
+    role: "SPARK"
+    institution: "University of Illinois at Chicago"
+    year: 2013
+
+  - name: "Andrew Lewis"
+    role: "SPARK"
+    institution: "University of Illinois at Chicago"
+    year: 2013
+
+  - name: "Joshua Gartley"
+    role: "SPARK"
+    institution: "University of Illinois at Chicago"
+    year: 2013

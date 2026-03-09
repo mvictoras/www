@@ -1,0 +1,164 @@
+- title: "Scientific Visualization and HPC - Intro to HPC, University of Illinois Chicago"
+  type: "Guest Lecture (April 8)"
+  attendees: "60 attendees"
+  year: 2025
+
+- title: "Early Career Virtual Panel - Advanced Scientific Computing Advisory Committee (ASCAC), Department Of Energy"
+  type: "Virtual Panel (January 16)"
+  attendees: "120 attendees"
+  year: 2025
+
+- title: "Rendering at Warp Speed: OSPray + ANARI on Aurora - ANARI BOF at SC"
+  type: "Atlanta, GA (November 19)"
+  attendees: "50 attendees"
+  year: 2024
+
+- title: "Application Spotlight: Visualization within the Department of Energy - IEEE VIS"
+  type: "Virtual Panel (October 16)"
+  attendees: "70 attendees"
+  year: 2024
+
+- title: "Empowering Simulation Insights: Integrating NekRS with in situ Frameworks - Centro Nacional de Alta Tecnología (CNCA)"
+  type: "Virtual Talk (May 16)"
+  attendees: "30 attendees"
+  year: 2024
+
+- title: "Advanced data and visualization pipelines on the example of nekRS - JLESC Workshop"
+  type: "Kobe, Japan (April 18)"
+  attendees: "70 attendees"
+  year: 2024
+
+- title: "Introducing Visualization on Polaris - Argonne National Laboratory"
+  type: "Online Webinar (January 31)"
+  attendees: "50 attendees"
+  year: 2024
+
+- title: "Data Analysis and Visualization - Argonne Training Program on Extreme-Scale Computing (ATPESC)"
+  type: "St. Charles, IL (August 7)"
+  attendees: "75 attendees"
+  year: 2023
+
+- title: "ParaView Tutorial, Intro to High Performance Computing - University of Illinois at Chicago"
+  type: "Guest Lecture (Spring)"
+  attendees: "25 attendees"
+  year: 2023
+
+- title: "Early Career Research Talk - IEEE LDAV 2021"
+  type: "October 25"
+  attendees: ""
+  year: 2021
+
+- title: "Early Career Research Talk - DOECGF21"
+  type: "April 28"
+  attendees: ""
+  year: 2021
+
+- title: "Emerge/NEXT"
+  type: "Guest Panelist (February 12)"
+  attendees: "65 attendees"
+  year: 2020
+
+- title: "SpiderSense Demo - IEEE BHI-BSN"
+  type: "May 22"
+  attendees: "500 attendees"
+  year: 2019
+
+- title: "Guest Lecture: SpiderSense - BIOE Class, University of Illinois at Chicago"
+  type: "Spring"
+  attendees: "60 attendees"
+  year: 2017
+
+- title: "Guest Lecture: SpiderSense - Human Augmentics Class, University of Illinois at Chicago"
+  type: "Spring"
+  attendees: "60 attendees"
+  year: 2017
+
+- title: "Superpowers are for Everyone - TEDx University of Illinois at Chicago"
+  type: "2016"
+  attendees: "100 attendees"
+  year: 2016
+
+- title: "SpiderSense - Technori Maker Movement"
+  type: "2016"
+  attendees: "500 attendees"
+  year: 2016
+
+- title: "Guest Lecture: SpiderSense - Human Augmentics Class, University of Illinois at Chicago"
+  type: "Spring"
+  attendees: ""
+  year: 2016
+
+- title: "Guest Speaker - Chicago Inno's Innovation U meetup, Chicago, IL"
+  type: "February 26"
+  attendees: "60 attendees"
+  year: 2015
+
+- title: "Guest Lecture: SpiderSense - Human Augmentics Class, University of Illinois at Chicago"
+  type: "Spring"
+  attendees: ""
+  year: 2015
+
+- title: "Recovery Machines - Workshop at the IEEE Engineering in Medicine and Biology Society"
+  type: "Chicago, IL (August 26)"
+  attendees: "115 attendees"
+  year: 2014
+
+- title: "Superhero Science - Adler Planetarium"
+  type: "Chicago, IL (July 18)"
+  attendees: "1,567 attendees"
+  year: 2014
+
+- title: "Panel: emerge/Next U network Event and Entrepreneurship Mini-Hackathon - BLUE1647"
+  type: "Chicago, IL (July 2)"
+  attendees: "100 attendees"
+  year: 2014
+
+- title: "An Evening with Legacies and Leaders - University of Illinois at Chicago"
+  type: "Chicago, IL (March 4)"
+  attendees: "425 attendees"
+  year: 2014
+
+- title: "Panel: Wearable Technology - MIT Enterprise Forum"
+  type: "Chicago, IL (January 23)"
+  attendees: "100 attendees"
+  year: 2014
+
+- title: "Guest Lecture: SpiderSense - Human Augmentics Class, University of Illinois at Chicago"
+  type: "Spring"
+  attendees: ""
+  year: 2014
+
+- title: "Presentation and Demonstration: SpiderSense - Chicago Public Library Innovation Lab Program"
+  type: "Chicago, IL (September 24)"
+  attendees: "10 attendees"
+  year: 2013
+
+- title: "Presentation and Demonstration: SpiderSense - Augmented Reality Chicago Meetup"
+  type: "Chicago, IL (July 29)"
+  attendees: "30 attendees"
+  year: 2013
+
+- title: "Presentation and Demonstration: SpiderSense - Augmented World Expo"
+  type: "Santa Clara, CA (June 4)"
+  attendees: "1,100 attendees"
+  year: 2013
+
+- title: "Guest Lecture: openFrameworks - Processing Chicago Meeting, University of Illinois at Chicago"
+  type: "Chicago, IL (April 2)"
+  attendees: "20 attendees"
+  year: 2013
+
+- title: "Electronically Enhanced Sensing Workshop - E2 Sense Defense Science Research Council"
+  type: "Arlington, VA (March 28)"
+  attendees: "40 attendees"
+  year: 2013
+
+- title: "Guest Lecture: SpiderSense - Human Augmentics Class, University of Illinois at Chicago"
+  type: "Spring"
+  attendees: ""
+  year: 2013
+
+- title: "Guest Lecture: DIY variable voltage power supply - Processing Chicago Meeting, University of Illinois at Chicago"
+  type: "Chicago, IL (February 6)"
+  attendees: "20 attendees"
+  year: 2012
