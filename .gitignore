@@ -35,3 +35,7 @@ assets/js/build.js
 assets/js/main-built.js
 assets/js/main.js
 *.csp
+
+# Yarn
+yarn-error.log
+yarn-debug.log
