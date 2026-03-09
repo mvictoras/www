@@ -4,8 +4,8 @@
   <h3 class="text-end border-bottom border-3 border-dark">Social</h3>
   <ul class="list-group text-end">
     {{ range .Site.Data.social }}
-    <li class="list-group-item border-0 p-0 border-0 p-0"><div><a href="{{ .url }}" class="link-dark link-underline-opacity-0" target="_blank">{{ .handle }}<i class="fa-brands fa-{{ .name }} fa-fw"></i></a></div></li>
-    {{end}}
+    <li class="list-group-item border-0 p-0"><div><a href="{{ .url }}" class="link-dark link-underline-opacity-0" target="_blank">{{ .handle }}<i class="fa-brands fa-{{ .name }} fa-fw"></i></a></div></li>
+    {{ end }}
   </ul>
 </div>
 

@@ -3,21 +3,22 @@
 {{ $targetPath := .targetPath | default $src -}}
 {{ $load := .load -}}
 {{ $scratch := .scratch -}}
+{{ $resource := resources.Get $src }}
 {{ $js := "" -}}
 
 {{ $bundle := $scratch.Get "bundle" }}
 {{ if .transpile -}}
-  {{ $js = resources.Get $src | js.Build | babel (dict "noComments" true "minified" true "compact" true "config" "config/babel.config.js") | fingerprint "sha512" -}}
+  {{ $js = $resource | js.Build | babel (dict "noComments" true "minified" true "compact" true "config" "config/babel.config.js") | fingerprint "sha512" -}}
 {{ else if eq (hugo.Environment) "development" -}}
-  {{ $js = resources.Get $src | js.Build (dict "targetPath" $targetPath "sourceMap" "inline") | fingerprint "sha512" -}}
+  {{ $js = $resource | js.Build (dict "targetPath" $targetPath "sourceMap" "inline") | fingerprint "sha512" -}}
 {{ else -}}
-  {{ $js = resources.Get $src | js.Build (dict "targetPath" $targetPath "minify" true ) | fingerprint "sha512" -}}
+  {{ $js = $resource | js.Build (dict "targetPath" $targetPath "minify" true ) | fingerprint "sha512" -}}
 {{ end -}}
 
 {{ if eq $bundle nil }}
-  {{ $bundle = slice (resources.Get $src) }}
+  {{ $bundle = slice $resource }}
 {{ else }}
-  {{ $bundle = $bundle | append (resources.Get $src) }}
+  {{ $bundle = $bundle | append $resource }}
 {{ end }}
 
 {{ $scratch.Set "bundle" $bundle }}
