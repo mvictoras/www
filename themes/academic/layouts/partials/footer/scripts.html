@@ -14,13 +14,13 @@
 {{ end }}
 
 {{/* === Slick carousel — only on homepage === */}}
+{{/* experience-carousel.js imports slick-carousel via ES import; esbuild resolves it from node_modules */}}
 {{ if .IsHome }}
-  {{ partial "footer/esbuild" (dict "src" "js/vendor/slick/slick.js" "load" "defer" "transpile" true "scratch" .Scratch "concat" true) -}}
   {{ partial "footer/esbuild" (dict "src" "js/experience-carousel.js" "load" "defer" "transpile" true "scratch" .Scratch "concat" true) -}}
 {{ end }}
 
 {{/* === Vis Deadlines — moment, countdown, calendar === */}}
-{{ if eq .Section "vis-deadlines" }}
+{{ if eq .RelPermalink "/vis-deadlines/" }}
   {{ partial "footer/esbuild" (dict "src" "js/vendor/jquery-countdown/jquery.countdown.js" "load" "defer" "transpile" false "scratch" .Scratch "concat" true) -}}
   {{ partial "footer/esbuild" (dict "src" "js/vendor/moment/moment.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
   {{ partial "footer/esbuild" (dict "src" "js/vendor/moment-timezone/moment-timezone.min.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
@@ -29,8 +29,12 @@
   {{ partial "footer/esbuild" (dict "src" "js/deadlines.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
 {{ end }}
 
-{{/* Concatenate all scripts into a single bundle */}}
-{{ partial "footer/concat" (dict "load" "async" "transpile" false "scratch" .Scratch) -}}
+{{/* Concatenate all scripts — unique bundle name per page variant to avoid cache collisions */}}
+{{ $bundleSuffix := "base" -}}
+{{ if .IsHome }}{{ $bundleSuffix = "home" }}{{ end -}}
+{{ if eq .Section "news" }}{{ $bundleSuffix = "news" }}{{ end -}}
+{{ if eq .RelPermalink "/vis-deadlines/" }}{{ $bundleSuffix = "deadlines" }}{{ end -}}
+{{ partial "footer/concat" (dict "load" "async" "transpile" false "scratch" .Scratch "targetPath" (printf "js/bundle-%s.js" $bundleSuffix)) -}}
 
 {{/* === 404 page — GSAP glitch effect (loaded separately, not concatenated) === */}}
 {{ if (eq .Kind "404") }}

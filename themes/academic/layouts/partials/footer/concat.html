@@ -1,9 +1,10 @@
-{{/* USAGE:  {{ partial "footer/concat" (dict "load" "async/defer" "transpile" true/false "scratch" .Scratch) }}  */}}
+{{/* USAGE:  {{ partial "footer/concat" (dict "load" "async/defer" "transpile" true/false "scratch" .Scratch "targetPath" "js/bundle.js") }}  */}}
 {{ $load := .load -}}
 {{ $scratch := .scratch -}}
+{{ $targetPath := .targetPath | default "js/bundle.js" -}}
 {{ $js := "" -}}
 
-{{ $bundle := $scratch.Get "bundle" | resources.Concat "js/bundle.js" -}}
+{{ $bundle := $scratch.Get "bundle" | resources.Concat $targetPath -}}
 {{ if .transpile -}}
   {{ $js = $bundle | js.Build | babel (dict "noComments" true "minified" true "compact" true "config" "config/babel.config.js") | fingerprint "sha512" -}}
 {{ else if eq (hugo.Environment) "development" -}}
