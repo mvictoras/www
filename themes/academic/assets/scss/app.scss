@@ -1,12 +1,40 @@
-/** Import Bootstrap functions */
+/** Import Bootstrap core (functions, variables, mixins) */
 @import "bootstrap/scss/functions";
-@import "bootstrap/scss/mixins";
 
-/** Import theme variables */
+/** Import theme variables (overrides Bootstrap defaults) */
 @import "common/variables";
 
-/** Import Bootstrap */
-@import "bootstrap/scss/bootstrap";
+/** Import remaining Bootstrap core */
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+
+/** Import Bootstrap layout & components (selective — unused modules removed) */
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/tables";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/button-group";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/card";
+@import "bootstrap/scss/pagination";
+@import "bootstrap/scss/badge";
+@import "bootstrap/scss/list-group";
+@import "bootstrap/scss/close";
+
+/** Bootstrap helpers & utilities */
+@import "bootstrap/scss/helpers";
+@import "bootstrap/scss/utilities/api";
 
 /** Import font-awesome  */
 @import "@fortawesome/fontawesome-free/scss/fontawesome";
