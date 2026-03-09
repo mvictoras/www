@@ -11,45 +11,51 @@
   weight = 2
 
 [[main]]
-  identifier = "about"
-  name = "about"
-  url = "/about/"
-  weight = 3
-
-[[main]]
-  identifier = "contact"
-  name = "contact"
-  url = "/contact/"
-  weight = 4
-
-[[footer]]
-  identifier = "home"
-  name = "home"
-  url = "/"
-  weight = 1
-
-[[footer]]
-  identifier= "news"
-  name = "news"
-  url = "/news/"
-  weight = 2
-
-[[footer]]
   identifier = "press"
   name = "press"
   url = "/press/"
   weight = 3
 
+[[main]]
+  identifier = "about"
+  name = "about"
+  url = "/about/"
+  weight = 4
+
+[[main]]
+  identifier = "contact"
+  name = "contact"
+  url = "/contact/"
+  weight = 5
+
+[[footer]]
+  identifier= "news"
+  name = "news"
+  url = "/news/"
+  weight = 1
+
+[[footer]]
+  identifier = "press"
+  name = "press"
+  url = "/press/"
+  weight = 2
+
 [[footer]]
   identifier = "videos"
   name = "videos"
   url = "/videos/"
-  weight = 4
+  weight = 3
 
 [[footer]]
   identifier = "vis-deadlines"
   name = "vis deadlines"
   url = "/vis-deadlines/"
+  weight = 4
+
+[[footer]]
+  identifier = "updates"
+  name = "updates"
+  url = "/updates/"
   weight = 5
 
 [[footer]]
