@@ -1,8 +1,6 @@
 {{/* === Core scripts (every page) === */}}
-{{ partial "footer/esbuild" (dict "src" "js/vendor/lazysizes/lazysizes.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
-{{ partial "footer/esbuild" (dict "src" "js/vendor/animejs/anime.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
+{{/* lazysizes is imported via ES module in app.js — no separate vendor load needed */}}
 {{ partial "footer/esbuild" (dict "src" "js/app.js" "targetPath" "main.js" "load" "defer" "transpile" false "scratch" .Scratch "concat" true) -}}
-{{ partial "footer/esbuild" (dict "src" "js/vendor/bootstrap/bootstrap.bundle.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
 {{ partial "footer/esbuild" (dict "src" "js/vendor/prism/prism.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
 {{ partial "footer/esbuild" (dict "src" "js/vendor/prism/plugins/autoloader/prism-autoloader.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
 
