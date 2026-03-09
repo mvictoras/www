@@ -1,6 +1,6 @@
 {
-  "name": "www",
-  "description": "Victor Mateevitsi's personal website",
+  "name": "hugo-academic-theme",
+  "description": "A clean, modern Hugo theme for academic and professional personal websites",
   "version": "1.0.0",
   "repository": "https://github.com/mvictoras/www.git",
   "license": "MIT",
