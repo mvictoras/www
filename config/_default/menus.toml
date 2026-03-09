@@ -11,22 +11,34 @@
   weight = 2
 
 [[main]]
+  identifier = "talks"
+  name = "talks"
+  url = "/talks/"
+  weight = 3
+
+[[main]]
   identifier = "press"
   name = "press"
   url = "/press/"
-  weight = 3
+  weight = 4
+
+[[main]]
+  identifier = "cv"
+  name = "cv"
+  url = "/cv/"
+  weight = 5
 
 [[main]]
   identifier = "about"
   name = "about"
   url = "/about/"
-  weight = 4
+  weight = 6
 
 [[main]]
   identifier = "contact"
   name = "contact"
   url = "/contact/"
-  weight = 5
+  weight = 7
 
 [[footer]]
   identifier= "news"
@@ -35,37 +47,49 @@
   weight = 1
 
 [[footer]]
+  identifier = "talks"
+  name = "talks"
+  url = "/talks/"
+  weight = 2
+
+[[footer]]
   identifier = "press"
   name = "press"
   url = "/press/"
-  weight = 2
+  weight = 3
 
 [[footer]]
   identifier = "videos"
   name = "videos"
   url = "/videos/"
-  weight = 3
+  weight = 4
 
 [[footer]]
   identifier = "vis-deadlines"
   name = "vis deadlines"
   url = "/vis-deadlines/"
-  weight = 4
+  weight = 5
 
 [[footer]]
   identifier = "updates"
   name = "updates"
   url = "/updates/"
-  weight = 5
+  weight = 6
+
+[[footer]]
+  identifier = "cv"
+  name = "cv"
+  url = "/cv/"
+  weight = 7
 
 [[footer]]
   identifier = "about"
   name = "about"
   url = "/about/"
-  weight = 6
+  weight = 8
 
 [[footer]]
   identifier = "contact"
   name = "contact"
   url = "/contact/"
-  weight = 7
+  weight = 9
