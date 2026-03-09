@@ -2,10 +2,23 @@
 
 name: Academic Theme for Hugo
 license: MIT
-description: Hugo Academic Theme
+description: A clean, modern Hugo theme for academic and professional personal websites
 tags:
   - academic
-min_version: 0.80.0
+  - personal
+  - portfolio
+  - responsive
+  - bootstrap
+features:
+  - experience carousel
+  - conference deadlines tracker
+  - press coverage
+  - updates timeline
+  - WebP image generation
+  - Selective Bootstrap imports
+  - Dart Sass with PurgeCSS
+  - esbuild bundling with SRI
+min_version: "0.131.0"
 
 author:
   name: Victor Mateevitsi

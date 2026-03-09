@@ -1,12 +1,12 @@
-name = "Hyas"
+name = "Hugo Academic Theme"
 license = "MIT"
-licenselink = "https://github.com/h-enk/hyas/blob/master/LICENSE"
-description = "Hugo starter helping you build modern websites that are secure, fast, and SEO-ready — by default."
-homepage = "https://gethyas.com/"
-tags = ["landing page", "blog", "minimal", "modern", "customizable", "bootstrap"]
-features = ["security aware", "fast by default", "seo-ready", "development tools", "bootstrap framework", "netlify-ready"]
-min_version = "0.75.0"
+licenselink = "https://github.com/mvictoras/www/blob/main/LICENSE"
+description = "A clean, modern Hugo theme for academic and professional personal websites. Features experience carousel, conference deadlines tracker, press coverage, updates timeline, and more."
+homepage = "https://github.com/mvictoras/www"
+tags = ["academic", "personal", "portfolio", "responsive", "bootstrap", "modern", "blog"]
+features = ["experience carousel", "conference deadlines", "press coverage", "updates timeline", "WebP images", "PurgeCSS", "Dart Sass", "esbuild"]
+min_version = "0.131.0"
 
 [author]
-  name = "Henk Verlinde"
-  homepage = "https://henkverlinde.com/"
+  name = "Victor Mateevitsi"
+  homepage = "https://www.vmateevitsi.com/"
