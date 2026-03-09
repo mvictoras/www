@@ -12,88 +12,117 @@ dayjs.extend(timezone);
 dayjs.extend(customParseFormat);
 dayjs.extend(advancedFormat);
 
-(function($) {
-  function addCalendarButton(elem, title, description, start, end) {
-    var myCalendar = createCalendar({
-      options: {
-      },
-      data: {
-        title: title,
-        start: start,
-        end: end,     
-        description: description,
-      },
-    });
-    elem.append(myCalendar);
+function startCountdown(el, targetDate) {
+  function update() {
+    const now = new Date();
+    const diff = targetDate - now;
+    if (diff <= 0) {
+      el.innerHTML = 'Passed';
+      return;
+    }
+    const days = Math.floor(diff / 86400000);
+    const hours = Math.floor((diff % 86400000) / 3600000);
+    const minutes = Math.floor((diff % 3600000) / 60000);
+    const seconds = Math.floor((diff % 60000) / 1000);
+    el.innerHTML =
+      days +
+      ' days ' +
+      String(hours).padStart(2, '0') +
+      'h ' +
+      String(minutes).padStart(2, '0') +
+      'm ' +
+      String(seconds).padStart(2, '0') +
+      's';
   }
 
-  if(window.location.pathname.includes('vis-deadlines')) {
-    
+  update();
+  setInterval(update, 1000);
+}
 
-    const localTimezone = dayjs.tz.guess();
-    const today = dayjs();
+function addCalendarButton(elem, title, description, start, end) {
+  var myCalendar = createCalendar({
+    options: {
+    },
+    data: {
+      title: title,
+      start: start,
+      end: end,
+      description: description,
+    },
+  });
+  elem.appendChild(myCalendar);
+}
 
-    // render countdown timer
-    $('.event').each(function(i, obj) {
-      var $this = $(this), 
-        deadline = $this.attr('deadline'), 
-        description = $this.attr('description'),
-        id = $this.attr('id'),
-        timezone = $this.attr('timezone'),
-        title = $this.attr('title'), 
-        type = $this.attr('type'), 
-        utcOffset = $this.attr('utcOffset'),
-        year = $this.attr('year');
+if (window.location.pathname.includes('vis-deadlines')) {
+  const localTimezone = dayjs.tz.guess();
+  const today = dayjs();
 
-      title += ' ' + type + ' due';
-      
-      if(deadline === '') {
-        $this.parent().addClass('d-none');
+  // render countdown timer
+  document.querySelectorAll('.event').forEach((obj, i) => {
+    void i;
+    var deadline = obj.getAttribute('deadline');
+    var description = obj.getAttribute('description');
+    var id = obj.getAttribute('id');
+    var timezone = obj.getAttribute('timezone');
+    var title = obj.getAttribute('title');
+    var type = obj.getAttribute('type');
+    var utcOffset = obj.getAttribute('utcOffset');
+    var year = obj.getAttribute('year');
+
+    void id;
+    void year;
+
+    title += ' ' + type + ' due';
+
+    if (deadline === '') {
+      obj.parentElement.classList.add('d-none');
+    } else {
+      var localDeadline = dayjs();
+      if (utcOffset === '') {
+        localDeadline = dayjs.tz(deadline, timezone).tz(localTimezone);
       } else {
-        var localDeadline = dayjs();
-        if(utcOffset === '') {
-          localDeadline = dayjs.tz(deadline, timezone).tz(localTimezone);
-        } else {
-          localDeadline = dayjs(deadline + ' ' + utcOffset, 'YYYY-MM-DD hh:mm:ss Z').tz(localTimezone);
-        }
-        let diff = today.diff(localDeadline);
-        
-        $(obj).find('.local-datetime').text(localDeadline.format('ddd, MMM Do YYYY, h:mm a zz'));
-        if (diff > 0) {
-          $(obj).find('.local-counter').html('Passed');
-        } else {
-          addCalendarButton($(obj).find('.add-button'), title, description, localDeadline.toDate(), localDeadline.toDate());
-          $(obj).find('.local-counter').countdown(localDeadline.toDate(), function(event) {
-            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-          });
-        }
+        localDeadline = dayjs(deadline + ' ' + utcOffset, 'YYYY-MM-DD hh:mm:ss Z').tz(localTimezone);
       }
+      let diff = today.diff(localDeadline);
+
+      obj.querySelector('.local-datetime').textContent = localDeadline.format('ddd, MMM Do YYYY, h:mm a zz');
+      const counterEl = obj.querySelector('.local-counter');
+      if (diff > 0) {
+        counterEl.innerHTML = 'Passed';
+      } else {
+        addCalendarButton(obj.querySelector('.add-button'), title, description, localDeadline.toDate(), localDeadline.toDate());
+        startCountdown(counterEl, localDeadline.toDate());
+      }
+    }
   });
 
   try {
     var local_timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-    $('.local-timezone').text(local_timezone.toString());
+    document.querySelectorAll('.local-timezone').forEach((el) => {
+      el.textContent = local_timezone.toString();
+    });
   }
-  catch(err) {
-    $('.local-timezone-hide').hide();
+  catch (err) {
+    void err;
+    document.querySelectorAll('.local-timezone-hide').forEach((el) => {
+      el.style.display = 'none';
+    });
   }
 
   // Disable past events
-  $('.card').each(function() {
+  document.querySelectorAll('.card').forEach((card) => {
     const today = dayjs();
-    var eventElem = $(this).find('.date');
-    var startDate = eventElem.attr('startDate'), 
-      description = eventElem.attr('description'), 
-      endDate = eventElem.attr('endDate'),
-      title = eventElem.attr('title');
-    
-    let diff = today.diff(endDate);
-    if( diff > 0) {
-      $(this).addClass('card-disabled');
-    } else {
-       addCalendarButton($(this).find('.date'), title, description, dayjs(startDate).toDate(), dayjs(endDate).toDate());
-    }
+    var eventElem = card.querySelector('.date');
+    var startDate = eventElem.getAttribute('startDate');
+    var description = eventElem.getAttribute('description');
+    var endDate = eventElem.getAttribute('endDate');
+    var title = eventElem.getAttribute('title');
 
+    let diff = today.diff(endDate);
+    if (diff > 0) {
+      card.classList.add('card-disabled');
+    } else {
+      addCalendarButton(card.querySelector('.date'), title, description, dayjs(startDate).toDate(), dayjs(endDate).toDate());
+    }
   });
-  }
-}(jQuery));
+}

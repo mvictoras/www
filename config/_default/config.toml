@@ -71,9 +71,6 @@ anchor = "smart"
     source = "node_modules/bootstrap/dist/js"
     target = "assets/js/vendor/bootstrap"
   [[module.mounts]]
-    source = "node_modules/jquery/dist"
-    target = "assets/js/vendor/jquery"
-  [[module.mounts]]
     source = "node_modules/rrssb/js"
     target = "assets/js/vendor/rrssb" 
   [[module.mounts]]
@@ -95,9 +92,6 @@ anchor = "smart"
     source = "node_modules/academicons/fonts"
     target = "static/fonts"
 
-  [[module.mounts]]
-    source = "node_modules/jquery-countdown/dist"
-    target = "assets/js/vendor/jquery-countdown"
   [[module.mounts]]
     source = "node_modules/animejs/lib"
     target = "assets/js/vendor/animejs"

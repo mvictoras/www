@@ -16,7 +16,6 @@ module.exports = [
         ...globals.commonjs,
         ...globals.es2017,
         ...globals.node,
-        ...globals.jquery,
         Atomics: 'readonly',
         SharedArrayBuffer: 'readonly',
       },

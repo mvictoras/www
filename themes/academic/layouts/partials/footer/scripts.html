@@ -1,5 +1,4 @@
 {{/* === Core scripts (every page) === */}}
-{{ partial "footer/esbuild" (dict "src" "js/vendor/jquery/jquery.js" "load" "defer" "transpile" true "scratch" .Scratch "concat" true) -}}
 {{ partial "footer/esbuild" (dict "src" "js/vendor/lazysizes/lazysizes.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
 {{ partial "footer/esbuild" (dict "src" "js/vendor/animejs/anime.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
 {{ partial "footer/esbuild" (dict "src" "js/app.js" "targetPath" "main.js" "load" "defer" "transpile" false "scratch" .Scratch "concat" true) -}}
@@ -13,9 +12,8 @@
   {{ partial "footer/esbuild" (dict "src" "js/experience-carousel.js" "load" "defer" "transpile" true "scratch" .Scratch "concat" true) -}}
 {{ end }}
 
-{{/* === Vis Deadlines — moment, countdown, calendar === */}}
+{{/* === Vis Deadlines — dayjs, calendar === */}}
 {{ if eq .RelPermalink "/vis-deadlines/" }}
-  {{ partial "footer/esbuild" (dict "src" "js/vendor/jquery-countdown/jquery.countdown.js" "load" "defer" "transpile" false "scratch" .Scratch "concat" true) -}}
   {{ partial "footer/esbuild" (dict "src" "js/vendor/add-to-calendar/ouical.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
   {{ partial "footer/esbuild" (dict "src" "js/deadlines.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
 {{ end }}
