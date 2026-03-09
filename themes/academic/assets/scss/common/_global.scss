@@ -1,5 +1,19 @@
 a {
   color: $url-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.card-title {
+  color: #212529;
+  font-weight: 600;
+}
+
+.card-text {
+  color: #495057;
 }
 
 body {
