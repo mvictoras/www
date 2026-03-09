@@ -144,4 +144,4 @@ anchor = "smart"
 
 [security]
   [security.exec]
-    allow = ['^npx$', '^babel$', '^postcss$']
+    allow = ['^npx$', '^babel$', '^postcss$', '^sass$']
