@@ -8,6 +8,7 @@
 
 {{ $imgSrc := "" -}}
 {{ $imgSrcSet := slice -}}
+{{ $webpSrcSet := slice -}}
 
 {{ $widths := site.Params.landscapePhotoWidths -}}
 {{ if gt $image.Height $image.Width -}}
@@ -18,15 +19,42 @@
   {{ $srcUrl := (printf "%dx" . | $image.Resize).Permalink -}}
   {{ if eq $imgSrc "" -}}{{ $imgSrc = $srcUrl -}}{{ end -}}
   {{ $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $srcUrl .) -}}
+
+  {{ if ne $image.MediaType.SubType "gif" -}}
+    {{ $webpUrl := (printf "%dx webp" . | $image.Resize).Permalink -}}
+    {{ $webpSrcSet = $webpSrcSet | append (printf "%s %dw" $webpUrl .) -}}
+  {{ end -}}
 {{ end -}}
 {{ $imgSrcSet = (delimit $imgSrcSet ",") -}}
+{{ $webpSrcSet = (delimit $webpSrcSet ",") -}}
 
 {{ if gt $image.Width site.Params.smallLimit -}}
   <figure class="figure">
-    <img class="figure-img img-fluid lazyload blur-up" data-sizes="auto" src="{{ $lqip.Permalink }}" data-srcset="{{ $imgSrcSet }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .Title }}">
-    <noscript><img class="figure-img img-fluid" sizes="100vw" srcset="{{ $imgSrcSet }}" src="{{ $image.Permalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .Title }}"></noscript>
+    <picture>
+      {{ if ne $image.MediaType.SubType "gif" -}}
+        <source type="image/webp" data-sizes="auto" data-srcset="{{ $webpSrcSet }}">
+      {{ end -}}
+      <img class="figure-img img-fluid lazyload blur-up" data-sizes="auto" src="{{ $lqip.Permalink }}" data-srcset="{{ $imgSrcSet }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .Title }}">
+    </picture>
+    <noscript>
+      <picture>
+        {{ if ne $image.MediaType.SubType "gif" -}}
+          <source type="image/webp" sizes="100vw" srcset="{{ $webpSrcSet }}">
+        {{ end -}}
+        <img class="figure-img img-fluid" sizes="100vw" srcset="{{ $imgSrcSet }}" src="{{ $image.Permalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .Title }}">
+      </picture>
+    </noscript>
     <!-- {{ with .Title }}<figcaption class="figure-caption">{{ . | safeHTML }}</figcaption>{{ end -}} -->
   </figure>
 {{ else -}}
-  <img class="img-fluid lazyload blur-up" src="{{ $lqip.Permalink }}" data-src="{{ $image.Permalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .Title }}">
+  {{ $webpUrl := "" -}}
+  {{ if ne $image.MediaType.SubType "gif" -}}
+    {{ $webpUrl = ($image.Resize (printf "%dx webp" $image.Width)).Permalink -}}
+  {{ end -}}
+  <picture>
+    {{ if ne $image.MediaType.SubType "gif" -}}
+      <source type="image/webp" data-srcset="{{ $webpUrl }}">
+    {{ end -}}
+    <img class="img-fluid lazyload blur-up" src="{{ $lqip.Permalink }}" data-src="{{ $image.Permalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .Title }}">
+  </picture>
 {{ end -}}
