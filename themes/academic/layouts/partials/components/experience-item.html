@@ -1,7 +1,9 @@
-  <div class="card mb-2 border-0">
-    <img class="fluid-img mx-auto p-3 lazyload" width="200" height="200" src={{ .logo }} alt="{{ .title }} logo">
-    <div class="card-body">
-      <p class="text-center">{{ .desc | safeHTML }}</p>
+  <div class="splide__slide">
+    <div class="card mb-2 border-0">
+      <img class="fluid-img mx-auto p-3 lazyload" width="200" height="200" src={{ .logo }} alt="{{ .title }} logo">
+      <div class="card-body">
+        <p class="text-center">{{ .desc | safeHTML }}</p>
+      </div>
     </div>
   </div>
 

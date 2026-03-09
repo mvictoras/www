@@ -53,10 +53,14 @@
 
   {{/* Experience List */}}
   <div class="container">
-    <div class="carousel-experience">
-      {{ range $i, $e := site.Data.experience }}
-        {{ partial "components/experience-item.html" $e }}
-      {{ end }}
+    <div class="splide carousel-experience" aria-label="Experience">
+      <div class="splide__track">
+        <div class="splide__list">
+          {{ range $i, $e := site.Data.experience }}
+            {{ partial "components/experience-item.html" $e }}
+          {{ end }}
+        </div>
+      </div>
     </div>
   </div>
   

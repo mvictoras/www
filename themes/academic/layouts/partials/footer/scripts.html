@@ -7,8 +7,8 @@
 {{ partial "footer/esbuild" (dict "src" "js/vendor/prism/prism.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
 {{ partial "footer/esbuild" (dict "src" "js/vendor/prism/plugins/autoloader/prism-autoloader.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
 
-{{/* === Slick carousel — only on homepage === */}}
-{{/* experience-carousel.js imports slick-carousel via ES import; esbuild resolves it from node_modules */}}
+{{/* === Experience carousel (Splide) — only on homepage === */}}
+{{/* experience-carousel.js imports @splidejs/splide via ES import; esbuild resolves it from node_modules */}}
 {{ if .IsHome }}
   {{ partial "footer/esbuild" (dict "src" "js/experience-carousel.js" "load" "defer" "transpile" true "scratch" .Scratch "concat" true) -}}
 {{ end }}

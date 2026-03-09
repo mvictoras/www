@@ -47,13 +47,8 @@
 /** import academicons **/
 @import "academicons/css/academicons";
 
-/** import slick **/
-
-/*! purgecss start ignore */
-@import "slick-carousel/slick/slick.scss";
-@import "slick-carousel/slick/slick-theme.scss";
-
-/*! purgecss end ignore */
+/** import splide **/
+@import "@splidejs/splide/dist/css/splide-core.min";
 
 /** Import theme styles */
 @import "common/global";
