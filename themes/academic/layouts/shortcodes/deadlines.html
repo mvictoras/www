@@ -1,7 +1,7 @@
 {{ $.Scratch.Set "prev" ((now.AddDate 1 0 0).Format "2006") }}
 <h6>Note: All dates, times, calendar invites, durations are in <span class="local-timezone"></span><span class="pl-1"> timezone</span></h6>
 <div class="list-group list-group-flush updates">
-  {{ range .Site.Data.conferences }}
+  {{ range site.Data.conferences }}
     {{ $abbreviation := .abbreviation }}
     {{ $description := .description }}
     {{ $title := .title }}

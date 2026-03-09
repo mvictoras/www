@@ -24,7 +24,7 @@
             {{ range . }}
               {{ $cur_tag := . }}
               
-              {{ range $.Site.Data.press.web }}
+              {{ range site.Data.press.web }}
                 {{ $cur_item := . }}
                 {{ with .tags }}
                     {{ if in . $cur_tag }}

@@ -1,6 +1,6 @@
 <div class="container-fluid px-0">
     <div class="col d-flex align-items-center justify-content-center latest py-1">
-        {{ range first 1 (where .Site.Pages "Section" "news") }}
+        {{ range first 1 (where site.Pages "Section" "news") }}
         <a href="{{ .RelPermalink }}">Latest: {{ .Title }} </a>
         {{ end }}
     </div>

@@ -1,6 +1,6 @@
 {{ $.Scratch.Set "prev" ((now.AddDate 1 0 0).Format "2006") }}
 <div class="list-group list-group-flush updates">
-  {{ range .Site.Data.updates }}
+  {{ range site.Data.updates }}
     {{ $date := time .date }}
     {{ $prev := $.Scratch.Get "prev" }}
     {{ if gt $prev ($date.Format "2006") }}

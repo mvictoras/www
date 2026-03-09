@@ -3,7 +3,7 @@
 <div class="pb-4">
   <h3 class="text-end border-bottom border-3 border-dark">Social</h3>
   <ul class="list-group text-end">
-    {{ range .Site.Data.social }}
+    {{ range site.Data.social }}
     <li class="list-group-item border-0 p-0"><div><a href="{{ .url }}" class="link-dark link-underline-opacity-0" target="_blank" rel="noopener noreferrer" aria-label="{{ .name }}">{{ .handle }}<i class="fa-brands fa-{{ .name }} fa-fw"></i></a></div></li>
     {{ end }}
   </ul>
@@ -12,7 +12,7 @@
 <div class="pb-4">
   <h3 class="text-end border-bottom border-3 border-dark">Latest posts</h3>
   <ul class="list-group list-group-flush text-end">
-  {{ range first 3 (where .Site.RegularPages "Section" "news") }}
+  {{ range first 3 (where site.RegularPages "Section" "news") }}
   <li class="list-group-item border-0 px-0 py-1"><div><a href="{{ .RelPermalink }}" class="link-dark link-underline-opacity-0">{{ .Title }}</a></div></li>
   {{ end }}
   </ul>
@@ -21,7 +21,7 @@
 <div class="pb-4">
   <h3 class="text-end border-bottom border-3 border-dark">Latest press</h3>
   <ul class="list-group list-group-flush text-end">
-  {{ range first 3 .Site.Data.press.web }}
+  {{ range first 3 site.Data.press.web }}
   <li class="list-group-item border-0 px-0 py-1"><div><a href="{{ .url }}" class="link-dark link-underline-opacity-0" target="_blank" rel="noopener noreferrer">{{ .title }}</a></div></li>
   {{ end }}
   </ul>
@@ -30,7 +30,7 @@
 <div class="pb-4">
   <h3 class="text-end border-bottom border-3 border-dark">Updates</h3>
   <div class="list-group list-group-flush text-end">
-    {{ range first 5 .Site.Data.updates }}
+    {{ range first 5 site.Data.updates }}
       {{ $date := time .date }}
       <div class="list-group-item border-0 px-0 py-1 d-flex justify-content-between">
         <div class="text-start m-0">{{ .title | emojify }}</div>
@@ -44,7 +44,7 @@
 </div>
 
 {{ $.Scratch.Set "hasEvents" true }}
-{{ range first 1 .Site.Data.events }}
+{{ range first 1 site.Data.events }}
   {{ $date := time .date }}
   {{ if $date.Before now }}
     {{ $.Scratch.Set "hasEvents" false }}
@@ -55,7 +55,7 @@
 <div class="pb-4">
   <h3 class="text-end border-bottom border-3 border-dark">Where to find me</h3>
   <div class="list-group list-group-flush sibedar-updates">
-    {{ range first 5 .Site.Data.events }}
+    {{ range first 5 site.Data.events }}
       {{ $date := time .date }}
       {{ if $date.After now }}
         <div class="list-group-item border-0 p-0 update-item">

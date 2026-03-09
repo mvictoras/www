@@ -1,18 +1,18 @@
 {{ $scratch := .Scratch }}
 <div class="list-group articles-group">
-  {{ range .Site.Data.press.web }}
+  {{ range site.Data.press.web }}
     
     {{ if and .url .date .text .title .image .publication }}
       
       {{ $scratch.Set "dict" (dict "Title" .publication "Date" (time .date) "Content" .text "RelPermalink" .url "target" "_blank") }}
       {{ if .image }}
         {{ $image := $.Resources.GetMatch .image }}
-          {{ $src := ($image.Fill $.Site.Params.articlePhotoSize).RelPermalink }}
+          {{ $src := ($image.Fill site.Params.articlePhotoSize).RelPermalink }}
           {{ $scratch.Set "perm" $src }}
           {{ $scratch.Set "dict" (merge ($scratch.Get "dict") (dict "imgRelPermalink" $src)) }}
       {{ else }}
         {{ $image := $.Resources.GetMatch (print "*" (replace .title ":" "") "*") }}
-          {{ $src := ($image.Fill $.Site.Params.articlePhotoSize).RelPermalink }}
+          {{ $src := ($image.Fill site.Params.articlePhotoSize).RelPermalink }}
           {{ $scratch.Set "perm" $src }}
           {{ $scratch.Set "dict" (merge ($scratch.Get "dict") (dict "imgRelPermalink" $src)) }}
       {{ end }}

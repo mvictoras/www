@@ -6,5 +6,5 @@
 
   {{ partial "footer/menu.html" . }}
   
-  <div class="footer footer-copyright text-center">&copy; {{ now.Format "2006" }} {{ .Site.Params.footer | safeHTML }}</div>
+  <div class="footer footer-copyright text-center">&copy; {{ now.Format "2006" }} {{ site.Params.footer | safeHTML }}</div>
 </footer>

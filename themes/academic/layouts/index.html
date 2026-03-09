@@ -54,7 +54,7 @@
   {{/* Experience List */}}
   <div class="container">
     <div class="carousel-experience">
-      {{ range $i, $e := .Site.Data.experience }}
+      {{ range $i, $e := site.Data.experience }}
         {{ partial "components/experience-item.html" $e }}
       {{ end }}
     </div>

@@ -4,10 +4,10 @@
 {{ $dot.Scratch.Set "path" "" -}}
 {{ $dot.Scratch.Set "breadcrumb" slice -}}
 
-{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" -}}
-{{ $.Scratch.Add "path" .Site.BaseURL -}}
+{{ $url := replace .Permalink ( printf "%s" site.BaseURL) "" -}}
+{{ $.Scratch.Add "path" site.BaseURL -}}
 
-{{ $.Scratch.Add "breadcrumb" (slice (dict "url" .Site.BaseURL "name" "home" "position" 1 )) -}}
+{{ $.Scratch.Add "breadcrumb" (slice (dict "url" site.BaseURL "name" "home" "position" 1 )) -}}
   {{ range $index, $element := split $url "/" -}}
     {{ $dot.Scratch.Add "path" $element -}}
     {{ $.Scratch.Add "path" "/" -}}
@@ -21,34 +21,34 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      {{ if eq .Site.Params.schemaType "Organization" -}}
+      {{ if eq site.Params.schemaType "Organization" -}}
         "@type": "Organization",
         "@id": {{ print $baseURL "#/schema/organization/1" }},
       {{ else -}}
         "@type": "Person",
         "@id": {{ print $baseURL "#/schema/person/1" }},
       {{ end -}}
-      "name": "{{ .Site.Params.schemaName }}",
+      "name": "{{ site.Params.schemaName }}",
       "url": {{ print $baseURL }},
       "sameAs": [
-        {{ with .Site.Params.schemaTwitter -}}
+        {{ with site.Params.schemaTwitter -}}
         {{ . }}
         {{ end -}}
-        {{ with .Site.Params.schemaLinkedIn -}}
+        {{ with site.Params.schemaLinkedIn -}}
         , {{ . }}
         {{ end -}}
-        {{ with .Site.Params.schemaGitHub -}}
+        {{ with site.Params.schemaGitHub -}}
         , {{ . }}
         {{ end -}}
       ],
-      {{ if eq .Site.Params.schemaType "Organization" -}}
+      {{ if eq site.Params.schemaType "Organization" -}}
         "logo": {
           "@type": "ImageObject",
           "@id": {{ print $baseURL "#/schema/image/1"}},
-          "url": {{ print $baseURL .Site.Params.schemaLogo }},
-          "width": {{ .Site.Params.schemaLogoWidth }},
-          "height": {{ .Site.Params.schemaLogoHeight }},
-          "caption": "{{ .Site.Params.schemaName }}"
+          "url": {{ print $baseURL site.Params.schemaLogo }},
+          "width": {{ site.Params.schemaLogoWidth }},
+          "height": {{ site.Params.schemaLogoHeight }},
+          "caption": "{{ site.Params.schemaName }}"
         },
         "image": {
           "@id": {{ print $baseURL "#/schema/image/1" }}
@@ -57,10 +57,10 @@
         "image": {
           "@type": "ImageObject",
           "@id": {{ print $baseURL "#/schema/image/1"}},
-          "url": {{ print $baseURL .Site.Params.schemaImage }},
-          "width": {{ .Site.Params.schemaImageWidth }},
-          "height": {{ .Site.Params.schemaImageHeight }},
-          "caption": "{{ .Site.Params.schemaName }}"
+          "url": {{ print $baseURL site.Params.schemaImage }},
+          "width": {{ site.Params.schemaImageWidth }},
+          "height": {{ site.Params.schemaImageHeight }},
+          "caption": "{{ site.Params.schemaName }}"
         }
       {{ end -}}
     },
@@ -68,9 +68,9 @@
       "@type": "WebSite",
       "@id": {{ print $baseURL "#/schema/website/1" }},
       "url": {{ print $baseURL }},
-      "name": "{{ .Site.Params.title }}",
-      "description": "{{ .Site.Params.description }}",
-      {{ if eq .Site.Params.schemaType "Organization" -}}
+      "name": "{{ site.Params.title }}",
+      "description": "{{ site.Params.description }}",
+      {{ if eq site.Params.schemaType "Organization" -}}
         "publisher": {
           "@id": {{ print $baseURL "#/schema/organization/1" }}
         }
@@ -93,7 +93,7 @@
       "isPartOf": {
         "@id": {{ print $baseURL "#/schema/website/1" }}
       },
-      {{ if eq .Site.Params.schemaType "Organization" -}}
+      {{ if eq site.Params.schemaType "Organization" -}}
         "about": {
           "@id": {{ print $baseURL "#/schema/organization/1" }}
         },
@@ -110,7 +110,7 @@
       "primaryImageOfPage": {
         "@id": {{ print .Permalink "#/schema/image/2" }}
       },
-      "inLanguage": "{{ .Site.Params.schemaLocale }}",
+      "inLanguage": "{{ site.Params.schemaLocale }}",
       "potentialAction": [{
         "@type": "ReadAction", "target": [{{ .Permalink }}]
       }]
@@ -155,7 +155,7 @@
           "author": {
             "@id": {{ print $baseURL "#/schema/person/2" }}
           },
-          {{ if eq .Site.Params.schemaType "Organization" -}}
+          {{ if eq site.Params.schemaType "Organization" -}}
             "publisher": {
               "@id": {{ print $baseURL "#/schema/organization/1" }}
             },
@@ -176,15 +176,15 @@
         {
           "@type": "Person",
           "@id": {{ print $baseURL "#/schema/person/2" }},
-          "name": {{ .Site.Params.schemaAuthor }},
+          "name": {{ site.Params.schemaAuthor }},
           "sameAs": [
-            {{ with .Site.Params.schemaAuthorTwitter -}}
+            {{ with site.Params.schemaAuthorTwitter -}}
             {{ . }}
             {{ end -}}
-            {{ with .Site.Params.schemaAuthorLinkedIn -}}
+            {{ with site.Params.schemaAuthorLinkedIn -}}
             , {{ . }}
             {{ end -}}
-            {{ with .Site.Params.schemaAuthorGitHub -}}
+            {{ with site.Params.schemaAuthorGitHub -}}
             , {{ . }}
             {{ end -}}
           ]

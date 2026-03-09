@@ -1,6 +1,6 @@
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="{{ .Site.Params.twitterSite }}">
-<meta name="twitter:creator" content="{{ .Site.Params.twitterCreator }}">
+<meta name="twitter:site" content="{{ site.Params.twitterSite }}">
+<meta name="twitter:creator" content="{{ site.Params.twitterCreator }}">
 <meta name="twitter:title" content="{{ .Title }}">
 <meta name="twitter:description" content="{{ .Description }}">
 {{ with $.Params.images -}}
@@ -14,7 +14,7 @@
   {{ with $featured -}}
     <meta name="twitter:image" content="{{ $featured.Permalink }}">
   {{ else -}}
-    {{ with $.Site.Params.images -}}
+    {{ with site.Params.images -}}
       <meta name="twitter:image" content="{{ index . 0 | absURL }}">
     {{ else -}}
       <meta name="twitter:card" content="summary">
