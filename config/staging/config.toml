@@ -1,2 +1,2 @@
-baseurl = "/"
+baseURL = "/"
 canonifyURLs = false
