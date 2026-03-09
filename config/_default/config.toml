@@ -68,12 +68,6 @@ anchor = "smart"
     source = "static"
     target = "static"
   [[module.mounts]]
-    source = "node_modules/bootstrap/dist/js"
-    target = "assets/js/vendor/bootstrap"
-  [[module.mounts]]
-    source = "node_modules/rrssb/js"
-    target = "assets/js/vendor/rrssb" 
-  [[module.mounts]]
     source = "node_modules/@fortawesome/fontawesome-free/webfonts"
     target = "static/webfonts"
   [[module.mounts]]
@@ -83,18 +77,8 @@ anchor = "smart"
     source = "node_modules/prismjs"
     target = "static/typo"
   [[module.mounts]]
-    source = "node_modules/processing-js"
-    target = "assets/js/vendor/processing"
-  [[module.mounts]]
-    source = "node_modules/lazysizes"
-    target = "assets/js/vendor/lazysizes"
-  [[module.mounts]]
     source = "node_modules/academicons/fonts"
     target = "static/fonts"
-
-  [[module.mounts]]
-    source = "node_modules/animejs/lib"
-    target = "assets/js/vendor/animejs"
 
 
 [taxonomies]
