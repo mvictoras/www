@@ -1,0 +1,28 @@
+<div class="students-list">
+<h3>Graduate Students</h3>
+<ul class="list-group list-group-flush mb-4">
+{{ range site.Data.students.graduate }}
+  <li class="list-group-item px-0">
+    <strong>{{ .name }}</strong> — {{ .role }}, {{ .institution }} ({{ .year }})
+  </li>
+{{ end }}
+</ul>
+
+<h3>Undergraduate Students</h3>
+<ul class="list-group list-group-flush mb-4">
+{{ range site.Data.students.undergraduate }}
+  <li class="list-group-item px-0">
+    <strong>{{ .name }}</strong> — {{ .role }}, {{ .institution }} ({{ .year }})
+  </li>
+{{ end }}
+</ul>
+
+<h3>Middle-School / K-12 Students</h3>
+<ul class="list-group list-group-flush mb-4">
+{{ range site.Data.students.k12 }}
+  <li class="list-group-item px-0">
+    <strong>{{ .name }}</strong> — {{ .role }}, {{ .institution }} ({{ .year }}){{ with .award }} <span class="badge bg-warning text-dark">🏅 {{ . }}</span>{{ end }}
+  </li>
+{{ end }}
+</ul>
+</div>

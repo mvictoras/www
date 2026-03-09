@@ -1,0 +1,10 @@
+<div class="service-list">
+<ul class="list-group list-group-flush">
+{{ range site.Data.service }}
+  <li class="list-group-item px-0">
+    <strong>{{ .role }}</strong>
+    <br><small class="text-muted">{{ .description }}</small>
+  </li>
+{{ end }}
+</ul>
+</div>

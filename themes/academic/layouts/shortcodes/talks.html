@@ -1,0 +1,20 @@
+<div class="talks-list">
+{{ $talks := site.Data.talks }}
+{{ $years := slice }}
+{{ range $talks }}
+  {{ $years = $years | append .year }}
+{{ end }}
+{{ $years = $years | uniq | sort }}
+{{ $years = $years | collections.Reverse }}
+{{ range $year := $years }}
+<h3>{{ $year }}</h3>
+<ul class="list-group list-group-flush mb-4">
+  {{ range where $talks "year" $year }}
+  <li class="list-group-item px-0">
+    <strong>{{ .title }}</strong>
+    <br><small class="text-muted">{{ .type }}{{ with .attendees }} — {{ . }}{{ end }}</small>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}
+</div>

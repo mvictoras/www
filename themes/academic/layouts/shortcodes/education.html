@@ -1,0 +1,10 @@
+<div class="education-list">
+{{ range site.Data.education }}
+<div class="mb-4">
+  <h4>{{ .degree }}</h4>
+  <p class="mb-1">{{ .institution }} — {{ .location }}</p>
+  <p class="mb-1 text-muted">{{ .years }}</p>
+  {{ with .advisor }}<p class="mb-0"><em>Advisor{{ if strings.Contains . "," }}s{{ end }}:</em> {{ . }}</p>{{ end }}
+</div>
+{{ end }}
+</div>

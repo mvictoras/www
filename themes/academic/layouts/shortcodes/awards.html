@@ -1,0 +1,22 @@
+<div class="awards-list">
+{{ $awards := site.Data.awards }}
+{{ $years := slice }}
+{{ range $awards }}
+  {{ $years = $years | append .year }}
+{{ end }}
+{{ $years = $years | uniq | sort }}
+{{ $years = $years | collections.Reverse }}
+{{ range $year := $years }}
+<h3>{{ $year }}</h3>
+<ul class="list-group list-group-flush mb-4">
+  {{ range where $awards "year" $year }}
+  <li class="list-group-item px-0 d-flex justify-content-between align-items-start">
+    <div>
+      <strong>{{ .award }}</strong>
+      <br><small class="text-muted">{{ .event }}</small>
+    </div>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}
+</div>
