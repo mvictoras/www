@@ -1,11 +1,14 @@
-{{/* Original script from here: https://www.heartinternet.uk/blog/15-ways-to-hide-your-email-address/ */}}
+{{/* Simple email obfuscation shortcode. Usage: {{< email address="user" >}}
+     Requires site.Params.email_domain in config (e.g., email_domain = "example.com")
+     For a more robust solution, consider using hugo-cloak-email theme component instead. */}}
 {{ $email := (.Get "address") }}
+{{ $domain := site.Params.email_domain | default "example.com" }}
 
-<script language="JavaScript" type="text/javascript">
+<script type="text/javascript">
   var part1 = {{ $email }};
   var part2 = Math.pow(2,6);
   var part3 = String.fromCharCode(part2);
-  var part4 = "vmateevitsi.com";
+  var part4 = "{{ $domain }}";
   var part5 = part1 + String.fromCharCode(part2) + part4;
   document.write("<a href=" + "mai" + "lto" + ":" 
   + part5 + ">" + part1 + part3 + part4 + "</a>");
