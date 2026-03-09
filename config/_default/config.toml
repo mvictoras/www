@@ -110,17 +110,9 @@ anchor = "smart"
     source = "node_modules/jquery-countdown/dist"
     target = "assets/js/vendor/jquery-countdown"
   [[module.mounts]]
-    source = "node_modules/moment"
-    target = "assets/js/vendor/moment"
-  [[module.mounts]]
-    source = "node_modules/moment-timezone/builds"
-    target = "assets/js/vendor/moment-timezone"
-  [[module.mounts]]
     source = "node_modules/animejs/lib"
     target = "assets/js/vendor/animejs"
-  [[module.mounts]]
-    source = "node_modules/gsap/umd"
-    target = "assets/js/vendor/gsap"
+
 
 [taxonomies]
   category = "categories"

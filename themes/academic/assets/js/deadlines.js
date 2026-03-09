@@ -1,9 +1,16 @@
 'use strict';
-/* global moment */
 /* global createCalendar */
 
-import moment from "moment";
-/*import createCalendar from "./main";*/
+import dayjs from 'dayjs';
+import utc from 'dayjs/plugin/utc';
+import timezone from 'dayjs/plugin/timezone';
+import customParseFormat from 'dayjs/plugin/customParseFormat';
+import advancedFormat from 'dayjs/plugin/advancedFormat';
+
+dayjs.extend(utc);
+dayjs.extend(timezone);
+dayjs.extend(customParseFormat);
+dayjs.extend(advancedFormat);
 
 (function($) {
   function addCalendarButton(elem, title, description, start, end) {
@@ -23,8 +30,8 @@ import moment from "moment";
   if(window.location.pathname.includes('vis-deadlines')) {
     
 
-    const localTimezone = moment.tz.guess();
-    const today = moment();
+    const localTimezone = dayjs.tz.guess();
+    const today = dayjs();
 
     // render countdown timer
     $('.event').each(function(i, obj) {
@@ -43,11 +50,11 @@ import moment from "moment";
       if(deadline === '') {
         $this.parent().addClass('d-none');
       } else {
-        var localDeadline = moment();
+        var localDeadline = dayjs();
         if(utcOffset === '') {
-          localDeadline = moment.tz(deadline, timezone).tz(localTimezone);
+          localDeadline = dayjs.tz(deadline, timezone).tz(localTimezone);
         } else {
-          localDeadline = moment(deadline + ' ' + utcOffset, 'YYYY-MM-DD hh:mm:ss Z').tz(localTimezone);
+          localDeadline = dayjs(deadline + ' ' + utcOffset, 'YYYY-MM-DD hh:mm:ss Z').tz(localTimezone);
         }
         let diff = today.diff(localDeadline);
         
@@ -73,7 +80,7 @@ import moment from "moment";
 
   // Disable past events
   $('.card').each(function() {
-    const today = moment();
+    const today = dayjs();
     var eventElem = $(this).find('.date');
     var startDate = eventElem.attr('startDate'), 
       description = eventElem.attr('description'), 
@@ -84,7 +91,7 @@ import moment from "moment";
     if( diff > 0) {
       $(this).addClass('card-disabled');
     } else {
-      addCalendarButton($(this).find('.date'), title, description, moment(startDate).toDate(), moment(endDate).toDate());
+       addCalendarButton($(this).find('.date'), title, description, dayjs(startDate).toDate(), dayjs(endDate).toDate());
     }
 
   });

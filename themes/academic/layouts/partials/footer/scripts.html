@@ -22,9 +22,6 @@
 {{/* === Vis Deadlines — moment, countdown, calendar === */}}
 {{ if eq .RelPermalink "/vis-deadlines/" }}
   {{ partial "footer/esbuild" (dict "src" "js/vendor/jquery-countdown/jquery.countdown.js" "load" "defer" "transpile" false "scratch" .Scratch "concat" true) -}}
-  {{ partial "footer/esbuild" (dict "src" "js/vendor/moment/moment.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
-  {{ partial "footer/esbuild" (dict "src" "js/vendor/moment-timezone/moment-timezone.min.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
-  {{ partial "footer/esbuild" (dict "src" "js/vendor/moment-timezone/moment-timezone-with-data.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
   {{ partial "footer/esbuild" (dict "src" "js/vendor/add-to-calendar/ouical.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
   {{ partial "footer/esbuild" (dict "src" "js/deadlines.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
 {{ end }}
@@ -36,8 +33,7 @@
 {{ if eq .RelPermalink "/vis-deadlines/" }}{{ $bundleSuffix = "deadlines" }}{{ end -}}
 {{ partial "footer/concat" (dict "load" "async" "transpile" false "scratch" .Scratch "targetPath" (printf "js/bundle-%s.js" $bundleSuffix)) -}}
 
-{{/* === 404 page — GSAP glitch effect (loaded separately, not concatenated) === */}}
+{{/* === 404 page — GSAP glitch effect (bundled via esbuild, not concatenated) === */}}
 {{ if (eq .Kind "404") }}
-  <script async src="{{ (resources.Get "js/vendor/gsap/TweenMax.js" | fingerprint "sha512").RelPermalink }}"></script>
-  <script async src="{{ (resources.Get "js/404.js" | fingerprint "sha512").RelPermalink }}"></script>
+  {{ partial "footer/esbuild" (dict "src" "js/404.js" "load" "async" "transpile" false "scratch" .Scratch "concat" false) -}}
 {{ end }}
