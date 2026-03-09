@@ -95,9 +95,6 @@ anchor = "smart"
     source = "node_modules/processing-js"
     target = "assets/js/vendor/processing"
   [[module.mounts]]
-    source = "node_modules/ga-lite/dist"
-    target = "static/js/vendor/ga-lite"
-  [[module.mounts]]
     source = "node_modules/lazysizes"
     target = "assets/js/vendor/lazysizes"
   [[module.mounts]]
@@ -147,4 +144,4 @@ anchor = "smart"
 
 [security]
   [security.exec]
-    allow = ['^npx$', '^babel$']
+    allow = ['^npx$', '^babel$', '^postcss$']
