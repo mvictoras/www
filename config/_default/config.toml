@@ -2,7 +2,7 @@ baseURL = "https://www.vmateevitsi.com/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
@@ -36,19 +36,6 @@ baseName = "_headers"
 isPlainText = true
 notAlternative = true
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-  [markup.highlight]
-    codeFences = true
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = false
-    style = "dracula"
-    tabWidth = 4
 
 [caches]
   [caches.getjson]
@@ -130,16 +117,10 @@ anchor = "smart"
     source = "node_modules/moment-timezone/builds"
     target = "assets/js/vendor/moment-timezone"
   [[module.mounts]]
-    source = "node_modules/popper.js/dist"
-    target = "assets/js/vendor/popper"
-  [[module.mounts]]
-    source = "node_modules/requirejs"
-    target = "assets/js/vendor/requirejs"
-  [[module.mounts]]
     source = "node_modules/animejs/lib"
     target = "assets/js/vendor/animejs"
   [[module.mounts]]
-    source = "node_modules/gsap"
+    source = "node_modules/gsap/umd"
     target = "assets/js/vendor/gsap"
 
 [taxonomies]

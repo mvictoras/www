@@ -9,6 +9,7 @@ module.exports = {
       content: [
         './content/**/*.md',
         './layouts/**/*.html',
+        './themes/academic/layouts/**/*.html',
       ],
       safelist: [
         'btn',
@@ -27,9 +28,9 @@ module.exports = {
         'vm-btn-add',
         'card-disabled',
         ...whitelister([
-          './assets/scss/common/_global.scss',
-          './assets/scss/common/_syntax.scss',
-          './assets/scss/components/_code.scss',
+          './themes/academic/assets/scss/common/_global.scss',
+          './themes/academic/assets/scss/common/_syntax.scss',
+          './themes/academic/assets/scss/components/_code.scss',
         ]),
       ],
     }),
