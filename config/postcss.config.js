@@ -1,11 +1,10 @@
 const autoprefixer = require('autoprefixer');
 const purgecss = require('@fullhuman/postcss-purgecss');
-const whitelister = require('purgecss-whitelister');
 
 module.exports = {
   plugins: [
     autoprefixer(),
-    purgecss({
+    purgecss.purgeCSSPlugin({
       content: [
         './content/**/*.md',
         './layouts/**/*.html',
@@ -27,12 +26,12 @@ module.exports = {
         'linkedin-color',
         'vm-btn-add',
         'card-disabled',
-        ...whitelister([
-          './themes/academic/assets/scss/common/_global.scss',
-          './themes/academic/assets/scss/common/_syntax.scss',
-          './themes/academic/assets/scss/components/_code.scss',
-        ]),
+        'bottom-align-text',
+        'image-with-title',
+        'noleftpadding',
+        'related-press',
+        'threads-color',
       ],
     }),
   ],
-}
+};
