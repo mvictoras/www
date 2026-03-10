@@ -41,3 +41,20 @@
 .dropdown-divider {
   border-color: $border-color;
 }
+
+// Social icons: horizontal row on mobile within the collapsed menu
+.nav-flex-icons {
+  flex-direction: row !important;
+  justify-content: center;
+  gap: 0.25rem;
+  padding: 0.5rem 0;
+
+  .nav-item {
+    flex: 0 0 auto;
+  }
+
+  .nav-link {
+    font-size: 1.1rem;
+    padding: 0.4rem 0.5rem;
+  }
+}

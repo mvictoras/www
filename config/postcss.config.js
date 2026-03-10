@@ -33,7 +33,7 @@ module.exports = {
           'related-press',
           'threads-color',
         ],
-        greedy: [/^pswp/, /^page-/],
+        greedy: [/^pswp/, /^page-/, /^splide/],
       },
     }),
   ],
