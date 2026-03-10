@@ -22,40 +22,23 @@
   </div>
 </section>
 
-{{/* Bio + Stats */}}
-<section class="bio-section">
+{{/* About me — bio + stats */}}
+<div class="px-0 parallax" style="background-image: url( {{ .Params.about_image }})">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-8">
-        <div class="bio-text">{{ .Content }}</div>
-      </div>
-    </div>
-    <div class="stats-bar">
-      {{ $pubCount := 0 }}
-      {{ with site.Data.publications }}
-        {{ $pubCount = add (len .journals) (len .conferences) }}
-      {{ end }}
-      <span class="stat-item"><span class="stat-number">{{ $pubCount }}</span> publications</span>
-      <span class="stat-sep">&middot;</span>
-      <span class="stat-item"><span class="stat-number">{{ len site.Data.talks }}</span> talks</span>
-      <span class="stat-sep">&middot;</span>
-      <span class="stat-item"><span class="stat-number">{{ len site.Data.awards }}</span> awards</span>
-      <span class="stat-sep">&middot;</span>
-      <span class="stat-item"><span class="stat-number">{{ len site.Data.experience }}</span> organizations</span>
-    </div>
-  </div>
-</section>
-
-{{/* Experience List */}}
-<div class="container">
-  <div class="splide carousel-experience" aria-label="Experience">
-    <div class="splide__track">
-      <div class="splide__list">
-        {{ range $i, $e := site.Data.experience }}
-          {{ partial "components/experience-item.html" $e }}
+      {{ .Content }}
+      <div class="stats-bar">
+        {{ $pubCount := 0 }}
+        {{ with site.Data.publications }}
+          {{ $pubCount = add (len .journals) (len .conferences) }}
         {{ end }}
+        <span class="stat-item"><span class="stat-number">{{ $pubCount }}</span> publications</span>
+        <span class="stat-sep">&middot;</span>
+        <span class="stat-item"><span class="stat-number">{{ len site.Data.talks }}</span> talks</span>
+        <span class="stat-sep">&middot;</span>
+        <span class="stat-item"><span class="stat-number">{{ len site.Data.awards }}</span> awards</span>
+        <span class="stat-sep">&middot;</span>
+        <span class="stat-item"><span class="stat-number">{{ len site.Data.experience }}</span> organizations</span>
       </div>
-    </div>
   </div>
 </div>
 
@@ -120,17 +103,23 @@
   </div>
 </div>
 
-{{/* About me */}}
-<div class="px-0 parallax" style="background-image: url( {{ .Params.about_image }})">
-  <div class="container">
-      {{ .Content }}
-  </div>
-</div>
-
 {{/* Contact me */}}
 <div class="px-0 parallax" style="background-image: url( {{ .Params.contact_image }})">
   <div class="container">
       {{ .Params.contact | safeHTML }}
+  </div>
+</div>
+
+{{/* Experience Carousel */}}
+<div class="container">
+  <div class="splide carousel-experience" aria-label="Experience">
+    <div class="splide__track">
+      <div class="splide__list">
+        {{ range $i, $e := site.Data.experience }}
+          {{ partial "components/experience-item.html" $e }}
+        {{ end }}
+      </div>
+    </div>
   </div>
 </div>
 

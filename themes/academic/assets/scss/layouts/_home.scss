@@ -34,6 +34,12 @@
   max-height: 90vh;
   width: auto;
   filter: drop-shadow(0 0 40px rgba($url-color, 0.15));
+  animation: groku-float 8s ease-in-out infinite;
+}
+
+@keyframes groku-float {
+  0%, 100% { transform: translateY(10px); }
+  50%      { transform: translateY(-10px); }
 }
 
 // Skills (neon sign labels in hero)
@@ -53,38 +59,14 @@
   }
 }
 
-// Bio section
-.bio-section {
-  padding: 4rem 0;
-  background-color: $bg-surface;
-  border-top: 1px solid $border-color;
-  border-bottom: 1px solid $border-color;
-}
-
-.bio-text {
-  font-size: 1.15rem;
-  line-height: 1.8;
-  color: $body-color;
-
-  a {
-    color: $url-color;
-    text-decoration: none;
-    border-bottom: 1px solid rgba($url-color, 0.3);
-
-    &:hover {
-      border-bottom-color: $url-color;
-    }
-  }
-}
-
-// Stats bar
+// Stats bar (inside parallax bio section)
 .stats-bar {
   margin-top: 2rem;
   padding-top: 1.5rem;
-  border-top: 1px solid $border-color;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
   font-family: $font-family-mono;
   font-size: 0.9rem;
-  color: $body-color;
+  color: white;
 }
 
 .stat-number {
@@ -95,5 +77,5 @@
 
 .stat-sep {
   margin: 0 1rem;
-  color: $border-color;
+  color: rgba(255, 255, 255, 0.3);
 }
