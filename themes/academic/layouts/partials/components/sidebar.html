@@ -33,12 +33,12 @@
     {{ range first 5 site.Data.updates }}
       {{ $date := time .date }}
       <div class="list-group-item border-0 px-0 py-1 d-flex justify-content-between">
-        <div class="text-start m-0">{{ .title | emojify }}</div>
+        <div class="text-start m-0 sidebar-link">{{ .title | emojify }}</div>
         <small class="pl-1 text-muted text-nowrap d-flex align-items-center">{{ $date.Format "2 Jan" }}</small>
       </div>
     {{ end }}
     <div class="list-group-item border-0 p-0 d-flex position-relative start-50">
-      <a class="mb-1 text-center" href="/updates">More</a>
+      <a class="mb-1 text-center sidebar-link" href="/updates">More</a>
     </div>
   </div>
 </div>
