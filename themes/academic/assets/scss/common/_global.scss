@@ -43,6 +43,63 @@ a {
   background: transparent;
   border-color: $border-color;
   color: $body-color;
+
+  &.list-group-item-action {
+    &:hover, &:focus {
+      background-color: $bg-surface;
+      color: $heading-color;
+    }
+  }
+}
+
+strong {
+  color: $heading-color;
+}
+
+// Pagination dark theme
+.page-link {
+  background-color: $bg-surface;
+  border-color: $border-color;
+  color: $body-color;
+
+  &:hover {
+    background-color: $bg-elevated;
+    border-color: $border-color;
+    color: $url-color;
+  }
+}
+
+.page-item.active .page-link {
+  background-color: $url-color;
+  border-color: $url-color;
+  color: #000;
+}
+
+.page-item.disabled .page-link {
+  background-color: $bg-color;
+  border-color: $border-color;
+  color: $muted-color;
+}
+
+// Buttons dark theme
+.btn-primary {
+  background-color: $url-color;
+  border-color: $url-color;
+  color: #000;
+  font-weight: 600;
+
+  &:hover {
+    background-color: lighten($url-color, 8%);
+    border-color: lighten($url-color, 8%);
+    color: #000;
+  }
+}
+
+// Form controls dark theme
+.form-control {
+  background-color: $bg-surface;
+  border-color: $border-color;
+  color: $body-color;
 }
 
 canvas {
