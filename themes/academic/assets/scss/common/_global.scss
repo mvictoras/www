@@ -39,6 +39,30 @@ a {
   color: $muted-color !important;
 }
 
+.text-body-secondary {
+  color: $muted-color !important;
+}
+
+// Sidebar dark theme
+.sidebar-heading {
+  border-bottom: 3px solid $border-color;
+  color: $heading-color;
+  font-size: 1.1rem;
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.sidebar-link {
+  color: $body-color;
+  text-decoration: none;
+  font-size: $sidebar-font-size;
+
+  &:hover {
+    color: $url-color;
+    text-decoration: none;
+  }
+}
+
 .list-group-item {
   background: transparent;
   border-color: $border-color;
