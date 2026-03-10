@@ -1,5 +1,5 @@
 {{ $scratch := .Scratch }}
-<div class="list-group articles-group">
+<div class="news-grid">
   {{ range site.Data.press.web }}
     
     {{ if and .url .date .text .title .image .publication }}
