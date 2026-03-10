@@ -1,18 +1,34 @@
 {{ define "main" }}
-<div class="container-fluid single">
-  {{ with .Resources.GetMatch "featured*" }}
-  <div class="row image-with-title" id="{{ $.Page.Title }}" style="background: url({{ .Permalink }}) no-repeat bottom center">
+  {{/* Clean page header with orange accent bar */}}
+  <div class="container page-header">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="page-header__inner">
+          <span class="page-header__accent"></span>
+          <h1 class="page-header__title">{{ .Page.Title }}</h1>
+          <p class="page-header__subtitle">
+            {{- if (eq .Page.Type "news") -}}Research updates, awards, and lab notes
+            {{- else if (eq .Page.Type "press") -}}Media coverage and mentions
+            {{- else if (hasPrefix .RelPermalink "/publications") -}}Journal articles, conference proceedings, and patents
+            {{- else if (hasPrefix .RelPermalink "/talks") -}}Invited talks, keynotes, and presentations
+            {{- else if (hasPrefix .RelPermalink "/cv") -}}Education, awards, students, and service
+            {{- else -}}{{ with .Page.Description }}{{ . }}{{ end }}
+            {{- end -}}
+          </p>
+        </div>
+      </div>
     </div>
-  {{ end }}
+  </div>
   <div class="container">
     <div class="row">
-      <div class="col-9">
-        {{.Content}}
+      <div class="col-lg-8">
+        <div class="single-post__content">
+          {{ .Content }}
+        </div>
       </div>
-      <div class="col-3">
+      <div class="col-lg-4">
         {{- partial "components/sidebar.html" . -}}
       </div>
     </div>
   </div>
-</div>
 {{ end }}

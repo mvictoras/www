@@ -1,27 +1,27 @@
 {{ define "main" }}
-  {{ if (eq .Page.Type "news") }}
-    {{/* Clean page heading instead of hero banner for news */}}
-    <div class="container news-page-header">
-      <div class="row">
-        <div class="col-9">
-          <div class="news-page-header__inner">
-            <span class="news-page-header__accent"></span>
-            <h1 class="news-page-header__title">{{ .Page.Title }}</h1>
-            <p class="news-page-header__subtitle">Research updates, awards, and lab notes</p>
-          </div>
+  {{/* Clean page header with orange accent bar — all list pages */}}
+  <div class="container page-header">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="page-header__inner">
+          <span class="page-header__accent"></span>
+          <h1 class="page-header__title">{{ .Page.Title }}</h1>
+          <p class="page-header__subtitle">
+            {{- if (eq .Page.Type "news") -}}Research updates, awards, and lab notes
+            {{- else if (eq .Page.Type "press") -}}Media coverage and mentions
+            {{- else if (hasPrefix .RelPermalink "/publications") -}}Journal articles, conference proceedings, and patents
+            {{- else if (hasPrefix .RelPermalink "/talks") -}}Invited talks, keynotes, and presentations
+            {{- else if (hasPrefix .RelPermalink "/cv") -}}Education, awards, students, and service
+            {{- else -}}{{ with .Page.Description }}{{ . }}{{ end }}
+            {{- end -}}
+          </p>
         </div>
       </div>
     </div>
-  {{ else }}
-    {{ with .Resources.GetMatch "featured*" }}
-    {{ $image := .Resize "1920x" }}
-    <div class="row image-with-title" id="{{ $.Page.Title }}" style="background: url({{ $image.Permalink }}) no-repeat bottom center">
-    </div>
-    {{ end }}
-  {{ end }}
+  </div>
   <div class="container list">
     <div class="row">
-      <div class="col-9">
+      <div class="col-lg-8">
         {{ if (eq .Page.Type "press") }}
           {{ block "items-list" . }}{{ partial "press/list.html" . }}{{ end }}
         {{ else if (eq .Page.Type "news") }}
@@ -32,7 +32,7 @@
           {{ block "videos-list" . }}{{ partial "videos/list.html" . }}{{ end }}
         {{ end }}
       </div>
-      <div class="col-3">
+      <div class="col-lg-4">
         {{- partial "components/sidebar.html" . -}}
       </div>
     </div>
