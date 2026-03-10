@@ -11,34 +11,40 @@
   weight = 2
 
 [[main]]
+  identifier = "publications"
+  name = "publications"
+  url = "/publications/"
+  weight = 3
+
+[[main]]
   identifier = "talks"
   name = "talks"
   url = "/talks/"
-  weight = 3
+  weight = 4
 
 [[main]]
   identifier = "press"
   name = "press"
   url = "/press/"
-  weight = 4
+  weight = 5
 
 [[main]]
   identifier = "cv"
   name = "cv"
   url = "/cv/"
-  weight = 5
+  weight = 6
 
 [[main]]
   identifier = "about"
   name = "about"
   url = "/about/"
-  weight = 6
+  weight = 7
 
 [[main]]
   identifier = "contact"
   name = "contact"
   url = "/contact/"
-  weight = 7
+  weight = 8
 
 [[footer]]
   identifier= "news"
@@ -47,49 +53,55 @@
   weight = 1
 
 [[footer]]
+  identifier = "publications"
+  name = "publications"
+  url = "/publications/"
+  weight = 2
+
+[[footer]]
   identifier = "talks"
   name = "talks"
   url = "/talks/"
-  weight = 2
+  weight = 3
 
 [[footer]]
   identifier = "press"
   name = "press"
   url = "/press/"
-  weight = 3
+  weight = 4
 
 [[footer]]
   identifier = "videos"
   name = "videos"
   url = "/videos/"
-  weight = 4
+  weight = 5
 
 [[footer]]
   identifier = "vis-deadlines"
   name = "vis deadlines"
   url = "/vis-deadlines/"
-  weight = 5
+  weight = 6
 
 [[footer]]
   identifier = "updates"
   name = "updates"
   url = "/updates/"
-  weight = 6
+  weight = 7
 
 [[footer]]
   identifier = "cv"
   name = "cv"
   url = "/cv/"
-  weight = 7
+  weight = 8
 
 [[footer]]
   identifier = "about"
   name = "about"
   url = "/about/"
-  weight = 8
+  weight = 9
 
 [[footer]]
   identifier = "contact"
   name = "contact"
   url = "/contact/"
-  weight = 9
+  weight = 10

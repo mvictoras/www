@@ -1,0 +1,31 @@
+<div class="publications-list">
+{{ $pubs := site.Data.publications }}
+
+<h3>Journal Articles</h3>
+<ol class="list-group list-group-flush list-group-numbered mb-5">
+  {{ range $pubs.journals }}
+  <li class="list-group-item px-0">
+    <div>
+      <strong>{{ .title }}</strong>
+      <br>{{ .authors | safeHTML }}
+      <br><em>{{ .venue }}</em>{{ with .volume }}, vol. {{ . }}{{ end }}{{ with .pages }}, pp. {{ . }}{{ end }}, {{ .year }}.
+      {{ with .doi }}<br><small><a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">DOI: {{ . }}</a></small>{{ end }}
+    </div>
+  </li>
+  {{ end }}
+</ol>
+
+<h3>Conference Proceedings</h3>
+<ol class="list-group list-group-flush list-group-numbered mb-4">
+  {{ range $pubs.conferences }}
+  <li class="list-group-item px-0">
+    <div>
+      <strong>{{ .title }}</strong>
+      <br>{{ .authors | safeHTML }}
+      <br><em>{{ .venue }}</em>{{ with .pages }}, pp. {{ . }}{{ end }}, {{ .year }}.
+      {{ with .doi }}<br><small><a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">DOI: {{ . }}</a></small>{{ end }}
+    </div>
+  </li>
+  {{ end }}
+</ol>
+</div>

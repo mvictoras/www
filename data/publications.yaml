@@ -1,0 +1,166 @@
+journals:
+  - title: "CheckMyFit: Ear Selfie to Assist User Insertion of Hearing Aids"
+    authors: "Qi Yang, Michalis Papakostas, Jack M. Scott, Erin R. O'Neill, Kirill Sergeyevich Kondrashov, <strong>Victor A. Mateevitsi</strong>, Gregory Olsen, Andrew Burke Dittberner"
+    venue: "Proceedings of the ACM on Human-Computer Interaction"
+    volume: "6(MHCI)"
+    pages: "186:1--186:21"
+    year: 2022
+    doi: "10.1145/3546721"
+    url: "https://dl.acm.org/doi/10.1145/3546721"
+
+  - title: "Communication technology for silver generation"
+    authors: "Marek Novak, <strong>Victor Mateevitsi</strong>"
+    venue: "Sensing Technologies for Global Health, Military Medicine, and Environmental Monitoring VI, SPIE"
+    volume: "9863"
+    year: 2016
+    doi: "10.1117/12.2224262"
+
+  - title: "SAGE2: A collaboration portal for scalable resolution displays"
+    authors: "Luc Renambot, Thomas Marrinan, Jillian Aurisano, Arthur Nishimoto, <strong>Victor Mateevitsi</strong>, Krishna Bharadwaj, Lance Long, Andy Johnson, Maxine Brown, Jason Leigh"
+    venue: "Future Generation Computer Systems"
+    volume: "54"
+    pages: "296--305"
+    year: 2016
+    doi: "10.1016/j.future.2015.05.014"
+    url: "https://www.sciencedirect.com/science/article/pii/S0167739X15001892"
+
+  - title: "Reimagining the microscope in the 21st century using the scalable adaptive graphics environment"
+    authors: "<strong>Victor Mateevitsi</strong>, Tushar Patel, Jason Leigh, Bruce Levy"
+    venue: "Journal of Pathology Informatics"
+    volume: "6(1)"
+    pages: "25"
+    year: 2015
+    doi: "10.4103/2153-3539.158042"
+    url: "https://www.sciencedirect.com/science/article/pii/S2153353922004801"
+
+  - title: "Scalable Adaptive Graphics Environment: A Novel Way to View and Manipulate Whole-Slide Images"
+    authors: "<strong>Victor Mateevitsi</strong>, Bruce Levy"
+    venue: "Analytical Cellular Pathology"
+    volume: "2014"
+    pages: "e517953"
+    year: 2014
+    doi: "10.1155/2014/517953"
+    url: "https://www.hindawi.com/journals/acp/2014/517953/"
+
+  - title: "A human-computer collaborative workflow for the acquisition and analysis of terrestrial insect movement in behavioral field studies"
+    authors: "Khairi Reda, <strong>Victor Mateevitsi</strong>, Catherine Offord"
+    venue: "EURASIP Journal on Image and Video Processing"
+    volume: "2013(1)"
+    pages: "48"
+    year: 2013
+    doi: "10.1186/1687-5281-2013-48"
+    url: "https://doi.org/10.1186/1687-5281-2013-48"
+
+  - title: "Context-dependent navigation in a collectively foraging species of ant, Messor cephalotes"
+    authors: "C. Offord, K. Reda, <strong>V. Mateevitsi</strong>"
+    venue: "Insectes Sociaux"
+    volume: "60(3)"
+    pages: "361--368"
+    year: 2013
+    doi: "10.1007/s00040-013-0301-y"
+    url: "https://doi.org/10.1007/s00040-013-0301-y"
+
+conferences:
+  - title: "Cinema Transfer: A Containerized Visualization Workflow"
+    authors: "Isaac Nealey, Nicola Ferrier, Joseph Insley, <strong>Victor A. Mateevitsi</strong>, Michael E. Papka, Silvio Rizzi"
+    venue: "ISC High Performance 2022 International Workshops (LNCS)"
+    pages: "324--343"
+    year: 2022
+    doi: "10.1007/978-3-031-23220-6_23"
+
+  - title: "Toward Bi-directional In Situ Visualization and Analysis of Blood Flow Simulations With Dynamic Deforming Walls"
+    authors: "Nazariy Tishchenko, Nicola Ferrier, Joseph A. Insley, <strong>Victor A. Mateevitsi</strong>, Michael E. Papka, Silvio Rizzi, Jifu Tan"
+    venue: "IEEE 12th Symposium on Large Data Analysis and Visualization (LDAV)"
+    pages: "1--2"
+    year: 2022
+    doi: "10.1109/LDAV57265.2022.9966389"
+
+  - title: "Distributed Volumetric Neural Representation for in situ Visualization and Analysis"
+    authors: "Qi Wu, Joseph A. Insley, <strong>Victor A. Mateevitsi</strong>, Silvio Rizzi, Kwan-Liu Ma"
+    venue: "IEEE 12th Symposium on Large Data Analysis and Visualization (LDAV)"
+    pages: "1--2"
+    year: 2022
+    doi: "10.1109/LDAV57265.2022.9966405"
+
+  - title: "Sort-Last In-Transit Data Visualization with SENSEI, Catalyst, and Unreal Engine"
+    authors: "Isaac Nealey, Nicola Ferrier, Joseph A. Insley, <strong>Victor A. Mateevitsi</strong>, Silvio Rizzi, Jurgen Schulze"
+    venue: "IEEE 12th Symposium on Large Data Analysis and Visualization (LDAV)"
+    pages: "1--2"
+    year: 2022
+    doi: "10.1109/LDAV57265.2022.9966391"
+
+  - title: "Massive Data Visualization Techniques for use in Virtual Reality Devices"
+    authors: "Jason A. Ortiz, Joseph A. Insley, Janet Knowles, <strong>Victor A. Mateevitsi</strong>, Michael E. Papka, Silvio Rizzi"
+    venue: "IEEE 12th Symposium on Large Data Analysis and Visualization (LDAV)"
+    pages: "1--2"
+    year: 2022
+    doi: "10.1109/LDAV57265.2022.9966400"
+
+  - title: "Instrumenting Multiphysics Blood Flow Simulation Codes for In Situ Visualization and Analysis"
+    authors: "Anthony Bucaro, Connor Murphy, Nicola Ferrier, Joseph Insley, <strong>Victor Mateevitsi</strong>, Michael E. Papka, Silvio Rizzi, Jifu Tan"
+    venue: "IEEE 11th Symposium on Large Data Analysis and Visualization (LDAV)"
+    pages: "88--89"
+    year: 2021
+    doi: "10.1109/LDAV53230.2021.00018"
+
+  - title: "The RealityMashers: Augmented Reality Wide Field-of-View Optical See-Through Head Mounted Displays"
+    authors: "Jaron Lanier, <strong>Victor Mateevitsi</strong>, Kishore Rathinavel, Lior Shapira, Joseph Menke, Patrick Therien, Joshua Hudman, Gheric Speiginer, Andrea Stevenson Won, Andrzej Banburski, Xavier Benavides, Judith Amores, Javier Porras Lurashi, Wayne Chang"
+    venue: "IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct)"
+    pages: "141--146"
+    year: 2016
+    doi: "10.1109/ISMAR-Adjunct.2016.0061"
+
+  - title: "Omegalib: A multi-view application framework for hybrid reality display environments"
+    authors: "Alessandro Febretti, Arthur Nishimoto, <strong>Victor Mateevitsi</strong>, Luc Renambot, Andrew Johnson, Jason Leigh"
+    venue: "IEEE Virtual Reality (VR)"
+    pages: "9--14"
+    year: 2014
+    doi: "10.1109/VR.2014.6802043"
+
+  - title: "The health bar: a persuasive ambient display to improve the office worker's well being"
+    authors: "<strong>Victor Mateevitsi</strong>, Khairi Reda, Jason Leigh, Andrew Johnson"
+    venue: "5th Augmented Human International Conference (AH '14)"
+    pages: "1--2"
+    year: 2014
+    doi: "10.1145/2582051.2582072"
+    url: "https://dl.acm.org/doi/10.1145/2582051.2582072"
+
+  - title: "SAGE2: A new approach for data intensive collaboration using Scalable Resolution Shared Displays"
+    authors: "Thomas Marrinan, Jillian Aurisano, Arthur Nishimoto, Krishna Bharadwaj, <strong>Victor Mateevitsi</strong>, Luc Renambot, Lance Long, Andrew Johnson, Jason Leigh"
+    venue: "10th IEEE International Conference on Collaborative Computing: Networking, Applications and Worksharing"
+    pages: "177--186"
+    year: 2014
+    doi: "10.4108/icst.collaboratecom.2014.257337"
+
+  - title: "Sensing the Environment through SpiderSense"
+    authors: "<strong>Victor Mateevitsi</strong>, Brad Haggadone, Jason Leigh, Brian Kunzer, Robert V. Kenyon"
+    venue: "4th Augmented Human International Conference (AH '13)"
+    pages: "92--99"
+    year: 2013
+    doi: "10.1145/2459236.2459254"
+
+  - title: "Scalable Visual Queries for Data Exploration on Large, High-Resolution 3D Displays"
+    authors: "Khairi Reda, Andrew Johnson, <strong>Victor Mateevitsi</strong>, Catherine Offord, Jason Leigh"
+    venue: "SC Companion: High Performance Computing, Networking Storage and Analysis"
+    pages: "196--205"
+    year: 2012
+    doi: "10.1109/SC.Companion.2012.35"
+
+  - title: "The OmegaDesk: Towards a Hybrid 2D and 3D Work Desk"
+    authors: "Alessandro Febretti, <strong>Victor A. Mateevitsi</strong>, Dennis Chau, Arthur Nishimoto, Brad McGinnis, Jakub Misterka, Andrew Johnson, Jason Leigh"
+    venue: "Advances in Visual Computing (LNCS)"
+    pages: "13--23"
+    year: 2011
+    doi: "10.1007/978-3-642-24031-7_2"
+
+  - title: "A game-engine-based virtual reality framework"
+    authors: "<strong>Victor Mateevitsi</strong>, George Lepouras, Costas Vassilakis"
+    venue: "Pan-Hellenic Conference on Informatics (PCI)"
+    year: 2008
+
+  - title: "Video index and search services based on content identification features"
+    authors: "Gregory Doumenis, Serafeim Papastefanos, <strong>Victor Mateevitsi</strong>, Fotis Andritsopoulos, Nikos Achilleopoulos, Anton V. Mikhalev"
+    venue: "IEEE International Symposium on Broadband Multimedia Systems and Broadcasting"
+    pages: "1--4"
+    year: 2008
+    doi: "10.1109/ISBMSB.2008.4536659"
