@@ -34,12 +34,60 @@
   max-height: 90vh;
   width: auto;
   filter: drop-shadow(0 0 40px rgba($url-color, 0.15));
-  animation: groku-float 8s ease-in-out infinite;
+  animation:
+    groku-float 8s ease-in-out infinite,
+    groku-glitch 6s step-end infinite;
+  position: relative;
+
+  // CRT scanline overlay via pseudo-element on parent
+  // (img can't have ::after, so we use the container — see below)
 }
+
+// --- Groku CRT glitch animation ---
+// Combines float + periodic RGB split / skew distortion
 
 @keyframes groku-float {
   0%, 100% { transform: translateY(10px); }
   50%      { transform: translateY(-10px); }
+}
+
+@keyframes groku-glitch {
+  0%, 89%   { filter: drop-shadow(0 0 40px rgba($url-color, 0.15)); }
+  90%       { filter: drop-shadow(2px 0 0 rgba(255, 0, 50, 0.5)) drop-shadow(-2px 0 0 rgba(0, 255, 200, 0.5)); }
+  91%       { filter: drop-shadow(-1px 0 0 rgba(255, 0, 50, 0.4)) drop-shadow(1px 0 0 rgba(0, 255, 200, 0.4)); transform: translateY(10px) skewX(-0.5deg); }
+  92%       { filter: drop-shadow(3px 0 0 rgba(255, 0, 50, 0.6)) drop-shadow(-3px 0 0 rgba(0, 255, 200, 0.6)); transform: translateY(10px) skewX(0.8deg); }
+  93%       { filter: drop-shadow(0 0 40px rgba($url-color, 0.15)); transform: translateY(10px); }
+  94%, 95%  { filter: drop-shadow(0 0 40px rgba($url-color, 0.15)); }
+  96%       { filter: drop-shadow(1px 0 0 rgba(255, 0, 50, 0.3)) drop-shadow(-1px 0 0 rgba(0, 255, 200, 0.3)); opacity: 0.92; }
+  97%       { filter: drop-shadow(-2px 0 0 rgba(255, 0, 50, 0.5)) drop-shadow(2px 0 0 rgba(0, 255, 200, 0.5)); opacity: 1; transform: translateY(10px) translateX(2px); }
+  98%       { filter: drop-shadow(0 0 40px rgba($url-color, 0.15)); transform: translateY(10px); opacity: 1; }
+}
+
+// CRT scanline overlay on the groku column
+.hero .col-4 {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0, 0, 0, 0.12) 2px,
+      rgba(0, 0, 0, 0.12) 4px
+    );
+    pointer-events: none;
+    z-index: 10;
+    mix-blend-mode: multiply;
+    animation: scanline-flicker 0.15s infinite alternate;
+  }
+}
+
+@keyframes scanline-flicker {
+  0%   { opacity: 0.7; }
+  100% { opacity: 0.9; }
 }
 
 // Skills (neon sign labels in hero)
