@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
-
 // Helper mixin for clipping (used in keyframes)
 @mixin rect($top, $bottom) {
   clip: rect($top, 9999px, $bottom, 0);
@@ -59,9 +57,9 @@
   // Set a local variable for the glitch background
   $glitch-bg-color: $bg-color;
 
-  font-family: "Press Start 2p", sans-serif !important;
-  font-weight: bold;
-  /* color: #a5a5ff; */
+  font-family: $font-family-mono;
+  font-weight: 700;
+  letter-spacing: -0.02em;
 
   display: flex;
   align-items: center;
@@ -101,19 +99,19 @@
   
     &::after {
       animation-name: glitch-animation;
-      animation-duration: 4s;
+      animation-duration: 6s;
       animation-delay: $delay-after;
-      left: 4px;
-      text-shadow: -2px 0 #ffa800;
+      left: 2px;
+      text-shadow: -1px 0 rgba(252, 157, 0, 0.6);
       background: $glitch-bg-color;
     }
   
     &::before {
       animation-name: glitch-animation-2;
-      animation-duration: 6s;
+      animation-duration: 8s;
       animation-delay: $delay-before;
-      left: -4px;
-      text-shadow: 2px 0 #00d8ff;
+      left: -2px;
+      text-shadow: 1px 0 rgba(230, 237, 243, 0.4);
       background: $glitch-bg-color;
     }
   }
