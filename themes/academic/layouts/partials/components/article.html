@@ -1,21 +1,18 @@
-{{ if (isset . "target") }}
-  <a href="{{ .RelPermalink }}" target="{{ .target }}" class="list-group-item list-group-item-action">
-{{ else }}
-  <a href="{{ .RelPermalink }}" class="list-group-item list-group-item-action">
-{{ end }}
-
-  <div class="card">
+<a href="{{ .RelPermalink }}"{{ if (isset . "target") }} target="{{ .target }}"{{ end }} class="news-card">
+  <div class="news-card__image">
     {{ if (isset . "imgRelPermalink") }}
-      <img class="card-img-top lazyload" src="{{ .imgRelPermalink }}" alt="{{ .Title }}">
+      <img class="lazyload" src="{{ .imgRelPermalink }}" alt="{{ .Title }}">
     {{ else }}
       {{ with $.Resources.GetMatch (string (index $.Params.images 0)) }}
-      <img class="card-img-top lazyload" src="{{ (.Fill site.Params.articlePhotoSize).RelPermalink }}" alt="{{ .Title }}">
+      <img class="lazyload" src="{{ (.Fill site.Params.articlePhotoSize).RelPermalink }}" alt="{{ .Title }}">
       {{ end }}
     {{ end }}
-    <div class="card-body">
-      <h4 class="card-title">{{ .Title | truncate 70 }}</h4>
-      <p class="card-text">{{ .Content | plainify | htmlUnescape | truncate 200 }}</p>
-      <p class="card-text"><small class="text-muted">{{ .Date.Format "2 January 2006" }}</small></p>
-    </div>
+    <div class="news-card__overlay"></div>
+  </div>
+  <div class="news-card__body">
+    <time class="news-card__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 Jan 2006" }}</time>
+    <h3 class="news-card__title">{{ .Title | truncate 80 }}</h3>
+    <p class="news-card__excerpt">{{ .Content | plainify | htmlUnescape | truncate 160 }}</p>
+    <span class="news-card__read-more">Read more <i class="fa fa-arrow-right"></i></span>
   </div>
 </a>

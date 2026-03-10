@@ -1,8 +1,23 @@
 {{ define "main" }}
-  {{ with .Resources.GetMatch "featured*" }}
-  {{ $image := .Resize "1920x" }}
-  <div class="row image-with-title" id="{{ $.Page.Title }}" style="background: url({{ $image.Permalink }}) no-repeat bottom center">
-  </div>
+  {{ if (eq .Page.Type "news") }}
+    {{/* Clean page heading instead of hero banner for news */}}
+    <div class="container news-page-header">
+      <div class="row">
+        <div class="col-9">
+          <div class="news-page-header__inner">
+            <span class="news-page-header__accent"></span>
+            <h1 class="news-page-header__title">{{ .Page.Title }}</h1>
+            <p class="news-page-header__subtitle">Research updates, awards, and lab notes</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  {{ else }}
+    {{ with .Resources.GetMatch "featured*" }}
+    {{ $image := .Resize "1920x" }}
+    <div class="row image-with-title" id="{{ $.Page.Title }}" style="background: url({{ $image.Permalink }}) no-repeat bottom center">
+    </div>
+    {{ end }}
   {{ end }}
   <div class="container list">
     <div class="row">

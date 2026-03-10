@@ -1,3 +1,291 @@
+// ============================================================================
+// Single Post
+// ============================================================================
+
+.single-post {
+  // ------ Hero Image ------
+  &__hero {
+    position: relative;
+    width: 100%;
+    max-height: 420px;
+    overflow: hidden;
+    margin-bottom: -4rem;
+  }
+
+  &__hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  &__hero-fade {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      180deg,
+      transparent 0%,
+      rgba($bg-color, 0.3) 40%,
+      rgba($bg-color, 0.85) 75%,
+      $bg-color 100%
+    );
+    pointer-events: none;
+  }
+
+  // ------ Header ------
+  &__header {
+    position: relative;
+    z-index: 2;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid $border-color;
+    padding-bottom: 1.5rem;
+  }
+
+  &__date {
+    display: inline-block;
+    font-family: $font-family-mono;
+    font-size: 0.85rem;
+    color: $url-color;
+    letter-spacing: 0.06em;
+    margin-bottom: 0.75rem;
+    font-weight: 500;
+
+    &::before {
+      content: "//";
+      margin-right: 0.4em;
+      opacity: 0.5;
+    }
+  }
+
+  &__title {
+    font-family: $font-family-mono;
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: $heading-color;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    letter-spacing: -0.02em;
+  }
+
+  &__share {
+    .rrssb-buttons {
+      display: flex;
+      gap: 0.75rem;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        a {
+          display: flex;
+          align-items: center;
+          gap: 0.35rem;
+          color: $muted-color;
+          font-family: $font-family-mono;
+          font-size: 0.75rem;
+          text-transform: uppercase;
+          letter-spacing: 0.04em;
+          text-decoration: none;
+          transition: color 0.2s ease;
+          padding: 0.35rem 0.6rem;
+          border: 1px solid $border-color;
+          border-radius: 4px;
+          background: $bg-surface;
+
+          &:hover {
+            color: $url-color;
+            border-color: rgba($url-color, 0.3);
+            text-decoration: none;
+          }
+
+          .rrssb-icon {
+            svg {
+              width: 14px;
+              height: 14px;
+              fill: currentColor;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // ------ Content ------
+  &__content {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: $body-color;
+
+    h2, h3, h4 {
+      font-family: $font-family-mono;
+      color: $heading-color;
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid $border-color;
+
+      &::before {
+        content: "## ";
+        color: $url-color;
+        opacity: 0.5;
+      }
+    }
+
+    p {
+      margin-bottom: 1.25rem;
+    }
+
+    a {
+      color: $url-color;
+      text-decoration: none;
+      border-bottom: 1px solid rgba($url-color, 0.3);
+      transition: border-color 0.2s ease;
+
+      &:hover {
+        border-bottom-color: $url-color;
+        text-decoration: none;
+      }
+    }
+
+    img {
+      border-radius: 6px;
+      border: 1px solid $border-color;
+    }
+  }
+
+  // ------ Download / Reference (paper.html) ------
+  &__download,
+  &__reference {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid $border-color;
+
+    h2 {
+      font-family: $font-family-mono;
+      font-size: 1.25rem;
+      color: $heading-color;
+      margin-bottom: 0.75rem;
+
+      &::before {
+        content: "## ";
+        color: $url-color;
+        opacity: 0.5;
+      }
+    }
+  }
+
+  &__pdf-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: $url-color;
+    font-family: $font-family-mono;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgba($url-color, 0.3);
+    border-radius: 6px;
+    background: rgba($url-color, 0.06);
+    transition: all 0.2s ease;
+
+    &:hover {
+      background: rgba($url-color, 0.12);
+      border-color: $url-color;
+      text-decoration: none;
+    }
+  }
+
+  &__trophy {
+    color: $url-color;
+    margin-right: 0.35rem;
+  }
+
+  .reference {
+    font-size: 0.95rem;
+    color: $body-color;
+    line-height: 1.6;
+    padding: 1rem;
+    background: $bg-elevated;
+    border-radius: 6px;
+    border-left: 3px solid $url-color;
+  }
+
+  // ------ Credits ------
+  &__credits {
+    font-size: 0.8rem;
+    color: $muted-color;
+    font-style: italic;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid $border-color;
+  }
+
+  // ------ Related Press ------
+  &__related {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid $border-color;
+  }
+
+  &__related-heading {
+    font-family: $font-family-mono;
+    font-size: 1.25rem;
+    color: $heading-color;
+    margin-bottom: 1rem;
+    letter-spacing: -0.01em;
+
+    &::before {
+      content: "## ";
+      color: $url-color;
+      opacity: 0.5;
+    }
+  }
+
+  &__press-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__press-item {
+    padding: 0.6rem 0;
+    border-bottom: 1px solid rgba($border-color, 0.5);
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    a {
+      color: $body-color;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: color 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+
+      &:hover {
+        color: $url-color;
+        text-decoration: none;
+      }
+
+      .fa-external-link {
+        font-size: 0.7rem;
+        color: $muted-color;
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+// ============================================================================
+// Legacy list styles (used by other page types)
+// ============================================================================
+
 .list {
   .more {
     float: left;

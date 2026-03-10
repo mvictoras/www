@@ -1,46 +1,62 @@
 {{ define "main" }}
-<div class="container-fluid single">
+<article class="single-post">
+  {{/* Hero image with gradient fade */}}
+  {{ with .Resources.GetMatch (string (index $.Params.images 0)) }}
+  <div class="single-post__hero">
+    <img class="single-post__hero-img" src="{{ (.Fill "1400x500").Permalink }}" alt="{{ $.Page.Title }}">
+    <div class="single-post__hero-fade"></div>
+  </div>
+  {{ end }}
+
   <div class="container">
-    {{ with .Resources.GetMatch (string (index $.Params.images 0)) }}
-      <img class="img-fluid" src="{{ (.Fill "1140x500").Permalink }}" alt=" {{ $.Page.Title }}">
-    {{ end }}
     <div class="row">
       <div class="col-lg-8">
-        <h1 class="mt-4">{{ $.Page.Title }}</h1>
-        <div class="d-flex justify-content-between my-3">
-          <h4 class="text-muted">{{ $.Page.Date.Format "January 2, 2006" }}</h4> 
-          <div>{{- partial "sharing.html" (dict "title" .Page.Title "permalink" .Page.Permalink) -}}</div>
+        <header class="single-post__header">
+          <time class="single-post__date" datetime="{{ $.Page.Date.Format "2006-01-02" }}">{{ $.Page.Date.Format "02 Jan 2006" }}</time>
+          <h1 class="single-post__title">{{ $.Page.Title }}</h1>
+          <div class="single-post__share">
+            {{- partial "sharing.html" (dict "title" .Page.Title "permalink" .Page.Permalink) -}}
+          </div>
+        </header>
+
+        <div class="single-post__content">
+          {{ .Content }}
         </div>
-        {{.Content}}
+
         {{ with .Params.image_credits }}
-          <small>Image credits: {{ . }}</small>
+          <p class="single-post__credits">Image credits: {{ . }}</p>
         {{ end }}
-        
+
         {{ with .Params.related_press }}
-          <hr class="mt-4"/>
-          <h2>Related Press</h2>
-          <ul class="list-group list-group-flush related-press">
-            <!-- Iterate over the post's tags and then iterate over each press item's tags to find a match -->
-            {{ range . }}
-              {{ $cur_tag := . }}
-              
-              {{ range site.Data.press.web }}
-                {{ $cur_item := . }}
-                {{ with .tags }}
+          <div class="single-post__related">
+            <h2 class="single-post__related-heading">Related Press</h2>
+            <ul class="single-post__press-list">
+              {{ range . }}
+                {{ $cur_tag := . }}
+                {{ range site.Data.press.web }}
+                  {{ $cur_item := . }}
+                  {{ with .tags }}
                     {{ if in . $cur_tag }}
-                      <li class="list-group-item py-1"><a href="{{ $cur_item.url }}" target="_blank">{{ $cur_item.title }} <i class="fa fa-external-link text-muted"></i></a></li>
+                      <li class="single-post__press-item">
+                        <a href="{{ $cur_item.url }}" target="_blank">
+                          {{ $cur_item.title }}
+                          <i class="fa fa-external-link"></i>
+                        </a>
+                      </li>
                     {{ end }}
+                  {{ end }}
                 {{ end }}
               {{ end }}
-            {{ end }}
-          {{ end }}
-        </ul>
-      </div> <!-- End col-lg-8 --> 
+            </ul>
+          </div>
+        {{ end }}
+
+      </div>
 
       <div class="col-lg-4">
         {{- partial "components/sidebar.html" . -}}
       </div>
     </div>
-</div>
-</div>
+  </div>
+</article>
 {{ end }}
