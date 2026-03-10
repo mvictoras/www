@@ -11,11 +11,7 @@ contact: |
 about_image: "images/Mateevitsi_SpiderSense_VR_hub24077e8499f5664e9b792c14d04a14c_267391_1920x0_resize_q75_catmullrom.jpg"
 contact_image: "images/Mateevitsi_batcave_hu839df68b59191f670988ad210d60a093_370657_1920x0_resize_q75_catmullrom.jpg"
 hero_image: |
-  <div class="col-8 align-self-end p-0 home-image-fingers">
-    <div class="w-100 h-100 d-flex p-0 home-image-mateevitsi">
-      <img src="images/groku.png" class="img-fluid float-end lazyload home-image-groku" alt="Victor Mateevitsi wearing a HoloLens and holding Groku">
-    </div>
-  </div>
+  <img src="images/groku.png" class="img-fluid ms-auto d-block lazyload home-image-groku" alt="Victor Mateevitsi wearing a HoloLens and holding Groku">
 ---
 I am an Assistant Computer Scientist at the [Argonne Leadership Computing Facility](https://www.alcf.anl.gov) at the [Argonne National Laboratory](https://www.anl.gov). I am the founder and chair of [ChicagoCHI](https://www.chicagochi.org) and co-founder of [PICKLE](https://www.thisispickle.com/). I also consult startups and companies on HCI, UX, Virtual Reality, Augmented Reality, and emerging technologies. When I am not working, I play ice hockey, snowboard, sail, read, make things at [Pumping Station: One](https://www.pumpingstationone.org), or develop future technologies like [SpiderSense](/news/sensing-the-environment-through-spidersense).
 
