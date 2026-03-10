@@ -1,129 +1,92 @@
-// Helper mixin for clipping (used in keyframes)
-@mixin rect($top, $bottom) {
-  clip: rect($top, 9999px, $bottom, 0);
+// Chromatic Aberration Effect
+// Three text layers with mix-blend-mode: screen for additive color blending.
+// Each layer is offset slightly to produce RGB-split fringes.
+
+// Layer colors (warm palette)
+$ca-color-1: $url-color;       // #fc9d00 — orange accent
+$ca-color-2: $heading-color;   // #e6edf3 — near-white
+$ca-color-3: #e05a2b;          // warm red-orange
+
+// Container
+.skill {
+  position: relative;
+  display: inline-block;
+  // Reserve space based on the first (static) layer
+  // The other two layers are absolutely positioned on top
 }
 
-// Keyframe definitions (global)
-@keyframes glitch-animation {
-  0%   { @include rect(42px, 44px); }
-  5%   { @include rect(12px, 59px); }
-  10%  { @include rect(48px, 29px); }
-  15.0% { @include rect(42px, 73px); }
-  20%  { @include rect(63px, 27px); }
-  25%  { @include rect(34px, 55px); }
-  30.0% { @include rect(86px, 73px); }
-  35%  { @include rect(20px, 20px); }
-  40%  { @include rect(26px, 60px); }
-  45%  { @include rect(25px, 66px); }
-  50%  { @include rect(57px, 98px); }
-  55.0% { @include rect(5px, 46px); }
-  60.0% { @include rect(82px, 31px); }
-  65%  { @include rect(54px, 27px); }
-  70%  { @include rect(28px, 99px); }
-  75%  { @include rect(45px, 69px); }
-  80%  { @include rect(23px, 85px); }
-  85.0% { @include rect(54px, 84px); }
-  90%  { @include rect(45px, 47px); }
-  95%  { @include rect(37px, 20px); }
-  100% { @include rect(4px, 91px); }
-}
-
-@keyframes glitch-animation-2 {
-  0%   { @include rect(65px, 100px); }
-  5%   { @include rect(52px, 74px); }
-  10%  { @include rect(79px, 85px); }
-  15.0% { @include rect(75px, 5px); }
-  20%  { @include rect(67px, 61px); }
-  25%  { @include rect(14px, 79px); }
-  30.0% { @include rect(1px, 66px); }
-  35%  { @include rect(86px, 30px); }
-  40%  { @include rect(23px, 98px); }
-  45%  { @include rect(85px, 72px); }
-  50%  { @include rect(71px, 75px); }
-  55.0% { @include rect(2px, 48px); }
-  60.0% { @include rect(30px, 16px); }
-  65%  { @include rect(59px, 50px); }
-  70%  { @include rect(41px, 62px); }
-  75%  { @include rect(2px, 82px); }
-  80%  { @include rect(47px, 73px); }
-  85.0% { @include rect(3px, 27px); }
-  90%  { @include rect(26px, 55px); }
-  95%  { @include rect(42px, 97px); }
-  100% { @include rect(38px, 49px); }
-}
-
-// The mixin that generates the glitch container styles
-@mixin glitch($bg-color, $delay-before: 0s, $delay-after: 0s) {
-  // Set a local variable for the glitch background
-  $glitch-bg-color: $bg-color;
-
+// Shared base for all three text layers
+.skill-text {
   font-family: $font-family-mono;
   font-weight: 700;
+  text-transform: uppercase;
   letter-spacing: -0.02em;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-
-  a {
-    text-decoration: none;
-    &:link,
-    &:visited {
-      color: #FFF;
-    }
-    &:hover {
-      color: #FF00F0;
-    }
-    &:active {
-      color: $bg-color;
-    }
-  }
-
-  .glitch {
-    position: relative;
-    margin: 0 auto;
-  
-    &::before,
-    &::after {
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
-      animation-direction: alternate-reverse;
-      overflow: hidden;
-      position: absolute;
-      top: 0;
-      clip: rect(0, 900px, 0, 0);
-      content: attr(data-text);
-    }
-  
-    &::after {
-      animation-name: glitch-animation;
-      animation-duration: 6s;
-      animation-delay: $delay-after;
-      left: 2px;
-      text-shadow: -1px 0 rgba(252, 157, 0, 0.6);
-      background: $glitch-bg-color;
-    }
-  
-    &::before {
-      animation-name: glitch-animation-2;
-      animation-duration: 8s;
-      animation-delay: $delay-before;
-      left: -2px;
-      text-shadow: 1px 0 rgba(230, 237, 243, 0.4);
-      background: $glitch-bg-color;
-    }
-  }
+  display: block;
+  white-space: nowrap;
 }
 
-// -----------------------
-// Usage Example:
-// -----------------------
+// Layers 1 & 3 are positioned on top of layer 2 (the "base" in-flow layer)
+.layer1,
+.layer3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
 
-// Instead of defining global variables, you can now include the mixin
-// with your desired background color:
-//
-// .glitch-container {
-//   @include glitch-container(#4242e6);
-// }
+// Layer 1 — orange accent
+.layer1 {
+  color: $ca-color-1;
+  mix-blend-mode: screen;
+  transform: translate(2px, 2px);
+  animation: ca-layer1 2.5s ease-in-out infinite;
+}
+
+// Layer 2 — near-white, sits in normal flow (establishes box size)
+.layer2 {
+  color: $ca-color-2;
+  mix-blend-mode: screen;
+  transform: translate(0, 0);
+  animation: ca-layer2 2.5s ease-in-out infinite;
+}
+
+// Layer 3 — warm red-orange
+.layer3 {
+  color: $ca-color-3;
+  mix-blend-mode: screen;
+  transform: translate(-2px, -2px);
+  animation: ca-layer3 2.5s ease-in-out infinite;
+}
+
+// Keyframes — subtle jitter, slower than CodePen original
+
+@keyframes ca-layer1 {
+  0%   { transform: translate(2px, 2px); }
+  15%  { transform: translate(3px, 3px); }
+  30%  { transform: translate(2px, 2px); }
+  45%  { transform: translate(3px, 3px); }
+  60%  { transform: translate(2px, 2px); }
+  75%  { transform: translate(3px, -1px); }
+  100% { transform: translate(2px, 2px); }
+}
+
+@keyframes ca-layer2 {
+  0%   { transform: translate(0, 0); }
+  15%  { transform: translate(-1px, -1px); }
+  30%  { transform: translate(0, 0); }
+  45%  { transform: translate(-1px, -1px); }
+  60%  { transform: translate(0, 0); }
+  75%  { transform: translate(-1px, 1px); }
+  100% { transform: translate(0, 0); }
+}
+
+@keyframes ca-layer3 {
+  0%   { transform: translate(-2px, -2px); }
+  15%  { transform: translate(-3px, -3px); }
+  30%  { transform: translate(-2px, -2px); }
+  45%  { transform: translate(0, 0); }
+  60%  { transform: translate(-2px, -2px); }
+  75%  { transform: translate(-2px, -3px); }
+  100% { transform: translate(-2px, -2px); }
+}

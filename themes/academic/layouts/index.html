@@ -6,9 +6,21 @@
     <div class="row align-items-center h-100">
       <div class="col-4">
         <div class="skills mb-4">
-          <div class="my-3 w-auto skill1 d-inline-block"><span class="glitch" data-text="Rεs@ercheR">{{ index (.Params.skills) 0 }}</span></div>
-          <div class="my-3 w-auto skill2 d-inline-block"><span class="glitch" data-text="eng1n3er">{{ index (.Params.skills) 1 }}</span></div>
-          <div class="my-3 w-auto skill3 d-inline-block"><span class="glitch" data-text="sc1entiSt">{{ index (.Params.skills) 2 }}</span></div>
+          <div class="my-3 w-auto skill d-inline-block">
+            <span class="skill-text layer1">{{ index (.Params.skills) 0 }}</span>
+            <span class="skill-text layer2">{{ index (.Params.skills) 0 }}</span>
+            <span class="skill-text layer3">{{ index (.Params.skills) 0 }}</span>
+          </div>
+          <div class="my-3 w-auto skill d-inline-block">
+            <span class="skill-text layer1">{{ index (.Params.skills) 1 }}</span>
+            <span class="skill-text layer2">{{ index (.Params.skills) 1 }}</span>
+            <span class="skill-text layer3">{{ index (.Params.skills) 1 }}</span>
+          </div>
+          <div class="my-3 w-auto skill d-inline-block">
+            <span class="skill-text layer1">{{ index (.Params.skills) 2 }}</span>
+            <span class="skill-text layer2">{{ index (.Params.skills) 2 }}</span>
+            <span class="skill-text layer3">{{ index (.Params.skills) 2 }}</span>
+          </div>
         </div>
       </div>
       {{ .Params.hero_image | safeHTML }}

@@ -36,7 +36,7 @@
   filter: drop-shadow(0 0 40px rgba($url-color, 0.15));
 }
 
-// Skills (glitch labels in hero)
+// Skills (chromatic aberration labels in hero)
 .skills {
   @include font-size(3rem);
 
@@ -51,24 +51,6 @@
   @include media-breakpoint-down(sm) {
     @include font-size(1.5rem);
   }
-
-  font-weight: 700;
-  color: #000; // text on colored skill blocks stays black
-}
-
-.skill1 {
-  background-color: $skill1-color;
-  @include glitch($skill1-color);
-}
-
-.skill2 {
-  background-color: $skill2-color;
-  @include glitch($skill2-color, 0.15s, 0.15s);
-}
-
-.skill3 {
-  background-color: $skill3-color;
-  @include glitch($skill3-color, 0.3s, 0.3s);
 }
 
 // Bio section
