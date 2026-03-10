@@ -2,7 +2,7 @@
   {{/* Clean page header with orange accent bar */}}
   <div class="container page-header">
     <div class="row">
-      <div class="col-lg-8">
+      <div class="col-lg-9">
         <div class="page-header__inner">
           <span class="page-header__accent"></span>
           <h1 class="page-header__title">{{ .Page.Title }}</h1>
@@ -21,12 +21,12 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-lg-8">
+      <div class="col-lg-9">
         <div class="single-post__content">
           {{ .Content }}
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-3">
         {{- partial "components/sidebar.html" . -}}
       </div>
     </div>

@@ -2,7 +2,7 @@
   {{/* Clean page header with orange accent bar — all list pages */}}
   <div class="container page-header">
     <div class="row">
-      <div class="col-lg-8">
+      <div class="col-lg-9">
         <div class="page-header__inner">
           <span class="page-header__accent"></span>
           <h1 class="page-header__title">{{ .Page.Title }}</h1>
@@ -21,7 +21,7 @@
   </div>
   <div class="container list">
     <div class="row">
-      <div class="col-lg-8">
+      <div class="col-lg-9">
         {{ if (eq .Page.Type "press") }}
           {{ block "items-list" . }}{{ partial "press/list.html" . }}{{ end }}
         {{ else if (eq .Page.Type "news") }}
@@ -32,7 +32,7 @@
           {{ block "videos-list" . }}{{ partial "videos/list.html" . }}{{ end }}
         {{ end }}
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-3">
         {{- partial "components/sidebar.html" . -}}
       </div>
     </div>
