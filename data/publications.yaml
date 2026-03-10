@@ -1,4 +1,28 @@
 journals:
+  - title: "The ECP ALPINE project: In situ and post hoc visualization infrastructure and analysis capabilities for exascale"
+    authors: "James P. Ahrens, Marco Arienti, Utkarsh Ayachit, Janine Bennett, Roba Binyahib, Ayan Biswas, Peer-Timo Bremer, Eric Brugger, Roxana Bujack, Hamish A. Carr, Jieyang Chen, Hank Childs, Soumya Dutta, Abdelilah Essiari, Berk Geveci, Cyrus Harrison, Subhashis Hazarika, Megan Hickman Fulp, Petar Hristov, Xuan Huang, Joseph A. Insley, Yuya Kawakami, Chloe Keilers, James Kress, Matthew Larsen, Dan Lipsa, Meghanto Majumder, Nicole Marsaglia, <strong>Victor A. Mateevitsi</strong>, Valerio Pascucci, John Patchett, Saumil Patel, Steve Petruzza, David Pugmire, Silvio Rizzi, David H. Rogers, Oliver Rübel, Jorge Sebastian Salinas, Sudhanshu Sane, Sergei Shudler, Alexandra Stewart, Karen C. Tsai, Terece L. Turton, Will Usher, Zhe Wang, Gunther H. Weber, Corey Wetterer-Nelson, Jonathan Woodring, Abhishek Yenpure"
+    venue: "International Journal of High Performance Computing Applications"
+    volume: "39(1)"
+    pages: "32--51"
+    year: 2025
+    doi: "10.1177/10943420241286521"
+
+  - title: "Distributed Neural Representation for Reactive In Situ Visualization"
+    authors: "Qi Wu, Joseph A. Insley, <strong>Victor A. Mateevitsi</strong>, Silvio Rizzi, Michael E. Papka, Kwan-Liu Ma"
+    venue: "IEEE Transactions on Visualization and Computer Graphics"
+    volume: "31(9)"
+    pages: "5199--5214"
+    year: 2024
+    doi: "10.1109/TVCG.2024.3432710"
+
+  - title: "2023 IEEE Scientific Visualization Contest Winner: VisAnywhere: Developing Multiplatform Scientific Visualization Applications"
+    authors: "Thomas Marrinan, <strong>Victor A. Mateevitsi</strong>, Madeleine Moeller, Alina Kanayinkal, Michael E. Papka"
+    venue: "IEEE Computer Graphics and Applications"
+    volume: "44(5)"
+    pages: "93--103"
+    year: 2024
+    doi: "10.1109/MCG.2024.3444460"
+
   - title: "CheckMyFit: Ear Selfie to Assist User Insertion of Hearing Aids"
     authors: "Qi Yang, Michalis Papakostas, Jack M. Scott, Erin R. O'Neill, Kirill Sergeyevich Kondrashov, <strong>Victor A. Mateevitsi</strong>, Gregory Olsen, Andrew Burke Dittberner"
     venue: "Proceedings of the ACM on Human-Computer Interaction"
@@ -7,6 +31,12 @@ journals:
     year: 2022
     doi: "10.1145/3546721"
     url: "https://dl.acm.org/doi/10.1145/3546721"
+
+  - title: "Communication, Machines & Human Augmentics"
+    authors: "Marek Novak, Jeremy Archer, <strong>Victor Mateevitsi</strong>, Steve Jones"
+    venue: "communication+1"
+    volume: "5(1)"
+    year: 2016
 
   - title: "Communication technology for silver generation"
     authors: "Marek Novak, <strong>Victor Mateevitsi</strong>"
@@ -61,6 +91,132 @@ journals:
     url: "https://doi.org/10.1007/s00040-013-0301-y"
 
 conferences:
+  - title: "An Interactive Agentic HPC Tutor for Lesson Planning, Teaching, and Assessment"
+    authors: "Erik Pautsch, Mengjiao Han, Joseph A. Insley, Janet Knowles, <strong>Victor A. Mateevitsi</strong>, Silvio Rizzi, George K. Thiruvathukal"
+    venue: "Proceedings of the SC '25 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis"
+    pages: "367--375"
+    year: 2025
+    doi: "10.1145/3731599.3767386"
+
+  - title: "Free Lunch in In Situ Visualization: Leveraging Idle CPU Resources to Mitigate GPU Contention"
+    authors: "<strong>Victor A. Mateevitsi</strong>, Andres Sewell, Jens Henrik Göbbert, Mathis Bode, Paul F. Fischer, Joseph A. Insley, Ioannis Kavroulakis, Damaskinos Konioris, Yu-Hsiang Lan, Misun Min, Dimitrios Papageorgiou, Steve Petruzza, Silvio Rizzi, Ananias Tomboulides, Michael E. Papka"
+    venue: "IEEE 15th Symposium on Large Data Analysis and Visualization (LDAV)"
+    pages: "12--21"
+    year: 2025
+    doi: "10.1109/LDAV68558.2025.00006"
+
+  - title: "Intuitive Computational Steering Using Ascent and Trame"
+    authors: "Thomas Marrinan, Andres Sewell, <strong>Victor A. Mateevitsi</strong>, Steve Petruzza, Jifu Tan, Dimitrios K. Fytanidis, Michael E. Papka"
+    venue: "IEEE International Conference on eScience (eScience)"
+    pages: "10--19"
+    year: 2025
+    doi: "10.1109/eScience65000.2025.00011"
+
+  - title: "Interactive Exploration of HACC Cosmology Data using WebXR"
+    authors: "Idunnuoluwa A. Adeniji, Joseph A. Insley, Mengjiao Han, Janet Knowles, Michael E. Papka, <strong>Victor A. Mateevitsi</strong>, Silvio Rizzi"
+    venue: "IEEE International Conference on eScience (eScience)"
+    pages: "307--308"
+    year: 2025
+    doi: "10.1109/eScience65000.2025.00044"
+
+  - title: "Toward Dynamic Gaussian Rendering for Digital Twins"
+    authors: "Eero Dunham, Mengjiao Han, <strong>Victor A. Mateevitsi</strong>, Joseph A. Insley, Michael E. Papka, Silvio Rizzi, Janet Knowles"
+    venue: "IEEE International Conference on eScience (eScience)"
+    pages: "353--354"
+    year: 2025
+    doi: "10.1109/eScience65000.2025.00067"
+
+  - title: "GENIUS: AI Powered Assistant for Scientific Research"
+    authors: "Ricky Massa, Aaqel Shaik, Brian Ta, Mengjiao Han, Joseph A. Insley, Janet Knowles, <strong>Victor A. Mateevitsi</strong>, Michael E. Papka, Silvio Rizzi, Shilpika"
+    venue: "IEEE International Conference on eScience (eScience)"
+    pages: "347--348"
+    year: 2025
+    doi: "10.1109/eScience65000.2025.00064"
+
+  - title: "Modular Agentic System for Scientific Visualization in Mixed Reality"
+    authors: "Aaqel Shaik, Ricky Massa, Brian Ta, Mengjiao Han, Joseph A. Insley, Janet Knowles, <strong>Victor A. Mateevitsi</strong>, Michael E. Papka, Silvio Rizzi, Shilpika"
+    venue: "IEEE International Conference on eScience (eScience)"
+    pages: "351--352"
+    year: 2025
+    doi: "10.1109/eScience65000.2025.00066"
+
+  - title: "Toward Distributed 3D Gaussian Splatting for High-Resolution Isosurface Visualization"
+    authors: "Mengjiao Han, Andres Sewell, Joseph A. Insley, Janet Knowles, <strong>Victor A. Mateevitsi</strong>, Michael E. Papka, Steve Petruzza, Silvio Rizzi"
+    venue: "IEEE International Conference on eScience (eScience)"
+    pages: "331--332"
+    year: 2025
+    doi: "10.1109/eScience65000.2025.00056"
+
+  - title: "Real-time Scientific Visualization and Interactive Steering for High-Performance Computing Simulations"
+    authors: "Thomas Marrinan, Andres Sewell, <strong>Victor A. Mateevitsi</strong>, Steve Petruzza, Jifu Tan, Dimitrios K. Fytanidis, Michael E. Papka"
+    venue: "Practice and Experience in Advanced Research Computing (PEARC)"
+    pages: "1--4"
+    year: 2025
+    doi: "10.1145/3708035.3736031"
+
+  - title: "Bridging Gaps in Simulation Analysis through a General Purpose, Bidirectional Steering Interface with Ascent"
+    authors: "Andres Sewell, Dimitrios K. Fytanidis, <strong>Victor A. Mateevitsi</strong>, Cyrus Harrison, Nicole Marsaglia, Thomas Marrinan, Silvio Rizzi, Joseph A. Insley, Michael E. Papka, Steve Petruzza"
+    venue: "Proceedings of the SC '24 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis"
+    pages: "841--846"
+    year: 2024
+    doi: "10.1109/SCW63240.2024.00119"
+
+  - title: "Science in a Blink: Supporting Ensemble Perception in Scalar Fields"
+    authors: "<strong>Victor A. Mateevitsi</strong>, Michael E. Papka, Khairi Reda"
+    venue: "IEEE Visualization and Visual Analytics (VIS)"
+    pages: "216--220"
+    year: 2024
+    doi: "10.1109/VIS55277.2024.00051"
+
+  - title: "Visuals on the House: Optimizing HPC Workflows with No-Cost CPU Visualization"
+    authors: "<strong>Victor A. Mateevitsi</strong>, Andres Sewell, Mathis Bode, Paul F. Fischer, Jens Henrik Göbbert, Joseph A. Insley, Ioannis Kavroulakis, Damaskinos Konioris, Yu-Hsiang Lan, Misun Min, Dimitrios Papageorgiou, Michael E. Papka, Steve Petruzza, Silvio Rizzi, Ananias Tomboulides"
+    venue: "IEEE 14th Symposium on Large Data Analysis and Visualization (LDAV)"
+    pages: "69--70"
+    year: 2024
+    doi: "10.1109/LDAV64567.2024.00016"
+
+  - title: "Graphical Representation Through a User Interface for In Situ Scientific Visualization with Ascent"
+    authors: "Colleen Heinemann, Jefferson Amstutz, Joseph A. Insley, <strong>Victor A. Mateevitsi</strong>, Michael E. Papka, Silvio Rizzi"
+    venue: "IEEE 14th Symposium on Large Data Analysis and Visualization (LDAV)"
+    pages: "71--72"
+    year: 2024
+    doi: "10.1109/LDAV64567.2024.00017"
+
+  - title: "Exploring Large-Scale Scientific Data in Virtual Reality"
+    authors: "Idunnuoluwa A. Adeniji, Joseph A. Insley, David A. Joiner, <strong>Victor A. Mateevitsi</strong>, Michael E. Papka, Silvio Rizzi"
+    venue: "IEEE 14th Symposium on Large Data Analysis and Visualization (LDAV)"
+    pages: "75--76"
+    year: 2024
+    doi: "10.1109/LDAV64567.2024.00019"
+
+  - title: "High-quality Approximation of Scientific Data using 3D Gaussian Splatting"
+    authors: "Andres Sewell, Landon Dyken, <strong>Victor A. Mateevitsi</strong>, Will Usher, Jefferson Amstutz, Thomas Marrinan, Khairi Reda, Silvio Rizzi, Joseph A. Insley, Michael E. Papka, Sidharth Kumar, Steve Petruzza"
+    venue: "IEEE 14th Symposium on Large Data Analysis and Visualization (LDAV)"
+    pages: "73--74"
+    year: 2024
+    doi: "10.1109/LDAV64567.2024.00018"
+
+  - title: "Scaling Computational Fluid Dynamics: In Situ Visualization of NekRS using SENSEI"
+    authors: "<strong>Victor A. Mateevitsi</strong>, Mathis Bode, Nicola J. Ferrier, Paul F. Fischer, Jens Henrik Göbbert, Joseph A. Insley, Yu-Hsiang Lan, Misun Min, Michael E. Papka, Saumil Patel, Silvio Rizzi, Jonathan Windgassen"
+    venue: "Proceedings of the SC '23 Workshops of the International Conference on High Performance Computing, Network, Storage, and Analysis (ISAV)"
+    pages: "862--867"
+    year: 2023
+    doi: "10.1145/3624062.3624159"
+    award: "Best Paper Award"
+
+  - title: "Performance Evaluation of Heterogeneous GPU Programming Frameworks for Hemodynamic Simulations"
+    authors: "Aristotle X. Martin, Geng Liu, William Ladd, Seyong Lee, John Gounley, Jeffrey S. Vetter, Saumil Patel, Silvio Rizzi, <strong>Victor A. Mateevitsi</strong>, Joseph A. Insley, Amanda Randles"
+    venue: "Proceedings of the SC '23 Workshops of the International Conference on High Performance Computing, Network, Storage, and Analysis"
+    pages: "1126--1137"
+    year: 2023
+    doi: "10.1145/3624062.3624188"
+
+  - title: "Interactive Blood Flow Simulation with Deformable Cells and Walls"
+    authors: "Nazariy Tishchenko, Nicola Ferrier, Joseph A. Insley, <strong>Victor A. Mateevitsi</strong>, Michael E. Papka, Silvio Rizzi, Jifu Tan"
+    venue: "IEEE VIS"
+    pages: "1--2"
+    year: 2023
+
   - title: "Cinema Transfer: A Containerized Visualization Workflow"
     authors: "Isaac Nealey, Nicola Ferrier, Joseph Insley, <strong>Victor A. Mateevitsi</strong>, Michael E. Papka, Silvio Rizzi"
     venue: "ISC High Performance 2022 International Workshops (LNCS)"
@@ -153,10 +309,11 @@ conferences:
     year: 2011
     doi: "10.1007/978-3-642-24031-7_2"
 
-  - title: "A game-engine-based virtual reality framework"
-    authors: "<strong>Victor Mateevitsi</strong>, George Lepouras, Costas Vassilakis"
-    venue: "Pan-Hellenic Conference on Informatics (PCI)"
+  - title: "A game-engine based virtual museum authoring and presentation system"
+    authors: "<strong>Victor Mateevitsi</strong>, Michalis Sfakianos, George Lepouras, Costas Vassilakis"
+    venue: "3rd International Conference on Digital Interactive Media in Entertainment and Arts (DIMEA)"
     year: 2008
+    doi: "10.1145/1413634.1413680"
 
   - title: "Video index and search services based on content identification features"
     authors: "Gregory Doumenis, Serafeim Papastefanos, <strong>Victor Mateevitsi</strong>, Fotis Andritsopoulos, Nikos Achilleopoulos, Anton V. Mikhalev"

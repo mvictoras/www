@@ -23,9 +23,27 @@
       <strong>{{ .title }}</strong>
       <br>{{ .authors | safeHTML }}
       <br><em>{{ .venue }}</em>{{ with .pages }}, pp. {{ . }}{{ end }}, {{ .year }}.
+      {{ with .award }}<br><span class="badge bg-warning text-dark">{{ . }}</span>{{ end }}
       {{ with .doi }}<br><small><a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">DOI: {{ . }}</a></small>{{ end }}
     </div>
   </li>
   {{ end }}
 </ol>
+
+{{ with site.Data.patents }}
+<h3>Patents</h3>
+<ol class="list-group list-group-flush list-group-numbered mb-4">
+  {{ range . }}
+  <li class="list-group-item px-0">
+    <div>
+      <strong>{{ .title }}</strong>
+      <br>{{ .inventors | safeHTML }}
+      <br><em>{{ .assignee }}</em>, {{ .number }}, {{ .status }}.
+      <br><small>Filed: {{ .filed }} &middot; Granted: {{ .granted }}</small>
+      {{ with .url }}<br><small><a href="{{ . }}" target="_blank" rel="noopener">View Patent</a></small>{{ end }}
+    </div>
+  </li>
+  {{ end }}
+</ol>
+{{ end }}
 </div>
