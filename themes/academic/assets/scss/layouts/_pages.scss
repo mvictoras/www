@@ -8,16 +8,16 @@
 }
 
 .image-with-title::before {
-  background-color: #fff;
+  background-color: $bg-color;
   bottom: 0;
-  color: #000;
+  color: $heading-color;
   content: " " attr(id) "";
   display: block;
   font-size: 5rem;
   font-weight: 700;
   line-height: 1.2em;
   margin-bottom: -1px;
-  mix-blend-mode: lighten;
+  mix-blend-mode: normal;
   padding: 0 0 10px;
   position: absolute;
   text-align: center;

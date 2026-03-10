@@ -1,4 +1,43 @@
+.navbar {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: transparent;
+
+  &.scrolled {
+    background-color: rgba($bg-color, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 1px 0 $border-color;
+  }
+}
+
 .navbar-brand {
-  @include font-size(2rem);
-  font-weight: bold;
+  font-family: $font-family-mono;
+  @include font-size(1.6rem);
+  font-weight: 700;
+  color: $heading-color !important;
+  letter-spacing: -0.02em;
+}
+
+.nav-link {
+  font-family: $font-family-mono;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: $muted-color !important;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+
+  &:hover, &.active {
+    color: $url-color !important;
+  }
+}
+
+.navbar-toggler {
+  border-color: $border-color;
+
+  .navbar-toggler-icon {
+    filter: invert(1);
+  }
+}
+
+.dropdown-divider {
+  border-color: $border-color;
 }

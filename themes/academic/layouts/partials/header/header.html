@@ -1,5 +1,5 @@
 <div class="container not-padded">
-  <nav class="navbar navbar-expand-xl navbar-light px-0">
+  <nav class="navbar navbar-expand-xl navbar-dark px-0">
     <a class="navbar-brand px-0" href="{{ "/" | relURL}}">{{ site.Params.title }}</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -23,4 +23,17 @@
       <div class="dropdown-divider"></div>
     </div>
   </nav>
+  <script>
+  (function(){
+    var nav = document.querySelector('.navbar');
+    if (!nav) return;
+    window.addEventListener('scroll', function(){
+      if (window.scrollY > 50) {
+        nav.classList.add('scrolled');
+      } else {
+        nav.classList.remove('scrolled');
+      }
+    });
+  })();
+  </script>
 </div>

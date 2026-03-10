@@ -16,4 +16,12 @@
   p {
     padding-top: 30px;
   }
+
+  a {
+    color: $url-color;
+
+    &:hover {
+      color: lighten($url-color, 10%);
+    }
+  }
 }

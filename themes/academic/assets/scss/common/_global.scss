@@ -1,25 +1,48 @@
+body {
+  font-family: $font-family;
+  background-color: $bg-color;
+  color: $body-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $heading-color;
+  font-family: $font-family-mono;
+}
+
 a {
   color: $url-color;
   text-decoration: none;
 
   &:hover {
+    color: lighten($url-color, 10%);
     text-decoration: underline;
   }
 }
 
+.card {
+  background: $bg-surface;
+  border: 1px solid $border-color;
+}
+
 .card-title {
-  color: #212529;
+  color: $heading-color;
   font-weight: 600;
 }
 
 .card-text {
-  color: #495057;
+  color: $body-color;
 }
 
-body {
-  font-family: $font-family;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.text-muted {
+  color: $muted-color !important;
+}
+
+.list-group-item {
+  background: transparent;
+  border-color: $border-color;
+  color: $body-color;
 }
 
 canvas {
@@ -61,17 +84,17 @@ blockquote {
   content: " " attr(id) "";
   width: 100%;
   text-transform: capitalize;
-  background-color: #fff;
+  background-color: $bg-color;
   position: absolute;
   bottom: 0;
   display: block;
   padding: 0 0 10px;
   line-height: 1.2em;
   margin-bottom: -1px;
-  color: #000;
+  color: $heading-color;
   text-align: center;
   z-index: 1;
-  mix-blend-mode: lighten;
+  mix-blend-mode: normal;
   font-weight: 700;
   font-size: 6vw;
 }
@@ -93,5 +116,5 @@ blockquote {
 }
 
 .threads-color {
-  color: black !important;
+  color: $muted-color !important;
 }
