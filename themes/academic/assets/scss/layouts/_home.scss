@@ -1,11 +1,11 @@
 // Hero
 .hero {
-  min-height: 100vh;
   position: relative;
   display: flex;
   align-items: center;
   background-color: $bg-color;
   overflow: hidden;
+  padding: 2rem 0;
 }
 
 .hero-scanlines {
