@@ -1,3 +1,56 @@
+// ============================================================================
+// Pagination — dark lab theme
+// ============================================================================
+
 .pagination {
-  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 2rem 0 1rem;
+  margin: 0;
+  list-style: none;
+}
+
+.page-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.25rem;
+  height: 2.25rem;
+  padding: 0 0.5rem;
+  font-family: $font-family-mono;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-radius: 6px;
+  border: 1px solid $border-color;
+  background: $bg-surface;
+  color: $muted-color;
+  text-decoration: none;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: $bg-elevated;
+    border-color: rgba($url-color, 0.4);
+    color: $url-color;
+    text-decoration: none;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px rgba($url-color, 0.2);
+    outline: none;
+  }
+}
+
+.page-item.active .page-link {
+  background: $url-color;
+  border-color: $url-color;
+  color: $bg-color;
+  font-weight: 700;
+}
+
+.page-item.disabled .page-link {
+  background: transparent;
+  border-color: rgba($border-color, 0.4);
+  color: rgba($muted-color, 0.3);
+  cursor: not-allowed;
 }
