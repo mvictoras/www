@@ -1,9 +1,8 @@
 .footer {
   bottom: 0;
   width: 100%;
-  min-height: 60px;
-  padding: 1rem 0;
+  height: 60px;
+  line-height: 60px;
   background-color: rgb(245, 245, 245);
-  font-family: $font-family-sans;
   font-size: $footer-font-size;
 }
