@@ -33,17 +33,10 @@ journals:
     url: "https://dl.acm.org/doi/10.1145/3546721"
 
   - title: "Communication, Machines & Human Augmentics"
-    authors: "Marek Novak, Jeremy Archer, <strong>Victor Mateevitsi</strong>, Steve Jones"
+    authors: "John Novak, Jason Archer, <strong>Victor Mateevitsi</strong>, Steve Jones"
     venue: "communication+1"
     volume: "5(1)"
     year: 2016
-
-  - title: "Communication technology for silver generation"
-    authors: "Marek Novak, <strong>Victor Mateevitsi</strong>"
-    venue: "Sensing Technologies for Global Health, Military Medicine, and Environmental Monitoring VI, SPIE"
-    volume: "9863"
-    year: 2016
-    doi: "10.1117/12.2224262"
 
   - title: "SAGE2: A collaboration portal for scalable resolution displays"
     authors: "Luc Renambot, Thomas Marrinan, Jillian Aurisano, Arthur Nishimoto, <strong>Victor Mateevitsi</strong>, Krishna Bharadwaj, Lance Long, Andy Johnson, Maxine Brown, Jason Leigh"
@@ -291,9 +284,9 @@ conferences:
   - title: "Sensing the Environment through SpiderSense"
     authors: "<strong>Victor Mateevitsi</strong>, Brad Haggadone, Jason Leigh, Brian Kunzer, Robert V. Kenyon"
     venue: "4th Augmented Human International Conference (AH '13)"
-    pages: "92--99"
+    pages: "51--57"
     year: 2013
-    doi: "10.1145/2459236.2459254"
+    doi: "10.1145/2459236.2459246"
 
   - title: "Scalable Visual Queries for Data Exploration on Large, High-Resolution 3D Displays"
     authors: "Khairi Reda, Andrew Johnson, <strong>Victor Mateevitsi</strong>, Catherine Offord, Jason Leigh"
@@ -312,6 +305,7 @@ conferences:
   - title: "A game-engine based virtual museum authoring and presentation system"
     authors: "<strong>Victor Mateevitsi</strong>, Michalis Sfakianos, George Lepouras, Costas Vassilakis"
     venue: "3rd International Conference on Digital Interactive Media in Entertainment and Arts (DIMEA)"
+    pages: "451--457"
     year: 2008
     doi: "10.1145/1413634.1413680"
 

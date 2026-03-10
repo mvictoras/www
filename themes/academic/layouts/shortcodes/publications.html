@@ -4,8 +4,8 @@
 <h3>Journal Articles</h3>
 <ol class="list-group list-group-flush list-group-numbered mb-5">
   {{ range $pubs.journals }}
-  <li class="list-group-item px-0">
-    <div>
+  <li class="list-group-item px-0 d-flex">
+    <div class="ms-2">
       <strong>{{ .title }}</strong>
       <br>{{ .authors | safeHTML }}
       <br><em>{{ .venue }}</em>{{ with .volume }}, vol. {{ . }}{{ end }}{{ with .pages }}, pp. {{ . }}{{ end }}, {{ .year }}.
@@ -18,8 +18,8 @@
 <h3>Conference Proceedings</h3>
 <ol class="list-group list-group-flush list-group-numbered mb-4">
   {{ range $pubs.conferences }}
-  <li class="list-group-item px-0">
-    <div>
+  <li class="list-group-item px-0 d-flex">
+    <div class="ms-2">
       <strong>{{ .title }}</strong>
       <br>{{ .authors | safeHTML }}
       <br><em>{{ .venue }}</em>{{ with .pages }}, pp. {{ . }}{{ end }}, {{ .year }}.
@@ -34,8 +34,8 @@
 <h3>Patents</h3>
 <ol class="list-group list-group-flush list-group-numbered mb-4">
   {{ range . }}
-  <li class="list-group-item px-0">
-    <div>
+  <li class="list-group-item px-0 d-flex">
+    <div class="ms-2">
       <strong>{{ .title }}</strong>
       <br>{{ .inventors | safeHTML }}
       <br><em>{{ .assignee }}</em>, {{ .number }}, {{ .status }}.
