@@ -47,6 +47,57 @@ strong {
   color: $heading-color;
 }
 
+// Bootstrap list-group dark theme (used by publications, talks, CV, updates, contact)
+.list-group-item {
+  background: transparent;
+  border-color: $border-color;
+  color: $body-color;
+
+  &.list-group-item-action {
+    &:hover, &:focus {
+      background-color: $bg-surface;
+      color: $heading-color;
+    }
+  }
+}
+
+// Bootstrap table dark theme (used by vis-deadlines)
+.table {
+  --bs-table-bg: transparent;
+  --bs-table-color: #{$body-color};
+  --bs-table-border-color: #{$border-color};
+  --bs-table-striped-bg: #{$bg-surface};
+  --bs-table-hover-bg: #{$bg-surface};
+
+  th, td {
+    color: $body-color;
+    border-color: $border-color;
+  }
+
+  thead th {
+    color: $heading-color;
+    border-bottom-color: $border-color;
+  }
+}
+
+// Bootstrap card header/footer dark theme
+.card-header {
+  background-color: rgba($bg-elevated, 0.8);
+  border-bottom-color: $border-color;
+  color: $heading-color;
+}
+
+.card-footer {
+  background-color: rgba($bg-elevated, 0.5);
+  border-top-color: $border-color;
+}
+
+// Badge dark theme
+.badge.bg-warning {
+  background-color: $url-color !important;
+  color: #000 !important;
+}
+
 // Pagination dark theme — see components/_pagination.scss
 
 // Buttons dark theme
