@@ -12,7 +12,9 @@
     }
   }
 
-  .footer {
-    border-top: none;
+  .footer-copyright {
+    border-top: 1px solid $border-color;
+    margin-top: 1rem;
+    padding-top: 1rem;
   }
 }
