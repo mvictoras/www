@@ -1,26 +1,28 @@
 {{ $scratch := .Scratch }}
-<div class="news-grid">
+<div class="press-list">
   {{ range site.Data.press.web }}
-    
     {{ if and .url .date .text .title .image .publication }}
-      
-      {{ $scratch.Set "dict" (dict "Title" .publication "Date" (time .date) "Content" .text "RelPermalink" .url "target" "_blank") }}
+      {{ $date := time .date }}
+      {{ $src := "" }}
       {{ if .image }}
         {{ $image := $.Resources.GetMatch .image }}
-          {{ $src := ($image.Fill site.Params.articlePhotoSize).RelPermalink }}
-          {{ $scratch.Set "perm" $src }}
-          {{ $scratch.Set "dict" (merge ($scratch.Get "dict") (dict "imgRelPermalink" $src)) }}
+        {{ $src = ($image.Fill "120x120 Center").RelPermalink }}
       {{ else }}
         {{ $image := $.Resources.GetMatch (print "*" (replace .title ":" "") "*") }}
-          {{ $src := ($image.Fill site.Params.articlePhotoSize).RelPermalink }}
-          {{ $scratch.Set "perm" $src }}
-          {{ $scratch.Set "dict" (merge ($scratch.Get "dict") (dict "imgRelPermalink" $src)) }}
+        {{ $src = ($image.Fill "120x120 Center").RelPermalink }}
       {{ end }}
-
-
-
-      {{ partial "components/article" ($scratch.Get "dict") }}
-
+      <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="press-item">
+        <div class="press-item__image">
+          <img class="lazyload" src="{{ $src }}" alt="{{ .publication }}">
+        </div>
+        <div class="press-item__body">
+          <time class="press-item__date" datetime="{{ $date.Format "2006-01-02" }}">// {{ $date.Format "02 Jan 2006" }}</time>
+          <h3 class="press-item__title">{{ .title }}</h3>
+          <p class="press-item__source">{{ .publication }}</p>
+          <p class="press-item__excerpt">{{ .text | truncate 180 }}</p>
+        </div>
+        <span class="press-item__arrow"><i class="fa fa-arrow-right"></i></span>
+      </a>
     {{ end }}
   {{ end }}
 </div>
