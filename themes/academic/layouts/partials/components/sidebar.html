@@ -1,46 +1,56 @@
 {{ block "sidebar" .}} {{ end }}
 
-<div class="pb-4">
-  <h3 class="text-end sidebar-heading">Social</h3>
-  <ul class="list-group text-end">
+<div class="sidebar-widget">
+  <h3 class="sidebar-widget__heading">Social</h3>
+  <div class="sidebar-widget__social">
     {{ range site.Data.social }}
-    <li class="list-group-item border-0 p-0"><div><a href="{{ .url }}" class="sidebar-link" target="_blank" rel="noopener noreferrer" aria-label="{{ .name }}">{{ .handle }}<i class="fa-brands fa-{{ .name }} fa-fw"></i></a></div></li>
+    <a href="{{ .url }}" class="sidebar-widget__social-link" target="_blank" rel="noopener noreferrer" aria-label="{{ .name }}">
+      <i class="fa-brands fa-{{ .name }} fa-fw"></i>
+    </a>
     {{ end }}
-  </ul>
+  </div>
 </div>
 
-<div class="pb-4">
-  <h3 class="text-end sidebar-heading">Latest posts</h3>
-  <ul class="list-group list-group-flush text-end">
+<div class="sidebar-widget">
+  <h3 class="sidebar-widget__heading">Latest posts</h3>
+  <ul class="sidebar-widget__list">
   {{ range first 3 (where site.RegularPages "Section" "news") }}
-  <li class="list-group-item border-0 px-0 py-1"><div><a href="{{ .RelPermalink }}" class="sidebar-link">{{ .Title }}</a></div></li>
+    <li class="sidebar-widget__item">
+      <a href="{{ .RelPermalink }}" class="sidebar-widget__link">
+        <span class="sidebar-widget__link-text">{{ .Title }}</span>
+        <i class="fa fa-arrow-right sidebar-widget__arrow"></i>
+      </a>
+    </li>
   {{ end }}
   </ul>
 </div>
 
-<div class="pb-4">
-  <h3 class="text-end sidebar-heading">Latest press</h3>
-  <ul class="list-group list-group-flush text-end">
+<div class="sidebar-widget">
+  <h3 class="sidebar-widget__heading">Latest press</h3>
+  <ul class="sidebar-widget__list">
   {{ range first 3 site.Data.press.web }}
-  <li class="list-group-item border-0 px-0 py-1"><div><a href="{{ .url }}" class="sidebar-link" target="_blank" rel="noopener noreferrer">{{ .title }}</a></div></li>
+    <li class="sidebar-widget__item">
+      <a href="{{ .url }}" class="sidebar-widget__link" target="_blank" rel="noopener noreferrer">
+        <span class="sidebar-widget__link-text">{{ .title }}</span>
+        <i class="fa fa-arrow-right sidebar-widget__arrow"></i>
+      </a>
+    </li>
   {{ end }}
   </ul>
 </div>
 
-<div class="pb-4">
-  <h3 class="text-end sidebar-heading">Updates</h3>
-  <div class="list-group list-group-flush text-end">
+<div class="sidebar-widget">
+  <h3 class="sidebar-widget__heading">Updates</h3>
+  <ul class="sidebar-widget__list">
     {{ range first 5 site.Data.updates }}
       {{ $date := time .date }}
-      <div class="list-group-item border-0 px-0 py-1 d-flex justify-content-between">
-        <div class="text-start m-0 sidebar-link">{{ .title | emojify }}</div>
-        <small class="pl-1 text-muted text-nowrap d-flex align-items-center">{{ $date.Format "2 Jan" }}</small>
-      </div>
+      <li class="sidebar-widget__item sidebar-widget__item--update">
+        <span class="sidebar-widget__update-text">{{ .title | emojify }}</span>
+        <time class="sidebar-widget__date">// {{ $date.Format "02 Jan" }}</time>
+      </li>
     {{ end }}
-    <div class="list-group-item border-0 p-0 d-flex position-relative start-50">
-      <a class="mb-1 text-center sidebar-link" href="/updates">More</a>
-    </div>
-  </div>
+  </ul>
+  <a class="sidebar-widget__more" href="/updates">View all &rarr;</a>
 </div>
 
 {{ $.Scratch.Set "hasEvents" true }}
@@ -52,22 +62,24 @@
 {{ end }}
 
 {{ if $.Scratch.Get "hasEvents" }}
-<div class="pb-4">
-  <h3 class="text-end sidebar-heading">Where to find me</h3>
-  <div class="list-group list-group-flush sidebar-updates">
+<div class="sidebar-widget">
+  <h3 class="sidebar-widget__heading">Where to find me</h3>
+  <ul class="sidebar-widget__list">
     {{ range first 5 site.Data.events }}
       {{ $date := time .date }}
       {{ if $date.After now }}
-        <div class="list-group-item border-0 p-0 update-item">
-          <div class="d-flex w-100 justify-content-between">
-            <a href="{{ .url }}" class="sidebar-link" target="_blank" rel="noopener noreferrer"><div class="mb-1">{{ .title }}</div></a>
-            <small class="text-muted">{{ $date.Format "2 Jan" }}</small>
+        <li class="sidebar-widget__item sidebar-widget__item--event">
+          <div class="sidebar-widget__event-header">
+            <a href="{{ .url }}" class="sidebar-widget__link" target="_blank" rel="noopener noreferrer">
+              <span class="sidebar-widget__link-text">{{ .title }}</span>
+            </a>
+            <time class="sidebar-widget__date">// {{ $date.Format "02 Jan" }}</time>
           </div>
-          <p class="mb-1 description">{{ .description }}</p>
-          <small class="text-muted"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ .city }}</small>
-        </div>
+          <p class="sidebar-widget__event-desc">{{ .description }}</p>
+          <small class="sidebar-widget__event-location"><i class="fa fa-map-marker-alt"></i> {{ .city }}</small>
+        </li>
       {{ end }}
     {{ end }}
-  </div>
+  </ul>
 </div>
 {{ end }}
