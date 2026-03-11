@@ -89,63 +89,63 @@ web:
     title: "Vanguards of HPC-AI: ALCF's Victor Mateevitsi Advances Immersive Collaboration Between People and AI"
     text: "Feature profile on Victor Mateevitsi as part of the Vanguards of HPC-AI series, highlighting his work advancing immersive collaboration between people and AI at the Argonne Leadership Computing Facility."
     url: https://insidehpc.com/2025/05/vanguards-of-hpc-ai-alcfs-victor-mateevitsi-advances-immersive-collaboration-between-people-and-ai/
-    image: 'ANL-VRPL.jpg'
+    image: 'alcf-sc24-bestpaper.jpg'
     tags: [ 'ANL', 'HPC', 'AI' ]
   - date: 2024-12-04
     publication: ALCF News Center
     title: "ALCF teams receive Best Paper awards at SC24 workshops"
     text: "An Argonne-led team received the Best Paper award for 'Bridging Gaps in Simulation Analysis through a General Purpose, Bidirectional Steering Interface with Ascent' at SC24's ISAV 2024 Workshop. The paper was authored by Argonne's Victor Mateevitsi, Silvio Rizzi, Joseph Insley, Michael Papka, Thomas Marrinan, and Dimitrios Fytanidis."
     url: https://www.alcf.anl.gov/news/alcf-teams-receive-best-paper-awards-sc24-workshops
-    image: 'ANL-VRPL.jpg'
+    image: 'alcf-sc24-bestpaper.jpg'
     tags: [ 'ANL', 'ISAV', 'best-paper' ]
   - date: 2023-12-05
     publication: ALCF News Center
     title: "ALCF team wins Best Paper Award at ISAV 2023 Workshop"
     text: "A team led by researchers at the ALCF was recognized with the Best Paper Award for 'Scaling Computational Fluid Dynamics: In Situ Visualization of NekRS using SENSEI' at the 2023 ISAV Workshop at SC23. Led by ALCF's Victor Mateevitsi, the team's paper details their efforts to equip the NekRS computational fluid dynamics code with in situ analysis and visualization capabilities."
     url: https://www.alcf.anl.gov/news/alcf-team-wins-best-paper-award-isav-2023-workshop
-    image: 'ANL-VRPL.jpg'
+    image: 'alcf-isav2023-bestpaper.jpg'
     tags: [ 'ANL', 'ISAV', 'best-paper', 'SENSEI', 'NekRS' ]
   - date: 2023-11-01
     publication: ALCF News Center
     title: "ALCF team wins first place and best workflow at 2023 IEEE SciVis Contest"
     text: "Researchers from the ALCF, the University of St. Thomas, and UIC won first place and best workflow at the IEEE 2023 SciVis Contest for their multi-platform scientific visualization application VisAnywhere. The team included ALCF computer scientist Victor Mateevitsi and ALCF director Michael Papka."
     url: https://www.alcf.anl.gov/news/alcf-team-wins-first-place-and-best-workflow-2023-ieee-scivis-contest
-    image: 'ANL-VRPL.jpg'
+    image: 'alcf-scivis-visanywhere.png'
     tags: [ 'ANL', 'IEEE', 'SciVis', 'VisAnywhere' ]
   - date: 2023-10-31
     publication: ALCF News Center
     title: "Summer interns gain hands-on experience with Argonne supercomputers"
     text: "Iowa State University student James Morrissette collaborated with ALCF computer scientist Victor Mateevitsi, his former project mentor from Argonne's ACT-SO program. Morrissette's work centered around controlling a robotic arm in virtual reality using NVIDIA's Omniverse, aimed at making digital twins research intuitive and user friendly."
     url: https://www.alcf.anl.gov/news/summer-interns-gain-hands-experience-argonne-supercomputers
-    image: 'ANL-VRPL.jpg'
+    image: 'alcf-summer-interns.jpg'
     tags: [ 'ANL', 'mentorship', 'VR', 'digital-twins' ]
   - date: 2023-10-18
     publication: ALCF News Center
     title: "Readying Aurora exascale supercomputer to assist in the battle against cancer"
     text: "Dr. Amanda Randles expressed enormous thanks to researchers at ANL, including Victor Mateevitsi, for their work on the HARVEY cancer simulation project using Aurora's capabilities for in-situ visualization of blood flow simulations."
     url: https://www.alcf.anl.gov/news/readying-aurora-exascale-supercomputer-assist-battle-against-cancer
-    image: 'ANL-VRPL.jpg'
+    image: 'alcf-aurora-cancer.png'
     tags: [ 'ANL', 'Aurora', 'cancer', 'HARVEY' ]
   - date: 2023-09-11
     publication: ALCF News Center
     title: "High school students working with Argonne and Fermilab qualify for the NAACP's academic olympics"
     text: "'Actively participating in shaping the future of science is an integral part of our laboratory mission and our ultimate goal is to inspire the next generation of scientists,' said Victor Mateevitsi, an Argonne computer scientist and ACT-SO mentor. Six high school students went to nationals, bringing home four national wins."
     url: https://www.alcf.anl.gov/news/high-school-students-working-argonne-and-fermilab-qualify-naacps-academic-olympics
-    image: 'ANL-VRPL.jpg'
+    image: 'alcf-actso-2023.jpg'
     tags: [ 'ANL', 'ACT-SO', 'mentorship' ]
   - date: 2023-02-27
     publication: ALCF News Center
     title: "Diversifying Argonne's high performance computing workforce"
     text: "Victor Mateevitsi is highlighted as a key contributor to the Exascale Computing Project's Broadening Participation Initiative, working alongside colleagues to diversify Argonne's high performance computing workforce."
     url: https://www.alcf.anl.gov/news/diversifying-argonne-s-high-performance-computing-workforce
-    image: 'ANL-VRPL.jpg'
+    image: 'alcf-diversifying-hpc.jpg'
     tags: [ 'ANL', 'diversity', 'ECP' ]
   - date: 2022-02-21
     publication: ALCF News Center
     title: "Argonne wins several HPCwire awards"
     text: "Argonne researchers won Readers' Choice and Editors' Choice Awards for Best Use of High Performance Data Analytics and AI for developing AI models to detect gravitational waves. Visualization credited to the ALCF Visualization and Data Analytics team including Victor Mateevitsi."
     url: https://www.alcf.anl.gov/news/argonne-wins-several-hpcwire-awards
-    image: 'ANL-grav-waves.jpg'
+    image: 'alcf-hpcwire-awards.jpg'
     tags: [ 'ANL', 'HPCwire', 'awards', 'gravitational-waves' ]
   - date: 2021-08-11
     publication: ANL News Center
