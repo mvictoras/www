@@ -7,27 +7,31 @@ samp {
 }
 
 pre {
-  background: $gray-200;
-  color: $gray-900;
+  background: $bg-surface;
+  color: $body-color;
   line-height: $line-height-lg;
   margin: 1.5rem 0;
   overflow: auto;
   padding: 1.1rem 1.5rem;
   tab-size: 4;
+  border: 1px solid $border-color;
+  border-radius: 6px;
 }
 
 code {
-  background: $gray-200;
-  color: $gray-900;
+  background: $bg-surface;
+  color: $url-color;
   padding: 0.25rem 0.5rem;
+  border-radius: 4px;
 }
 
 pre code {
   background: none;
+  color: inherit;
   font-size: inherit;
   padding: 0;
 }
 
 code a {
-  border-bottom-color: $gray-200;
+  border-bottom-color: $border-color;
 }
