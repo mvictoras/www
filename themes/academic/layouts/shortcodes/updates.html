@@ -1,15 +1,42 @@
-{{ $.Scratch.Set "prev" ((now.AddDate 1 0 0).Format "2006") }}
-<div class="list-group list-group-flush updates">
-  {{ range site.Data.updates }}
-    {{ $date := time .date }}
-    {{ $prev := $.Scratch.Get "prev" }}
-    {{ if gt $prev ($date.Format "2006") }}
-    <h1 class="mt-5">{{ $date.Format "2006" }}</h1>
-    {{ $.Scratch.Set "prev" ($date.Format "2006") }}
-    {{ end }}
-    <div class="list-group-item update-item d-flex justify-content-between border-0">
-      <h4 class="mb-1">{{ emojify .title }}</h4>
-      <small class="pl-1 text-muted text-nowrap pt-1">{{ $date.Format "2 January" }}</small>
-    </div>
-  {{ end }}
+{{- $.Scratch.Set "currentYear" "" -}}
+{{- $.Scratch.Set "yearCount" 0 -}}
+{{- $.Scratch.Set "isFirst" true -}}
+{{- /* First pass: count items per year */ -}}
+{{- $.Scratch.Set "yearCounts" (dict) -}}
+{{- range site.Data.updates -}}
+  {{- $year := (time .date).Format "2006" -}}
+  {{- $counts := $.Scratch.Get "yearCounts" -}}
+  {{- if index $counts $year -}}
+    {{- $.Scratch.SetInMap "yearCounts" $year (add (index $counts $year) 1) -}}
+  {{- else -}}
+    {{- $.Scratch.SetInMap "yearCounts" $year 1 -}}
+  {{- end -}}
+{{- end -}}
+<div class="updates-timeline">
+  {{- range $i, $item := site.Data.updates -}}
+    {{- $date := time .date -}}
+    {{- $year := $date.Format "2006" -}}
+    {{- $prev := $.Scratch.Get "currentYear" -}}
+    {{- if ne $prev $year -}}
+      {{- /* Close previous details block if not the first year */ -}}
+      {{- if ne $prev "" }}</div></details>{{ end -}}
+      {{- $counts := $.Scratch.Get "yearCounts" -}}
+      {{- $count := index $counts $year -}}
+      {{- $isFirst := $.Scratch.Get "isFirst" -}}
+      <details class="updates-timeline__year"{{ if $isFirst }} open{{ end }}>
+        <summary class="updates-timeline__year-header">
+          <span class="updates-timeline__year-label">{{ $year }}</span>
+          <span class="updates-timeline__year-count">({{ $count }} updates)</span>
+        </summary>
+        <div class="updates-timeline__items">
+      {{- $.Scratch.Set "currentYear" $year -}}
+      {{- $.Scratch.Set "isFirst" false -}}
+    {{- end -}}
+          <div class="updates-timeline__item">
+            <span class="updates-timeline__title">{{ emojify .title }}</span>
+            <span class="updates-timeline__date">{{ $date.Format "2 January" }}</span>
+          </div>
+  {{- end -}}
+  {{- /* Close the last details block */ -}}
+  {{- if ne ($.Scratch.Get "currentYear") "" }}</div></details>{{ end -}}
 </div>

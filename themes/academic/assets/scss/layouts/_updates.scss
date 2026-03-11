@@ -1,7 +1,127 @@
-.updates {
-  .update-item {
-    border-top: 0;
-    padding-top: 3px;
-    padding-bottom: 3px;
+// ============================================================================
+// Updates Timeline — compact dark lab theme
+// ============================================================================
+
+.updates-timeline {
+  max-width: 720px;
+
+  // --- Year section (details/summary) ---
+  &__year {
+    margin-bottom: 0.25rem;
+    border-bottom: 1px solid rgba($border-color, 0.4);
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &[open] {
+      margin-bottom: 0.75rem;
+    }
+
+    &[open] > .updates-timeline__year-header {
+      margin-bottom: 0;
+      border-bottom: 1px solid rgba($border-color, 0.4);
+    }
+  }
+
+  // --- Year header (summary element) ---
+  &__year-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    padding: 0.6rem 0;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    transition: color 0.15s ease;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    // Chevron indicator
+    &::before {
+      content: "▸";
+      font-family: $font-family-mono;
+      font-size: 0.7rem;
+      color: $url-color;
+      transition: transform 0.15s ease;
+      flex-shrink: 0;
+    }
+
+    details[open] > &::before {
+      transform: rotate(90deg);
+    }
+
+    &:hover {
+      color: $url-color;
+    }
+  }
+
+  // --- Year label ---
+  &__year-label {
+    font-family: $font-family-mono;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: $heading-color;
+    letter-spacing: 0.02em;
+  }
+
+  // --- Item count ---
+  &__year-count {
+    font-family: $font-family-mono;
+    font-size: 0.7rem;
+    color: $muted-color;
+  }
+
+  // --- Items container ---
+  &__items {
+    padding-bottom: 0.25rem;
+  }
+
+  // --- Individual item ---
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0.35rem 0 0.35rem 1.1rem;
+    border-bottom: 1px solid rgba($border-color, 0.3);
+    transition: background-color 0.12s ease;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &:hover {
+      background-color: $bg-surface;
+    }
+  }
+
+  // --- Item title ---
+  &__title {
+    font-size: $sidebar-font-size;
+    color: $body-color;
+    line-height: 1.4;
+    flex: 1;
+    min-width: 0;
+
+    a {
+      color: $url-color;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  // --- Item date ---
+  &__date {
+    font-family: $font-family-mono;
+    font-size: 0.7rem;
+    color: $url-color;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-left: 1rem;
   }
 }
