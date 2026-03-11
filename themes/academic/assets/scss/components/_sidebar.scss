@@ -1,0 +1,182 @@
+// ============================================================================
+// Sidebar Widgets — dark lab theme
+// ============================================================================
+
+.sidebar-widget {
+  margin-bottom: 1.75rem;
+
+  // --- Heading with orange accent bar ---
+  &__heading {
+    font-family: $font-family-mono;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: $heading-color;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 2px solid $border-color;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 2rem;
+      height: 2px;
+      background: $url-color;
+    }
+  }
+
+  // --- Social icons row ---
+  &__social {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  &__social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 6px;
+    background: $bg-surface;
+    border: 1px solid $border-color;
+    color: $muted-color;
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background: $bg-elevated;
+      border-color: rgba($url-color, 0.5);
+      color: $url-color;
+      text-decoration: none;
+    }
+  }
+
+  // --- List (posts, press, updates) ---
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__item {
+    border-bottom: 1px solid rgba($border-color, 0.5);
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  // --- Link items (posts, press) ---
+  &__link {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+    color: $body-color;
+    text-decoration: none;
+    font-size: $sidebar-font-size;
+    line-height: 1.4;
+    transition: color 0.15s ease;
+
+    &:hover {
+      color: $url-color;
+      text-decoration: none;
+    }
+
+    &:hover .sidebar-widget__arrow {
+      color: $url-color;
+      transform: translateX(2px);
+    }
+  }
+
+  &__link-text {
+    flex: 1;
+    min-width: 0;
+  }
+
+  &__arrow {
+    flex-shrink: 0;
+    font-size: 0.65rem;
+    color: rgba($muted-color, 0.4);
+    margin-top: 0.25rem;
+    transition: all 0.15s ease;
+  }
+
+  // --- Update items ---
+  &__item--update {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 0.4rem 0;
+  }
+
+  &__update-text {
+    font-size: $sidebar-font-size;
+    color: $body-color;
+    line-height: 1.4;
+    flex: 1;
+    min-width: 0;
+  }
+
+  &__date {
+    font-family: $font-family-mono;
+    font-size: 0.7rem;
+    color: $url-color;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  // --- "View all" link ---
+  &__more {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-family: $font-family-mono;
+    font-size: 0.75rem;
+    color: $muted-color;
+    text-decoration: none;
+    transition: color 0.15s ease;
+
+    &:hover {
+      color: $url-color;
+      text-decoration: none;
+    }
+  }
+
+  // --- Event items ---
+  &__item--event {
+    padding: 0.6rem 0;
+  }
+
+  &__event-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  &__event-desc {
+    font-size: 0.8rem;
+    color: $muted-color;
+    margin: 0.25rem 0 0.15rem;
+    line-height: 1.4;
+  }
+
+  &__event-location {
+    font-size: 0.75rem;
+    color: $muted-color;
+
+    i {
+      color: $url-color;
+      margin-right: 0.25rem;
+    }
+  }
+}
