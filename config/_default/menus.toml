@@ -43,7 +43,7 @@
 [[main]]
   identifier = "contact"
   name = "contact"
-  url = "/contact/"
+  url = "/about/#get-in-touch"
   weight = 8
 
 [[footer]]
@@ -103,5 +103,6 @@
 [[footer]]
   identifier = "contact"
   name = "contact"
-  url = "/contact/"
+  url = "/about/#get-in-touch"
   weight = 10
+
