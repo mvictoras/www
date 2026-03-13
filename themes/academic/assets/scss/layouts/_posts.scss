@@ -39,6 +39,11 @@
     z-index: 1;
   }
 
+  // Align sidebar top with the date/title (match header padding-top + baseline offset)
+  .col-lg-3 {
+    padding-top: calc(2rem + 3px);
+  }
+
   // ------ Header ------
   &__header {
     position: relative;
