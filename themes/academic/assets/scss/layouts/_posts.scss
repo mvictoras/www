@@ -80,6 +80,14 @@
     letter-spacing: -0.02em;
   }
 
+  &__subtitle {
+    font-size: 1rem;
+    color: $muted-color;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+    font-style: italic;
+  }
+
   &__share {
     .rrssb-buttons {
       display: flex;

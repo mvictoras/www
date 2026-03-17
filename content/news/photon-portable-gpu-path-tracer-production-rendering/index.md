@@ -1,12 +1,9 @@
 ---
 title: "Building a Production GPU Path Tracer with Kokkos"
+subtitle: "How we built Photon — a physically-based renderer that runs on any GPU, reads industry-standard scene files, and produces production-quality images with denoising and tone mapping."
 date: 2026-03-17T12:00:00-05:00
 images: [ photon-spaceship.png ]
 draft: true
----
-
-*How we built Photon — a physically-based renderer that runs on any GPU, reads industry-standard scene files, and produces production-quality images with denoising and tone mapping.*
-
 ---
 
 ## The Goal
