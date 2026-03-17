@@ -10,18 +10,20 @@
 }
 
 .pswp__custom-caption {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
+  z-index: 100;
   text-align: center;
   padding: 1rem 1.5rem;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
   font-family: $font-family-mono;
   font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.9);
   letter-spacing: 0.02em;
   line-height: 1.5;
+  pointer-events: none;
 }
 
 .gallery {
