@@ -15,5 +15,24 @@ if (document.querySelector('#gallery')) {
     pswpModule: PhotoSwipe,
   });
 
+  // Show data-caption as lightbox caption when image is clicked
+  lightbox.on('uiRegister', function () {
+    lightbox.pswp.ui.registerElement({
+      name: 'custom-caption',
+      order: 9,
+      isButton: false,
+      appendTo: 'root',
+      onInit: (el) => {
+        el.classList.add('pswp__custom-caption');
+        lightbox.pswp.on('change', () => {
+          const slide = lightbox.pswp.currSlide;
+          const caption = slide.data.element?.dataset?.caption;
+          el.innerHTML = caption || '';
+          el.style.display = caption ? 'block' : 'none';
+        });
+      },
+    });
+  });
+
   lightbox.init();
 }

@@ -37,9 +37,9 @@ themeColor = "#fff"
 
 quality = 85
 #bgColor = "#fff"
-#landscapePhotoWidths = [900, 700, 500]
-#portraitPhotoWidths = [1500, 1000, 750]
-#lqipWidth = "20x"
+landscapePhotoWidths = [900, 700, 500]
+portraitPhotoWidths = [1500, 1000, 750]
+lqipWidth = "20x"
 articlePhotoSize = "688x381"
 
 footer = "Victor A. Mateevitsi. Made with  <div class='heart-emoji'><span>&#9829;</span></div>  in Chicago, IL"

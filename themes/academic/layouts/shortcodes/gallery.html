@@ -1,7 +1,16 @@
 <div id="gallery" class="gallery pswp-gallery" itemscope itemtype="http://schema.org/ImageGallery">
 
   {{ range .Params }}
-    {{ $image := $.Page.Resources.GetMatch . }}
+    {{ $raw := . }}
+    {{ $filename := . }}
+    {{ $caption := "" }}
+    {{ if in . "::" }}
+      {{ $filename = index (split . "::") 0 }}
+      {{ $caption = index (split . "::") 1 }}
+    {{ end }}
+
+    {{ $image := $.Page.Resources.GetMatch $filename }}
+    {{ if $image }}
     {{ $imageConfig := imageConfig (printf "content/%s" $image.RelPermalink) }}
     {{ $width := $imageConfig.Width }}
     {{ $height := $imageConfig.Height }}
@@ -9,30 +18,26 @@
     {{ $imageFull := $image -}}
     {{ if gt $width 650 }}
       {{ $imageFull = $image.Resize "650x" }}
-      {{ $imageConfig := imageConfig (printf "resources/_gen/images/%s" $imageFull.RelPermalink) }}
-      {{ $width := $imageConfig.Width }}
-      {{ $height := $imageConfig.Height }}
     {{ end }}
 
-    {{ $thumb := $image.Fill "250x250" }}
+    {{ $thumb := $image.Fill "320x220 Center" }}
     {{ $webpThumb := "" -}}
-    {{ $webpFull := "" -}}
     {{ if ne $image.MediaType.SubType "gif" -}}
-      {{ $webpThumb = $image.Fill "250x250 webp" -}}
-      {{ $webpFull = $imageFull.Resize (printf "%dx webp" $width) -}}
+      {{ $webpThumb = $image.Fill "320x220 Center webp" -}}
     {{ end -}}
 
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="{{ $image.RelPermalink }}" data-pswp-width="{{ $width }}" data-pswp-height="{{ $height }}" data-caption="" itemprop="contentUrl">
-        <!-- Thumbnail -->
+    <figure class="gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <a href="{{ $image.RelPermalink }}" data-pswp-width="{{ $width }}" data-pswp-height="{{ $height }}" data-caption="{{ $caption | htmlEscape }}" itemprop="contentUrl">
         <picture>
           {{ if ne $image.MediaType.SubType "gif" -}}
             <source type="image/webp" srcset="{{ $webpThumb.RelPermalink }}">
           {{ end -}}
-          <img src="{{ $thumb.RelPermalink }}" itemprop="thumbnail" alt="Image description">
+          <img class="gallery__img" src="{{ $thumb.RelPermalink }}" itemprop="thumbnail" alt="{{ with $caption }}{{ . }}{{ else }}{{ path.BaseName $image.Name | humanize | title }}{{ end }}" loading="lazy">
         </picture>
+        {{ with $caption }}<span class="gallery__overlay"><span class="gallery__caption">{{ . }}</span></span>{{ end }}
       </a>
     </figure>
+    {{ end }}
 
   {{ end }}
 </div>

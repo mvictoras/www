@@ -1,24 +1,103 @@
+// ============================================================================
+// Gallery — Dark Lab Theme
+// ============================================================================
+
 .pswp__caption__center { /* stylelint-disable-line */
   text-align: center;
+  font-family: $font-family-mono;
+  font-size: 0.85rem;
+  color: $body-color;
+}
+
+.pswp__custom-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+  font-family: $font-family-mono;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 .gallery {
-  padding-bottom: $default-spacing;
-  padding-top: $default-spacing;
-  display: inline-block;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  padding: 1rem 0 1.5rem;
 
-  figure {
-    display: inline-block;
-    float: left;
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+  }
+
+  // Individual gallery item
+  &__item {
     margin: 0;
-    width: 33.333%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    border: 1px solid $border-color;
+    background: $bg-surface;
+    transition: border-color 0.25s ease, transform 0.25s ease;
+
+    &:hover {
+      border-color: rgba($url-color, 0.5);
+      transform: translateY(-2px);
+
+      .gallery__overlay {
+        opacity: 1;
+      }
+
+      .gallery__img {
+        transform: scale(1.03);
+      }
+    }
+
+    a {
+      display: block;
+      position: relative;
+      line-height: 0;
+      text-decoration: none;
+    }
   }
 
-  img {
+  // Thumbnail image
+  &__img {
     width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
   }
 
-  .spacer {
-    height: 5em;
+  // Hover overlay with caption preview
+  &__overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: flex-end;
+    background: linear-gradient(
+      180deg,
+      transparent 40%,
+      rgba($bg-color, 0.85) 100%
+    );
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    padding: 0.75rem;
+  }
+
+  &__caption {
+    font-family: $font-family-mono;
+    font-size: 0.7rem;
+    color: $body-color;
+    letter-spacing: 0.02em;
+    line-height: 1.4;
   }
 }
