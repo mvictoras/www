@@ -15,9 +15,6 @@
           <time class="single-post__date" datetime="{{ $.Page.Date.Format "2006-01-02" }}">{{ $.Page.Date.Format "02 Jan 2006" }}</time>
           <h1 class="single-post__title">{{ $.Page.Title }}</h1>
           {{ with .Params.subtitle }}<p class="single-post__subtitle">{{ . }}</p>{{ end }}
-          <div class="single-post__share">
-            {{- partial "sharing.html" (dict "title" .Page.Title "permalink" .Page.Permalink) -}}
-          </div>
         </header>
 
         <div class="single-post__content">
