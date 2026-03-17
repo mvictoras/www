@@ -143,12 +143,23 @@
     h2 {
       font-size: 1.5rem;
       padding-bottom: 0.5rem;
-      border-bottom: 1px solid $border-color;
+      border-bottom: 2px solid $border-color;
+      position: relative;
 
       &::before {
         content: "## ";
         color: $url-color;
         opacity: 0.5;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 2rem;
+        height: 2px;
+        background: $url-color;
       }
     }
 
