@@ -51,7 +51,10 @@
       {{ range $latestNews }}
       <a href="{{ .RelPermalink }}" class="list-group-item list-group-item-action d-flex">
         <div class="card d-flex flex-column">
-          {{ with .Resources.GetMatch "featured*" }}{{ $img := .Fill "688x381" }}<img class="card-img-top lazyload" src="{{ $img.RelPermalink }}" alt="{{ $.Title }}">{{ end }}
+          {{ $page := . }}
+          {{ $heroImg := .Resources.GetMatch "featured*" }}
+          {{ if not $heroImg }}{{ with .Params.images }}{{ $heroImg = $page.Resources.GetMatch (string (index . 0)) }}{{ end }}{{ end }}
+          {{ with $heroImg }}{{ $img := .Fill "688x381" }}<img class="card-img-top lazyload" src="{{ $img.RelPermalink }}" alt="{{ $page.Title }}">{{ end }}
           <div class="card-body flex-grow-1">
             <h5 class="card-title">{{ .Title | truncate 70 }}</h5>
             <p class="card-text">{{ .Summary | plainify | truncate 120 }}</p>
@@ -70,7 +73,10 @@
       {{ range $projects }}
       <a href="{{ .RelPermalink }}" class="list-group-item list-group-item-action d-flex">
         <div class="card d-flex flex-column">
-          {{ with .Resources.GetMatch "featured*" }}{{ $img := .Fill "688x381" }}<img class="card-img-top lazyload" src="{{ $img.RelPermalink }}" alt="{{ $.Title }}">{{ end }}
+          {{ $page := . }}
+          {{ $heroImg := .Resources.GetMatch "featured*" }}
+          {{ if not $heroImg }}{{ with .Params.images }}{{ $heroImg = $page.Resources.GetMatch (string (index . 0)) }}{{ end }}{{ end }}
+          {{ with $heroImg }}{{ $img := .Fill "688x381" }}<img class="card-img-top lazyload" src="{{ $img.RelPermalink }}" alt="{{ $page.Title }}">{{ end }}
           <div class="card-body flex-grow-1">
             <h5 class="card-title">{{ .Title | truncate 70 }}</h5>
             <p class="card-text">{{ .Summary | plainify | truncate 120 }}</p>
