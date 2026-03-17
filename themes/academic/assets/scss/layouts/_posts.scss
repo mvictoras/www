@@ -129,10 +129,14 @@
     line-height: 1.75;
     color: $body-color;
 
+    hr {
+      display: none;
+    }
+
     h2, h3, h4 {
       font-family: $font-family-mono;
       color: $heading-color;
-      margin-top: 2rem;
+      margin-top: 2.5rem;
       margin-bottom: 0.75rem;
     }
 
