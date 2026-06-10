@@ -2,35 +2,54 @@
 title: "About"
 date: 2019-06-17T09:43:35-05:00
 type: "about"
-subtitle: "Hi, I 'm Victor!"
-
+subtitle: "Hi, I'm Victor!"
 draft: false
 ---
-# Hi, I \'m Victor!
+# Hi, I'm Victor!
 
-<h2 class="text-muted pb-3">I 'm a Computer Scientist at ANL</h2>
+<h2 class="text-muted pb-3">Computer Scientist &middot; Argonne Leadership Computing Facility</h2>
 
-I design interactive visualizations of domain-specific high-resolution large-scale datasets, develop emerging technologies, create futuristic interfaces and interactions, and prototype next-generation hardware devices. In other words, I envision the technology 5-10 years down the road, and then I proceed to build it. Early in my career, I realized the endless possibilities of Computer Graphics and Human-Computer Interaction (HCI). Fascinated by the ways Computer Graphics can help understand complex multi-dimensional data, and by the ways HCI can help understand and enhance human activities and experiences, I decided to focus my academic and professional career on finding new ways to improve data discovery and analysis for domain scientists all over the world.
+I'm a Computer Scientist at the {{< a link="Argonne Leadership Computing Facility" src="https://www.alcf.anl.gov" >}} (ALCF) at {{< a link="Argonne National Laboratory" src="https://www.anl.gov" >}}, and Adjunct Research Professor at the {{< a link="University of Illinois Chicago" src="https://www.uic.edu" >}}. My work sits at the intersection of **scientific visualization, human-computer interaction, and high-performance computing** &mdash; building the tools and interfaces that let scientists make sense of simulations running on the world's fastest supercomputers.
 
-{{< figure src="mateevitsi-spidersense2.jpg" caption="The SpiderSense jacket" >}}
+## What I work on
 
-I have a background in Computer Science and hold a PhD from the {{< a link="Electronic Visualization Laboratory (EVL)" src="//www.evl.uic.edu" >}}, {{< a link="University of Illinois at Chicago" src="//www.uic.edu" >}}, where I spent my graduate years collaborating with multidisciplinary teams on various Human-Computer Interaction problems, and working on bleeding-edge technologies, like the {{< a link="CAVE2" src="https://youtu.be/d5XDbzy7vuE" >}} and {{< a link="SAGE2" src="https://youtu.be/ZHm6wdPP1RY" >}}.
+I design interactive visualizations for petabyte-scale scientific datasets, develop emerging technologies, and prototype futuristic interfaces. In other words: I imagine what scientific computing should look like 5&ndash;10 years from now, and then I build it. My current research has three threads:
+
+- **In-situ visualization at exascale** &mdash; instrumenting libraries like {{< a link="ASCENT" src="https://ascent.readthedocs.io" >}} and {{< a link="SENSEI" src="https://sensei-insitu.org" >}} so that simulations on Aurora and other ALCF systems can be visualized and analyzed *while they run*, without the disk I/O bottleneck. Recent work has won Best Paper at ISAV 2023 and 2024.
+- **Immersive XR for science** &mdash; letting researchers literally walk through their data. Imagine stepping into the eye of a hurricane, or feeling the force of a tornado through haptic feedback.
+- **Human&ndash;AI collaboration for discovery** &mdash; building AI co-pilots that work alongside scientists inside immersive environments, helping them analyze, hypothesize, and explore at HPC scales.
 
 {{< figure src="mateevitsi-batcave.jpg" caption="The BatCAVE project in CAVE2" >}}
 
-I have been fortunate to have worked on super-exciting projects, at top-tier organizations, with the brightest people in the industry. From being {{< a link="selected" src="https://deadline.com/2013/06/academy-science-and-technology-council-names-2013-interns-524769/" >}} by the {{< a link="Science and Technology Council" src="https://www.oscars.org/learn/science-technology" >}} of the {{< a link="Academy of Motion Picture Arts and Sciences" src="https://www.oscars.org" >}} to  intern for {{< a link="Pixar" src="https://www.pixar.com" >}}, working on the {{< a link="Universal Scene Description (USD)" src="https://graphics.pixar.com/usd/docs/index.html" >}}; to spending a summer at {{< a link="DreamWorks" src="https://www.dreamworks.com" >}} animation, developing {{< a link="Premo" src="https://dl.acm.org/doi/abs/10.1145/2614106.2614123?download=true" >}}, the {{< a link="award-winning" src="https://www.oscars.org/sci-tech/ceremonies/2018" >}} animation platform behind Oscar-nominated movies, like {{< a link="How To Train Your Dragon 2" src="https://www.imdb.com/title/tt1646971/" >}}; to researching {{< a link="social Mixed Reality" src="https://www.onmsft.com/news/microsoft-researchers-working-multi-person-mixed-reality-experiences" >}} at {{< a link="Microsoft Research" src="https://www.imdb.com/title/tt1646971/" >}}, alongside father of VR, {{< a link="Jaron Lanier" src="https://en.wikipedia.org/wiki/Jaron_Lanier" >}}, I enjoy solving difficult problems in inter and multidisciplinary teams.
+## How I got here
 
-{{< figure src="mateevitsi-pixar.jpg" caption="Stroking Sulley's beard" >}}
+I earned my PhD from the {{< a link="Electronic Visualization Laboratory (EVL)" src="//www.evl.uic.edu" >}} at the {{< a link="University of Illinois at Chicago" src="//www.uic.edu" >}} in 2018, working with Andrew Johnson on novel interfaces for large-scale visualization environments like the {{< a link="CAVE2" src="https://youtu.be/d5XDbzy7vuE" >}} and {{< a link="SAGE2" src="https://youtu.be/ZHm6wdPP1RY" >}}. My dissertation explored wearable haptic displays &mdash; culminating in [SpiderSense](/news/sensing-the-environment-through-spidersense), a jacket that lets the wearer "feel" their surroundings, later exhibited at Chicago's Museum of Science and Industry.
 
-After graduating from {{< a link="EVL" src="https://www.evl.uic.edu" >}}, I co-founded {{< a link="SpatialCanvas" src="https://www.spatialcanvas.com" >}} with the vision of building the future of ARCloud, before joining {{< a link="GN Advanced Science" src="https://www.spatialcanvas.com" >}}, where I worked on next-generation audio solutions, inventing and prototyping Human-Computer Interaction tools, methodologies, and concepts. I currently hold a Computer Scientist position at the {{< a link="Argonne Leadership Computing Facility" src="https://www.alcf.anl.gov" >}} (ALCF), {{< a link="Argonne National Laboratory" src="https://www.anl.gov" >}} (ANL), working with the Visualization and Data Analytics team on visualizing large-scale datasets that have been simulated on the Supercomputer.
+{{< figure src="mateevitsi-spidersense2.jpg" caption="The SpiderSense jacket" >}}
 
-I draw on a diverse set of skills, including scientific visualization, computer graphics, human computer interaction, electronics, sensors, fabrication and computer vision.
+During my doctorate I had the opportunity to work with some remarkable teams:
 
-{{< figure src="mateevitsi-gn.jpg" caption="Demonstrating next-gen devices at the GN headquarters in Ballerup, Denmark" >}}
+- **{{< a link="Pixar" src="https://www.pixar.com" >}}** &mdash; interning on {{< a link="Universal Scene Description (USD)" src="https://graphics.pixar.com/usd/docs/index.html" >}} after being {{< a link="selected" src="https://deadline.com/2013/06/academy-science-and-technology-council-names-2013-interns-524769/" >}} by the {{< a link="Science and Technology Council" src="https://www.oscars.org/learn/science-technology" >}} of the {{< a link="Academy of Motion Picture Arts and Sciences" src="https://www.oscars.org" >}}
+- **{{< a link="DreamWorks" src="https://www.dreamworks.com" >}}** &mdash; developing {{< a link="Premo" src="https://dl.acm.org/doi/abs/10.1145/2614106.2614123" >}}, the {{< a link="Sci-Tech Academy Award-winning" src="https://www.oscars.org/sci-tech/ceremonies/2018" >}} animation platform behind films like *How To Train Your Dragon 2*
+- **{{< a link="Microsoft Research" src="https://www.microsoft.com/en-us/research/" >}}** &mdash; researching {{< a link="social Mixed Reality" src="https://www.onmsft.com/news/microsoft-researchers-working-multi-person-mixed-reality-experiences" >}} with {{< a link="Jaron Lanier" src="https://en.wikipedia.org/wiki/Jaron_Lanier" >}}, which led to a {{< a link="patent on collocated AR experiences" src="https://patents.google.com/patent/US9818228B2" >}}
 
-### More facts about me
+{{< figure src="mateevitsi-pixar.jpg" caption="Stroking Sulley's beard at Pixar" >}}
 
-I play Ice Hockey 🏒 as long as I can remember. From 2006 - 2009 I was selected in the {{< a link="Greek National Ice Hockey Team" src="http://www.eurohockey.com/player/125505-viktor-mateevitsi.html" >}} and participated in the Division 3 IIHF World Championships. Today I play at Johnny's Adult Hockey League with the Loose Cannons.
+After graduating I spent a few years in industry: I co-founded **Spatial Canvas**, a startup building spatial-persistence SDKs for AR Cloud, then joined **GN Hearing** in Denmark to work on next-generation hearing technologies and prototype HCI tools for hearing aids &mdash; work that resulted in a {{< a link="second patent" src="https://patents.google.com/patent/EP3796673B1" >}}.
+
+I joined Argonne in 2020.
+
+{{< figure src="mateevitsi-gn.jpg" caption="Demonstrating next-gen devices at GN headquarters in Ballerup, Denmark" >}}
+
+## Building and serving the community
+
+I serve as **General Chair of {{< a link="IEEE VIS 2027" src="https://ieeevis.org" >}}** in Chicago &mdash; the field's flagship conference. I founded **{{< a link="ChicagoCHI" src="https://www.chicagochi.org" >}}**, the local SIGCHI chapter, and I'm an active member of the Khronos Group's ANARI working group on standardizing 3D graphics APIs. I'm a Senior Member of both IEEE and ACM, and I mentor research interns each summer at ALCF.
+
+I draw on a diverse set of skills: scientific visualization, computer graphics, human-computer interaction, electronics, fabrication, and computer vision.
+
+## More facts about me
+
+I play Ice Hockey 🏒 as long as I can remember. From 2006&ndash;2009 I was selected in the {{< a link="Greek National Ice Hockey Team" src="http://www.eurohockey.com/player/125505-viktor-mateevitsi.html" >}} and participated in the Division 3 IIHF World Championships. Today I play at Johnny's Adult Hockey League with the Loose Cannons.
 
 {{< figure src="mateevitsi-ice-hockey.jpg" caption="Training camp in Czech Republik before the World Champs" >}}
 
