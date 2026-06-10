@@ -176,6 +176,7 @@ conferences:
     pages: "69--70"
     year: 2024
     doi: "10.1109/LDAV64567.2024.00016"
+    image: "visuals-on-the-house-2024.png"
 
   - title: "Graphical Representation Through a User Interface for In Situ Scientific Visualization with Ascent"
     authors: "Colleen Heinemann, Jefferson Amstutz, Joseph A. Insley, <strong>Victor A. Mateevitsi</strong>, Michael E. Papka, Silvio Rizzi"
@@ -183,6 +184,7 @@ conferences:
     pages: "71--72"
     year: 2024
     doi: "10.1109/LDAV64567.2024.00017"
+    image: "ascent-ui-2024.png"
 
   - title: "Exploring Large-Scale Scientific Data in Virtual Reality"
     authors: "Idunnuoluwa A. Adeniji, Joseph A. Insley, David A. Joiner, <strong>Victor A. Mateevitsi</strong>, Michael E. Papka, Silvio Rizzi"
