@@ -1,9 +1,14 @@
 {{ define "main" }}
 <article class="single-post">
-  {{/* Hero image with gradient fade */}}
+  {{/* Hero image with gradient fade — WebP with PNG/JPEG fallback */}}
   {{ with .Resources.GetMatch (string (index $.Params.images 0)) }}
+  {{ $hero := .Fill "1400x500" }}
+  {{ $heroWebp := .Fill "1400x500 webp q85" }}
   <div class="single-post__hero">
-    <img class="single-post__hero-img" src="{{ (.Fill "1400x500").Permalink }}" alt="{{ $.Page.Title }}">
+    <picture>
+      <source type="image/webp" srcset="{{ $heroWebp.RelPermalink }}">
+      <img class="single-post__hero-img" src="{{ $hero.RelPermalink }}" alt="{{ $.Page.Title }}" fetchpriority="high" decoding="async" width="{{ $hero.Width }}" height="{{ $hero.Height }}">
+    </picture>
     <div class="single-post__hero-fade"></div>
   </div>
   {{ end }}
