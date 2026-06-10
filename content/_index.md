@@ -11,7 +11,7 @@ contact: |
 about_image: "images/Mateevitsi_SpiderSense_VR_hub24077e8499f5664e9b792c14d04a14c_267391_1920x0_resize_q75_catmullrom.jpg"
 contact_image: "images/Mateevitsi_batcave_hu839df68b59191f670988ad210d60a093_370657_1920x0_resize_q75_catmullrom.jpg"
 ---
-I design interactive visualizations for some of the world's largest scientific datasets. As an Assistant Computer Scientist at the [Argonne Leadership Computing Facility](https://www.alcf.anl.gov) at [Argonne National Laboratory](https://www.anl.gov), I work with the Visualization & Data Analytics team to help domain scientists make sense of simulations running on the ALCF supercomputers.
+I design interactive visualizations for some of the world's largest scientific datasets. As a Computer Scientist at the [Argonne Leadership Computing Facility](https://www.alcf.anl.gov) at [Argonne National Laboratory](https://www.anl.gov), I work with the Visualization & Data Analytics team to help domain scientists make sense of simulations running on the ALCF supercomputers.
 
 My research lives at the intersection of **scientific visualization, human-computer interaction, and high-performance computing** &mdash; building tools, interfaces, and prototypes that let researchers explore data they otherwise couldn't. Past work includes [SpiderSense](/news/sensing-the-environment-through-spidersense), [SAGE2](/news/sage2-a-new-approach-for-data-intensive-collaboration-using-scalable-resolution-shared-displays/), and contributions to [Pixar's USD](https://graphics.pixar.com/usd/docs/index.html) and [DreamWorks' Premo](https://dl.acm.org/doi/10.1145/2614106.2614123). I also founded [ChicagoCHI](https://www.chicagochi.org), the local SIGCHI chapter, and serve as Co-Chair of [IEEE VIS 2027](https://ieeevis.org).
 
