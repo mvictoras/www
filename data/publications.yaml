@@ -117,6 +117,7 @@ conferences:
     pages: "307--308"
     year: 2025
     doi: "10.1109/eScience65000.2025.00044"
+    image: "webxr-hacc-2025.png"
 
   - title: "Toward Dynamic Gaussian Rendering for Digital Twins"
     authors: "Eero Dunham, Mengjiao Han, <strong>Victor A. Mateevitsi</strong>, Joseph A. Insley, Michael E. Papka, Silvio Rizzi, Janet Knowles"
@@ -131,6 +132,7 @@ conferences:
     pages: "347--348"
     year: 2025
     doi: "10.1109/eScience65000.2025.00064"
+    image: "genius-ai-2025.png"
 
   - title: "Modular Agentic System for Scientific Visualization in Mixed Reality"
     authors: "Aaqel Shaik, Ricky Massa, Brian Ta, Mengjiao Han, Joseph A. Insley, Janet Knowles, <strong>Victor A. Mateevitsi</strong>, Michael E. Papka, Silvio Rizzi, Shilpika"
@@ -138,6 +140,7 @@ conferences:
     pages: "351--352"
     year: 2025
     doi: "10.1109/eScience65000.2025.00066"
+    image: "agentic-mr-2025.png"
 
   - title: "Toward Distributed 3D Gaussian Splatting for High-Resolution Isosurface Visualization"
     authors: "Mengjiao Han, Andres Sewell, Joseph A. Insley, Janet Knowles, <strong>Victor A. Mateevitsi</strong>, Michael E. Papka, Steve Petruzza, Silvio Rizzi"

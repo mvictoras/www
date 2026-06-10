@@ -1,11 +1,11 @@
 # Publication Hero Images — Curation Guide
 
-This is the punch-list for finishing publication thumbnails. The infrastructure is built and **20 of 47 papers (43%)** already have images. This guide tracks the remaining ~27.
+This is the punch-list for finishing publication thumbnails. The infrastructure is built and **25 of 47 papers (53%)** already have images. This guide tracks the remaining ~22.
 
 ## Coverage status
 
 ```
-[████████████░░░░░░░░░░░░░░░] 43%  (20/47)
+[██████████████░░░░░░░░░░░░░] 53%  (25/47)
 ```
 
 ## How to add an image
@@ -16,26 +16,17 @@ This is the punch-list for finishing publication thumbnails. The infrastructure 
 
 Images are auto-cropped to square 200×200 thumbnails (displayed at 120×120). No need to pre-crop.
 
-## Sourcing strategies (in priority order)
-
-1. **arXiv preprint** — `https://arxiv.org/html/<id>` lets you right-click any figure → save image
-2. **OSTI/PAR PDF** — for DOE-funded papers: `https://www.osti.gov/biblio/<id>`. Open the PDF, screenshot a figure
-3. **ALCF news page** — for award-winning papers, ALCF often has a hero photo
-4. **EVL pubs** — for pre-Argonne papers: `https://www.evl.uic.edu/pubs/<id>`
-5. **Your own slides/repos** — figures from your talk decks, GitHub repos, project pages
-6. **Skip** — if no good image exists, leave text-only. The layout handles it gracefully.
-
-## ✅ Already done (20/47)
+## ✅ Already done (25/47)
 
 ### Sourced from arXiv preprints
-- Scaling CFD: NekRS using SENSEI (2023) → `nekrs-sensei-2023.png`
-- Science in a Blink (2024) → `science-in-a-blink-2024.png`
-- VisAnywhere (2024) → `visanywhere-2024.png`
-- Distributed Neural Representation (2024) → `distributed-neural-2024.png`
-- Toward Distributed 3D Gaussian Splatting (2024) → `toward-gaussian-isosurface-2024.png`
-- High-quality 3D Gaussian Splatting (2024) → `gaussian-isosurface-2025.png`
-- Aurora: Architecting Argonne's First Exascale (2025) → `aurora-2025.jpg`
-- Deciphering boundary layer dynamics (2025) → `rayleigh-bernard-2025.png`
+- Scaling CFD: NekRS using SENSEI (2023, ISAV Best Paper) → `nekrs-sensei-2023.png`
+- Science in a Blink (VIS 2024) → `science-in-a-blink-2024.png`
+- VisAnywhere (2024, SciVis Contest Winner) → `visanywhere-2024.png`
+- Distributed Neural Representation (TVCG 2024) → `distributed-neural-2024.png`
+- Toward Distributed 3D Gaussian Splatting (2025) → `toward-gaussian-isosurface-2024.png`
+- High-quality 3D Gaussian Splatting (LDAV 2024) → `gaussian-isosurface-2025.png`
+- Aurora: Architecting Argonne's First Exascale (2025, preprint) → `aurora-2025.jpg`
+- Deciphering boundary layer dynamics (2025, preprint) → `rayleigh-bernard-2025.png`
 
 ### Sourced from EVL archives
 - SpiderSense (2013) → `spidersense-2013.jpg`
@@ -50,26 +41,32 @@ Images are auto-cropped to square 200×200 thumbnails (displayed at 120×120). N
 - Communication, Machines & Human Augmentics (2016) → `communication-augmentics-2016.png` *(weak image, replace if possible)*
 
 ### Sourced from OSTI PDFs
-- Bridging Gaps Ascent Steering (2024) → `ascent-steering-2024.png`
+- Bridging Gaps Ascent Steering (2024, ISAV Best Paper) → `ascent-steering-2024.png`
 - Performance Eval GPU Hemodynamic (2023) → `hemodynamic-2023.png`
 
-## 🟠 TODO — Remaining 27 papers
+### Sourced from IEEE VIS 2024 poster CDN
+- Visuals on the House (LDAV 2024) → `visuals-on-the-house-2024.png`
+- Graphical Representation Ascent UI (LDAV 2024) → `ascent-ui-2024.png`
 
-### 2025 papers (mostly IEEE Xplore paywalled — need PDFs)
-- [ ] **The ECP ALPINE project** (IJHPCA 2025) — official ALPINE has many hero images on https://github.com/Alpine-DAV/ascent
+### Sourced from Papka eScience 2025 news post
+- Interactive Exploration of HACC via WebXR → `webxr-hacc-2025.png`
+- GENIUS AI Powered Assistant → `genius-ai-2025.png`
+- Modular Agentic System in MR → `agentic-mr-2025.png`
+
+## 🟠 TODO — Remaining 22 papers
+
+These are mostly IEEE Xplore/ACM DL paywalled papers where I couldn't find open hero figures.
+
+### 2025 papers (need manual sourcing)
+- [ ] **The ECP ALPINE project** (IJHPCA 2025) — try ALPINE GitHub https://github.com/Alpine-DAV/ascent for renderings
 - [ ] **Toward Dynamic Gaussian Rendering for Digital Twins** (eScience 2025)
 - [ ] **Real-time Scientific Visualization and Interactive Steering** (PEARC 2025)
-- [ ] **Modular Agentic System for SciVis in MR** (eScience 2025) — Mixed Reality screenshot
 - [ ] **Intuitive Computational Steering Using Ascent and Trame** (eScience 2025)
-- [ ] **Interactive Exploration of HACC Cosmology via WebXR** (eScience 2025) — cosmology renderings
-- [ ] **GENIUS: AI Powered Assistant for Scientific Research** (eScience 2025) — UI screenshot
 - [ ] **Free Lunch in In Situ Visualization** (LDAV 2025)
 - [ ] **An Interactive Agentic HPC Tutor** (SC '25 Workshops)
 
 ### 2024 papers
-- [ ] **Visuals on the House** (LDAV 2024)
-- [ ] **Graphical Representation Through a User Interface for In Situ with Ascent** (LDAV 2024)
-- [ ] **Exploring Large-Scale Scientific Data in Virtual Reality** (LDAV 2024) — VR scene photo
+- [ ] **Exploring Large-Scale Scientific Data in Virtual Reality** (LDAV 2024) — try VIS poster CDN with a different ID
 
 ### 2022-2023 papers
 - [ ] **Interactive Blood Flow Simulation with Deformable Cells and Walls** (2023)
@@ -78,19 +75,20 @@ Images are auto-cropped to square 200×200 thumbnails (displayed at 120×120). N
 - [ ] **Massive Data Visualization Techniques for VR Devices** (LDAV 2022)
 - [ ] **Distributed Volumetric Neural Representation** (LDAV 2022)
 - [ ] **Cinema Transfer: A Containerized Visualization Workflow** (2022)
-- [ ] **CheckMyFit: Ear Selfie for Hearing Aids** (PACM HCI 2022) — phone UI from ACM DL
+- [ ] **CheckMyFit: Ear Selfie for Hearing Aids** (PACM HCI 2022) — try ACM DL or screenshot from product page
 - [ ] **Instrumenting Multiphysics Blood Flow Simulation Codes** (LDAV 2021)
 
 ### Pre-2020 papers
 - [ ] **The RealityMashers: AR Wide FoV HMDs** (2016)
 - [ ] **Reimagining the microscope using SAGE** (J Pathology Informatics 2015)
 - [ ] **Scalable Adaptive Graphics Environment: Whole-Slide Images** (2014)
-- [ ] **Video index and search services** (2008) — undergrad, probably skip
-- [ ] **Game-engine based virtual museum** (2008) — undergrad, probably skip
+- [ ] **Video index and search services** (2008) — undergrad, can skip
+- [ ] **Game-engine based virtual museum** (2008) — undergrad, can skip
 
 ## Tips
 
-- **Photos beat figures**: A photo of the device or setup (SAGE2 in use, SpiderSense jacket, CAVE2 wall) often makes a more memorable thumbnail than an in-paper figure
-- **Best Paper winners**: ALCF news pages usually have a photo of the award ceremony — those make great thumbnails
-- **eScience 2025 batch**: All 7 of your eScience papers were presented as a coordinated session. Group photo from the conference might cover several at once.
+- **Photos beat figures**: A photo of the device or setup (SAGE2 in use, SpiderSense jacket, students with posters) often makes a more memorable thumbnail than an in-paper figure
+- **Best Paper winners**: ALCF news pages have award photos that work well
+- **IEEE VIS posters**: The CDN URL `https://ieeevis.b-cdn.net/vis_2024/posters/a-ldav-posters-{ID}.pdf` works if you can find the ID
+- **Conference photos**: Student-with-poster photos from Papka's news pages are great when you can find them
 - **License**: Your own published figures are fair use for self-promotion with attribution. ACM/IEEE allow author-side use.
