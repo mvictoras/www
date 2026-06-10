@@ -12,6 +12,7 @@
             {{- else if (hasPrefix .RelPermalink "/publications") -}}Journal articles, conference proceedings, and patents
             {{- else if (hasPrefix .RelPermalink "/talks") -}}Invited talks, keynotes, and presentations
             {{- else if (hasPrefix .RelPermalink "/cv") -}}Education, awards, students, and service
+            {{- else if (hasPrefix .RelPermalink "/research") -}}Five themes I'm building toward
             {{- else -}}{{ with .Page.Description }}{{ . }}{{ end }}
             {{- end -}}
           </p>

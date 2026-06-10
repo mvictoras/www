@@ -1,0 +1,22 @@
+// ============================================================================
+// Research page — thematic sections with bold leads
+// ============================================================================
+
+// The "lead" paragraph that sits right under each h2 theme heading.
+// Larger, slightly highlighted — sets the theme's scope in one breath.
+.research-theme__lead {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: $heading-color;
+  margin-top: -0.25rem;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+  border-left: 3px solid $url-color;
+  padding-left: 1rem;
+
+  em {
+    color: $url-color;
+    font-style: italic;
+    font-weight: 500;
+  }
+}
