@@ -5,7 +5,7 @@ defaultContentLanguage = "en"
 title = "Victor A. Mateevitsi, PhD"
 titleSeparator = "-"
 titleAddition = "Scientific Visualization, HCI, Supercomputing"
-description = "I am a Human-Computer Interaction Research Scientist at GN Advanced Science, founder and chair of ChicagoCHI and co-founder of PICKLE. I also consult startups and companies on HCI, UX, Virtual Reality, Augmented Reality and emerging technologies"
+description = "Computer Scientist at the Argonne Leadership Computing Facility and Adjunct Research Professor at UIC. I build visualization tools for petabyte-scale scientific simulations on the world's fastest supercomputers, working at the intersection of scientific visualization, human-computer interaction, and high-performance computing. General Chair of IEEE VIS 2027."
 
 ## Open Graph
 images = ["VictorMateevitsi.jpg"]
