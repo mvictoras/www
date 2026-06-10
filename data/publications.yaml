@@ -14,6 +14,7 @@ journals:
     pages: "5199--5214"
     year: 2024
     doi: "10.1109/TVCG.2024.3432710"
+    image: "distributed-neural-2024.png"
 
   - title: "2023 IEEE Scientific Visualization Contest Winner: VisAnywhere: Developing Multiplatform Scientific Visualization Applications"
     authors: "Thomas Marrinan, <strong>Victor A. Mateevitsi</strong>, Madeleine Moeller, Alina Kanayinkal, Michael E. Papka"
@@ -22,6 +23,7 @@ journals:
     pages: "93--103"
     year: 2024
     doi: "10.1109/MCG.2024.3444460"
+    image: "visanywhere-2024.png"
 
   - title: "CheckMyFit: Ear Selfie to Assist User Insertion of Hearing Aids"
     authors: "Qi Yang, Michalis Papakostas, Jack M. Scott, Erin R. O'Neill, Kirill Sergeyevich Kondrashov, <strong>Victor A. Mateevitsi</strong>, Gregory Olsen, Andrew Burke Dittberner"
@@ -139,6 +141,7 @@ conferences:
     pages: "331--332"
     year: 2025
     doi: "10.1109/eScience65000.2025.00056"
+    image: "toward-gaussian-isosurface-2024.png"
 
   - title: "Real-time Scientific Visualization and Interactive Steering for High-Performance Computing Simulations"
     authors: "Thomas Marrinan, Andres Sewell, <strong>Victor A. Mateevitsi</strong>, Steve Petruzza, Jifu Tan, Dimitrios K. Fytanidis, Michael E. Papka"
@@ -160,6 +163,7 @@ conferences:
     pages: "216--220"
     year: 2024
     doi: "10.1109/VIS55277.2024.00051"
+    image: "science-in-a-blink-2024.png"
 
   - title: "Visuals on the House: Optimizing HPC Workflows with No-Cost CPU Visualization"
     authors: "<strong>Victor A. Mateevitsi</strong>, Andres Sewell, Mathis Bode, Paul F. Fischer, Jens Henrik Göbbert, Joseph A. Insley, Ioannis Kavroulakis, Damaskinos Konioris, Yu-Hsiang Lan, Misun Min, Dimitrios Papageorgiou, Michael E. Papka, Steve Petruzza, Silvio Rizzi, Ananias Tomboulides"
@@ -188,6 +192,7 @@ conferences:
     pages: "73--74"
     year: 2024
     doi: "10.1109/LDAV64567.2024.00018"
+    image: "gaussian-isosurface-2025.png"
 
   - title: "Scaling Computational Fluid Dynamics: In Situ Visualization of NekRS using SENSEI"
     authors: "<strong>Victor A. Mateevitsi</strong>, Mathis Bode, Nicola J. Ferrier, Paul F. Fischer, Jens Henrik Göbbert, Joseph A. Insley, Yu-Hsiang Lan, Misun Min, Michael E. Papka, Saumil Patel, Silvio Rizzi, Jonathan Windgassen"
