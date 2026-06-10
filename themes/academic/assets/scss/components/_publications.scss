@@ -1,0 +1,165 @@
+// ============================================================================
+// Publications list — thumbnail + citation rows
+// ============================================================================
+
+// The list itself sheds default OL styling — we want clean rows, no numbers.
+.publications-list {
+  h3 {
+    font-family: $font-family-mono;
+    color: $heading-color;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid $border-color;
+    position: relative;
+
+    &::before {
+      content: "## ";
+      color: $url-color;
+      opacity: 0.5;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 2rem;
+      height: 2px;
+      background: $url-color;
+    }
+  }
+}
+
+.pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 3rem;
+  counter-reset: pub-counter;
+}
+
+.pub-item {
+  counter-increment: pub-counter;
+  display: flex;
+  gap: 1.25rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba($border-color, 0.4);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+// Thumbnail wrapper — square, fixed size on desktop, scales on mobile.
+.pub-item__thumb-link {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  display: block;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  overflow: hidden;
+  background: $bg-surface;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+  line-height: 0;
+
+  &:hover {
+    border-color: $url-color;
+    transform: translateY(-1px);
+    text-decoration: none;
+  }
+
+  picture, img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .pub-item__thumb {
+    object-fit: cover;
+  }
+
+  @media (max-width: 576px) {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+// Body — citation text. When there's no thumb, body claims full row width.
+.pub-item__body {
+  flex-grow: 1;
+  min-width: 0;  // allow text to truncate inside flex
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+
+  // Number prefix (since we removed default <ol> counter)
+  &::before {
+    content: counter(pub-counter) ". ";
+    color: $muted-color;
+    font-family: $font-family-mono;
+    font-size: 0.85rem;
+    margin-bottom: 0.15rem;
+  }
+
+  &--full {
+    // text-only row — no thumb, no left gap
+  }
+}
+
+.pub-item__title {
+  font-weight: 600;
+  color: $heading-color;
+  line-height: 1.35;
+}
+
+.pub-item__authors {
+  font-size: 0.9rem;
+  color: $body-color;
+  line-height: 1.4;
+}
+
+.pub-item__venue {
+  font-size: 0.9rem;
+  color: $muted-color;
+}
+
+.pub-item__meta {
+  font-size: 0.8rem;
+  color: $muted-color;
+  font-family: $font-family-mono;
+}
+
+.pub-item__award {
+  display: inline-block;
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+  font-family: $font-family-mono;
+  color: $url-color;
+  background: rgba($url-color, 0.1);
+  border: 1px solid rgba($url-color, 0.3);
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  align-self: flex-start;
+}
+
+.pub-item__links {
+  margin-top: 0.35rem;
+  font-size: 0.85rem;
+  font-family: $font-family-mono;
+
+  a {
+    color: $url-color;
+    text-decoration: none;
+    margin-right: 1rem;
+    border-bottom: 1px solid rgba($url-color, 0.3);
+    transition: border-color 0.15s ease;
+
+    &:hover {
+      border-bottom-color: $url-color;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{{/* Single publication item — used by publications shortcode.
+
+     Expects a publication entry as context (.). When entry has an `image:`
+     field pointing to a file in assets/publications/, renders thumbnail to
+     the left. Otherwise renders text-only row. */}}
+
+{{ $img := "" }}
+{{ if .image }}
+  {{ $img = resources.Get (printf "publications/%s" .image) }}
+{{ end }}
+
+<li class="pub-item">
+  {{ if $img }}
+    {{ $thumbWebp := $img.Fill "200x200 Center webp q85" }}
+    {{ $thumbFallback := $img.Fill "200x200 Center" }}
+    <a class="pub-item__thumb-link" href="{{ with .url }}{{ . }}{{ else }}https://doi.org/{{ .doi }}{{ end }}" target="_blank" rel="noopener" aria-label="{{ .title }}">
+      <picture>
+        <source type="image/webp" srcset="{{ $thumbWebp.RelPermalink }}">
+        <img class="pub-item__thumb" src="{{ $thumbFallback.RelPermalink }}" alt="{{ .title }}" loading="lazy" width="200" height="200">
+      </picture>
+    </a>
+  {{ end }}
+  <div class="pub-item__body{{ if not $img }} pub-item__body--full{{ end }}">
+    <div class="pub-item__title">{{ .title }}</div>
+    <div class="pub-item__authors">{{ .authors | safeHTML }}</div>
+    <div class="pub-item__venue"><em>{{ .venue }}</em>{{ with .volume }}, vol. {{ . }}{{ end }}{{ with .pages }}, pp. {{ . }}{{ end }}, {{ .year }}.</div>
+    {{ with .award }}<div class="pub-item__award">{{ . }}</div>{{ end }}
+    <div class="pub-item__links">
+      {{ with .doi }}<a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">DOI</a>{{ end }}
+      {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">Link</a>{{ end }}
+    </div>
+  </div>
+</li>

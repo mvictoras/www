@@ -196,6 +196,7 @@ conferences:
     year: 2023
     doi: "10.1145/3624062.3624159"
     award: "Best Paper Award"
+    image: "nekrs-sensei-2023.png"
 
   - title: "Performance Evaluation of Heterogeneous GPU Programming Frameworks for Hemodynamic Simulations"
     authors: "Aristotle X. Martin, Geng Liu, William Ladd, Seyong Lee, John Gounley, Jeffrey S. Vetter, Saumil Patel, Silvio Rizzi, <strong>Victor A. Mateevitsi</strong>, Joseph A. Insley, Amanda Randles"

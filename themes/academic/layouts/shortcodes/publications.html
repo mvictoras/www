@@ -1,49 +1,38 @@
-<div class="publications-list">
 {{ $pubs := site.Data.publications }}
 
+<div class="publications-list">
+
 <h3>Journal Articles</h3>
-<ol class="list-group list-group-flush list-group-numbered mb-5">
+<ol class="pub-list">
   {{ range $pubs.journals }}
-  <li class="list-group-item px-0 d-flex">
-    <div class="ms-2">
-      <strong>{{ .title }}</strong>
-      <br>{{ .authors | safeHTML }}
-      <br><em>{{ .venue }}</em>{{ with .volume }}, vol. {{ . }}{{ end }}{{ with .pages }}, pp. {{ . }}{{ end }}, {{ .year }}.
-      {{ with .doi }}<br><small><a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">DOI: {{ . }}</a></small>{{ end }}
-    </div>
-  </li>
+    {{ partial "publications/item.html" . }}
   {{ end }}
 </ol>
 
 <h3>Conference Proceedings</h3>
-<ol class="list-group list-group-flush list-group-numbered mb-4">
+<ol class="pub-list">
   {{ range $pubs.conferences }}
-  <li class="list-group-item px-0 d-flex">
-    <div class="ms-2">
-      <strong>{{ .title }}</strong>
-      <br>{{ .authors | safeHTML }}
-      <br><em>{{ .venue }}</em>{{ with .pages }}, pp. {{ . }}{{ end }}, {{ .year }}.
-      {{ with .award }}<br><span class="badge bg-warning text-dark">{{ . }}</span>{{ end }}
-      {{ with .doi }}<br><small><a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">DOI: {{ . }}</a></small>{{ end }}
-    </div>
-  </li>
+    {{ partial "publications/item.html" . }}
   {{ end }}
 </ol>
 
 {{ with site.Data.patents }}
 <h3>Patents</h3>
-<ol class="list-group list-group-flush list-group-numbered mb-4">
+<ol class="pub-list">
   {{ range . }}
-  <li class="list-group-item px-0 d-flex">
-    <div class="ms-2">
-      <strong>{{ .title }}</strong>
-      <br>{{ .inventors | safeHTML }}
-      <br><em>{{ .assignee }}</em>, {{ .number }}, {{ .status }}.
-      <br><small>Filed: {{ .filed }} &middot; Granted: {{ .granted }}</small>
-      {{ with .url }}<br><small><a href="{{ . }}" target="_blank" rel="noopener">View Patent</a></small>{{ end }}
+  <li class="pub-item">
+    <div class="pub-item__body pub-item__body--full">
+      <div class="pub-item__title">{{ .title }}</div>
+      <div class="pub-item__authors">{{ .inventors | safeHTML }}</div>
+      <div class="pub-item__venue"><em>{{ .assignee }}</em>, {{ .number }}, {{ .status }}.</div>
+      <div class="pub-item__meta">Filed: {{ .filed }} &middot; Granted: {{ .granted }}</div>
+      <div class="pub-item__links">
+        {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">View Patent</a>{{ end }}
+      </div>
     </div>
   </li>
   {{ end }}
 </ol>
 {{ end }}
+
 </div>
