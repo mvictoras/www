@@ -39,6 +39,7 @@ journals:
     venue: "communication+1"
     volume: "5(1)"
     year: 2016
+    image: "communication-augmentics-2016.png"
 
   - title: "SAGE2: A collaboration portal for scalable resolution displays"
     authors: "Luc Renambot, Thomas Marrinan, Jillian Aurisano, Arthur Nishimoto, <strong>Victor Mateevitsi</strong>, Krishna Bharadwaj, Lance Long, Andy Johnson, Maxine Brown, Jason Leigh"
@@ -48,6 +49,7 @@ journals:
     year: 2016
     doi: "10.1016/j.future.2015.05.014"
     url: "https://www.sciencedirect.com/science/article/pii/S0167739X15001892"
+    image: "sage2-fgcs-2016.png"
 
   - title: "Reimagining the microscope in the 21st century using the scalable adaptive graphics environment"
     authors: "<strong>Victor Mateevitsi</strong>, Tushar Patel, Jason Leigh, Bruce Levy"
@@ -75,6 +77,7 @@ journals:
     year: 2013
     doi: "10.1186/1687-5281-2013-48"
     url: "https://doi.org/10.1186/1687-5281-2013-48"
+    image: "ant-workflow-2013.png"
 
   - title: "Context-dependent navigation in a collectively foraging species of ant, Messor cephalotes"
     authors: "C. Offord, K. Reda, <strong>V. Mateevitsi</strong>"
@@ -84,6 +87,7 @@ journals:
     year: 2013
     doi: "10.1007/s00040-013-0301-y"
     url: "https://doi.org/10.1007/s00040-013-0301-y"
+    image: "ant-kenya-2013.png"
 
 conferences:
   - title: "An Interactive Agentic HPC Tutor for Lesson Planning, Teaching, and Assessment"
@@ -156,6 +160,7 @@ conferences:
     pages: "841--846"
     year: 2024
     doi: "10.1109/SCW63240.2024.00119"
+    image: "ascent-steering-2024.png"
 
   - title: "Science in a Blink: Supporting Ensemble Perception in Scalar Fields"
     authors: "<strong>Victor A. Mateevitsi</strong>, Michael E. Papka, Khairi Reda"
@@ -209,6 +214,7 @@ conferences:
     pages: "1126--1137"
     year: 2023
     doi: "10.1145/3624062.3624188"
+    image: "hemodynamic-2023.png"
 
   - title: "Interactive Blood Flow Simulation with Deformable Cells and Walls"
     authors: "Nazariy Tishchenko, Nicola Ferrier, Joseph A. Insley, <strong>Victor A. Mateevitsi</strong>, Michael E. Papka, Silvio Rizzi, Jifu Tan"
@@ -271,6 +277,7 @@ conferences:
     pages: "9--14"
     year: 2014
     doi: "10.1109/VR.2014.6802043"
+    image: "omegalib-2014.png"
 
   - title: "The health bar: a persuasive ambient display to improve the office worker's well being"
     authors: "<strong>Victor Mateevitsi</strong>, Khairi Reda, Jason Leigh, Andrew Johnson"
@@ -279,6 +286,7 @@ conferences:
     year: 2014
     doi: "10.1145/2582051.2582072"
     url: "https://dl.acm.org/doi/10.1145/2582051.2582072"
+    image: "health-bar-2014.jpg"
 
   - title: "SAGE2: A new approach for data intensive collaboration using Scalable Resolution Shared Displays"
     authors: "Thomas Marrinan, Jillian Aurisano, Arthur Nishimoto, Krishna Bharadwaj, <strong>Victor Mateevitsi</strong>, Luc Renambot, Lance Long, Andrew Johnson, Jason Leigh"
@@ -286,6 +294,7 @@ conferences:
     pages: "177--186"
     year: 2014
     doi: "10.4108/icst.collaboratecom.2014.257337"
+    image: "sage2-2014.png"
     award: "Best Paper Award"
 
   - title: "Sensing the Environment through SpiderSense"
@@ -294,6 +303,7 @@ conferences:
     pages: "51--57"
     year: 2013
     doi: "10.1145/2459236.2459246"
+    image: "spidersense-2013.jpg"
 
   - title: "Scalable Visual Queries for Data Exploration on Large, High-Resolution 3D Displays"
     authors: "Khairi Reda, Andrew Johnson, <strong>Victor Mateevitsi</strong>, Catherine Offord, Jason Leigh"
@@ -301,6 +311,7 @@ conferences:
     pages: "196--205"
     year: 2012
     doi: "10.1109/SC.Companion.2012.35"
+    image: "scalable-visual-queries-2012.jpg"
 
   - title: "The OmegaDesk: Towards a Hybrid 2D and 3D Work Desk"
     authors: "Alessandro Febretti, <strong>Victor A. Mateevitsi</strong>, Dennis Chau, Arthur Nishimoto, Brad McGinnis, Jakub Misterka, Andrew Johnson, Jason Leigh"
@@ -308,6 +319,7 @@ conferences:
     pages: "13--23"
     year: 2011
     doi: "10.1007/978-3-642-24031-7_2"
+    image: "omegadesk-2011.jpg"
 
   - title: "A game-engine based virtual museum authoring and presentation system"
     authors: "<strong>Victor Mateevitsi</strong>, Michalis Sfakianos, George Lepouras, Costas Vassilakis"
