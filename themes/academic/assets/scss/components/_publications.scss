@@ -94,15 +94,6 @@
   flex-direction: column;
   gap: 0.25rem;
 
-  // Number prefix (since we removed default <ol> counter)
-  &::before {
-    content: counter(pub-counter) ". ";
-    color: $muted-color;
-    font-family: $font-family-mono;
-    font-size: 0.85rem;
-    margin-bottom: 0.15rem;
-  }
-
   &--full {
     // text-only row — no thumb, no left gap
   }
@@ -112,6 +103,15 @@
   font-weight: 600;
   color: $heading-color;
   line-height: 1.35;
+
+  // Prefix each title with its counter number, monospaced, muted.
+  &::before {
+    content: counter(pub-counter) ". ";
+    color: $muted-color;
+    font-family: $font-family-mono;
+    font-weight: 500;
+    margin-right: 0.15rem;
+  }
 }
 
 .pub-item__authors {
