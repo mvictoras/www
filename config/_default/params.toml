@@ -44,4 +44,4 @@ articlePhotoSize = "688x381"
 
 footer = "Victor A. Mateevitsi. Made with  <div class='heart-emoji'><span>&#9829;</span></div>  in Chicago, IL"
 
-custom_css = ["css/custom.css"]
+custom_css = []

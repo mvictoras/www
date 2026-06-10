@@ -1,5 +1,16 @@
 {{ define "main" }}
 
+{{/* Hero — Victor figure (fingers + mateevitsi backgrounds) + Groku overlay.
+     Background images live in /assets/images/ so Hugo can generate WebP variants. */}}
+{{ $fingers := resources.Get "images/fingers.png" }}
+{{ $fingersPng := $fingers.Resize "1000x png q90" }}
+{{ $fingersWebp := $fingers.Resize "1000x webp q85" }}
+{{ $mateevitsi := resources.Get "images/mateevitsi.png" }}
+{{ $mateevitsiPng := $mateevitsi.Resize "1000x png q90" }}
+{{ $mateevitsiWebp := $mateevitsi.Resize "1000x webp q85" }}
+{{ $groku := resources.Get "images/groku.png" }}
+{{ $grokuWebp := $groku.Resize "800x webp q85" }}
+
 <section class="hero">
   <div class="hero-scanlines"></div>
   <div class="container">
@@ -17,7 +28,14 @@
           </div>
         </div>
       </div>
-      {{ .Params.hero_image | safeHTML }}
+      <div class="col-8 align-self-end p-0 home-image-fingers" style="background-image: image-set(url('{{ $fingersWebp.RelPermalink }}') type('image/webp'), url('{{ $fingersPng.RelPermalink }}') type('image/png'));">
+        <div class="w-100 h-100 d-flex p-0 home-image-mateevitsi" style="background-image: image-set(url('{{ $mateevitsiWebp.RelPermalink }}') type('image/webp'), url('{{ $mateevitsiPng.RelPermalink }}') type('image/png'));">
+          <picture>
+            <source type="image/webp" srcset="{{ $grokuWebp.RelPermalink }}">
+            <img src="{{ $groku.RelPermalink }}" class="img-fluid float-end home-image-groku" alt="Victor Mateevitsi wearing a HoloLens and holding Groku" fetchpriority="high" decoding="async" width="{{ $groku.Width }}" height="{{ $groku.Height }}">
+          </picture>
+        </div>
+      </div>
     </div>
   </div>
 </section>
