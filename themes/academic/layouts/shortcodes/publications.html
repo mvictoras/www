@@ -16,6 +16,15 @@
   {{ end }}
 </ol>
 
+{{ with $pubs.preprints }}
+<h3>Preprints &amp; In Review</h3>
+<ol class="pub-list">
+  {{ range . }}
+    {{ partial "publications/item.html" . }}
+  {{ end }}
+</ol>
+{{ end }}
+
 {{ with site.Data.patents }}
 <h3>Patents</h3>
 <ol class="pub-list">

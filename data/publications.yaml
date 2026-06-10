@@ -322,3 +322,18 @@ conferences:
     pages: "1--4"
     year: 2008
     doi: "10.1109/ISBMSB.2008.4536659"
+
+preprints:
+  - title: "Aurora: Architecting Argonne's First Exascale Supercomputer for Accelerated Scientific Discovery"
+    authors: "William E. Allcock, Benjamin S. Allen, James Anchell, Victor Anisimov, Thomas Applencourt, Abhishek Bagusetty, Ramesh Balakrishnan, Riccardo Balin, Solomon Bekele, Colleen Bertoni, Cyrus Blackworth, Renzo Bustamante, Kevin Canada, John Carrier, Christopher Chan-nui, Lance C. Cheney, Taylor Childers, Paul Coffman, Susan Coghlan, Tanima Dey, Michael D'Mello, Ashok Emani, Murali Emani, Kyle G. Felker, Sam Foreman, Olivier Franza, Longfei Gao, Marta García, María Garzarán, Balazs Gerofi, Yasaman Ghadar, Subrata Goswami, Neha Gupta, Kevin Harms, Väinö Hatanpää, Brian Holland, Carissa Holohan, Brian Homerding, Khalid Hossain, Xue Hu, Louise Huot, Huda Ibeid, Joseph A. Insley, Sai Jayanthi, Hong Jiang, Wei Jiang, Xiao-Yong Jin, Jeongnim Kim, Christopher Knight, Panagiotis Kourdis, Kalyan Kumaran, JaeHyuk Kwack, Janghaeng Lee, Ti Leggett, Ben Lenard, Chris Lewis, Nevin Liber, Johann Lombardi, Raymond M. Loy, Ye Luo, Bethany Lusch, Nilakantan Mahadevan, Beth Markey, <strong>Victor A. Mateevitsi</strong>, Gordon McPheeters, Ryan Milner, Jerome Mitchell, Vitali A. Morozov, Servesh Muralidharan, Tom Musta, Mrigendra Nagar, Vikram Narayana, Marieme Ngom, Anthony-Trung Nguyen, Nathan Nichols, Aditya Nishtala, James C. Osborn, Michael E. Papka, Scott Parker, Saumil S. Patel, Julia Piotrowska, Adrian C. Pope, Sucheta Raghunanda, Esteban Rangel, Paul M. Rich, Katherine M. Riley, Silvio Rizzi, Kris Rowe, Varuni Sastry, Adam Scovel, Filippo Simini, Haritha Siddabathuni Som, Patrick Steinbrecher, Rick Stevens, Xinmin Tian, Peter Upton, Thomas Uram, Archit K. Vasan, Álvaro Vázquez-Mayagoitia, Kaushik Velusamy, Brice Videau, Venkatram Vishwanath, Brian Whitney, Timothy J. Williams, Michael Woodacre, Sam Zeltner, Chuanjun Zhang, Gengbin Zheng, Huihuo Zheng"
+    venue: "arXiv preprint (submitted to Journal of Supercomputing)"
+    year: 2025
+    url: "https://arxiv.org/abs/2509.08207"
+    image: "aurora-2025.jpg"
+
+  - title: "Deciphering boundary layer dynamics in high-Rayleigh-number convection using 3360 GPUs and a high-scaling in-situ workflow"
+    authors: "Mathis Bode, Damian Alvarez, Paul Fischer, Christos E. Frouzakis, Jens Henrik Göbbert, Joseph A. Insley, Yu-Hsiang Lan, <strong>Victor A. Mateevitsi</strong>, Misun Min, Michael E. Papka, Silvio Rizzi, Roshan J. Samuel, Jörg Schumacher"
+    venue: "arXiv preprint"
+    year: 2025
+    url: "https://arxiv.org/abs/2501.13240"
+    image: "rayleigh-bernard-2025.png"
