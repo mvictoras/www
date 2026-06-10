@@ -36,7 +36,8 @@
 @import "bootstrap/scss/helpers";
 @import "bootstrap/scss/utilities/api";
 
-/** Import font-awesome  */
+/** Import font-awesome (use font-display: swap so text renders before icon fonts) */
+$fa-font-display: swap;
 @import "@fortawesome/fontawesome-free/scss/fontawesome";
 @import "@fortawesome/fontawesome-free/scss/brands";
 @import "@fortawesome/fontawesome-free/scss/solid";

@@ -6,7 +6,14 @@ import { Collapse } from 'bootstrap';
 import PhotoSwipeLightbox from 'photoswipe/lightbox';
 import PhotoSwipe from 'photoswipe';
 
-listen();
+// Quicklink prefetches in-viewport links during idle time.
+// Restrict to HTML pages — skip images, PDFs, downloads so they aren't pre-fetched.
+listen({
+  ignores: [
+    /\.(?:jpg|jpeg|png|gif|webp|avif|svg|pdf|zip|mp4|webm)(?:$|\?)/i,
+    (uri) => uri.includes('#'),
+  ],
+});
 
 if (document.querySelector('#gallery')) {
   const lightbox = new PhotoSwipeLightbox({
