@@ -1,9 +1,9 @@
 ---
-title: "Victor Mateevitsi, PhD. Researcher, Engineer, Scientist"
+title: "Victor Mateevitsi, PhD. SciVis, HCI, HPC"
 date: 2019-06-14T15:06:27-05:00
 lastmod: 2022-04-05T00:00:00+00:00
 draft: false
-skills: [Researcher, Engineer, Scientist]
+skills: [SciVis, HCI, HPC]
 contact: |
   <p>I love crazy ideas, difficult problems and emerging technologies. Do you or your idea fit the profile? <a href='/about/#get-in-touch'>Let's work together</a>, I can help!</p>
   <p>I also love traveling, exchanging ideas and sharing knowledge. I have been a <a href='https://youtu.be/gtU-6cxi1OA' target="_blank">TEDx speaker</a> and spoken to world-class conferences, like the <a href='https://youtu.be/D2BZ5wCTwGU' target="_blank">Augmented World Exposition (AWE)</a>. I'd be honored to participate at your next panel, conference or event. Feel free to <a href='/about/#get-in-touch'>contact me</a>.</p>
