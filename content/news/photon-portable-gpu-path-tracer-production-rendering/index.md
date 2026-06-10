@@ -2,7 +2,7 @@
 title: "Building a Production GPU Path Tracer with Kokkos"
 subtitle: "How we built Photon — a physically-based renderer that runs on any GPU, reads industry-standard scene files, and produces production-quality images with denoising and tone mapping."
 date: 2026-03-17T12:00:00-05:00
-images: [ photon-spaceship.png ]
+images: [ photon-spaceship.webp ]
 draft: true
 ---
 
@@ -17,7 +17,7 @@ Build a path tracer that:
 
 ## Gallery
 
-{{< gallery "photon-cornell-box.png::Cornell Box — 36 triangles, red and green walls with color bleeding, area light on ceiling. 1024 spp, OIDN denoised." "photon-spaceship.png::Spaceship — 457K triangles, metallic body with conductor Fresnel, transparent glass cockpit dome, 4 area lights." "photon-bathroom.png::Bathroom — 592K triangles, 32 materials, 12 textures. Chrome faucets, glass light bulbs, mirror, wood grain, marble countertop." "photon-kitchen.png::Kitchen — 1.4M triangles, 90 materials, 4 area lights. The largest standard test scene." "photon-living-room.png::Living Room — Lit entirely by HDRI environment map. No area lights — all illumination from importance-sampled environment lighting." "photon-staircase.png::Staircase — 263K triangles, 25 materials, indirect illumination." >}}
+{{< gallery "photon-cornell-box.webp::Cornell Box — 36 triangles, red and green walls with color bleeding, area light on ceiling. 1024 spp, OIDN denoised." "photon-spaceship.webp::Spaceship — 457K triangles, metallic body with conductor Fresnel, transparent glass cockpit dome, 4 area lights." "photon-bathroom.webp::Bathroom — 592K triangles, 32 materials, 12 textures. Chrome faucets, glass light bulbs, mirror, wood grain, marble countertop." "photon-kitchen.webp::Kitchen — 1.4M triangles, 90 materials, 4 area lights. The largest standard test scene." "photon-living-room.webp::Living Room — Lit entirely by HDRI environment map. No area lights — all illumination from importance-sampled environment lighting." "photon-staircase.webp::Staircase — 263K triangles, 25 materials, indirect illumination." >}}
 
 ---
 
