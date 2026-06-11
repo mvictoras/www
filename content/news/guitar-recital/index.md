@@ -3,6 +3,7 @@ title: Guitar Recital
 date: 2014-08-11T23:00:35+00:00
 aliases: [ "/2014/08/11/guitar-recital/" ]
 images: [ GuitarRecitalHotelCalifornia.jpg ]
+category: "personal"
 ---
 {{< youtube 4uwDwinktbs >}}
 

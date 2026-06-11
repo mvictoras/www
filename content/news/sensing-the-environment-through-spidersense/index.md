@@ -11,6 +11,7 @@ layout: paper
 pdf: mateevitsi.spidersense.pdf
 reference: "Mateevitsi, Victor, Brad Haggadone, Jason Leigh, Brian Kunzer, and Robert V. Kenyon. \"Sensing the environment through SpiderSense.\" In Proceedings of the 4th augmented human international conference, pp. 51-57. 2013."
 draft: false
+category: "research"
 ---
 {{< youtube JEUgL10t03w >}}
 

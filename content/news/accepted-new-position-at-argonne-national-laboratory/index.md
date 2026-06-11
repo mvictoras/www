@@ -3,6 +3,7 @@ title: Accepted new position at Argonne National Laboratory
 date: 2020-09-09
 images: [ anl-logo.jpg ]
 draft: false
+category: "award"
 ---
 
 I have been barely keeping this under wraps: I'm finally thrilled to share that I have accepted an offer with the Visualization and Data Analytics team at the {{< a src="https://www.alcf.anl.gov" link="Argonne Leadership Computing Facility (ALCF)" >}} at the {{< a src="https://www.anl.gov" link="Argonne National Laboratory (ANL)" >}}. I will be working under {{< a src="https://www.alcf.anl.gov/about/people/joseph-insley" link="Joseph A. Insley" >}} on advancing the in-situ large-scale data visualization and analysis capabilities that utilize the Supercomputer.

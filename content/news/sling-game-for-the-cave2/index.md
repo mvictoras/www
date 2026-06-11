@@ -4,6 +4,7 @@ date: 2014-06-18T12:00:11+00:00
 aliases: [/2014/06/18/sling-game-for-the-cave2/]
 image_credits: "Lance Long, Electronic Visualization Laboratory"
 images: [ LJL9462.jpg ]
+category: "research"
 ---
 {{< youtube 1oxt7ZWtbGg >}}
 

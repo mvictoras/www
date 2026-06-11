@@ -128,13 +128,68 @@
     flex-grow: 1;
   }
 
+  // Meta line: date + category badge side by side
+  &__meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  // Category badge — small, mono, color-coded per type
+  &__category {
+    font-family: $font-family-mono;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.2rem 0.55rem;
+    border-radius: 3px;
+    border: 1px solid currentColor;
+    flex-shrink: 0;
+    opacity: 0.85;
+
+    // Default (research) — orange to match the dark lab accent
+    color: $url-color;
+    background: rgba($url-color, 0.08);
+
+    // Variants — each category gets a distinct hue but stays dark-lab compatible
+    &--research {
+      color: $url-color;
+      background: rgba($url-color, 0.08);
+    }
+
+    &--award {
+      // Gold/yellow — celebratory
+      color: #f5c842;
+      background: rgba(245, 200, 66, 0.08);
+    }
+
+    &--talk {
+      // Cyan — events, talks
+      color: #5fc8d8;
+      background: rgba(95, 200, 216, 0.08);
+    }
+
+    &--personal {
+      // Muted gray — quietly present
+      color: $muted-color;
+      background: rgba($muted-color, 0.08);
+    }
+
+    &--meta {
+      // Pink/magenta — site meta
+      color: #d878a8;
+      background: rgba(216, 120, 168, 0.08);
+    }
+  }
+
   &__date {
     font-family: $font-family-mono;
     font-size: 0.75rem;
     color: $url-color;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    margin-bottom: 0.5rem;
     font-weight: 500;
 
     &::before {

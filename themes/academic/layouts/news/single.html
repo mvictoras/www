@@ -17,7 +17,10 @@
     <div class="row">
       <div class="col-lg-9">
         <header class="single-post__header">
-          <time class="single-post__date" datetime="{{ $.Page.Date.Format "2006-01-02" }}">{{ $.Page.Date.Format "02 Jan 2006" }}</time>
+          <div class="single-post__meta">
+            <time class="single-post__date" datetime="{{ $.Page.Date.Format "2006-01-02" }}">{{ $.Page.Date.Format "02 Jan 2006" }}</time>
+            {{ with .Params.category }}<span class="single-post__category news-card__category news-card__category--{{ . }}">{{ . }}</span>{{ end }}
+          </div>
           <h1 class="single-post__title">{{ $.Page.Title }}</h1>
           {{ with .Params.subtitle }}<p class="single-post__subtitle">{{ . }}</p>{{ end }}
         </header>

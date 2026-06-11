@@ -8,6 +8,7 @@ pdf: eurasip_ants.pdf
 reference: "Reda, Khairi, Victor Mateevitsi, and Catherine Offord. \"A human-computer collaborative workflow for the acquisition and analysis of terrestrial insect movement in behavioral field studies.\" EURASIP Journal on Image and Video Processing 2013, no. 1 (2013): 1-17."
 draft: false
 
+category: "research"
 ---
 {{< youtube 2UL2Xs-Vxt8 >}}
 

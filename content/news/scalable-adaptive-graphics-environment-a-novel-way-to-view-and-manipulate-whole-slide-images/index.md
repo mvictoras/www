@@ -8,6 +8,7 @@ image_credits: "Dr. Bruce Levy, University of Illinois at Chicago"
 pdf: Scalable_adaptive_graphics_environment_a.pdf
 reference: "Mateevitsi, Victor, and Bruce Levy. \"Scalable Adaptive Graphics Environment: A Novel Way to View and Manipulate Whole-Slide Images.\" Analytical Cellular Pathology 2014 (2014)."
 draft: false
+category: "research"
 ---
 The Scalable Adaptive Graphics Environment (SAGE) was developed at the University of Illinois at Chicago’s (UIC) Electronic Visualization Laboratory (EVL) to facilitate collaborative efforts that require the sharing of data-intensive information for analysis. SAGE is a cross-platform, community-driven, open-source visualization and collaboration tool that enables users to access, display, and share a variety of data-intensive information, in a variety of resolutions and format, from multiple sources, on tiled display walls of arbitrary size. SAGE walls have had the ability to display digital-cinema animations, high resolution images, high-definition video-conferences, presentation slides, documents, spreadsheets, and computer screens; however, there was no way to display and manipulate histologic whole-slide images (WSIs). Our desire was to create a tool to permit the importation, display, and manipulation of WSI in the SAGE environment.
 

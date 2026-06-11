@@ -3,6 +3,7 @@ title: IEEE VIS 2021 - Chicago Satellite Event was a success!
 date: 2021-10-26
 images: [ ChiSatelliteEvent.png ]
 draft: false
+category: "talk"
 ---
 
 Due to the ongoing COVID-19 pandemic, the {{< a src="http://ieeevis.org/year/2021/welcome" link="IEEE VIS 2021" >}} conference will be virtual. As a result, the VIS organization committee has encouraged the organization of local satellite events, to fill the gap of in-person experiences and allow the local academic and professional VIS communities to network, come together, and exchange ideas.

@@ -5,6 +5,7 @@ images: [ "msi-wired-to-wear-featured.jpg" ]
 image_credits: "JB Spector/Museum of Science and Industry, Chicago."
 related_press: [ "spidersense-msi" ]
 draft: false
+category: "research"
 ---
 
 In late 2017 I was approached by {{< a src="https://www.msichicago.org/press/media-requests/meet-our-experts/kathleen-mccarthy/" link="Kathleen McCarthy" >}},

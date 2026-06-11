@@ -3,6 +3,7 @@ title: VIS/HCI deadlines page and counter
 date: 2021-10-07
 images: [ vis-hci-deadlines.png ]
 draft: false
+category: "research"
 ---
 
 To keep track of the VIS/HCI conferences I was searching for a curated list by other researchers/universities, but I found none. I knew that the AI community has a {{< a src="https://aideadlin.es/?sub=CV,NLP,DM,SP,ML,RO" link="similar list" >}}, so I decided to build my [own](/vis-deadlines).

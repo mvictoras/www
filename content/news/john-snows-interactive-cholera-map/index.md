@@ -4,6 +4,7 @@ date: 2009-09-01T19:41:06+00:00
 aliases: [ /2009/09/01/john-snows-interactive-cholera-map/ ]
 images: [ CholeraScreenCover.jpg ]
 draft: false
+category: "research"
 ---
 
 {{< figure src="JohnSnowCholeraMap.jpg" >}}

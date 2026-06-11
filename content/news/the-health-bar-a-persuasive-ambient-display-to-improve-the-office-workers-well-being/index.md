@@ -8,6 +8,7 @@ image_credits: "Lance Long, Electronic Visualization Laboratory"
 pdf: mateevitsi.healthbar.pdf
 reference: "Mateevitsi, Victor, Khairi Reda, Jason Leigh, and Andrew Johnson. \"The health bar: a persuasive ambient display to improve the office worker's well being.\" In Proceedings of the 5th augmented human international conference, pp. 1-2. 2014."
 draft: false
+category: "research"
 ---
 {{< youtube L-KuWsE2c30 >}}
 

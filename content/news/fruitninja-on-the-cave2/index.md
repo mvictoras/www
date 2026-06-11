@@ -5,6 +5,7 @@ aliases: [ /2013/11/09/fruitninja-on-the-cave2/ ]
 images: [ EVL_04081.jpg ]
 image_credits: "Lance Long, Electronic Visualization Laboratory"
 draft: false
+category: "research"
 ---
 {{< youtube Xorgyc7CPGg >}}
 

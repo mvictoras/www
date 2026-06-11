@@ -8,6 +8,7 @@ image_credits: "Lance Long, Electronic Visualization Laboratory"
 pdf: bassiony_radosevish_2014.pdf
 reference: "M.A. Bassiony, B.J. Vesper, V.A. Mateevitsi, K.M. Elseth, M.D. Colvar, K.D. Garcia, J. Leigh, J.A. Radosevich, Immunohistochemical Evaluation of Bleeding Control Induced by Holmium Laser and Biolase Dental Laser As Coagulting Devices of Incisional Wounds, Proceedings of the UIC College of Dentristry Clinic and Research Day 2014, Chicago, IL, March 6, 2014."
 draft: false
+category: "research"
 ---
 Laser use in the medical field brought many enhancements to clinical and surgical procedures. Many different devices are now available for dental use. Lasers have sterilizing and coagulative effects that greatly reduce intra-operative bleeding, postoperative pain and inflammation, which in turn enhances the healing process and reduces tissue scarring significantly.
 

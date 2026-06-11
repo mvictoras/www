@@ -8,6 +8,7 @@ image_credits: "Lance Long, Electronic Visualization Laboratory"
 pdf: omegalib-vr14-short.pdf
 reference: "Febretti, Alessandro, Arthur Nishimoto, Victor Mateevitsi, Luc Renambot, Andrew Johnson, and Jason Leigh. \"Omegalib: A multi-view application framework for hybrid reality display environments.\" In 2014 IEEE Virtual Reality (VR), pp. 9-14. IEEE, 2014."
 draft: false
+category: "research"
 ---
 
 {{< youtube yf0sllpZx3w >}}

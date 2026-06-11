@@ -4,6 +4,7 @@ author: mvictoras
 date: 2013-05-07T12:00:00+00:00
 aliases: [ /2013/05/07/futile/ ]
 images: [ mudbug.jpg ]
+category: "personal"
 ---
 {{< vimeo 65615066 >}}
 

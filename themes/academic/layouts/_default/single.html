@@ -7,7 +7,7 @@
           <span class="page-header__accent"></span>
           <h1 class="page-header__title">{{ .Page.Title }}</h1>
           <p class="page-header__subtitle">
-            {{- if (eq .Page.Type "news") -}}Research updates, awards, and lab notes
+            {{- if (eq .Page.Type "news") -}}Research, projects, awards, talks, and the occasional personal note
             {{- else if (eq .Page.Type "press") -}}Media coverage and mentions
             {{- else if (hasPrefix .RelPermalink "/publications") -}}Journal articles, conference proceedings, and patents
             {{- else if (hasPrefix .RelPermalink "/talks") -}}Invited talks, keynotes, and presentations

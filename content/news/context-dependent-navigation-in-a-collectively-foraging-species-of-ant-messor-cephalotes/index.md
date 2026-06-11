@@ -7,6 +7,7 @@ layout: paper
 pdf: springer_antkenya_paper_8-13.pdf
 reference: "Offord, C., K. Reda, and V. Mateevitsi. \"Context-dependent navigation in a collectively foraging species of ant, Messor cephalotes.\" Insectes sociaux 60, no. 3 (2013): 361-368."
 draft: false
+category: "research"
 ---
 {{< youtube 2UL2Xs-Vxt8 >}}
 

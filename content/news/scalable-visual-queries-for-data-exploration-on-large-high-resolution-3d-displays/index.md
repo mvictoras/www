@@ -8,6 +8,7 @@ image_credits: "Lance Long, Electronic Visualization Laboratory"
 pdf: ultravis12.pdf
 reference: "Reda, Khairi, Andrew Johnson, Victor Mateevitsi, Catherine Offord, and Jason Leigh. \"Scalable visual queries for data exploration on large, high-resolution 3D displays.\" In 2012 SC Companion: High Performance Computing, Networking Storage and Analysis, pp. 196-205. IEEE, 2012."
 draft: false
+category: "research"
 ---
 {{< youtube jAoWbN2sW2M >}}
 

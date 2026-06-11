@@ -4,6 +4,7 @@ subtitle: "How we built Photon — a physically-based renderer that runs on any 
 date: 2026-03-17T12:00:00-05:00
 images: [ photon-spaceship.webp ]
 draft: true
+category: "research"
 ---
 
 ## The Goal
