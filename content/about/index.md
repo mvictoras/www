@@ -43,7 +43,7 @@ I joined Argonne in 2020.
 
 ## Building and serving the community
 
-I serve as **General Chair of {{< a link="IEEE VIS 2027" src="https://ieeevis.org" >}}** in Chicago &mdash; the field's flagship conference. I founded **{{< a link="ChicagoCHI" src="https://www.chicagochi.org" >}}**, the local SIGCHI chapter, and I'm an active member of the Khronos Group's ANARI working group on standardizing 3D graphics APIs. I'm a Senior Member of both IEEE and ACM, and I mentor research interns each summer at ALCF.
+I serve as **General Chair of {{< a link="IEEE VIS 2027" src="https://ieeevis.org" >}}** in Chicago &mdash; the field's flagship conference. I founded **{{< a link="ChicagoCHI" src="https://www.chicagochi.org" >}}**, the local SIGCHI chapter, and I'm an active member of the Khronos Group's ANARI working group on standardizing 3D graphics APIs. I'm a Senior Member of both IEEE and ACM, and I mentor research interns each summer at ALCF. I also co-teach **{{< a link="Creative Coding" src="https://www.evl.uic.edu/datsoupi/2025_CC/" >}}** (CS/DES 427/450) at UIC's EVL with {{< a link="Daria Tsoupikova" src="https://www.evl.uic.edu/datsoupi/" >}}, introducing students to VR design in the CAVE2.
 
 I draw on a diverse set of skills: scientific visualization, computer graphics, human-computer interaction, electronics, fabrication, and computer vision.
 

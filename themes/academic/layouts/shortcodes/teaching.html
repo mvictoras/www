@@ -1,0 +1,13 @@
+<div class="teaching-list">
+{{ range site.Data.teaching }}
+<div class="teaching-item mb-4">
+  <h4 class="teaching-item__title">
+    {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}{{ .course }}{{ with .url }}</a>{{ end }}
+    <span class="teaching-item__code">{{ .code }}</span>
+  </h4>
+  <p class="mb-1">{{ .role }}{{ with .with }} (with {{ . }}){{ end }} &mdash; {{ .institution }}{{ with .location }}, {{ . }}{{ end }}</p>
+  <p class="mb-1 text-muted">{{ .semester }}</p>
+  {{ with .description }}<p class="mb-0 teaching-item__desc">{{ . }}</p>{{ end }}
+</div>
+{{ end }}
+</div>

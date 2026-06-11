@@ -62,6 +62,9 @@ description: "Victor Mateevitsi — Computer Scientist at Argonne National Labor
 ## Students Supervised
 {{< students >}}
 
+## Teaching
+{{< teaching >}}
+
 ---
 
 <p class="cv-footnote">
