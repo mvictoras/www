@@ -1,65 +1,116 @@
-{{ $.Scratch.Set "prev" ((now.AddDate 1 0 0).Format "2006") }}
-<h6>Note: All dates, times, calendar invites, durations are in <span class="local-timezone"></span><span class="pl-1"> timezone</span></h6>
-<div class="list-group list-group-flush updates">
-  {{ range site.Data.conferences }}
-    {{ $abbreviation := .abbreviation }}
-    {{ $description := .description }}
-    {{ $title := .title }}
-    {{ $hindex := .hindex }}
-    {{ $year := time.Format "2006" .confStartDate }}
-    {{ $id := .id }}
-    {{ $link := .link }}
-    {{ $deadline := .deadline }}
-    {{ $timezone := .timezone }}
-    {{ $place := .place }}
-    {{ $sub := .sub }}
-    <div class="card my-3">
-      <div class="d-flex justify-content-between card-header">
-        <h5>{{ .abbreviation }}</h5>
-        <div class="date" startDate="{{ .confStartDate }}" endDate="{{ .confEndDate }}" timezone="{{ .timezone }}" type="paper" title="{{ .title }}" description="{{ .description }}">
-          {{ if eq (time.Format "Jan 2" .confStartDate) (time.Format "Jan 2" .confEndDate)}}
-            {{ printf "%s" (time.Format "Jan 2, 2006" .confStartDate) }}
-          {{ else }}
-            {{ printf "%s - %s" (time.Format "Jan 2" .confStartDate) (time.Format "Jan 2, 2006" .confEndDate) }}
-          {{ end }}
-        </div>
-      </div>
-      <div class="card-body">
-        <h5 class="card-title"><a href={{ .link }} target="_blank" rel="noopener noreferrer">{{ .title }}</a></h5>
-        <p class="card-text">{{ .description }}</p>
+{{/* Conference deadlines shortcode (v2 schema: families + instances).
+     Auto-hides families whose latest instance ended >90 days ago.
+     JS handles tag filtering, timezone toggle, color-coded urgency, hero countdown. */}}
 
-        <div class="py-4"><i class="fa fa-map-marker px-1"></i>{{ .place }}</div>
+{{ $hideBefore := now.AddDate 0 0 -90 }}
 
-        {{ with .deadlines }}
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">Type</th>
-              <th scope="col">Date</th>
-              <th></th>
-            </tr>
-          </thead>
-          <tbody>
-            {{ range . }}
-              <tr class="event" timezone="{{ .timezone }}" type="{{ .type }}" title="{{ $abbreviation }}" description="{{ $description }}" deadline="{{ .date }}" year="{{ $year }}" abbreviation="{{ $abbreviation }}" utcOffset="{{ .utcOffset }}" id="{{ $id }}">
-                <th>{{ .type }}</th>
-                <td>
-                  <div><i class="fa fa-calendar px-1"></i><span class="local-datetime">{{ .date }}</span></div>
-                  <i class="fa fa-clock-o px-1"></i>
-                  <span class="local-counter"></span>
-                </td>
-                <td><div class="add-button"></div></td>
-              </tr>
-            {{ end }}
-          </tbody>
-        </table>
-        {{ end}}
-      </div>
-      <div class="card-footer">
-        {{ range .sub}}
-          <span class="badge bg-primary"> {{ . }}</span>
-        {{ end }}
-      </div>
-    </div>
-  {{ end }}
+<div class="deadlines-page">
+
+  <div class="deadlines-hero" data-deadlines-hero>
+    <div class="deadlines-hero__label">Next upcoming deadline</div>
+    <div class="deadlines-hero__title" data-hero-title>Loading…</div>
+    <div class="deadlines-hero__countdown" data-hero-countdown>—</div>
+    <div class="deadlines-hero__when" data-hero-when></div>
   </div>
+
+  <div class="deadlines-controls">
+    <div class="deadlines-filters" data-deadlines-filters>
+      <button class="deadlines-chip is-active" data-filter="all" type="button">All</button>
+      <button class="deadlines-chip" data-filter="vis" type="button">Vis</button>
+      <button class="deadlines-chip" data-filter="hpc" type="button">HPC</button>
+      <button class="deadlines-chip" data-filter="hci" type="button">HCI</button>
+      <button class="deadlines-chip" data-filter="vr-xr" type="button">VR/XR</button>
+      <button class="deadlines-chip" data-filter="graphics" type="button">Graphics</button>
+      <button class="deadlines-chip" data-filter="ai-ml" type="button">AI/ML</button>
+    </div>
+    <div class="deadlines-tz">
+      <label for="tz-toggle" class="deadlines-tz__label">Times in</label>
+      <select id="tz-toggle" class="deadlines-tz__select" data-tz-toggle>
+        <option value="local">Your local timezone (<span class="local-timezone"></span>)</option>
+        <option value="original">Original conference timezone</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="deadlines-list">
+    {{ range $family := site.Data.conferences }}
+      {{ $showFamily := false }}
+      {{ range .instances }}
+        {{ $end := time.AsTime (printf "%s" .dates.end) }}
+        {{ if $end.After $hideBefore }}{{ $showFamily = true }}{{ end }}
+      {{ end }}
+
+      {{ if $showFamily }}
+        {{ $tagList := delimit $family.tags " " }}
+        <article class="deadline-card" data-family="{{ $family.family }}" data-tags="{{ $tagList }}">
+          <header class="deadline-card__head">
+            <div>
+              <h3 class="deadline-card__name"><a href="{{ $family.homepage }}" target="_blank" rel="noopener">{{ $family.name }}</a></h3>
+              <p class="deadline-card__full">{{ $family.full_name }}</p>
+            </div>
+            <div class="deadline-card__tags">
+              {{ range $family.tags }}<span class="deadline-card__tag deadline-card__tag--{{ . }}">{{ . }}</span>{{ end }}
+            </div>
+          </header>
+
+          <p class="deadline-card__desc">{{ $family.description }}</p>
+
+          {{ range $instance := $family.instances }}
+            {{ $instEnd := time.AsTime (printf "%s" .dates.end) }}
+            {{ $instStart := time.AsTime (printf "%s" .dates.start) }}
+            {{ $isPast := $instEnd.Before now }}
+            {{ $instYear := .year }}
+            <section class="deadline-instance{{ if $isPast }} is-past{{ end }}">
+              <header class="deadline-instance__head">
+                <span class="deadline-instance__year">{{ .year }}</span>
+                <a class="deadline-instance__where" href="{{ .url }}" target="_blank" rel="noopener">
+                  {{ .location.city }}, {{ .location.country }}
+                </a>
+                <span class="deadline-instance__when">
+                  {{ if eq (time.Format "Jan 2" $instStart) (time.Format "Jan 2" $instEnd) }}
+                    {{ time.Format "Jan 2, 2006" $instStart }}
+                  {{ else if eq (time.Format "Jan" $instStart) (time.Format "Jan" $instEnd) }}
+                    {{ time.Format "Jan 2" $instStart }}–{{ time.Format "2, 2006" $instEnd }}
+                  {{ else }}
+                    {{ time.Format "Jan 2" $instStart }} – {{ time.Format "Jan 2, 2006" $instEnd }}
+                  {{ end }}
+                </span>
+              </header>
+
+              {{ if .deadlines }}
+                <table class="deadline-table">
+                  <tbody>
+                    {{ range .deadlines }}
+                      <tr class="deadline-row"
+                          data-deadline="{{ .date }}"
+                          data-tz="{{ .tz }}"
+                          data-track="{{ .track }}"
+                          data-family="{{ $family.family }}"
+                          data-family-name="{{ $family.name }}"
+                          data-instance-year="{{ $instYear }}">
+                        <th class="deadline-row__track">
+                          {{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .track }}</a>{{ else }}{{ .track }}{{ end }}
+                        </th>
+                        <td class="deadline-row__when">
+                          <span class="deadline-row__local" data-display-time>—</span>
+                        </td>
+                        <td class="deadline-row__count">
+                          <span class="deadline-row__counter" data-counter>—</span>
+                        </td>
+                        <td class="deadline-row__action">
+                          <span class="deadline-row__add" data-add-button></span>
+                        </td>
+                      </tr>
+                    {{ end }}
+                  </tbody>
+                </table>
+              {{ else }}
+                <p class="deadline-instance__no-deadlines">No deadlines announced yet.</p>
+              {{ end }}
+            </section>
+          {{ end }}
+        </article>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>

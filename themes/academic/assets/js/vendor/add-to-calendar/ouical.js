@@ -166,7 +166,7 @@
       Math.floor(Math.random() * 1000000); // Generate a 6-digit random ID
   };
 
-  createCalendar = function(params) {
+  window.createCalendar = function(params) {
     if (!validParams(params)) {
       console.log('Event details missing.');
       return;
