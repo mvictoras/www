@@ -6,6 +6,7 @@ journals:
     pages: "32--51"
     year: 2025
     doi: "10.1177/10943420241286521"
+    image: "alpine-2025.jpg"
 
   - title: "Distributed Neural Representation for Reactive In Situ Visualization"
     authors: "Qi Wu, Joseph A. Insley, <strong>Victor A. Mateevitsi</strong>, Silvio Rizzi, Michael E. Papka, Kwan-Liu Ma"
@@ -33,6 +34,7 @@ journals:
     year: 2022
     doi: "10.1145/3546721"
     url: "https://dl.acm.org/doi/10.1145/3546721"
+    image: "checkmyfit-2022.png"
 
   - title: "Communication, Machines & Human Augmentics"
     authors: "John Novak, Jason Archer, <strong>Victor Mateevitsi</strong>, Steve Jones"
@@ -96,6 +98,7 @@ conferences:
     pages: "367--375"
     year: 2025
     doi: "10.1145/3731599.3767386"
+    image: "agentic-hpc-tutor-2025.png"
 
   - title: "Free Lunch in In Situ Visualization: Leveraging Idle CPU Resources to Mitigate GPU Contention"
     authors: "<strong>Victor A. Mateevitsi</strong>, Andres Sewell, Jens Henrik Göbbert, Mathis Bode, Paul F. Fischer, Joseph A. Insley, Ioannis Kavroulakis, Damaskinos Konioris, Yu-Hsiang Lan, Misun Min, Dimitrios Papageorgiou, Steve Petruzza, Silvio Rizzi, Ananias Tomboulides, Michael E. Papka"
@@ -103,6 +106,7 @@ conferences:
     pages: "12--21"
     year: 2025
     doi: "10.1109/LDAV68558.2025.00006"
+    image: "free-lunch-2025.gif"
 
   - title: "Intuitive Computational Steering Using Ascent and Trame"
     authors: "Thomas Marrinan, Andres Sewell, <strong>Victor A. Mateevitsi</strong>, Steve Petruzza, Jifu Tan, Dimitrios K. Fytanidis, Michael E. Papka"
@@ -110,6 +114,7 @@ conferences:
     pages: "10--19"
     year: 2025
     doi: "10.1109/eScience65000.2025.00011"
+    image: "intuitive-steering-2025.gif"
 
   - title: "Interactive Exploration of HACC Cosmology Data using WebXR"
     authors: "Idunnuoluwa A. Adeniji, Joseph A. Insley, Mengjiao Han, Janet Knowles, Michael E. Papka, <strong>Victor A. Mateevitsi</strong>, Silvio Rizzi"
@@ -125,6 +130,7 @@ conferences:
     pages: "353--354"
     year: 2025
     doi: "10.1109/eScience65000.2025.00067"
+    image: "dynamic-gaussian-digital-twins-2025.gif"
 
   - title: "GENIUS: AI Powered Assistant for Scientific Research"
     authors: "Ricky Massa, Aaqel Shaik, Brian Ta, Mengjiao Han, Joseph A. Insley, Janet Knowles, <strong>Victor A. Mateevitsi</strong>, Michael E. Papka, Silvio Rizzi, Shilpika"
@@ -156,6 +162,7 @@ conferences:
     pages: "1--4"
     year: 2025
     doi: "10.1145/3708035.3736031"
+    image: "realtime-vis-steering-2025.png"
 
   - title: "Bridging Gaps in Simulation Analysis through a General Purpose, Bidirectional Steering Interface with Ascent"
     authors: "Andres Sewell, Dimitrios K. Fytanidis, <strong>Victor A. Mateevitsi</strong>, Cyrus Harrison, Nicole Marsaglia, Thomas Marrinan, Silvio Rizzi, Joseph A. Insley, Michael E. Papka, Steve Petruzza"
@@ -195,6 +202,7 @@ conferences:
     pages: "75--76"
     year: 2024
     doi: "10.1109/LDAV64567.2024.00019"
+    image: "vr-large-scale-2024.gif"
 
   - title: "High-quality Approximation of Scientific Data using 3D Gaussian Splatting"
     authors: "Andres Sewell, Landon Dyken, <strong>Victor A. Mateevitsi</strong>, Will Usher, Jefferson Amstutz, Thomas Marrinan, Khairi Reda, Silvio Rizzi, Joseph A. Insley, Michael E. Papka, Sidharth Kumar, Steve Petruzza"
@@ -233,6 +241,7 @@ conferences:
     pages: "324--343"
     year: 2022
     doi: "10.1007/978-3-031-23220-6_23"
+    image: "cinema-transfer-2022.png"
 
   - title: "Toward Bi-directional In Situ Visualization and Analysis of Blood Flow Simulations With Dynamic Deforming Walls"
     authors: "Nazariy Tishchenko, Nicola Ferrier, Joseph A. Insley, <strong>Victor A. Mateevitsi</strong>, Michael E. Papka, Silvio Rizzi, Jifu Tan"
@@ -240,6 +249,7 @@ conferences:
     pages: "1--2"
     year: 2022
     doi: "10.1109/LDAV57265.2022.9966389"
+    image: "blood-flow-bidirectional-2022.gif"
 
   - title: "Distributed Volumetric Neural Representation for in situ Visualization and Analysis"
     authors: "Qi Wu, Joseph A. Insley, <strong>Victor A. Mateevitsi</strong>, Silvio Rizzi, Kwan-Liu Ma"
@@ -247,6 +257,7 @@ conferences:
     pages: "1--2"
     year: 2022
     doi: "10.1109/LDAV57265.2022.9966405"
+    image: "distributed-volumetric-2022.gif"
 
   - title: "Sort-Last In-Transit Data Visualization with SENSEI, Catalyst, and Unreal Engine"
     authors: "Isaac Nealey, Nicola Ferrier, Joseph A. Insley, <strong>Victor A. Mateevitsi</strong>, Silvio Rizzi, Jurgen Schulze"
@@ -254,6 +265,7 @@ conferences:
     pages: "1--2"
     year: 2022
     doi: "10.1109/LDAV57265.2022.9966391"
+    image: "sort-last-unreal-2022.gif"
 
   - title: "Massive Data Visualization Techniques for use in Virtual Reality Devices"
     authors: "Jason A. Ortiz, Joseph A. Insley, Janet Knowles, <strong>Victor A. Mateevitsi</strong>, Michael E. Papka, Silvio Rizzi"
@@ -261,6 +273,7 @@ conferences:
     pages: "1--2"
     year: 2022
     doi: "10.1109/LDAV57265.2022.9966400"
+    image: "massive-data-vr-2022.gif"
 
   - title: "Instrumenting Multiphysics Blood Flow Simulation Codes for In Situ Visualization and Analysis"
     authors: "Anthony Bucaro, Connor Murphy, Nicola Ferrier, Joseph Insley, <strong>Victor Mateevitsi</strong>, Michael E. Papka, Silvio Rizzi, Jifu Tan"
@@ -268,6 +281,7 @@ conferences:
     pages: "88--89"
     year: 2021
     doi: "10.1109/LDAV53230.2021.00018"
+    image: "instrumenting-blood-flow-2021.gif"
 
   - title: "The RealityMashers: Augmented Reality Wide Field-of-View Optical See-Through Head Mounted Displays"
     authors: "Jaron Lanier, <strong>Victor Mateevitsi</strong>, Kishore Rathinavel, Lior Shapira, Joseph Menke, Patrick Therien, Joshua Hudman, Gheric Speiginer, Andrea Stevenson Won, Andrzej Banburski, Xavier Benavides, Judith Amores, Javier Porras Lurashi, Wayne Chang"
@@ -275,6 +289,7 @@ conferences:
     pages: "141--146"
     year: 2016
     doi: "10.1109/ISMAR-Adjunct.2016.0061"
+    image: "realitymashers-2016.gif"
 
   - title: "Omegalib: A multi-view application framework for hybrid reality display environments"
     authors: "Alessandro Febretti, Arthur Nishimoto, <strong>Victor Mateevitsi</strong>, Luc Renambot, Andrew Johnson, Jason Leigh"
@@ -331,7 +346,7 @@ conferences:
     venue: "3rd International Conference on Digital Interactive Media in Entertainment and Arts (DIMEA)"
     pages: "451--457"
     year: 2008
-    doi: "10.1145/1413634.1413680"
+    doi: "10.1145/1413634.1413714"
 
   - title: "Video index and search services based on content identification features"
     authors: "Gregory Doumenis, Serafeim Papastefanos, <strong>Victor Mateevitsi</strong>, Fotis Andritsopoulos, Nikos Achilleopoulos, Anton V. Mikhalev"
@@ -339,6 +354,7 @@ conferences:
     pages: "1--4"
     year: 2008
     doi: "10.1109/ISBMSB.2008.4536659"
+    image: "video-index-search-2008.gif"
 
 preprints:
   - title: "Aurora: Architecting Argonne's First Exascale Supercomputer for Accelerated Scientific Discovery"

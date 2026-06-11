@@ -1,12 +1,14 @@
 # Publication Hero Images — Curation Guide
 
-This is the punch-list for finishing publication thumbnails. The infrastructure is built and **25 of 47 papers (53%)** already have images. This guide tracks the remaining ~22.
+Publication thumbnail coverage status. **41 of 45 papers (91%)** have hero images.
 
 ## Coverage status
 
 ```
-[██████████████░░░░░░░░░░░░░] 53%  (25/47)
+[████████████████████████░░░] 91%  (41/45)
 ```
+
+The remaining 4 papers are paywalled or low-priority (see "Skipped" section below).
 
 ## How to add an image
 
@@ -53,37 +55,36 @@ Images are auto-cropped to square 200×200 thumbnails (displayed at 120×120). N
 - GENIUS AI Powered Assistant → `genius-ai-2025.png`
 - Modular Agentic System in MR → `agentic-mr-2025.png`
 
-## 🟠 TODO — Remaining 22 papers
+## ✅ Sourced via institutional VPN (IEEE Xplore + ACM DL + SAGE Pub + Springer)
 
-These are mostly IEEE Xplore/ACM DL paywalled papers where I couldn't find open hero figures.
+### IEEE Xplore (figure GIF via institutional access)
+- The RealityMashers (2016) → `realitymashers-2016.gif`
+- Video index and search services (2008) → `video-index-search-2008.gif`
+- Instrumenting Multiphysics Blood Flow Simulation Codes (2021) → `instrumenting-blood-flow-2021.gif`
+- Toward Bi-directional Blood Flow Visualization (2022) → `blood-flow-bidirectional-2022.gif`
+- Distributed Volumetric Neural Representation (2022) → `distributed-volumetric-2022.gif`
+- Sort-Last In-Transit with Unreal (2022) → `sort-last-unreal-2022.gif`
+- Massive Data Visualization for VR (2022) → `massive-data-vr-2022.gif`
+- Exploring Large-Scale Scientific Data in VR (2024) → `vr-large-scale-2024.gif`
+- Free Lunch in In Situ Visualization (2025) → `free-lunch-2025.gif`
+- Intuitive Computational Steering with Ascent and Trame (2025) → `intuitive-steering-2025.gif`
+- Toward Dynamic Gaussian Rendering for Digital Twins (2025) → `dynamic-gaussian-digital-twins-2025.gif`
 
-### 2025 papers (need manual sourcing)
-- [ ] **The ECP ALPINE project** (IJHPCA 2025) — try ALPINE GitHub https://github.com/Alpine-DAV/ascent for renderings
-- [ ] **Toward Dynamic Gaussian Rendering for Digital Twins** (eScience 2025)
-- [ ] **Real-time Scientific Visualization and Interactive Steering** (PEARC 2025)
-- [ ] **Intuitive Computational Steering Using Ascent and Trame** (eScience 2025)
-- [ ] **Free Lunch in In Situ Visualization** (LDAV 2025)
-- [ ] **An Interactive Agentic HPC Tutor** (SC '25 Workshops)
+### ACM DL (PDF extraction via `pdfimages`)
+- CheckMyFit Ear Selfie (PACM HCI 2022) → `checkmyfit-2022.png`
+- An Interactive Agentic HPC Tutor (SC '25 Workshops) → `agentic-hpc-tutor-2025.png`
+- Real-time Scientific Visualization Steering (PEARC 2025) → `realtime-vis-steering-2025.png`
 
-### 2024 papers
-- [ ] **Exploring Large-Scale Scientific Data in Virtual Reality** (LDAV 2024) — try VIS poster CDN with a different ID
+### SAGE Publications + Springer
+- The ECP ALPINE project (IJHPCA 2025) → `alpine-2025.jpg`
+- Cinema Transfer (Springer LNCS 2022) → `cinema-transfer-2022.png`
 
-### 2022-2023 papers
-- [ ] **Interactive Blood Flow Simulation with Deformable Cells and Walls** (2023)
-- [ ] **Toward Bi-directional In Situ Visualization of Blood Flow** (LDAV 2022)
-- [ ] **Sort-Last In-Transit Data Visualization with SENSEI, Catalyst, Unreal Engine** (LDAV 2022)
-- [ ] **Massive Data Visualization Techniques for VR Devices** (LDAV 2022)
-- [ ] **Distributed Volumetric Neural Representation** (LDAV 2022)
-- [ ] **Cinema Transfer: A Containerized Visualization Workflow** (2022)
-- [ ] **CheckMyFit: Ear Selfie for Hearing Aids** (PACM HCI 2022) — try ACM DL or screenshot from product page
-- [ ] **Instrumenting Multiphysics Blood Flow Simulation Codes** (LDAV 2021)
+## ❌ Skipped (paywall / phantom / low priority)
 
-### Pre-2020 papers
-- [ ] **The RealityMashers: AR Wide FoV HMDs** (2016)
-- [ ] **Reimagining the microscope using SAGE** (J Pathology Informatics 2015)
-- [ ] **Scalable Adaptive Graphics Environment: Whole-Slide Images** (2014)
-- [ ] **Video index and search services** (2008) — undergrad, can skip
-- [ ] **Game-engine based virtual museum** (2008) — undergrad, can skip
+- **Reimagining the microscope** (J Pathology Informatics 2015) — ScienceDirect Cloudflare block, persistent challenge loop
+- **SAGE Whole-Slide Images** (Wiley 2014) — gated PDF returned stub only
+- **Interactive Blood Flow with Deformable Cells** (2023) — no DOI in yaml, likely phantom/duplicate entry; verify before sourcing
+- **Game-engine virtual museum** (DIMEA 2008) — undergrad-era; DOI corrected to `10.1145/1413634.1413714`
 
 ## Tips
 
