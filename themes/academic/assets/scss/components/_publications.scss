@@ -150,5 +150,14 @@
     &:hover {
       border-bottom-color: $url-color;
     }
+
+    // Stronger emphasis for richer artifacts (project page, video, code)
+    &.pub-item__link--project,
+    &.pub-item__link--video,
+    &.pub-item__link--code {
+      border-bottom-width: 2px;
+      border-bottom-color: $url-color;
+      font-weight: 500;
+    }
   }
 }

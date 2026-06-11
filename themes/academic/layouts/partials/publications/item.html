@@ -28,6 +28,9 @@
     <div class="pub-item__links">
       {{ with .doi }}<a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">DOI</a>{{ end }}
       {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">Link</a>{{ end }}
+      {{ with .project_url }}<a href="{{ . }}" class="pub-item__link--project">Project</a>{{ end }}
+      {{ with .video_url }}<a href="{{ . }}" target="_blank" rel="noopener" class="pub-item__link--video">Video</a>{{ end }}
+      {{ with .code_url }}<a href="{{ . }}" target="_blank" rel="noopener" class="pub-item__link--code">Code</a>{{ end }}
     </div>
   </div>
 </li>
