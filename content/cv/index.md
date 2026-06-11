@@ -28,8 +28,8 @@ description: "Victor Mateevitsi — Computer Scientist at Argonne National Labor
   </div>
   <div class="cv-glance__card">
     <div class="cv-glance__label">Recognition</div>
-    <div class="cv-glance__value">2× Best Paper</div>
-    <div class="cv-glance__meta">ISAV '23, ISAV '24<br>2× Argonne Impact Award</div>
+    <div class="cv-glance__value">3× Best Paper</div>
+    <div class="cv-glance__meta">ISAV '23, ISAV '24, CollaborateCom '14<br>2× Argonne Impact Award</div>
   </div>
   <div class="cv-glance__card">
     <div class="cv-glance__label">Service</div>

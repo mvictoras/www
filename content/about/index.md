@@ -98,7 +98,7 @@ His current work has three threads: in-situ visualization at exascale (instrumen
 
 He earned his PhD from the Electronic Visualization Laboratory (EVL) at UIC in 2018, working on novel interfaces for the CAVE2 and SAGE2. His dissertation produced SpiderSense, a haptic jacket later exhibited at Chicago's Museum of Science and Industry. Before joining Argonne, he interned at Pixar (selected by the Academy's Science and Technology Council), DreamWorks (working on Premo, the Sci-Tech Oscar-winning animation tool), and Microsoft Research (with Jaron Lanier, leading to a patent on social Mixed Reality). He co-founded Spatial Canvas and worked at GN Hearing's Glenview office before joining Argonne in 2020.
 
-He serves as General Chair of IEEE VIS 2027 in Chicago, founded the ChicagoCHI SIGCHI chapter, and is a Senior Member of IEEE and ACM. His work has won Best Paper at ISAV 2023 and 2024, two Argonne Impact Awards, and a TEDx talk.
+He serves as General Chair of IEEE VIS 2027 in Chicago, founded the ChicagoCHI SIGCHI chapter, and is a Senior Member of IEEE and ACM. His work has won three Best Paper awards (ISAV 2023, ISAV 2024, CollaborateCom 2014), first place at the IEEE SciVis Contest 2023, two Argonne Impact Awards, and a TEDx talk.
 
 </div>
 </details>
