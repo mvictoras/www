@@ -17,40 +17,16 @@
   weight = 3
 
 [[main]]
-  identifier = "publications"
-  name = "publications"
-  url = "/publications/"
-  weight = 4
-
-[[main]]
-  identifier = "talks"
-  name = "talks"
-  url = "/talks/"
-  weight = 5
-
-[[main]]
-  identifier = "press"
-  name = "press"
-  url = "/press/"
-  weight = 6
-
-[[main]]
-  identifier = "cv"
-  name = "cv"
-  url = "/cv/"
-  weight = 7
-
-[[main]]
   identifier = "about"
   name = "about"
   url = "/about/"
-  weight = 8
+  weight = 4
 
 [[main]]
   identifier = "contact"
   name = "contact"
   url = "/about/#get-in-touch"
-  weight = 9
+  weight = 5
 
 [[footer]]
   identifier= "news"
@@ -117,4 +93,3 @@
   name = "contact"
   url = "/about/#get-in-touch"
   weight = 11
-

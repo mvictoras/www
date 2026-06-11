@@ -1,0 +1,95 @@
+// ============================================================================
+// Press & Speaker Bios — collapsible bio variants for press use
+// ============================================================================
+
+.press-bios {
+  margin: 1.5rem 0 2.5rem;
+}
+
+.press-bio {
+  margin-bottom: 0.75rem;
+  border: 1px solid $border-color;
+  border-left: 3px solid $url-color;
+  border-radius: 4px;
+  background: rgba(252, 157, 0, 0.03);
+  overflow: hidden;
+
+  &[open] {
+    background: rgba(252, 157, 0, 0.06);
+  }
+}
+
+.press-bio__summary {
+  padding: 0.85rem 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+  list-style: none;
+  user-select: none;
+  font-family: $font-family-mono;
+
+  &::-webkit-details-marker { display: none; }
+  &::marker { content: ""; }
+
+  &::before {
+    content: "▸";
+    color: $url-color;
+    font-size: 0.85rem;
+    transition: transform 0.15s ease;
+    display: inline-block;
+  }
+
+  &:hover {
+    background: rgba(252, 157, 0, 0.05);
+  }
+}
+
+.press-bio[open] > .press-bio__summary::before {
+  transform: rotate(90deg);
+}
+
+.press-bio__label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: $heading-color;
+  text-transform: lowercase;
+}
+
+.press-bio__meta {
+  font-size: 0.75rem;
+  color: $muted-color;
+  font-family: $font-family-mono;
+}
+
+.press-bio__body {
+  padding: 0.5rem 1.1rem 1.25rem;
+  border-top: 1px solid $border-color;
+  font-size: 0.95rem;
+  line-height: 1.6;
+
+  p {
+    margin-bottom: 0.85rem;
+    &:last-child { margin-bottom: 0; }
+  }
+}
+
+.press-bio__assets {
+  margin-top: 1.25rem;
+  padding: 0.85rem 1.1rem;
+  font-size: 0.85rem;
+  color: $muted-color;
+  border: 1px dashed $border-color;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.02);
+
+  strong {
+    color: $heading-color;
+    font-family: $font-family-mono;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-right: 0.5rem;
+  }
+}

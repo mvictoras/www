@@ -55,6 +55,62 @@ I play Ice Hockey 🏒 as long as I can remember. From 2006&ndash;2009 I was sel
 
 ---
 
+## Press & Speaker Bios {#bios}
+
+For press, panels, podcasts, or speaking engagements &mdash; ready-to-paste bios in three lengths. Pronouns: he/him.
+
+<div class="press-bios">
+
+<details class="press-bio" open>
+<summary class="press-bio__summary">
+  <span class="press-bio__label">Short bio</span>
+  <span class="press-bio__meta">~50 words · Twitter, intros, panel programs</span>
+</summary>
+<div class="press-bio__body" id="bio-short">
+
+Victor Mateevitsi is a Computer Scientist at Argonne National Laboratory and Adjunct Research Professor at the University of Illinois Chicago. His research bridges scientific visualization, human-computer interaction, and high-performance computing &mdash; building interfaces and AI co-pilots that let scientists make sense of simulations on the world's fastest supercomputers.
+
+</div>
+</details>
+
+<details class="press-bio">
+<summary class="press-bio__summary">
+  <span class="press-bio__label">Medium bio</span>
+  <span class="press-bio__meta">~100 words · conference programs, podcast intros</span>
+</summary>
+<div class="press-bio__body" id="bio-medium">
+
+Victor Mateevitsi is a Computer Scientist at Argonne National Laboratory's Leadership Computing Facility and Adjunct Research Professor at the University of Illinois Chicago. His research spans scientific visualization, human-computer interaction, and high-performance computing, with a focus on in-situ visualization at exascale, immersive XR for science, and human&ndash;AI collaboration for discovery. He is General Chair of IEEE VIS 2027 in Chicago and a Senior Member of both IEEE and ACM. His work has won Best Paper at ISAV 2023 and 2024, and his SpiderSense haptic jacket was exhibited at Chicago's Museum of Science and Industry.
+
+</div>
+</details>
+
+<details class="press-bio">
+<summary class="press-bio__summary">
+  <span class="press-bio__label">Long bio</span>
+  <span class="press-bio__meta">~250 words · features, keynote programs, press kits</span>
+</summary>
+<div class="press-bio__body" id="bio-long">
+
+Victor Mateevitsi is a Computer Scientist at Argonne National Laboratory's Leadership Computing Facility (ALCF) and Adjunct Research Professor at the University of Illinois Chicago. His research lives at the intersection of scientific visualization, human-computer interaction, and high-performance computing &mdash; building the tools and interfaces that let scientists make sense of simulations running on the world's fastest supercomputers.
+
+His current work has three threads: in-situ visualization at exascale (instrumenting libraries like Ascent and SENSEI so simulations on Aurora can be visualized as they run); immersive XR for science (letting researchers literally walk through their data); and human&ndash;AI collaboration for discovery (building AI co-pilots for scientists inside immersive environments).
+
+He earned his PhD from the Electronic Visualization Laboratory (EVL) at UIC in 2018, working on novel interfaces for the CAVE2 and SAGE2. His dissertation produced SpiderSense, a haptic jacket later exhibited at Chicago's Museum of Science and Industry. Before joining Argonne, he interned at Pixar (selected by the Academy's Science and Technology Council), DreamWorks (working on Premo, the Sci-Tech Oscar-winning animation tool), and Microsoft Research (with Jaron Lanier, leading to a patent on social Mixed Reality). He co-founded Spatial Canvas and worked at GN Hearing in Denmark before joining Argonne in 2020.
+
+He serves as General Chair of IEEE VIS 2027 in Chicago, founded the ChicagoCHI SIGCHI chapter, and is a Senior Member of IEEE and ACM. His work has won Best Paper at ISAV 2023 and 2024, two Argonne Impact Awards, and a TEDx talk.
+
+</div>
+</details>
+
+<div class="press-bio__assets">
+<strong>Headshot:</strong> high-resolution headshots available on request &mdash; email <a href="mailto:victor@mateevitsi.com">victor@mateevitsi.com</a>.
+</div>
+
+</div>
+
+---
+
 ## Get in Touch {#get-in-touch}
 
 <div class="get-in-touch">
