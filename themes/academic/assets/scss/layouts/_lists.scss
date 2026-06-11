@@ -307,3 +307,116 @@
     color: $url-color;
   }
 }
+
+// ============================================================================
+// Press Timeline — year-grouped collapsible sections
+// (Mirrors updates-timeline pattern; press cards keep their existing styling)
+// ============================================================================
+
+.press-timeline {
+  // --- Year section ---
+  &__year {
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid rgba($border-color, 0.4);
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &[open] {
+      margin-bottom: 1.5rem;
+
+      > .press-timeline__year-header {
+        margin-bottom: 1rem;
+        border-bottom: 1px solid rgba($border-color, 0.4);
+      }
+    }
+  }
+
+  // --- Year header (clickable summary) ---
+  &__year-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    padding: 0.75rem 0;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    transition: color 0.15s ease;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::before {
+      content: "▸";
+      font-family: $font-family-mono;
+      font-size: 0.75rem;
+      color: $url-color;
+      transition: transform 0.15s ease;
+      flex-shrink: 0;
+    }
+
+    details[open] > &::before {
+      transform: rotate(90deg);
+    }
+
+    &:hover {
+      color: $url-color;
+    }
+  }
+
+  &__year-label {
+    font-family: $font-family-mono;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: $heading-color;
+    letter-spacing: 0.02em;
+  }
+
+  &__year-count {
+    font-family: $font-family-mono;
+    font-size: 0.75rem;
+    color: $muted-color;
+  }
+
+  // --- Items container ---
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
+
+// --- Print/book variants: lighter cards (no image, no hover transform) ---
+.press-item--print,
+.press-item--book {
+  background: transparent;
+  border-color: rgba($border-color, 0.5);
+
+  &:hover {
+    border-color: $border-color;
+    transform: none;
+    box-shadow: none;
+  }
+}
+
+.press-item__body--no-image {
+  padding-left: 1.25rem;
+}
+
+// Small inline tag (e.g., "print", "book") next to date
+.press-item__type-tag {
+  display: inline-block;
+  padding: 0.05rem 0.4rem;
+  margin-left: 0.3rem;
+  font-family: $font-family-mono;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: $muted-color;
+  background: rgba($muted-color, 0.1);
+  border: 1px solid rgba($muted-color, 0.25);
+  border-radius: 3px;
+  vertical-align: middle;
+}

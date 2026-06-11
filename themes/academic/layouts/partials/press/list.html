@@ -1,28 +1,143 @@
-{{ $scratch := .Scratch }}
-<div class="press-list">
-  {{ range site.Data.press.web }}
-    {{ if and .url .date .text .title .image .publication }}
-      {{ $date := time .date }}
+{{/* Press timeline — combined books + print + web entries grouped by year
+     with collapsible <details> blocks (most recent year expanded).
+     Mirrors the visual pattern from the Updates page. */}}
+
+{{/* Build a unified slice of press entries with normalized fields:
+       type:  "web" | "print" | "book"
+       year:  number
+       date:  computed string (for sorting within year)
+       title, publication, url, image, text, description, issue
+*/}}
+{{ $all := slice }}
+{{ range site.Data.press.web }}
+  {{ if and .url .date .title }}
+    {{ $t := time .date }}
+    {{ $entry := dict
+        "type" "web"
+        "year" $t.Year
+        "date" .date
+        "month" (int $t.Month)
+        "day"   $t.Day
+        "title" .title
+        "publication" .publication
+        "url" .url
+        "image" .image
+        "text" .text
+    }}
+    {{ $all = $all | append $entry }}
+  {{ end }}
+{{ end }}
+{{ range site.Data.press.print }}
+  {{ $monthMap := dict "January" 1 "February" 2 "March" 3 "April" 4 "May" 5 "June" 6 "July" 7 "August" 8 "September" 9 "October" 10 "November" 11 "December" 12 }}
+  {{ $monthNum := index $monthMap (default "January" .month) }}
+  {{ $entry := dict
+      "type" "print"
+      "year" .year
+      "month" $monthNum
+      "day" (default 1 .day)
+      "title" .title
+      "publication" .publication
+      "issue" .issue
+  }}
+  {{ $all = $all | append $entry }}
+{{ end }}
+{{ range site.Data.press.books }}
+  {{ $entry := dict
+      "type" "book"
+      "year" .year
+      "month" 1
+      "day" 1
+      "title" .title
+      "description" .description
+  }}
+  {{ $all = $all | append $entry }}
+{{ end }}
+
+{{/* Sort: newest year first, then by month, then day, descending */}}
+{{ $sorted := sort $all "year" "desc" }}
+
+{{/* Group by year */}}
+{{ $.Scratch.Set "currentYear" 0 }}
+{{ $.Scratch.Set "isFirst" true }}
+{{ $.Scratch.Set "yearCounts" (dict) }}
+
+{{/* First pass: count items per year */}}
+{{ range $sorted }}
+  {{ $year := printf "%d" .year }}
+  {{ $counts := $.Scratch.Get "yearCounts" }}
+  {{ if index $counts $year }}
+    {{ $.Scratch.SetInMap "yearCounts" $year (add (index $counts $year) 1) }}
+  {{ else }}
+    {{ $.Scratch.SetInMap "yearCounts" $year 1 }}
+  {{ end }}
+{{ end }}
+
+<div class="press-timeline">
+  {{ range $sorted }}
+    {{ $year := .year }}
+    {{ $prev := $.Scratch.Get "currentYear" }}
+    {{ if ne $prev $year }}
+      {{ if ne $prev 0 }}</div></details>{{ end }}
+      {{ $counts := $.Scratch.Get "yearCounts" }}
+      {{ $count := index $counts (printf "%d" $year) }}
+      {{ $isFirst := $.Scratch.Get "isFirst" }}
+      <details class="press-timeline__year"{{ if $isFirst }} open{{ end }}>
+        <summary class="press-timeline__year-header">
+          <span class="press-timeline__year-label">{{ $year }}</span>
+          <span class="press-timeline__year-count">({{ $count }} {{ if eq $count 1 }}mention{{ else }}mentions{{ end }})</span>
+        </summary>
+        <div class="press-timeline__items">
+      {{ $.Scratch.Set "currentYear" $year }}
+      {{ $.Scratch.Set "isFirst" false }}
+    {{ end }}
+
+    {{/* Web entry — rich card with image */}}
+    {{ if eq .type "web" }}
       {{ $src := "" }}
       {{ if .image }}
         {{ $image := $.Resources.GetMatch .image }}
-        {{ $src = ($image.Fill "120x120 Center").RelPermalink }}
-      {{ else }}
-        {{ $image := $.Resources.GetMatch (print "*" (replace .title ":" "") "*") }}
-        {{ $src = ($image.Fill "120x120 Center").RelPermalink }}
+        {{ if $image }}
+          {{ $src = ($image.Fill "120x120 Center").RelPermalink }}
+        {{ end }}
       {{ end }}
       <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="press-item">
+        {{ if $src }}
         <div class="press-item__image">
           <img class="lazyload" src="{{ $src }}" alt="{{ .publication }}">
         </div>
-        <div class="press-item__body">
-          <time class="press-item__date" datetime="{{ $date.Format "2006-01-02" }}">// {{ $date.Format "02 Jan 2006" }}</time>
+        {{ end }}
+        <div class="press-item__body{{ if not $src }} press-item__body--no-image{{ end }}">
+          <time class="press-item__date">// {{ printf "%02d" .month }}/{{ printf "%02d" .day }}/{{ .year }}</time>
           <h3 class="press-item__title">{{ .title }}</h3>
           <p class="press-item__source">{{ .publication }}</p>
-          <p class="press-item__excerpt">{{ .text | truncate 180 }}</p>
+          {{ with .text }}<p class="press-item__excerpt">{{ . | truncate 180 }}</p>{{ end }}
         </div>
         <span class="press-item__arrow"><i class="fa fa-arrow-right"></i></span>
       </a>
     {{ end }}
+
+    {{/* Print entry — compact text-only row with mono date */}}
+    {{ if eq .type "print" }}
+      <div class="press-item press-item--print">
+        <div class="press-item__body press-item__body--no-image">
+          <time class="press-item__date">// {{ printf "%02d" .month }}/{{ .year }} &middot; <span class="press-item__type-tag">print</span></time>
+          <h3 class="press-item__title">{{ .title }}</h3>
+          <p class="press-item__source"><em>{{ .publication }}</em>{{ with .issue }} &mdash; {{ . }}{{ end }}</p>
+        </div>
+      </div>
+    {{ end }}
+
+    {{/* Book entry */}}
+    {{ if eq .type "book" }}
+      <div class="press-item press-item--book">
+        <div class="press-item__body press-item__body--no-image">
+          <time class="press-item__date">// {{ .year }} &middot; <span class="press-item__type-tag">book</span></time>
+          <h3 class="press-item__title">{{ .title }}</h3>
+          {{ with .description }}<p class="press-item__excerpt">{{ . }}</p>{{ end }}
+        </div>
+      </div>
+    {{ end }}
+
   {{ end }}
+  {{ if ne ($.Scratch.Get "currentYear") 0 }}</div></details>{{ end }}
 </div>
