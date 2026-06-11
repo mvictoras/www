@@ -5,6 +5,7 @@ import utc from 'dayjs/plugin/utc';
 import timezone from 'dayjs/plugin/timezone';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
 import advancedFormat from 'dayjs/plugin/advancedFormat';
+import { Dropdown } from 'bootstrap';
 
 dayjs.extend(utc);
 dayjs.extend(timezone);
@@ -106,6 +107,8 @@ if (window.location.pathname.includes('vis-deadlines')) {
           });
           addBtn.appendChild(cal);
           addBtn.dataset.attached = '1';
+          const toggle = cal.querySelector('[data-bs-toggle="dropdown"]');
+          if (toggle) new Dropdown(toggle);
         } catch (e) {
           void e;
         }

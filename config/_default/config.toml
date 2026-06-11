@@ -40,7 +40,7 @@ notAlternative = true
 
 
 [caches]
-  [caches.getjson]
+  [caches.getresource]
     dir = ":cacheDir/:project"
     maxAge = "10s"
 
@@ -102,5 +102,6 @@ anchor = "smart"
     weight = 10
 
 [security]
+  allowContent = ['.*']
   [security.exec]
     allow = ['^npx$', '^babel$', '^postcss$', '^sass$']

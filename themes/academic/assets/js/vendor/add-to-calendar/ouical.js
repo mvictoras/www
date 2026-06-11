@@ -27,7 +27,7 @@
         '&sprop=&sprop=name:'
       ].join(''));
       return '<li><a class="dropdown-item" target="_blank" href="' +
-        href + '"><i class="fa fa-google"></i> Google</a></li>';
+        href + '"><i class="fa-brands fa-google fa-fw"></i> Google</a></li>';
     },
 
     yahoo: function(event) {
@@ -60,7 +60,7 @@
       ].join(''));
 
       return '<li><a class="dropdown-item" target="_blank" href="' +
-        href + '"><i class="fa fa-yahoo"></i> Yahoo!</a></li>';
+        href + '"><i class="fa-brands fa-yahoo fa-fw"></i> Yahoo!</a></li>';
     },
 
     ics: function(event, eClass, calendarName) {
@@ -82,15 +82,15 @@
           'END:VCALENDAR'].join('\n'));
 
       return '<li><a class="dropdown-item" target="_blank" href="' +
-        href + '"><i class="fa ' + eClass + '"></i> ' + calendarName + '</a></li>';
+        href + '"><i class="' + eClass + ' fa-fw"></i> ' + calendarName + '</a></li>';
     },
 
     ical: function(event) {
-      return this.ics(event, 'fa-apple', 'iCal');
+      return this.ics(event, 'fa-brands fa-apple', 'iCal');
     },
 
     outlook: function(event) {
-      return this.ics(event, 'fa-calendar', 'Outlook');
+      return this.ics(event, 'fa-solid fa-calendar', 'Outlook');
     }
   };
 

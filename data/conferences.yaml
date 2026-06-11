@@ -44,23 +44,6 @@
         end: 2027-10-29
       deadlines: []
 
-- family: ldav
-  name: "LDAV"
-  full_name: "IEEE Symposium on Large Data Analysis and Visualization"
-  description: "Co-located with IEEE VIS. Targets methodological innovation, algorithmic foundations, and end-to-end solutions for analyzing and visualizing massive scientific datasets."
-  homepage: "https://ldav.io"
-  tags: [vis, hpc]
-  instances:
-    - year: 2026
-      url: "https://ldav.io/2026/"
-      location:
-        city: "Boston"
-        country: "USA"
-      dates:
-        start: 2026-11-09
-        end: 2026-11-09
-      deadlines: []
-
 - family: isav
   name: "ISAV"
   full_name: "Workshop on In Situ Infrastructures for Enabling Extreme-Scale Analysis and Visualization"
