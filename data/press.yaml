@@ -84,6 +84,13 @@ print:
     title: Spidey-Sense Suit Tingles When Someone Gets Too Close
     issue: Vol. 217. No. 2905
 web:
+  - date: 2026-04-23
+    publication: UIC College of Engineering
+    title: "Grant Funds AI Visualization Collaboration with Argonne"
+    text: "UIC's Luc Renambot awarded $600K over five years from Argonne National Laboratory for 'Scientific Data Management and Visualization to Advance AI for Science,' a collaboration with Argonne computer scientist Victor Mateevitsi on AI-powered tools that compress scientific datasets 100x and enable LLM-guided data exploration."
+    url: https://engineering.uic.edu/news-stories/grant-funds-ai-visualization-collaboration-with-argonne/
+    tags: [ 'UIC', 'ANL', 'AI', 'grant' ]
+
   - date: 2025-05-09
     publication: InsideHPC
     title: "Vanguards of HPC-AI: ALCF's Victor Mateevitsi Advances Immersive Collaboration Between People and AI"
