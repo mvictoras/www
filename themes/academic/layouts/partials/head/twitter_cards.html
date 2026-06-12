@@ -1,24 +1,20 @@
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="{{ site.Params.twitterSite }}">
-<meta name="twitter:creator" content="{{ site.Params.twitterCreator }}">
-<meta name="twitter:title" content="{{ .Title }}">
-<meta name="twitter:description" content="{{ .Description }}">
-{{ with $.Params.images -}}
-  <meta name="twitter:image" content="{{ $.Permalink }}{{ index . 0 }}">
-{{ else -}}
-  {{ $images := $.Resources.ByType "image" -}}
-  {{ $featured := $images.GetMatch "*feature*" -}}
-  {{ if not $featured -}}
-    {{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" -}}
-  {{ end -}}
-  {{ with $featured -}}
-    <meta name="twitter:image" content="{{ $featured.Permalink }}">
-  {{ else -}}
-    {{ with site.Params.images -}}
-      <meta name="twitter:image" content="{{ index . 0 | absURL }}">
-    {{ else -}}
-      <meta name="twitter:card" content="summary">
-    {{ end -}}
-  {{ end -}}
+{{/* Twitter Cards meta — also consumed by Slack, Discord, Bluesky.
+     Reads from scratch values populated by opengraph.html (must run first). */}}
+
+{{ $description := $.Scratch.Get "metaDescription" }}
+{{ $image := $.Scratch.Get "primaryImage" }}
+{{ $imageAlt := $.Scratch.Get "primaryImageAlt" | default .Title }}
+
+<meta name="twitter:card" content="{{ if $image }}summary_large_image{{ else }}summary{{ end }}">
+{{ with site.Params.twitterSite -}}
+  <meta name="twitter:site" content="{{ . }}">
 {{ end -}}
-<meta name="twitter:image:alt" content="{{ .Title }}">
+{{ with site.Params.twitterCreator -}}
+  <meta name="twitter:creator" content="{{ . }}">
+{{ end -}}
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ $description }}">
+{{ with $image -}}
+  <meta name="twitter:image" content="{{ . }}">
+  <meta name="twitter:image:alt" content="{{ $imageAlt }}">
+{{ end -}}

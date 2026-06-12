@@ -1,9 +1,22 @@
+{{/* Open Graph meta — used by Facebook, LinkedIn, Slack, Discord, Bluesky, etc.
+     Cascading description fallback: .Description > .Summary (plainified) > site description. */}}
+
+{{ $description := "" }}
+{{ with .Description }}
+  {{ $description = . }}
+{{ else }}
+  {{ with .Summary }}
+    {{ $description = . | plainify | truncate 300 }}
+  {{ else }}
+    {{ $description = site.Params.description }}
+  {{ end }}
+{{ end }}
+
 <meta property="og:locale" content="{{ site.Params.ogLocale }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:title" content="{{ .Title }}">
-<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+<meta property="og:description" content="{{ $description }}">
 {{ if $.Scratch.Get "paginator" -}}
-  {{ $paginator := .Paginate (where site.RegularPages.ByDate.Reverse "Section" "blog" ) -}}
   <meta property="og:url" content="{{ .Paginator.URL | absURL }}">
 {{ else -}}
   <meta property="og:url" content="{{ .Permalink }}">
@@ -12,7 +25,7 @@
   <meta property="og:site_name" content="{{ . }}">
 {{ end -}}
 
-{{ $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+{{ $iso8601 := "2006-01-02T15:04:05Z07:00" -}}
 {{ if .IsPage -}}
   {{ if not .PublishDate.IsZero -}}
     <meta property="article:published_time" {{ .PublishDate.Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>
@@ -22,21 +35,36 @@
   {{ if not .Lastmod.IsZero -}}
     <meta property="article:modified_time" {{ .Lastmod.Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>
   {{ end -}}
+  {{ with site.Params.schemaName -}}
+    <meta property="article:author" content="{{ . }}">
+  {{ end -}}
+  {{ with .Section -}}
+    <meta property="article:section" content="{{ . }}">
+  {{ end -}}
+  {{ with .Params.tags -}}
+    {{ range . -}}
+      <meta property="article:tag" content="{{ . }}">
+    {{ end -}}
+  {{ end -}}
 {{ else -}}
-  {{ if not .Date.IsZero -}}
+  {{ if not .Lastmod.IsZero -}}
     <meta property="og:updated_time" {{ .Lastmod.Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>
   {{ end -}}
 {{ end -}}
 
-{{ if eq .Kind "home" -}}
-  {{ .Scratch.Set "title" site.Params.titleHome -}}
-{{ else -}}
-  {{ .Scratch.Set "title" .Title -}}
-{{ end -}}
-
+{{ $ogImage := "" }}
+{{ $ogImageAlt := .Title }}
+{{ $ogImageWidth := 1200 }}
+{{ $ogImageHeight := 630 }}
 {{ with $.Params.images -}}
-  {{ range first 6 . -}}
-  <meta property="og:image" content="{{ $.Permalink }}{{ . }}">
+  {{ $first := index . 0 }}
+  {{ $imgResource := $.Resources.GetMatch $first }}
+  {{ with $imgResource -}}
+    {{ $ogImage = .Permalink }}
+    {{ $ogImageWidth = .Width }}
+    {{ $ogImageHeight = .Height }}
+  {{ else -}}
+    {{ $ogImage = printf "%s%s" $.Permalink $first }}
   {{ end -}}
 {{ else -}}
   {{ $images := $.Resources.ByType "image" -}}
@@ -45,17 +73,25 @@
     {{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}
   {{ end -}}
   {{ with $featured -}}
-    <meta property="og:image" content="{{ $featured.Permalink }}"/>
+    {{ $ogImage = .Permalink }}
+    {{ $ogImageWidth = .Width }}
+    {{ $ogImageHeight = .Height }}
   {{ else -}}
     {{ with site.Params.images -}}
-      <meta property="og:image" content="{{ index . 0 | absURL }}"/>
-      <meta property="og:image:alt" content="{{ site.Params.title }}">
+      {{ $ogImage = index . 0 | absURL }}
+      {{ $ogImageAlt = site.Params.title }}
     {{ end -}}
   {{ end -}}
 {{ end -}}
 
-{{ with site.Params.images -}}
-  {{ $.Scratch.Set "primaryImage" (index . 0 | absURL) -}}
+{{ with $ogImage -}}
+  <meta property="og:image" content="{{ . }}">
+  <meta property="og:image:secure_url" content="{{ . }}">
+  <meta property="og:image:width" content="{{ $ogImageWidth }}">
+  <meta property="og:image:height" content="{{ $ogImageHeight }}">
+  <meta property="og:image:alt" content="{{ $ogImageAlt }}">
+  {{ $.Scratch.Set "primaryImage" . -}}
+  {{ $.Scratch.Set "primaryImageAlt" $ogImageAlt -}}
 {{ end -}}
 
 {{ with .Params.audio -}}
@@ -67,3 +103,5 @@
     <meta property="og:video" content="{{ . | absURL }}">
   {{ end -}}
 {{ end -}}
+
+{{ $.Scratch.Set "metaDescription" $description -}}

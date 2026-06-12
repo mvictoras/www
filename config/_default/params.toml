@@ -20,6 +20,17 @@ twitterCreator = "@mvictoras"
 schemaType = "Person"
 schemaName = "Victor Mateevitsi"
 schemaAuthor = "Victor Mateevitsi"
+schemaGivenName = "Victor"
+schemaFamilyName = "Mateevitsi"
+schemaJobTitle = "Computer Scientist"
+schemaEmail = "victor@mateevitsi.com"
+schemaWorksFor = "Argonne National Laboratory"
+schemaWorksForUrl = "https://www.anl.gov"
+schemaAffiliation = "University of Illinois Chicago"
+schemaAffiliationUrl = "https://www.uic.edu"
+schemaAlumniOf = "University of Illinois at Chicago"
+schemaAlumniOfUrl = "https://www.uic.edu"
+schemaKnowsAbout = ["Scientific Visualization", "Human-Computer Interaction", "High-Performance Computing", "Virtual Reality", "Mixed Reality", "In Situ Visualization", "Exascale Computing"]
 schemaLocale = "en-US"
 schemaLogo = "logo-vm.png"
 schemaLogoWidth = 500
@@ -27,9 +38,20 @@ schemaLogoHeight = 500
 schemaImage = "VictorMateevitsi.jpg"
 schemaImageWidth = 1200
 schemaImageHeight = 630
-schemaTwitter = "https://twitter.com/mvictoras"
-schemaLinkedIn = "https://www.linkedin.com/in/mvictoras"
-schemaAuthorGitHub = "https://github.com/mvictoras"
+# sameAs links for Person — used in JSON-LD and Knowledge Graph
+schemaSameAs = [
+  "https://bsky.app/profile/vmateevitsi.com",
+  "https://www.linkedin.com/in/mvictoras",
+  "https://github.com/mvictoras",
+  "https://scholar.google.com/citations?user=j1DCbncAAAAJ",
+  "https://orcid.org/0000-0002-6677-7520",
+  "https://dl.acm.org/profile/81372593796",
+  "https://www.instagram.com/mvictoras",
+  "https://www.threads.net/@mvictoras",
+  "https://hci.social/@mvictoras",
+  "https://www.researchgate.net/profile/Victor_Mateevitsi",
+  "https://twitter.com/mvictoras",
+]
 schemaSection = "news"
 #siteLinksSearchBox = false
 
