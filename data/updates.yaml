@@ -18,7 +18,7 @@
   date: 2025-09-20
 - title: ":airplane: eScience 2025, Chicago"
   date: 2025-09-15
-- title: "Labor Day"
+- title: ":briefcase: Labor Day"
   date: 2025-09-01
 - title: ":bride_with_veil: Wedding Anniversary!"
   date: 2025-08-21
@@ -26,7 +26,7 @@
   date: 2025-07-11
 - title: ":fireworks: 4th of July"
   date: 2025-07-04
-- title: "Memorial Day"
+- title: ":us: Memorial Day"
   date: 2025-05-26
 - title: ":newspaper: insidehpc feature: Vanguards of HPC-AI"
   date: 2025-05-09
@@ -52,7 +52,7 @@
   date: 2024-10-31
 - title: ":birthday: Happy birthday to me!"
   date: 2024-09-20
-- title: "Labor Day"
+- title: ":briefcase: Labor Day"
   date: 2024-09-02
 - title: ":bride_with_veil: Wedding Anniversary!"
   date: 2024-08-21
@@ -60,7 +60,7 @@
   date: 2024-07-11
 - title: ":fireworks: 4th of July"
   date: 2024-07-04
-- title: "Memorial Day"
+- title: ":us: Memorial Day"
   date: 2024-05-27
 - title: ":computer: Virtual talk @ Centro Nacional de Alta Tecnología (CNCA): NekRS in situ"
   date: 2024-05-16
@@ -74,99 +74,99 @@
   date: 2024-01-01
 - title: ":airplane: Greece to meet grandparents!"
   date: 2023-12-15
-- title: "Movie night with neighbors"
+- title: ":movie_camera: Movie night with neighbors"
   date: 2023-12-09
-- title: "Illumination @ Morton Arboretum with Giannaki"
+- title: ":sparkles: Illumination @ Morton Arboretum with Giannaki"
   date: 2023-12-03
 - title: ":beer: The Barn Hockey Bar"
   date: 2023-11-18
-- title: "Michelle and Santi visiting"
+- title: ":busts_in_silhouette: Michelle and Santi visiting"
   date: 2023-10-15
-- title: "Fridge broke, new coming"
+- title: ":wrench: Fridge broke, new coming"
   date: 2023-09-27
 - title: ":cake: Bday and dinner at Osteria Langhe"
   date: 2023-09-20
 - title: ":love_you_gesture: The Cure @ Riot Fest"
   date: 2023-09-17
-- title: "Goose homecoming!"
+- title: ":dog: Goose homecoming!"
   date: 2023-09-11
 - title: ":love_you_gesture: Cake @ Salt Shed"
   date: 2023-09-10
-- title: "IIDA Baby Shower"
+- title: ":baby_bottle: IIDA Baby Shower"
   date: 2023-09-05
-- title: "Baby Hoe Down! Baby Shower!"
+- title: ":baby_bottle: Baby Hoe Down! Baby Shower!"
   date: 2023-08-27
-- title: "Dimitra and George Baby Shower"
+- title: ":baby_bottle: Dimitra and George Baby Shower"
   date: 2023-08-21
-- title: "Second wedding anniversary!"
+- title: ":bride_with_veil: Second wedding anniversary!"
   date: 2023-08-21
-- title: "Wedding anniversary!"
+- title: ":bride_with_veil: Wedding anniversary!"
   date: 2023-08-19
-- title: "PRYSM party"
+- title: ":confetti_ball: PRYSM party"
   date: 2023-08-17
-- title: "Delivery class"
+- title: ":hospital: Delivery class"
   date: 2023-08-12
 - title: ":love_you_gesture: Bruce Springsteen"
   date: 2023-08-11
-- title: "Breastfeeding class"
+- title: ":hospital: Breastfeeding class"
   date: 2023-07-27
-- title: "Argonne picnic"
+- title: ":office: Argonne picnic"
   date: 2023-07-22
-- title: "Graduation party for Katie"
+- title: ":mortar_board: Graduation party for Katie"
   date: 2023-07-15
-- title: "Happy bday Vasia!"
+- title: ":birthday: Happy bday Vasia!"
   date: 2023-07-11
 - title: ":airplane: Babymoon over!"
   date: 2023-07-08
-- title: "Dinner at Boia De"
+- title: ":fork_and_knife: Dinner at Boia De"
   date: 2023-07-06
-- title: "Amazing dinner at COTE Miami"
+- title: ":fork_and_knife: Amazing dinner at COTE Miami"
   date: 2023-07-05
 - title: ":airplane: Babymoon in Miami"
   date: 2023-07-01
 - title: ":beer: German Fest in Oak Park"
   date: 2023-06-24
-- title: "Greg Olsen presenting at ChicagoCHI"
+- title: ":microphone: Greg Olsen presenting at ChicagoCHI"
   date: 2023-06-22
-- title: "<a href=\"https://www.steppenwolf.org/tickets--events/lookout/23-summer/not-american/\" target=\"_blank\">Not American</a> show"
+- title: ":performing_arts: <a href=\"https://www.steppenwolf.org/tickets--events/lookout/23-summer/not-american/\" target=\"_blank\">Not American</a> show"
   date: 2023-06-17
-- title: "Aris left"
+- title: ":busts_in_silhouette: Aris left"
   date: 2023-06-14
 - title: ":love_you_gesture: King Gizzard and the Lizard Wizard with Aris"
   date: 2023-06-13
-- title: "Aris visiting"
+- title: ":busts_in_silhouette: Aris visiting"
   date: 2023-06-10
 - title: ":beer: Maifest in Lincoln Square"
   date: 2023-06-04
-- title: "Argonne Open House"
+- title: ":office: Argonne Open House"
   date: 2023-05-20
-- title: "Mom and dad going home"
+- title: ":busts_in_silhouette: Mom and dad going home"
   date: 2023-05-12
-- title: "Fam dinner at Trivolit Tavern"
+- title: ":fork_and_knife: Fam dinner at Trivolit Tavern"
   date: 2023-05-11
-- title: "Yayoi Kusama opening"
+- title: ":art: Yayoi Kusama opening"
   date: 2023-05-10
 - title: ":airplane: Back to CHI"
   date: 2023-05-08
 - title: ":airplane: Weekend in Memphis"
   date: 2023-05-04
-- title: "Mom and dad visiting"
+- title: ":busts_in_silhouette: Mom and dad visiting"
   date: 2023-04-27
 - title: ":airplane: Back to CHI"
   date: 2023-04-18
 - title: ":airplane: NOLA with parents-in-law"
   date: 2023-04-14
-- title: "Johalla Projects @ Salt Shed"
+- title: ":guitar: Johalla Projects @ Salt Shed"
   date: 2023-04-13
-- title: "Blue Man Group"
+- title: ":performing_arts: Blue Man Group"
   date: 2023-04-09
-- title: "Rigos Family visiting"
+- title: ":busts_in_silhouette: Rigos Family visiting"
   date: 2023-04-06
-- title: "ACT-SO Gala"
+- title: ":trophy: ACT-SO Gala"
   date: 2023-03-19
 - title: ":love_you_gesture: The Roots @ Salt Shed"
   date: 2023-03-18
-- title: "Tested positive for COVID-19"
+- title: ":microbe: Tested positive for COVID-19"
   date: 2023-03-02
 - title: ":guitar: Rockabilly ensemble recital"
   date: 2023-02-25
@@ -176,37 +176,37 @@
   date: 2023-02-11
 - title: ":airplane: Bucharest"
   date: 2023-02-10
-- title: "Standup: Jamie Wolf"
+- title: ":microphone: Standup: Jamie Wolf"
   date: 2023-02-09
-- title: "Adam Sandler live!"
+- title: ":microphone: Adam Sandler live!"
   date: 2023-02-05
-- title: "Sectional has finally arrived!"
+- title: ":hammer: Sectional has finally arrived!"
   date: 2023-01-21
 - title: ":airplane: Back from Houston"
   date: 2023-01-20
 - title: ":airplane: Flying to Houston for ECP Annual meeting"
   date: 2023-01-17
-- title: "TJ Playing in Chicago"
+- title: ":guitar: TJ Playing in Chicago"
   date: 2023-01-07
 - title: ":tada: Happy New Year!"
   date: 2023-01-01
-- title: "A Christmas Carol"
+- title: ":santa: A Christmas Carol"
   date: 2022-12-30
 - title: ":airplane: Back from Nashville"
   date: 2022-12-29
 - title: ":airplane: Celebrating the Holidays in Nashville"
   date: 2022-12-25
-- title: "Annual Koufis X-mas party"
+- title: ":confetti_ball: Annual Koufis X-mas party"
   date: 2022-12-24
-- title: "Janet is playing at Covers 4 Cover"
+- title: ":guitar: Janet is playing at Covers 4 Cover"
   date: 2022-12-10
-- title: "Ms. Koufis 40 day memorial"
+- title: ":broken_heart: Ms. Koufis 40 day memorial"
   date: 2022-12-04
-- title: "Illumintation at Morton Arboretum"
+- title: ":sparkles: Illumintation at Morton Arboretum"
   date: 2022-12-02
-- title: "Supercomputing 2022"
+- title: ":computer: Supercomputing 2022"
   date: 2022-11-14
-- title: "ISAV2022"
+- title: ":bar_chart: ISAV2022"
   date: 2022-11-13
 - title: ":birthday: Happy Nameday to me!"
   date: 2022-11-11
@@ -216,31 +216,31 @@
   date: 2022-10-29
 - title: ":guitar: Rockabilly ensemble recital"
   date: 2022-10-21
-- title: "VIS2022 Conference"
+- title: ":bar_chart: VIS2022 Conference"
   date: 2022-10-16
-- title: "LDAV Conference"
+- title: ":bar_chart: LDAV Conference"
   date: 2022-10-15
-- title: "CAC installation weekend"
+- title: ":hammer: CAC installation weekend"
   date: 2022-09-24
-- title: "CAC Work in Progress"
+- title: ":hammer: CAC Work in Progress"
   date: 2022-09-22
-- title: "Goose's first grooming"
+- title: ":dog: Goose's first grooming"
   date: 2022-09-21
 - title: ":birthday: Happy birthday to me!"
   date: 2022-09-20
-- title: "Gutter installation"
+- title: ":hammer: Gutter installation"
   date: 2022-09-16
-- title: "Brandhaus Openhaus"
+- title: ":beer: Brandhaus Openhaus"
   date: 2022-09-15
 - title: ":dog2: Goose Homecoming!"
   date: 2022-09-11
-- title: "First hockey practive with coach <a href=\"https://www.fordhockeyschool.com\" target=\"_blank\">Matthew Ford</a>"
+- title: ":ice_hockey: First hockey practive with coach <a href=\"https://www.fordhockeyschool.com\" target=\"_blank\">Matthew Ford</a>"
   date: 2022-09-09
 - title: ":airplane: Alekos going back to SF"
   date: 2022-09-06
 - title: ":dog2: Met Goose!"
   date: 2022-09-05
-- title: "Alekos + Vic HVAC install"
+- title: ":hammer: Alekos + Vic HVAC install"
   date: 2022-09-02
 - title: ":airplane: Alekos visiting"
   date: 2022-09-01
@@ -248,11 +248,11 @@
   date: 2022-08-30
 - title: ":bride_with_veil: Wedding Anniversary!"
   date: 2022-08-21
-- title: "Lost playoffs from the Pirates"
+- title: ":ice_hockey: Lost playoffs from the Pirates"
   date: 2022-08-20
 - title: ":birthday: Elvis Anniversary. :guitar: RHCP"
   date: 2022-08-19
-- title: "First playoff game against the North Stars. Won 6-1"
+- title: ":ice_hockey: First playoff game against the North Stars. Won 6-1"
   date: 2022-08-15
 - title: ":office: Back to work"
   date: 2022-08-08
@@ -278,19 +278,19 @@
   date: 2022-07-01
 - title: ":baby: Matias Luca was born"
   date: 2022-06-29
-- title: "Pride Parade!"
+- title: ":rainbow: Pride Parade!"
   date: 2022-06-26
 - title: ":guitar: Rockabilly ensemble recital"
   date: 2022-06-24
-- title: "Welcome Isaac Nealey at ANL"
+- title: ":wave: Welcome Isaac Nealey at ANL"
   date: 2022-06-13
-- title: "Relative Premiere"
+- title: ":performing_arts: Relative Premiere"
   date: 2022-06-08
-- title: "Lincoln Park Greek Fest"
+- title: ":greece: Lincoln Park Greek Fest"
   date: 2022-06-04
-- title: "Nicky's B-day party"
+- title: ":birthday: Nicky's B-day party"
   date: 2022-06-03
-- title: "Welcome Jason Ortiz at ANL"
+- title: ":wave: Welcome Jason Ortiz at ANL"
   date: 2022-06-01
 - title: ":bride_with_veil: Vasi & Kevin's Wedding"
   date: 2022-05-29
@@ -300,17 +300,17 @@
   date: 2022-05-26
 - title: ":airplane: to ATL. Jac & Ian's wedding"
   date: 2022-05-25
-- title: "Stranger Things pop up"
+- title: ":movie_camera: Stranger Things pop up"
   date: 2022-05-23
-- title: "Hellenic Parade"
+- title: ":greece: Hellenic Parade"
   date: 2022-05-22
-- title: "Narciso DEMO day"
+- title: ":art: Narciso DEMO day"
   date: 2022-05-13
 - title: ":bus: ANL Bus Tour"
   date: 2022-05-12
-- title: "SAIC fashion show"
+- title: ":performing_arts: SAIC fashion show"
   date: 2022-05-07
-- title: "ECP Annual Meeting"
+- title: ":computer: ECP Annual Meeting"
   date: 2022-05-05
 - title: ":airplane: Alekos Mainelaos leaving town"
   date: 2022-05-02
@@ -318,23 +318,23 @@
   date: 2022-05-29
 - title: ":rabbit: Happy Greek Easter!"
   date: 2022-04-24
-- title: "Preview: The Other Art Fair"
+- title: ":art: Preview: The Other Art Fair"
   date: 2022-04-21
 - title: ":rabbit: Vasia's parents arrived for Easter"
   date: 2022-04-15
-- title: "Todd leaving for the retreat in Chico"
+- title: ":airplane: Todd leaving for the retreat in Chico"
   date: 2022-03-21
 - title: ":briefcase: After 1.5y I have an office at ANL!"
   date: 2022-03-17
-- title: "Todd arriving in Chicago"
+- title: ":airplane: Todd arriving in Chicago"
   date: 2022-03-16
 - title: ":airplane: Back to Chicago"
   date: 2022-03-13
-- title: "Todd arriving in SF"
+- title: ":airplane: Todd arriving in SF"
   date: 2022-03-11
 - title: ":stew: Dinner at <a href='http://foreigncinema.com' target='_blank'>Foreign Cinema</a>"
   date: 2022-03-09
-- title: "Submitted paper at WOIV"
+- title: ":bar_chart: Submitted paper at WOIV"
   date: 2022-03-07
 - title: ":birthday: Happy birthday Nikos!"
   date: 2022-03-06
@@ -346,7 +346,7 @@
   date: 2022-02-28
 - title: ":guitar: Dropkick Murphys"
   date: 2022-02-26
-- title: "ANL will re-open on Feb 28th"
+- title: ":office: ANL will re-open on Feb 28th"
   date: 2022-02-17
 - title: ":heart: Happe Valentine's Day to my better half, <a href=\"https://www.rigouvasia.com\" target=\"_blank\">Vasia</a>"
   date: 2022-02-14
@@ -356,7 +356,7 @@
   date: 2022-02-12
 - title: ":birthday: Happy bday Todd!"
   date: 2022-01-19
-- title: "ASCR Workshop on Visualization for Scientific Discovery, Decision-Making, & Communication"
+- title: ":computer: ASCR Workshop on Visualization for Scientific Discovery, Decision-Making, & Communication"
   date: 2022-01-18
 - title: ":ice_skate: Blackhawks Road Watch Party!"
   date: 2022-01-17
@@ -380,19 +380,19 @@
   date: 2021-12-03
 - title: ":beer: Picking up Advent Calendar from Marz"
   date: 2021-11-27
-- title: "SAUCED Night Market"
+- title: ":spaghetti: SAUCED Night Market"
   date: 2021-11-19
 - title: ":wine_glass: Beaujolais Nouveau Release day"
   date: 2021-11-18
-- title: "SuperComputing 2021 kick-off"
+- title: ":computer: SuperComputing 2021 kick-off"
   date: 2021-11-15
 - title: ":cake: Happy Nameday! Dinner at Bavette's"
   date: 2021-11-11
 - title: ":tada: <a href='https://design.newcity.com/2021/12/01/drink-like-a-local-chicago-handshake-is-a-very-chicago-drinking-card-game/' target='_blank'>Chicago Handshake Launch Party</a>"
   date: 2021-11-08
-- title: "<a href='/news/ieee-vis-2021-chicago-satellite-event/'>2021 VIS Chicago Satellite Event</a>"
+- title: ":bar_chart: <a href='/news/ieee-vis-2021-chicago-satellite-event/'>2021 VIS Chicago Satellite Event</a>"
   date: 2021-10-26
-- title: "VIS & LDAV kick-off"
+- title: ":bar_chart: VIS & LDAV kick-off"
   date: 2021-10-25
 - title: ":pizza: lunch with the ALCF folks!"
   date: 2021-10-15
@@ -406,7 +406,7 @@
   date: 2021-10-08
 - title: ":tada: First steak :meat_on_bone: on the new BBQ. Delicious!"
   date: 2021-10-07
-- title: "Met with Jac and Ian for brunch"
+- title: ":handshake: Met with Jac and Ian for brunch"
   date: 2021-10-02
 - title: ":airplane: Laz and Silvi flying back to :romania:"
   date: 2021-09-30
@@ -438,11 +438,11 @@
   date: 2021-07-14
 - title: ":birthday: Vasia's bday dinner at Piccolo Sogno."
   date: 2021-07-11
-- title: "James presented his ACT-SO project"
+- title: ":microphone: James presented his ACT-SO project"
   date: 2021-07-07
-- title: "Met with Kouf family for dinner"
+- title: ":handshake: Met with Kouf family for dinner"
   date: 2021-06-17
-- title: "Moving out from LSD to RF. Next chapter begins!"
+- title: ":house: Moving out from LSD to RF. Next chapter begins!"
   date: 2021-06-11
 - title: "Bought a new :house:! Keys in hand"
   date: 2021-05-25
@@ -458,23 +458,23 @@
   date: 2021-05-17
 - title: ":egg: Happy Greek Easter"
   date: 2021-05-02
-- title: "Offer accepted!"
+- title: ":briefcase: Offer accepted!"
   date: 2021-04-18
-- title: "Submitted an offer for a single family home"
+- title: ":page_facing_up: Submitted an offer for a single family home"
   date: 2021-04-16
 - title: ":syringe: Vaccination day!"
   date: 2021-03-26
 - title: "Happy (from home) St. Patrick's day :beers:"
   date: 2021-03-17
-- title: "Refinished the LSD bathtub"
+- title: ":hammer: Refinished the LSD bathtub"
   date: 2021-03-04
 - title: "First time out since the pandemic started! Lottie's Pub :beers:"
   date: 2021-02-21
 - title: ":kiss: Hapy vday to my other half, <a href='https://www.rigouvasia.com/' target='_blank'>Vasia</a>"
   date: 2021-02-14
-- title: "Meeting with Costa Lembessi, 11 years after!"
+- title: ":handshake: Meeting with Costa Lembessi, 11 years after!"
   date: 2021-02-06
-- title: "Back to PS1 after almost an year"
+- title: ":muscle: Back to PS1 after almost an year"
   date: 2021-02-05
 - title: ":european_post_office: Capitol insurrection. Sad day for democracy. Laz nameday"
   date: 2021-01-06
@@ -490,9 +490,9 @@
   date: 2020-12-24
 - title: ":smiley: Last day of work!"
   date: 2020-12-23
-- title: "Jason's PhD defense. Congrats Dr. Archer!"
+- title: ":mortar_board: Jason's PhD defense. Congrats Dr. Archer!"
   date: 2020-12-11
-- title: "<a href='https://www.chicagochi.org/2020/11/23/julieta-aguilera-scaling-interaction' target='_blank'>ChicagoCHI's monthly meeting</a>"
+- title: ":speech_balloon: <a href='https://www.chicagochi.org/2020/11/23/julieta-aguilera-scaling-interaction' target='_blank'>ChicagoCHI's monthly meeting</a>"
   date: 2020-12-03
 - title: "🦠Two weeks since first symptoms. Mom and dad corona-free!"
   date: 2020-12-01
@@ -502,23 +502,23 @@
   date: 2020-11-23
 - title: "🦠Dad posted positive for COVID-19 as well. Mom doing well"
   date: 2020-11-22
-- title: Kick-off meeting with ACT-SO student
+- title: ":school: Kick-off meeting with ACT-SO student"
   date: 2020-11-21
 - title: ":house: Put an offer for the Halsted townhome"
   date: 2020-11-16
-- title: "1 year since Pappou's passing"
+- title: ":broken_heart: 1 year since Pappou's passing"
   date: 2020-11-13
 - title: ":tada: My nameday!"
   date: 2020-11-11
-- title: "<a href='https://sc20.supercomputing.org' target='_blank'>SuperComputing 2020 starts</a>"
+- title: ":computer: <a href='https://sc20.supercomputing.org' target='_blank'>SuperComputing 2020 starts</a>"
   date: 2020-11-09
 - title: ":house: Problems found with Association. Contract cancelled"
   date: 2020-11-04
-- title: "Election day"
+- title: ":ballot_box_with_check: Election day"
   date: 2020-11-03
 - title: ":house: Radon test negative"
   date: 2020-10-27
-- title: "<a href='http://ieeevis.org/year/2020/welcome' target='_blank'>IEEE VIS 2020 starts</a>"
+- title: ":bar_chart: <a href='http://ieeevis.org/year/2020/welcome' target='_blank'>IEEE VIS 2020 starts</a>"
   date: 2020-10-25
 - title: ":house: Inspection passed"
   date: 2020-10-22
@@ -530,9 +530,9 @@
   date: 2020-10-17
 - title: ":japanese_castle: Surprise trip to the <a href='https://andersongardens.org' target='_blank'>Anderson Japanese Gardens</a>"
   date: 2020-10-10
-- title: "ChicagoCHI Officer's meeting"
+- title: ":speech_balloon: ChicagoCHI Officer's meeting"
   date: 2020-10-08
-- title: "<a href='https://www.chicagochi.org/2020/09/15/trigeminal-based-temperature-illusions/' target='_blank'>ChicagoCHI monthly meeting</a>"
+- title: ":speech_balloon: <a href='https://www.chicagochi.org/2020/09/15/trigeminal-based-temperature-illusions/' target='_blank'>ChicagoCHI monthly meeting</a>"
   date: 2020-10-01
 - title: ":muscle: First day back at the gym! Training with <a href='https://www.bodybyfrank.net/' target='_blank'>Franci Fontanez</a>"
   date: 2020-09-28
@@ -572,7 +572,7 @@
   date: 2020-08-06
 - title: "🦠COVID-19 test"
   date: 2020-08-04
-- title: Submitted my two-week notice
+- title: ":briefcase: Submitted my two-week notice"
   date: 2020-07-23
 - title: ":tada: Accepted offer from <a href='https://www.alcf.anl.gov' target='_blank'>ALCF</a>"
   date: 2020-07-22
@@ -608,7 +608,7 @@
   date: 2020-05-21
 - title: 🦠Week 9 of shelter at home
   date: 2020-05-15
-- title: 6 months since Papu's passing
+- title: ":broken_heart: 6 months since Papu's passing"
   date: 2020-05-13
 - title: 🦠Week 8 of shelter at home
   date: 2020-05-08
@@ -618,7 +618,7 @@
   date: 2020-05-01
 - title: 🦠First time out for curbside pickups
   date: 2020-04-29
-- title: Happy bday to Vasia's dad!
+- title: ":birthday: Happy bday to Vasia's dad!"
   date: 2020-04-24
 - title: 🦠Week 6 of shelter at home
   date: 2020-04-24
@@ -630,7 +630,7 @@
   date: 2020-04-17
 - title: 🦠Video meetup with John and Jason
   date: 2020-04-15
-- title: Happy nameday little bro!
+- title: ":birthday: Happy nameday little bro!"
   date: 2020-04-11
 - title: 🦠Week 4 of shelter at home
   date: 2020-04-10
@@ -638,7 +638,7 @@
   date: 2020-04-05
 - title: 🦠Week 3 of shelter at home
   date: 2020-04-03
-- title: Migrated all websites/mail to new server
+- title: ":computer: Migrated all websites/mail to new server"
   date: 2020-04-02
 - title: 🦠Not so funny April Fools' Day
   date: 2020-04-01
@@ -656,9 +656,9 @@
   date: 2020-03-14
 - title: 🦠It's official - indefinite WFH
   date: 2020-03-13
-- title: Happy nameday Todd!
+- title: ":birthday: Happy nameday Todd!"
   date: 2020-03-07
-- title: C2E2 2020
+- title: ":performing_arts: C2E2 2020"
   date: 2020-02-29
 - title: ✈️Flight to Chicago
   date: 2020-02-24
@@ -668,13 +668,13 @@
   date: 2020-02-20
 - title: 💑Happy Valentine's Day
   date: 2020-02-14
-- title: Went to Qi's Jam
+- title: ":guitar: Went to Qi's Jam"
   date: 2020-02-13
-- title: EmergeNEXT Panel, Vasia's mom leaving
+- title: ":wave: EmergeNEXT Panel, Vasia's mom leaving"
   date: 2020-02-12
-- title: Teen Innovation Summit 2020
+- title: ":bulb: Teen Innovation Summit 2020"
   date: 2020-02-11
-- title: Ellie's Hearing Test!
+- title: ":baby: Ellie's Hearing Test!"
   date: 2020-02-10
 - title: 🏒BOS @ CHI with Ellie
   date: 2020-02-05
@@ -682,15 +682,15 @@
   date: 2020-01-24
 - title: 🏛️Andy Warhol Exhibition
   date: 2020-01-22
-- title: Star Wars Trivia
+- title: ":movie_camera: Star Wars Trivia"
   date: 2020-01-16
 - title: 🏒NSH @ CHI
   date: 2020-01-09
-- title: Happy Nameday Laz!
+- title: ":birthday: Happy Nameday Laz!"
   date: 2020-01-06
-- title: Happy New Year! Happy nameday to Vasia!
+- title: ":tada: Happy New Year! Happy nameday to Vasia!"
   date: 2020-01-01
-- title: Back to work!
+- title: ":office: Back to work!"
   date: 2019-12-30
 - title: ✈️Flight to Chicago
   date: 2019-12-29
@@ -700,213 +700,213 @@
   date: 2019-12-20
 - title: ✈️Flight to Paris. One month without Papu
   date: 2019-12-13
-- title: My beloved Papu passed away...
+- title: ":broken_heart: My beloved Papu passed away..."
   date: 2019-11-13
-- title: Happy nameday to me and Papu!
+- title: ":birthday: Happy nameday to me and Papu!"
   date: 2019-11-11
-- title: ChicagoCHI chaptered!
+- title: ":speech_balloon: ChicagoCHI chaptered!"
   date: 2019-10-31
-- title: ACM SIGCHI chapter application sent!
+- title: ":speech_balloon: ACM SIGCHI chapter application sent!"
   date: 2019-09-19
-- title: CHI crunch time!
+- title: ":speech_balloon: CHI crunch time!"
   date: 2019-09-18
-- title: Ubicomp over, back to CHI
+- title: ":speech_balloon: Ubicomp over, back to CHI"
   date: 2019-09-14
-- title: At Ubicomp 2019
+- title: ":watch: At Ubicomp 2019"
   date: 2019-09-11
-- title: Wellcomp Workshop (Ubicomp)
+- title: ":watch: Wellcomp Workshop (Ubicomp)"
   date: 2019-09-09
-- title: Off to London for Ubicomp
+- title: ":watch: Off to London for Ubicomp"
   date: 2019-09-07
-- title: Back to work
+- title: ":office: Back to work"
   date: 2019-08-26
-- title: Off to Chicago
+- title: ":airplane: Off to Chicago"
   date: 2019-08-24
-- title: Happy Anniversary!
+- title: ":bride_with_veil: Happy Anniversary!"
   date: 2019-08-19
-- title: Off to Bucharest
+- title: ":airplane: Off to Bucharest"
   date: 2019-08-18
-- title: Off to Paros, Greece
+- title: ":airplane: Off to Paros, Greece"
   date: 2019-08-03
-- title: Happy bday mom!
+- title: ":birthday: Happy bday mom!"
   date: 2019-07-14
-- title: Anniversary Vegas Weekend
+- title: ":slot_machine: Anniversary Vegas Weekend"
   date: 2019-07-12
-- title: Happy bday Vasia!
+- title: ":birthday: Happy bday Vasia!"
   date: 2019-07-11
-- title: Friends leave (Theodore M.)
+- title: ":busts_in_silhouette: Friends leave (Theodore M.)"
   date: 2019-07-05
-- title: Happy 4th!
+- title: ":fireworks: Happy 4th!"
   date: 2019-07-04
-- title: Happy Anniversary!
+- title: ":bride_with_veil: Happy Anniversary!"
   date: 2019-07-01
-- title: Zac Brown concert
+- title: ":guitar: Zac Brown concert"
   date: 2019-06-29
-- title: Friends arrive from Greece (Theodore M.)
+- title: ":busts_in_silhouette: Friends arrive from Greece (Theodore M.)"
   date: 2019-06-28
-- title: Bob Kenyon's retirement party!
+- title: ":confetti_ball: Bob Kenyon's retirement party!"
   date: 2019-06-26
-- title: Rolling Stones concert
+- title: ":guitar: Rolling Stones concert"
   date: 2019-06-25
 - title: Guitar Recital 🎸
   date: 2019-06-18
 - title: Bottling the Impossible 🧙
   date: 2019-06-15
-- title: Maifest Chicago
+- title: ":beer: Maifest Chicago"
   date: 2019-06-02
-- title: "MSI After Hours: Wired to Wear"
+- title: ":art: MSI After Hours: Wired to Wear"
   date: 2019-05-31
-- title: GN 150th Anniversary
+- title: ":office: GN 150th Anniversary"
   date: 2019-05-30
-- title: Memorial Day
+- title: ":us: Memorial Day"
   date: 2019-05-27
-- title: Prsentation at BSN/BHI
+- title: ":stethoscope: Prsentation at BSN/BHI"
   date: 2019-05-22
-- title: At Cirque du Soleil's VOLTA
+- title: ":performing_arts: At Cirque du Soleil's VOLTA"
   date: 2019-05-21
-- title: The other art fair
+- title: ":art: The other art fair"
   date: 2019-05-18
-- title: Happy Mother's day
+- title: ":bouquet: Happy Mother's day"
   date: 2019-05-12
 - title: 🐰Happy Easter!
   date: 2019-04-28
-- title: Wired to Wear VIP Event
+- title: ":art: Wired to Wear VIP Event"
   date: 2019-03-22
-- title: Wired to Wear Official Opening
+- title: ":art: Wired to Wear Official Opening"
   date: 2019-03-21
-- title: Wired to Wear Press Opening
+- title: ":newspaper: Wired to Wear Press Opening"
   date: 2019-03-20
-- title: Website redesign
+- title: ":rocket: Website redesign"
   date: 2018-12-28
-- title: Merry Christmas!
+- title: ":santa: Merry Christmas!"
   date: 2018-12-25
-- title: Nameday!
+- title: ":birthday: Nameday!"
   date: 2018-11-11
-- title: Started job @ GN A/S
+- title: ":briefcase: Started job @ GN A/S"
   date: 2018-09-24
-- title: Back to CHI
+- title: ":speech_balloon: Back to CHI"
   date: 2018-08-31
 - title: Jimmy's Wedding 💒
   date: 2018-08-25
-- title: Back to Athens
+- title: ":airplane: Back to Athens"
   date: 2018-08-23
-- title: Off to Bucharest
+- title: ":airplane: Off to Bucharest"
   date: 2018-08-19
-- title: Off to Greece
+- title: ":airplane: Off to Greece"
   date: 2018-08-02
-- title: Back to CHI
+- title: ":speech_balloon: Back to CHI"
   date: 2018-06-19
 - title: Mike's Wedding 💒
   date: 2018-06-16
-- title: Off to Greece
+- title: ":airplane: Off to Greece"
   date: 2018-06-12
-- title: Graduated!
+- title: ":mortar_board: Graduated!"
   date: 2018-05-13
-- title: Rainbowed.us Launched
+- title: ":rocket: Rainbowed.us Launched"
   date: 2017-03-16
-- title: mHUB Grand Opening
+- title: ":art: mHUB Grand Opening"
   date: 2017-03-02
-- title: SBDC Client Showcase
+- title: ":briefcase: SBDC Client Showcase"
   date: 2017-02-16
-- title: Happy New Year!
+- title: ":tada: Happy New Year!"
   date: 2017-01-01
-- title: Chicago Innovation Awards Reception
+- title: ":trophy: Chicago Innovation Awards Reception"
   date: 2017-09-07
-- title: Image of Research Winner
+- title: ":trophy: Image of Research Winner"
   date: 2016-09-06
-- title: Infinity Labs Incorporated
+- title: ":rocket: Infinity Labs Incorporated"
   date: 2016-05-12
-- title: TEDx talk
+- title: ":microphone: TEDx talk"
   date: 2016-04-08
-- title: SpiderSense @ Technori
+- title: ":microphone: SpiderSense @ Technori"
   date: 2016-03-29
-- title: SpiderSense @ We Are Wearables CHI
+- title: ":microphone: SpiderSense @ We Are Wearables CHI"
   date: 2016-02-25
-- title: SpiderSense @ All-American Makers
+- title: ":microphone: SpiderSense @ All-American Makers"
   date: 2016-02-03
-- title: Fellowship Reception
+- title: ":trophy: Fellowship Reception"
   date: 2016-01-22
-- title: RIP David Bowie
+- title: ":broken_heart: RIP David Bowie"
   date: 2016-01-11
-- title: Todd left
+- title: ":airplane: Todd left"
   date: 2016-01-07
-- title: RIP Antwan McBee
+- title: ":broken_heart: RIP Antwan McBee"
   date: 2016-01-03
-- title: Happy New Year!
+- title: ":tada: Happy New Year!"
   date: 2016-01-01
-- title: Merry Christmas!
+- title: ":santa: Merry Christmas!"
   date: 2015-12-25
-- title: Todd arrived
+- title: ":airplane: Todd arrived"
   date: 2015-12-11
-- title: Happy Thanksgiving!
+- title: ":turkey: Happy Thanksgiving!"
   date: 2015-11-26
-- title: It’s my nameday (and my grandfather’s)!
+- title: ":birthday: It’s my nameday (and my grandfather’s)!"
   date: 2015-11-11
-- title: Launched human-augmentics.org
+- title: ":rocket: Launched human-augmentics.org"
   date: 2015-11-07
-- title: Started at Catalyze Chicago
+- title: ":briefcase: Started at Catalyze Chicago"
   date: 2015-11-01
-- title: Happy Halloween!
+- title: ":jack_o_lantern: Happy Halloween!"
   date: 2015-10-31
-- title: Data Improvisations – VISAP art opening
+- title: ":art: Data Improvisations – VISAP art opening"
   date: 2015-10-27
-- title: Talk at MOMA (Health Related Mobile Apps)
+- title: ":microphone: Talk at MOMA (Health Related Mobile Apps)"
   date: 2015-10-26
-- title: Back to Chicago
+- title: ":speech_balloon: Back to Chicago"
   date: 2015-10-22
-- title: New York City
+- title: ":statue_of_liberty: New York City"
   date: 2015-10-18
-- title: ThinkChicago
+- title: ":speech_balloon: ThinkChicago"
   date: 2015-10-15
-- title: 30th Chicago Area Entrepreneurship Hall of Fame
+- title: ":trophy: 30th Chicago Area Entrepreneurship Hall of Fame"
   date: 2015-10-08
-- title: At FUND Conference
+- title: ":microphone: At FUND Conference"
   date: 2015-10-06
-- title: Paper due @ VR 2016
+- title: ":vr: Paper due @ VR 2016"
   date: 2015-09-21
-- title: Birthday!
+- title: ":birthday: Birthday!"
   date: 2015-09-20
-- title: Abstract due @ VR 2016
+- title: ":vr: Abstract due @ VR 2016"
   date: 2015-09-14
-- title: Riot Fest
+- title: ":guitar: Riot Fest"
   date: 2015-09-11
-- title: Greekfest!
+- title: ":greece: Greekfest!"
   date: 2015-08-23
-- title: Back to the Windy City
+- title: ":airplane: Back to the Windy City"
   date: 2015-08-22
-- title: Vegas Elopment with Elvis Presley
+- title: ":slot_machine: Vegas Elopment with Elvis Presley"
   date: 2015-08-19
-- title: Mini-Vegas-Vacation
+- title: ":slot_machine: Mini-Vegas-Vacation"
   date: 2015-08-16
-- title: Last day at MSR
+- title: ":wave: Last day at MSR"
   date: 2015-08-14
-- title: Happy 4th!
+- title: ":fireworks: Happy 4th!"
   date: 2015-07-04
 - title: Surprise Engagement Proposal 💍
   date: 2015-07-01
-- title: Talk at Chicago TechWeek
+- title: ":microphone: Talk at Chicago TechWeek"
   date: 2015-06-26
-- title: Started Internship at MSR
+- title: ":briefcase: Started Internship at MSR"
   date: 2015-05-25
-- title: Vasia’s Commencement
+- title: ":mortar_board: Vasia’s Commencement"
   date: 2015-05-11
-- title: Happy Mother’s Day!
+- title: ":bouquet: Happy Mother’s Day!"
   date: 2015-05-10
-- title: 2015-2016 Dean’s Scholar Award Recipient
+- title: ":trophy: 2015-2016 Dean’s Scholar Award Recipient"
   date: 2015-04-20
-- title: Concept2Venture Competition
+- title: ":trophy: Concept2Venture Competition"
   date: 2015-04-17
-- title: Happy (Greek) Independence Day!
+- title: ":fireworks: Happy (Greek) Independence Day!"
   date: 2015-03-25
-- title: New Website Design
+- title: ":rocket: New Website Design"
   date: 2015-03-19
-- title: Application to MIT Media Lab submitted
+- title: ":briefcase: Application to MIT Media Lab submitted"
   date: 2015-03-15
-- title: Happy (unofficial) St. Patty’s Day!
+- title: ":beers: Happy (unofficial) St. Patty’s Day!"
   date: 2015-03-14
-- title: Problems with hosting, another sleepless night
+- title: ":computer: Problems with hosting, another sleepless night"
   date: 2015-03-13
-- title: Started website redesign
+- title: ":rocket: Started website redesign"
   date: 2015-03-10
-- title: Received MS Research offer
+- title: ":briefcase: Received MS Research offer"
   date: 2015-03-09
