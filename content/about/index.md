@@ -15,7 +15,7 @@ I'm a Computer Scientist at the {{< a link="Argonne Leadership Computing Facilit
 
 I design interactive visualizations for petabyte-scale scientific datasets, develop emerging technologies, and prototype futuristic interfaces. In other words: I imagine what scientific computing should look like 5&ndash;10 years from now, and then I build it. My current research has three threads:
 
-- **In-situ visualization at exascale** &mdash; instrumenting libraries like {{< a link="ASCENT" src="https://ascent.readthedocs.io" >}} and {{< a link="SENSEI" src="https://sensei-insitu.org" >}} so that simulations on Aurora and other ALCF systems can be visualized and analyzed *while they run*, without the disk I/O bottleneck. Recent work has won Best Paper at ISAV 2023 and 2024.
+- **In-situ visualization at exascale** &mdash; instrumenting libraries like {{< a link="ASCENT" src="https://ascent.readthedocs.io" >}} and {{< a link="SENSEI" src="https://sensei-insitu.org" >}} so that simulations on {{< a link="Aurora" src="https://www.alcf.anl.gov/aurora" >}} (Argonne's exascale supercomputer that I helped bring online) and other ALCF systems can be visualized and analyzed *while they run*, without the disk I/O bottleneck. Recent work has won Best Paper at ISAV 2023 and 2024, plus 1st Place + Best Workflow at the 2023 IEEE SciVis Contest.
 - **Immersive XR for science** &mdash; letting researchers literally walk through their data. Imagine stepping into the eye of a hurricane, or feeling the force of a tornado through haptic feedback.
 - **Human&ndash;AI collaboration for discovery** &mdash; building AI co-pilots that work alongside scientists inside immersive environments, helping them analyze, hypothesize, and explore at HPC scales.
 
@@ -49,7 +49,9 @@ I draw on a diverse set of skills: scientific visualization, computer graphics, 
 
 ## More facts about me
 
-I play Ice Hockey 🏒 as long as I can remember. From 2006&ndash;2009 I was selected in the {{< a link="Greek National Ice Hockey Team" src="http://www.eurohockey.com/player/125505-viktor-mateevitsi.html" >}} and participated in the Division 3 IIHF World Championships. Today I play at Johnny's Adult Hockey League with the Loose Cannons.
+I grew up in Athens, Greece, where I fell in love with ice hockey on the country's two half-size rinks. I've played 🏒 ever since &mdash; from 2006&ndash;2009 I was selected in the {{< a link="Greek National Ice Hockey Team" src="http://www.eurohockey.com/player/125505-viktor-mateevitsi.html" >}} and represented Greece at two IIHF Division III World Championships (Luxembourg 2008, Dunedin NZ 2009). Today I play at Johnny's Adult Hockey League with the Loose Cannons.
+
+I've also been a {{< a link="TEDx speaker" src="https://youtu.be/gtU-6cxi1OA" >}} and was recognized as one of Crain's Chicago Business's "{{< a link="20 in their 20s" src="https://www.chicagobusiness.com/recognitions/20-in-their-20s/2014/20-in-their-20s-victor-mateevitsi/" >}}" and the Illinois Technology Foundation's "Fifty for the Future" while at UIC.
 
 {{< figure src="mateevitsi-ice-hockey.jpg" caption="Training camp in Czech Republik before the World Champs" >}}
 
