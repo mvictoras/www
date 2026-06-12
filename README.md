@@ -1,58 +1,173 @@
-# Victor's personal website
+# vmateevitsi.com
 
-[![GitHub release](https://img.shields.io/github/release/mvictoras/www.svg)](https://github.com/mvictoras/www/releases)
-[![Build Status](https://img.shields.io/circleci/build/gh/mvictoras/www?token=37891ab0d63aeb4d4963af2cc20533c3e6a4ca00)](https://circleci.com/gh/mvictoras/www)
-[![Netlify](https://img.shields.io/netlify/f4ee6127-6b8e-4780-a7b5-d9d63d396e83)](https://dazzling-haibt-c41dcb.netlify.app/)
-![Dependencies](https://img.shields.io/librariesio/github/mvictoras/www)
+> Personal website of [Victor A. Mateevitsi](https://www.vmateevitsi.com) — Computer Scientist at Argonne National Laboratory, Adjunct Research Professor at UIC, General Chair of IEEE VIS 2027.
 
-![Dependabot](https://badgen.net/dependabot/thepracticaldev/dev.to?icon=dependabot)
-[![Github Issues](https://badgen.net/github/open-issues/mvictoras/www)](https://github.com/mvictoras/www/issues)
+[![Hugo](https://img.shields.io/badge/Hugo-0.163.1+extended-FF4088?logo=hugo&logoColor=white)](https://gohugo.io/)
+[![Node.js](https://img.shields.io/badge/Node.js-20.11+-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+[![Netlify](https://img.shields.io/netlify/f4ee6127-6b8e-4780-a7b5-d9d63d396e83)](https://app.netlify.com/sites/vmateevitsi/deploys)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-## Features
-- Lightweight code base
-- 100 scores Google Lighthouse
-- A+ scores [Mozilla Observatory](https://observatory.mozilla.org/)
-- Easily make it your own
-- [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/download/#source-files) Sass (no JavaScript) and [Autoprefixer](https://github.com/postcss/autoprefixer)
-- Check SCSS for errors with [stylelint](https://stylelint.io/)
-- Check JavaScript for errors with [ESLint](https://eslint.org/)
-- Environment specific configuration
-- Image shortcode with [lazysizes](https://github.com/aFarkas/lazysizes) and [blur up](https://github.com/aFarkas/lazysizes/tree/master/plugins/blur-up) plugin
-- Fingerprinting and [SRI](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) (production)
-- Remove unused CSS (production) with [PurgeCSS](https://github.com/FullHuman/purgecss)
+A bespoke Hugo theme + content for an academic personal website. Designed to feel like a researcher's working notebook rather than a static CV.
 
-## Requirements
+🌐 **Live site**: [vmateevitsi.com](https://www.vmateevitsi.com)
 
-Make sure all dependencies have been installed:
+---
 
-- [Hugo](https://gohugo.io/) >= 0.71.0
-- [Node.js](https://nodejs.org/) >= 13.11.0
+## ✨ Features
 
-## Get started
+### Content
+- **Publications** with thumbnail-left layout, project/video/code link badges, and 91% image coverage (41 of 45 papers)
+- **Press page** organized as year-grouped collapsible timeline (books + print + web in one chronological feed)
+- **Updates** — a 415-entry life-and-work journal spanning 2007–present, with emoji-prefixed entries
+- **VIS Deadlines** widget with hero countdown, multi-select topic filters, color-coded urgency, timezone toggle (viewer's local vs. original conference TZ)
+- **News** posts with 5 color-coded categories (research/award/talk/personal/meta)
+- **Research themes** page, **Talks**, **Videos**, **CV** with PDF download and at-a-glance stats
 
-Clone the repo
+### Engineering
+- ⚡ **Hugo 0.163+** static site generator (extended edition for image processing)
+- 🎨 **Bootstrap 5.3** (selective import — only used components for smaller bundle)
+- 🖼️ **Automatic WebP** generation with `<picture>` fallbacks; LQIP blur-up via [lazysizes](https://github.com/aFarkas/lazysizes)
+- 📦 **esbuild** per-page JS bundles with SRI integrity hashes and fingerprinting
+- 🧹 **PurgeCSS** in production to strip unused styles
+- 🎭 **Dart Sass** + **PostCSS** + **Autoprefixer** modern CSS pipeline
+- 🔍 **Rich JSON-LD structured data** (Person, WebSite, Article, BreadcrumbList) for Knowledge Graph
+- 🌐 **Full Open Graph + Twitter Cards** with cascading description fallbacks and proper image dimensions
+- 📱 **PWA manifest**, favicons, theme-color, viewport configured
+- ✅ **Stylelint** + **ESLint** + **markdownlint** linting
 
-```
-$ git clone git@github.com:mvictoras/www.git
-```
+### Pages
+| Page | Purpose |
+|---|---|
+| `/` | Hero bio, latest news/press/updates cards, experience carousel, contact |
+| `/about/` | Long-form bio, press bios (short/medium/long), get-in-touch |
+| `/research/` | Five thematic research blocks |
+| `/publications/` | Filterable list with thumbnails and DOI/Project/Video/Code links |
+| `/news/` | Blog posts and announcements with category badges |
+| `/talks/` | Invited talks chronology |
+| `/press/` | Media coverage timeline (books, print, web) |
+| `/cv/` | Slim landing page with PDF download + at-a-glance grid |
+| `/updates/` | Personal life feed (415 entries, emoji-prefixed) |
+| `/vis-deadlines/` | Live conference deadline tracker with countdown |
+| `/videos/` | Talk recordings and demos |
 
-Install dependencies
+---
 
-```
-$ yarn install
-```
-Build development theme with live reloading and injection:
+## 🚀 Getting Started
+
+### Requirements
+- [Hugo](https://gohugo.io/) **≥ 0.163.1** (extended edition — `brew install hugo` on macOS)
+- [Node.js](https://nodejs.org/) **≥ 20.11**
+- [Dart Sass](https://sass-lang.com/install) (`brew install sass/sass/sass`)
+
+### Install + run
 
 ```bash
-$ yarn start
+git clone https://github.com/mvictoras/www.git
+cd www
+npm install
+npm start
 ```
 
-### Other commands
-- `yarn test` - Check Sass and JS for error
-- `yarn lint:styles` - Check Sass for errors
-- `yarn lint:scripts` - Check JavaScript for errors
-- `yarn build` - Build production theme
+The dev server runs at <http://localhost:1313> with live reload.
 
-## Acknowledgements
+### Commands
 
-Website structure inspired by [Hugo starter](https://github.com/h-enk/hyas)
+| Command | What it does |
+|---|---|
+| `npm start` | Dev server with `--disableFastRender` (so SCSS edits reflect immediately) |
+| `npm run build` | Production build (`hugo --gc --minify`) — outputs to `public/` |
+| `npm run build:preview` | Build with drafts + future content for staging |
+| `npm test` | Lint SCSS + JS + Markdown |
+| `npm run lint:styles` | Stylelint only |
+| `npm run lint:scripts` | ESLint only |
+| `npm run lint:markdown` | markdownlint-cli2 only |
+| `npm run clean` | Remove `public/` + `resources/` |
+
+---
+
+## 📂 Content Architecture
+
+Most editable content lives in YAML data files, not markdown.
+
+```
+content/
+├── _index.md              # Homepage hero bio + experience carousel data
+├── about/index.md         # About page (narrative + press bios + get-in-touch)
+├── cv/index.md            # CV landing page
+├── research/index.md      # Research themes
+└── news/<slug>/index.md   # Individual news posts (with featured image)
+
+data/                      # YAML — most updates happen here
+├── publications.yaml      # 45 papers with image, DOI, project_url, video_url, etc.
+├── press.yaml             # books / print / web sections — homepage card auto-pulls latest 'web'
+├── updates.yaml           # 414 personal life entries (date + emoji-prefixed title)
+├── talks.yaml             # Invited talks
+├── conferences.yaml       # Conference families + year instances → /vis-deadlines/
+├── awards.yaml            # CV awards section
+├── students.yaml          # Students supervised (graduate/undergraduate/k12)
+├── service.yaml           # Professional service entries
+├── teaching.yaml          # Courses taught
+├── experience.yaml        # Homepage experience carousel
+├── education.yaml         # CV education section
+├── events.yaml            # Upcoming events
+├── videos.yaml            # Video page entries
+├── social.yaml            # Social media links (single source of truth)
+├── tilt.yaml              # "Things I Learned Today" sidebar widget
+└── patents.yaml           # Patents list
+
+themes/academic/
+├── layouts/               # Hugo templates (shortcodes, partials, page types)
+└── assets/
+    ├── scss/              # Sass — Bootstrap selective imports + custom components
+    └── js/                # ES modules bundled by esbuild
+```
+
+### Adding a publication
+Edit `data/publications.yaml`, add to `journals:` or `conferences:` list. Drop the thumbnail in `assets/publications/<slug>.png`. Optional fields: `image:`, `project_url:`, `video_url:`, `code_url:`, `award:`.
+
+### Adding a press piece
+Edit `data/press.yaml`. New web entries go at top of `web:` (sorted DESC by `date:`). Image goes in `content/press/<file>.jpg` as a page resource.
+
+### Adding an update
+Edit `data/updates.yaml`. Entries are reverse-chronological. Title format: `:emoji_shortcode: Short description` or `🎉 Short description` (unicode emoji also fine).
+
+### Adding a conference to /vis-deadlines/
+Edit `data/conferences.yaml`. v2 schema is family-centric — add a new `instances:` entry under the family. Use IANA timezone names (`America/Chicago`, `Etc/GMT+12` for AoE). Tags must be from the canonical set: `vis | hpc | hci | vr-xr | graphics | ai-ml`.
+
+---
+
+## 🎨 Theme Notes
+
+The theme (`themes/academic/`) was originally inspired by [hyas](https://github.com/h-enk/hyas) but has been substantially rewritten:
+
+- Dark-mode-first with terminal-aesthetic accents (`#fc9d00` orange, JetBrains Mono)
+- Custom shortcodes for `{{< a >}}`, `{{< figure >}}`, `{{< publications >}}`, `{{< deadlines >}}`, `{{< teaching >}}`, `{{< awards >}}`, etc.
+- No jQuery, no Bootstrap JS bundle — components imported individually (`Collapse`, `Dropdown`)
+- SCSS organized as `common/`, `components/`, `layouts/`, `vendor/`
+
+---
+
+## 🚢 Deployment
+
+[Netlify](https://app.netlify.com/sites/vmateevitsi/deploys) builds from `main`. Configuration in [`netlify.toml`](netlify.toml).
+
+```toml
+[build.environment]
+  NODE_VERSION = "20.11.0"
+  HUGO_VERSION = "0.163.1"
+```
+
+Branch previews work out of the box (`-b $DEPLOY_PRIME_URL` is passed at build time).
+
+---
+
+## 📜 License
+
+[MIT](LICENSE). Feel free to fork the theme or reference the data structures — credit appreciated but not required.
+
+## 🙏 Acknowledgements
+
+- Theme structure originally inspired by [Hugo starter (hyas)](https://github.com/h-enk/hyas)
+- Add-to-Calendar JS originally from [add-to-calendar](https://github.com/jasonsalzman/add-to-calendar)
+- Conference deadlines page concept inspired by [AI Deadlines](https://aideadlin.es/)

@@ -59,7 +59,7 @@
     "stylelint-scss": "7.2.0"
   },
   "otherDependencies": {
-    "hugo": "0.131.0"
+    "hugo": "0.163.1"
   },
   "dependencies": {
     "@splidejs/splide": "^4.1.4",
