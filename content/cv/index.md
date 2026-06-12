@@ -33,8 +33,8 @@ description: "Victor Mateevitsi — Computer Scientist at Argonne National Labor
   </div>
   <div class="cv-glance__card">
     <div class="cv-glance__label">Service</div>
-    <div class="cv-glance__value">IEEE VIS 2027</div>
-    <div class="cv-glance__meta">General Co-Chair<br>Senior IEEE & ACM Member</div>
+    <div class="cv-glance__value">VIS 2027 · ISAV 2026</div>
+    <div class="cv-glance__meta">General Chair / Co-Chair<br>Senior IEEE & ACM Member</div>
   </div>
   <div class="cv-glance__card">
     <div class="cv-glance__label">Output</div>

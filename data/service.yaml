@@ -1,3 +1,6 @@
+- role: "General Co-Chair, ISAV 2026"
+  description: "General Co-Chair of the 12th Workshop on In Situ Infrastructures for Enabling Extreme-Scale Analysis and Visualization at SC26, Chicago."
+
 - role: "Co-Chair, IEEE VIS 2027"
   description: "Co-Chair of the upcoming IEEE VIS 2027, Chicago."
 
@@ -10,5 +13,5 @@
 - role: "Senior IEEE and ACM Member"
   description: "Recognized for exceptional contributions to computer science and engineering."
 
-- role: "Apprenticeship Mentor"
-  description: "Mentored students through SPARK."
+- role: "ACT-SO Mentor"
+  description: "Mentor high-school students through the NAACP's ACT-SO program at Argonne, supporting their original research projects in STEM."

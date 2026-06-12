@@ -43,9 +43,9 @@ I joined Argonne in 2020.
 
 ## Building and serving the community
 
-I serve as **General Chair of {{< a link="IEEE VIS 2027" src="https://ieeevis.org" >}}** in Chicago &mdash; the field's flagship conference. I founded **{{< a link="ChicagoCHI" src="https://www.chicagochi.org" >}}**, the local SIGCHI chapter, and I'm an active member of the Khronos Group's ANARI working group on standardizing 3D graphics APIs. I'm a Senior Member of both IEEE and ACM, and I mentor research interns each summer at ALCF. I also co-teach **{{< a link="Creative Coding" src="https://www.evl.uic.edu/datsoupi/2025_CC/" >}}** (CS/DES 427/450) at UIC's EVL with {{< a link="Daria Tsoupikova" src="https://www.evl.uic.edu/datsoupi/" >}}, introducing students to VR design in the CAVE2.
+I serve as **General Chair of {{< a link="IEEE VIS 2027" src="https://ieeevis.org" >}}** in Chicago &mdash; the field's flagship conference &mdash; and as **General Co-Chair of {{< a link="ISAV 2026" src="https://isav-workshop.github.io/2026/" >}}**, the In Situ AI, Analysis, and Visualization workshop at SC26. I founded **{{< a link="ChicagoCHI" src="https://www.chicagochi.org" >}}**, the local SIGCHI chapter, and I'm an active member of the Khronos Group's ANARI working group on standardizing 3D graphics APIs. I'm a Senior Member of both IEEE and ACM, and I mentor research interns each summer at ALCF. I also co-teach **{{< a link="Creative Coding" src="https://www.evl.uic.edu/datsoupi/2025_CC/" >}}** (CS/DES 427/450) at UIC's EVL with {{< a link="Daria Tsoupikova" src="https://www.evl.uic.edu/datsoupi/" >}}, introducing students to VR design in the CAVE2.
 
-Beyond university programs, I mentor high-school students through the NAACP's **{{< a link="ACT-SO" src="https://naacp.org/find-resources/youth-young-adult-programs/act-so" >}}** (Afro-Academic, Cultural, Technological and Scientific Olympics) at Argonne &mdash; six of my mentees made it to the 2024 National Convention &mdash; and middle-schoolers through UIC's **SPARK** apprenticeship program.
+Beyond university programs, I mentor high-school students through the NAACP's **{{< a link="ACT-SO" src="https://naacp.org/find-resources/youth-young-adult-programs/act-so" >}}** (Afro-Academic, Cultural, Technological and Scientific Olympics) at Argonne, helping them realize their research ideas and connect with science at a national laboratory.
 
 I draw on a diverse set of skills: scientific visualization, computer graphics, human-computer interaction, electronics, fabrication, and computer vision.
 
@@ -84,7 +84,7 @@ Victor Mateevitsi is a Computer Scientist at Argonne National Laboratory and Adj
 </summary>
 <div class="press-bio__body" id="bio-medium">
 
-Victor Mateevitsi is a Computer Scientist at Argonne National Laboratory's Leadership Computing Facility and Adjunct Research Professor at the University of Illinois Chicago. His research spans scientific visualization, human-computer interaction, and high-performance computing, with a focus on in-situ visualization at exascale, immersive XR for science, and human&ndash;AI collaboration for discovery. He is General Chair of IEEE VIS 2027 in Chicago and a Senior Member of both IEEE and ACM. His work has won Best Paper at ISAV 2023 and 2024, and his SpiderSense haptic jacket was exhibited at Chicago's Museum of Science and Industry.
+Victor Mateevitsi is a Computer Scientist at Argonne National Laboratory's Leadership Computing Facility and Adjunct Research Professor at the University of Illinois Chicago. His research spans scientific visualization, human-computer interaction, and high-performance computing, with a focus on in-situ visualization at exascale, immersive XR for science, and human&ndash;AI collaboration for discovery. He is General Chair of IEEE VIS 2027 in Chicago, General Co-Chair of ISAV 2026 at SC26, and a Senior Member of both IEEE and ACM. His work has won Best Paper at ISAV 2023 and 2024, and his SpiderSense haptic jacket was exhibited at Chicago's Museum of Science and Industry.
 
 </div>
 </details>
@@ -102,7 +102,7 @@ His current work has three threads: in-situ visualization at exascale (instrumen
 
 He earned his PhD from the Electronic Visualization Laboratory (EVL) at UIC in 2018, working on novel interfaces for the CAVE2 and SAGE2. His dissertation produced SpiderSense, a haptic jacket later exhibited at Chicago's Museum of Science and Industry. Before joining Argonne, he interned at Pixar (selected by the Academy's Science and Technology Council), DreamWorks (working on Premo, the Sci-Tech Oscar-winning animation tool), and Microsoft Research (with Jaron Lanier, leading to a patent on social Mixed Reality). He co-founded Spatial Canvas and worked at GN Hearing's Glenview office before joining Argonne in 2020.
 
-He serves as General Chair of IEEE VIS 2027 in Chicago, founded the ChicagoCHI SIGCHI chapter, and is a Senior Member of IEEE and ACM. His work has won three Best Paper awards (ISAV 2023, ISAV 2024, CollaborateCom 2014), first place at the IEEE SciVis Contest 2023, two Argonne Impact Awards, and a TEDx talk.
+He serves as General Chair of IEEE VIS 2027 in Chicago and General Co-Chair of ISAV 2026 at SC26, founded the ChicagoCHI SIGCHI chapter, and is a Senior Member of IEEE and ACM. His work has won three Best Paper awards (ISAV 2023, ISAV 2024, CollaborateCom 2014), first place at the IEEE SciVis Contest 2023, two Argonne Impact Awards, and a TEDx talk.
 
 </div>
 </details>
