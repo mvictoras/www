@@ -3,7 +3,7 @@
 > Personal website of [Victor A. Mateevitsi](https://www.vmateevitsi.com) — Computer Scientist at Argonne National Laboratory, Adjunct Research Professor at UIC, General Chair of IEEE VIS 2027.
 
 [![Hugo](https://img.shields.io/badge/Hugo-0.163.1+extended-FF4088?logo=hugo&logoColor=white)](https://gohugo.io/)
-[![Node.js](https://img.shields.io/badge/Node.js-20.11+-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-22.11+-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 [![Netlify](https://img.shields.io/netlify/f4ee6127-6b8e-4780-a7b5-d9d63d396e83)](https://app.netlify.com/sites/vmateevitsi/deploys)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -57,7 +57,7 @@ A bespoke Hugo theme + content for an academic personal website. Designed to fee
 
 ### Requirements
 - [Hugo](https://gohugo.io/) **≥ 0.163.1** (extended edition — `brew install hugo` on macOS)
-- [Node.js](https://nodejs.org/) **≥ 20.11**
+- [Node.js](https://nodejs.org/) **≥ 22.11** (current LTS — also declared in `.nvmrc` and `package.json` engines)
 - [Dart Sass](https://sass-lang.com/install) (`brew install sass/sass/sass`)
 
 ### Install + run
@@ -154,7 +154,7 @@ The theme (`themes/academic/`) was originally inspired by [hyas](https://github.
 
 ```toml
 [build.environment]
-  NODE_VERSION = "20.11.0"
+  NODE_VERSION = "22.11.0"
   HUGO_VERSION = "0.163.1"
 ```
 

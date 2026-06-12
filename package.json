@@ -7,6 +7,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "engines": {
+    "node": ">=22.11.0"
+  },
   "scripts": {
     "init": "shx rm -rf .git && git init -b main",
     "create": "exec-bin node_modules/.bin/hugo/hugo new",
