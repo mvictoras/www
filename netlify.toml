@@ -2,8 +2,8 @@
   publish = "public"
 
 [build.environment]
-  NODE_VERSION = "22.11.0"
-  NPM_VERSION = "10.9.0"
+  NODE_VERSION = "22.22.3"
+  NPM_VERSION = "10.9.3"
   HUGO_VERSION = "0.163.1"
   DART_SASS_VERSION = "1.101.0"
 

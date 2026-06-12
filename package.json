@@ -8,7 +8,7 @@
     "access": "public"
   },
   "engines": {
-    "node": ">=22.11.0"
+    "node": ">=22.15.0"
   },
   "scripts": {
     "init": "shx rm -rf .git && git init -b main",
