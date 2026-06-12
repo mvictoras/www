@@ -5,18 +5,47 @@
   NODE_VERSION = "22.11.0"
   NPM_VERSION = "10.9.0"
   HUGO_VERSION = "0.163.1"
+  DART_SASS_VERSION = "1.101.0"
 
+# Hugo's css.Sass function with transpiler:dartsass requires the Dart Sass binary
+# to be on PATH. Netlify build images don't include it, so we install it inline
+# before running the build command. Pattern is from Hugo's official docs:
+# https://gohugo.io/functions/css/sass/#netlify
 [context.production]
-  command = "npm run build"
+  command = """\
+    curl -LJO https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
+    tar -xf dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
+    rm dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
+    export PATH=/opt/build/repo/dart-sass:$PATH && \
+    npm run build\
+    """
 
 [context.deploy-preview]
-  command = "npm run build -- -b $DEPLOY_PRIME_URL"
+  command = """\
+    curl -LJO https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
+    tar -xf dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
+    rm dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
+    export PATH=/opt/build/repo/dart-sass:$PATH && \
+    npm run build -- -b $DEPLOY_PRIME_URL\
+    """
 
 [context.branch-deploy]
-  command = "npm run build -- -b $DEPLOY_PRIME_URL"
+  command = """\
+    curl -LJO https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
+    tar -xf dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
+    rm dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
+    export PATH=/opt/build/repo/dart-sass:$PATH && \
+    npm run build -- -b $DEPLOY_PRIME_URL\
+    """
 
 [context.next]
-  command = "npm run build"
+  command = """\
+    curl -LJO https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
+    tar -xf dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
+    rm dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
+    export PATH=/opt/build/repo/dart-sass:$PATH && \
+    npm run build\
+    """
 
 [context.next.environment]
   HUGO_ENV = "next"
