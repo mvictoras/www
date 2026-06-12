@@ -1,59 +1,33 @@
 - title: ":tada: Launched updated website design"
   date: 2026-06-12
-- title: ":rabbit: Happy Greek Easter!"
-  date: 2026-04-12
 - title: ":books: Started co-teaching Creative Coding (CS/DES 427/450) @ UIC's EVL with Daria Tsoupikova"
   date: 2026-01-13
 - title: ":tada: Happy New Year! Happy nameday to Vasia!"
   date: 2026-01-01
-- title: ":santa: Merry Christmas!"
-  date: 2025-12-25
 - title: ":airplane: SC25, St. Louis"
   date: 2025-11-16
-- title: ":tada: My nameday!"
-  date: 2025-11-11
-- title: "🎃 Happy Halloween!"
-  date: 2025-10-31
-- title: ":birthday: Happy birthday to me!"
-  date: 2025-09-20
 - title: ":airplane: eScience 2025, Chicago"
   date: 2025-09-15
 - title: ":bride_with_veil: Wedding Anniversary!"
   date: 2025-08-21
-- title: ":birthday: Happy bday Vasia!"
-  date: 2025-07-11
 - title: ":newspaper: insidehpc feature: Vanguards of HPC-AI"
   date: 2025-05-09
-- title: ":rabbit: Happy Greek Easter!"
-  date: 2025-04-20
 - title: ":tada: Guest Lecture: SciVis and HPC @ UIC (Intro to HPC)"
   date: 2025-04-08
 - title: ":computer: ASCAC/DOE Early Career Virtual Panel"
   date: 2025-01-16
 - title: ":tada: Happy New Year! Happy nameday to Vasia!"
   date: 2025-01-01
-- title: ":santa: Merry Christmas!"
-  date: 2024-12-25
 - title: ":tada: ALCF Best Paper at SC24 workshops (ISAV24)"
   date: 2024-12-04
 - title: ":tada: ANARI BOF talk @ SC24: Rendering at Warp Speed (OSPray + ANARI on Aurora)"
   date: 2024-11-19
 - title: ":airplane: SC24, Atlanta, GA"
   date: 2024-11-17
-- title: ":tada: My nameday!"
-  date: 2024-11-11
-- title: "🎃 Happy Halloween!"
-  date: 2024-10-31
-- title: ":birthday: Happy birthday to me!"
-  date: 2024-09-20
 - title: ":bride_with_veil: Wedding Anniversary!"
   date: 2024-08-21
-- title: ":birthday: Happy bday Vasia!"
-  date: 2024-07-11
 - title: ":computer: Virtual talk @ Centro Nacional de Alta Tecnología (CNCA): NekRS in situ"
   date: 2024-05-16
-- title: ":rabbit: Happy Greek Easter!"
-  date: 2024-05-05
 - title: ":airplane: JLESC Workshop talk in Kobe, Japan"
   date: 2024-04-18
 - title: ":computer: Talk: Introducing Visualization on Polaris @ Argonne"
@@ -102,8 +76,6 @@
   date: 2023-07-22
 - title: ":mortar_board: Graduation party for Katie"
   date: 2023-07-15
-- title: ":birthday: Happy bday Vasia!"
-  date: 2023-07-11
 - title: ":airplane: Babymoon over!"
   date: 2023-07-08
 - title: ":fork_and_knife: Dinner at Boia De"
@@ -176,8 +148,6 @@
   date: 2023-01-17
 - title: ":guitar: TJ Playing in Chicago"
   date: 2023-01-07
-- title: ":tada: Happy New Year!"
-  date: 2023-01-01
 - title: ":santa: A Christmas Carol"
   date: 2022-12-30
 - title: ":airplane: Back from Nashville"
@@ -196,8 +166,6 @@
   date: 2022-11-14
 - title: ":bar_chart: ISAV2022"
   date: 2022-11-13
-- title: ":birthday: Happy Nameday to me!"
-  date: 2022-11-11
 - title: ":cry: RIP <a href=\"https://www.smithcorcoran.com/obituaries/Helen-Koufis?obId=26300313\" target=\"_blank\">Ms. Helen Koufis</a>"
   date: 2022-11-06
 - title: "🎃 Happy Halloween! At Amy and Ryan"
@@ -214,8 +182,6 @@
   date: 2022-09-22
 - title: ":dog: Goose's first grooming"
   date: 2022-09-21
-- title: ":birthday: Happy birthday to me!"
-  date: 2022-09-20
 - title: ":hammer: Gutter installation"
   date: 2022-09-16
 - title: ":beer: Brandhaus Openhaus"
@@ -232,8 +198,6 @@
   date: 2022-09-02
 - title: ":airplane: Alekos visiting"
   date: 2022-09-01
-- title: ":birthday: Alex nameday!"
-  date: 2022-08-30
 - title: ":bride_with_veil: Wedding Anniversary!"
   date: 2022-08-21
 - title: ":ice_hockey: Lost playoffs from the Pirates"
@@ -254,10 +218,6 @@
   date: 2022-07-21
 - title: ":fireworks: Holidays begin. RO roadtrip"
   date: 2022-07-16
-- title: ":birthday: Mom bday!"
-  date: 2022-07-14
-- title: ":birthday: Vasia bday!"
-  date: 2022-07-11
 - title: ":airplane: 2nd attempt to RO"
   date: 2022-07-05
 - title: "Flight cancelled. Stuck in :uk:"
@@ -304,8 +264,6 @@
   date: 2022-05-02
 - title: "Vasia off to Jac's Bachelorette party Alekos Mainelaos :airplane: in!"
   date: 2022-05-29
-- title: ":rabbit: Happy Greek Easter!"
-  date: 2022-04-24
 - title: ":art: Preview: The Other Art Fair"
   date: 2022-04-21
 - title: ":rabbit: Vasia's parents arrived for Easter"
@@ -324,8 +282,6 @@
   date: 2022-03-09
 - title: ":bar_chart: Submitted paper at WOIV"
   date: 2022-03-07
-- title: ":birthday: Happy birthday Nikos!"
-  date: 2022-03-06
 - title: ":evergreen_tree: Weekend at a cabin in Yosemite"
   date: 2022-03-04
 - title: ":airplane: Travel to Oakland, CA to celebrate Katia's 30th. :tada: Happy bday!"
@@ -342,22 +298,14 @@
   date: 2022-02-13
 - title: ":dog: Day trip to Toledo, OH to meet Stella"
   date: 2022-02-12
-- title: ":birthday: Happy bday Todd!"
-  date: 2022-01-19
 - title: ":computer: ASCR Workshop on Visualization for Scientific Discovery, Decision-Making, & Communication"
   date: 2022-01-18
 - title: ":ice_skate: Blackhawks Road Watch Party!"
   date: 2022-01-17
 - title: "First private :guitar: lesson with <a href='https://www.alexisbountros.com' target='_blank'>Alex</a>"
   date: 2022-01-07
-- title: ":balloon: Happy Nameday Laz!"
-  date: 2022-01-06
 - title: ":briefcase: Back to the lab"
   date: 2022-01-04
-- title: ":tada: Happy New Year!"
-  date: 2022-01-01
-- title: ":santa: Merry Christmas!"
-  date: 2021-12-25
 - title: ":christmas_tree: Xmas lab closure"
   date: 2021-12-24
 - title: ":syringe: COVID-19 booster!"
@@ -402,8 +350,6 @@
   date: 2021-09-27
 - title: "First ribs, pulled pork :meat_on_bone: on the smoker. Yummy"
   date: 2021-09-26
-- title: "Spending my :birthday: with my family!"
-  date: 2021-09-20
 - title: ":guitar: Guns N' Roses @ Summerfest with Laz and Silvi"
   date: 2021-09-18
 - title: "Family arrives from :romania: Dad stuck in :tr:"
@@ -436,27 +382,23 @@
   date: 2021-05-25
 - title: ":airplane: Back to Chicago"
   date: 2021-05-22
-- title: ":birthday: Happy nameday to to mom and Vasia's father!"
-  date: 2021-05-21
 - title: ":airplane: Flight to Bucharest to spend weekend with Laz"
   date: 2021-05-20
 - title: ":airplane: Flying back to Athens"
   date: 2021-05-17
 - title: ":airplane: Flying to Paros for wedding preparations"
   date: 2021-05-17
-- title: ":egg: Happy Greek Easter"
-  date: 2021-05-02
 - title: ":briefcase: Offer accepted!"
   date: 2021-04-18
 - title: ":page_facing_up: Submitted an offer for a single family home"
   date: 2021-04-16
 - title: ":syringe: Vaccination day!"
   date: 2021-03-26
-- title: "Happy (from home) St. Patrick's day :beers:"
+- title: ":beers: Happy (from home) St. Patrick's day"
   date: 2021-03-17
 - title: ":hammer: Refinished the LSD bathtub"
   date: 2021-03-04
-- title: "First time out since the pandemic started! Lottie's Pub :beers:"
+- title: ":beers: First time out since the pandemic started! Lottie's Pub"
   date: 2021-02-21
 - title: ":kiss: Hapy vday to my other half, <a href='https://www.rigouvasia.com/' target='_blank'>Vasia</a>"
   date: 2021-02-14
@@ -464,18 +406,12 @@
   date: 2021-02-06
 - title: ":muscle: Back to PS1 after almost an year"
   date: 2021-02-05
-- title: ":european_post_office: Capitol insurrection. Sad day for democracy. Laz nameday"
-  date: 2021-01-06
 - title: ":guitar: Back to Rockabilly Ensemble"
   date: 2021-01-05
 - title: ":briefcase: Back to work!"
   date: 2021-01-04
-- title: ":tada: Happy New Year!"
-  date: 2021-01-01
 - title: ":evergreen_tree: Hiking at <a href='https://www.starvedrocklodge.com/starved-rock-state-park/' target='_blank'>Starved Rock State Park</a>"
   date: 2020-12-28
-- title: ":christmas_tree: Merry Christmas!"
-  date: 2020-12-24
 - title: ":smiley: Last day of work!"
   date: 2020-12-23
 - title: ":mortar_board: Jason's PhD defense. Congrats Dr. Archer!"
@@ -496,8 +432,6 @@
   date: 2020-11-16
 - title: ":broken_heart: 1 year since Pappou's passing"
   date: 2020-11-13
-- title: ":tada: My nameday!"
-  date: 2020-11-11
 - title: ":computer: <a href='https://sc20.supercomputing.org' target='_blank'>SuperComputing 2020 starts</a>"
   date: 2020-11-09
 - title: ":house: Problems found with Association. Contract cancelled"
@@ -526,8 +460,6 @@
   date: 2020-09-28
 - title: ":birthday: Bday dinner at Wakamono"
   date: 2020-09-25
-- title: ":birthday: 36!"
-  date: 2020-09-20
 - title: ":movie_camera: <a href='https://riotfest.org/2020/08/riot-fest-at-the-movies' target='_blank'>Riot Fest At The Movies: The Lost Boys</a>"
   date: 2020-09-12
 - title: "🦠COVID-19 test negative"
@@ -538,17 +470,15 @@
   date: 2020-08-31
 - title: ":airplane: to Chicago"
   date: 2020-08-30
-- title: ":tada: Dad's + my nameday"
-  date: 2020-08-30
 - title: ":ship: to Athens. Vacation over! Dinner with parents"
   date: 2020-08-29
 - title: ":ship: to Paros. Meeting with Todd, Vasia's parents"
   date: 2020-08-22
-- title: ":birthday: Happy Anniversary! :tada:"
+- title: ":birthday: Happy Anniversary!"
   date: 2020-08-19
 - title: ":ship: to Naxos. Meeting with brother, Sylvana, parents"
   date: 2020-08-16
-- title: ":ship: to Santorini :tada:"
+- title: ":ship: to Santorini"
   date: 2020-08-12
 - title: "🦠Test negative. Woohoo!"
   date: 2020-08-09
@@ -564,10 +494,6 @@
   date: 2020-07-23
 - title: ":tada: Accepted offer from <a href='https://www.alcf.anl.gov' target='_blank'>ALCF</a>"
   date: 2020-07-22
-- title: ":birthday: Happy bday mom!"
-  date: 2020-07-14
-- title: ":birthday: Happy bday to my other half!"
-  date: 2020-07-11
 - title: ":tada: 11 yeas dating anniversary at <a href='https://www.piccolosognorestaurant.com' target='_blank'>piccolo sogno</a>"
   date: 2020-07-01
 - title: ":tada: Happy Father's day!"
@@ -590,34 +516,24 @@
   date: 2020-05-29
 - title: 🦠Week 10 of shelter at home
   date: 2020-05-22
-- title: ":birthday: Happy nameday to my mom, aunt, and Vasia's father!"
-  date: 2020-05-21
 - title: 🦠Week 9 of shelter at home
   date: 2020-05-15
 - title: ":broken_heart: 6 months since Papu's passing"
   date: 2020-05-13
 - title: 🦠Week 8 of shelter at home
   date: 2020-05-08
-- title: ":birthday: Happy bday Laz!"
-  date: 2020-05-06
 - title: 🦠Week 7 of shelter at home
   date: 2020-05-01
 - title: 🦠First time out for curbside pickups
   date: 2020-04-29
-- title: ":birthday: Happy bday to Vasia's dad!"
-  date: 2020-04-24
 - title: 🦠Week 6 of shelter at home
   date: 2020-04-24
 - title: 🦠Shelter at home extended to end of May
   date: 2020-04-23
-- title: 🐰Happy Easter!
-  date: 2020-04-19
 - title: 🦠Week 5 of shelter at home
   date: 2020-04-17
 - title: 🦠Video meetup with John and Jason
   date: 2020-04-15
-- title: ":birthday: Happy nameday little bro!"
-  date: 2020-04-11
 - title: 🦠Week 4 of shelter at home
   date: 2020-04-10
 - title: 🦠Video meetup with Hockey Bros
@@ -642,8 +558,6 @@
   date: 2020-03-14
 - title: 🦠It's official - indefinite WFH
   date: 2020-03-13
-- title: ":birthday: Happy nameday Todd!"
-  date: 2020-03-07
 - title: ":performing_arts: C2E2 2020"
   date: 2020-02-29
 - title: ✈️Flight to Chicago
@@ -672,24 +586,18 @@
   date: 2020-01-16
 - title: 🏒NSH @ CHI
   date: 2020-01-09
-- title: ":birthday: Happy Nameday Laz!"
-  date: 2020-01-06
 - title: ":tada: Happy New Year! Happy nameday to Vasia!"
   date: 2020-01-01
 - title: ":office: Back to work!"
   date: 2019-12-30
 - title: ✈️Flight to Chicago
   date: 2019-12-29
-- title: 🎄Merry Christmas!
-  date: 2019-12-25
 - title: ✈️Flight to Athens
   date: 2019-12-20
 - title: ✈️Flight to Paris. One month without Papu
   date: 2019-12-13
 - title: ":broken_heart: My beloved Papu passed away..."
   date: 2019-11-13
-- title: ":birthday: Happy nameday to me and Papu!"
-  date: 2019-11-11
 - title: ":speech_balloon: ChicagoCHI chaptered!"
   date: 2019-10-31
 - title: ":speech_balloon: ACM SIGCHI chapter application sent!"
@@ -714,12 +622,8 @@
   date: 2019-08-18
 - title: ":airplane: Off to Paros, Greece"
   date: 2019-08-03
-- title: ":birthday: Happy bday mom!"
-  date: 2019-07-14
 - title: ":slot_machine: Anniversary Vegas Weekend"
   date: 2019-07-12
-- title: ":birthday: Happy bday Vasia!"
-  date: 2019-07-11
 - title: ":busts_in_silhouette: Friends leave (Theodore M.)"
   date: 2019-07-05
 - title: ":bride_with_veil: Happy Anniversary!"
@@ -732,9 +636,9 @@
   date: 2019-06-26
 - title: ":guitar: Rolling Stones concert"
   date: 2019-06-25
-- title: Guitar Recital 🎸
+- title: "🎸 Guitar Recital"
   date: 2019-06-18
-- title: Bottling the Impossible 🧙
+- title: "🧙 Bottling the Impossible"
   date: 2019-06-15
 - title: ":beer: Maifest Chicago"
   date: 2019-06-02
@@ -750,8 +654,6 @@
   date: 2019-05-18
 - title: ":bouquet: Happy Mother's day"
   date: 2019-05-12
-- title: 🐰Happy Easter!
-  date: 2019-04-28
 - title: ":art: Wired to Wear VIP Event"
   date: 2019-03-22
 - title: ":art: Wired to Wear Official Opening"
@@ -760,15 +662,11 @@
   date: 2019-03-20
 - title: ":rocket: Website redesign"
   date: 2018-12-28
-- title: ":santa: Merry Christmas!"
-  date: 2018-12-25
-- title: ":birthday: Nameday!"
-  date: 2018-11-11
 - title: ":briefcase: Started job @ GN A/S"
   date: 2018-09-24
 - title: ":speech_balloon: Back to CHI"
   date: 2018-08-31
-- title: Jimmy's Wedding 💒
+- title: "💒 Jimmy's Wedding"
   date: 2018-08-25
 - title: ":airplane: Back to Athens"
   date: 2018-08-23
@@ -778,7 +676,7 @@
   date: 2018-08-02
 - title: ":speech_balloon: Back to CHI"
   date: 2018-06-19
-- title: Mike's Wedding 💒
+- title: "💒 Mike's Wedding"
   date: 2018-06-16
 - title: ":airplane: Off to Greece"
   date: 2018-06-12
@@ -790,8 +688,6 @@
   date: 2017-03-02
 - title: ":briefcase: SBDC Client Showcase"
   date: 2017-02-16
-- title: ":tada: Happy New Year!"
-  date: 2017-01-01
 - title: ":trophy: Chicago Innovation Awards Reception"
   date: 2017-09-07
 - title: ":trophy: Image of Research Winner"
@@ -814,22 +710,14 @@
   date: 2016-01-07
 - title: ":broken_heart: RIP Antwan McBee"
   date: 2016-01-03
-- title: ":tada: Happy New Year!"
-  date: 2016-01-01
-- title: ":santa: Merry Christmas!"
-  date: 2015-12-25
 - title: ":airplane: Todd arrived"
   date: 2015-12-11
-- title: ":turkey: Happy Thanksgiving!"
-  date: 2015-11-26
 - title: ":birthday: It’s my nameday (and my grandfather’s)!"
   date: 2015-11-11
 - title: ":rocket: Launched human-augmentics.org"
   date: 2015-11-07
 - title: ":briefcase: Started at Catalyze Chicago"
   date: 2015-11-01
-- title: ":jack_o_lantern: Happy Halloween!"
-  date: 2015-10-31
 - title: ":art: Data Improvisations – VISAP art opening"
   date: 2015-10-27
 - title: ":microphone: Talk at MOMA (Health Related Mobile Apps)"
@@ -846,8 +734,6 @@
   date: 2015-10-06
 - title: ":vr: Paper due @ VR 2016"
   date: 2015-09-21
-- title: ":birthday: Birthday!"
-  date: 2015-09-20
 - title: ":vr: Abstract due @ VR 2016"
   date: 2015-09-14
 - title: ":guitar: Riot Fest"
@@ -862,7 +748,7 @@
   date: 2015-08-16
 - title: ":wave: Last day at MSR"
   date: 2015-08-14
-- title: Surprise Engagement Proposal 💍
+- title: "💍 Surprise Engagement Proposal"
   date: 2015-07-01
 - title: ":microphone: Talk at Chicago TechWeek"
   date: 2015-06-26
