@@ -104,4 +104,4 @@ anchor = "smart"
 [security]
   allowContent = ['.*']
   [security.exec]
-    allow = ['^npx$', '^babel$', '^postcss$', '^sass$']
+    allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^node$', '^npx$', '^postcss$', '^babel$', '^tailwindcss$']

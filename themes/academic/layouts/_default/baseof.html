@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ site.LanguageCode | default site.Params.defaultContentLanguage }}">
+<html lang="{{ site.Language.Lang | default site.Params.defaultContentLanguage }}">
   {{ partial "head/head.html" . }}
   {{ partial "head/body-class.html" . }}
   <body class="{{ delimit (.Scratch.Get "class" | default (slice)) " " }}">
