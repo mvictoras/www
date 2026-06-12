@@ -118,6 +118,74 @@
   }
 }
 
+// Homepage three-card snapshot section
+.home-cards {
+  // Cards have an inline header above them; gap row ensures vertical alignment
+  align-items: stretch;
+}
+
+.home-card__label {
+  font-family: $font-family-mono;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: $muted-color;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid $border-color;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.15s ease;
+
+    &:hover { color: $url-color; }
+  }
+}
+
+.home-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.home-card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  }
+
+  // Fallback placeholder when press entry has no image — keeps card heights consistent
+  .home-card__placeholder {
+    aspect-ratio: 16 / 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(252, 157, 0, 0.08), rgba(252, 157, 0, 0.02));
+    border-bottom: 1px solid $border-color;
+    color: $url-color;
+    font-family: $font-family-mono;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  &--updates {
+    // Updates card has no image; ensure same visual height as image-bearing siblings
+    .card-body:first-child {
+      padding-top: 1.25rem;
+    }
+  }
+}
+
 // Experience carousel — cards blend with page background
 .carousel-experience .card {
   background: transparent;
