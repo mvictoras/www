@@ -40,23 +40,10 @@
   </div>
 </section>
 
-{{/* About me — bio + stats */}}
+{{/* About me — bio */}}
 <div class="px-0 parallax" style="background-image: url( {{ .Params.about_image }})">
   <div class="container">
       {{ .Content }}
-      <div class="stats-bar">
-        {{ $pubCount := 0 }}
-        {{ with site.Data.publications }}
-          {{ $pubCount = add (len .journals) (len .conferences) }}
-        {{ end }}
-        <span class="stat-item"><span class="stat-number">{{ $pubCount }}</span> publications</span>
-        <span class="stat-sep">&middot;</span>
-        <span class="stat-item"><span class="stat-number">{{ len site.Data.talks }}</span> talks</span>
-        <span class="stat-sep">&middot;</span>
-        <span class="stat-item"><span class="stat-number">{{ len site.Data.awards }}</span> awards</span>
-        <span class="stat-sep">&middot;</span>
-        <span class="stat-item"><span class="stat-number">{{ len site.Data.experience }}</span> organizations</span>
-      </div>
   </div>
 </div>
 

@@ -15,7 +15,7 @@ I'm a Computer Scientist at the {{< a link="Argonne Leadership Computing Facilit
 
 I design interactive visualizations for petabyte-scale scientific datasets, develop emerging technologies, and prototype futuristic interfaces. In other words: I imagine what scientific computing should look like 5&ndash;10 years from now, and then I build it. My current research has three threads:
 
-- **In-situ visualization at exascale** &mdash; instrumenting libraries like {{< a link="ASCENT" src="https://ascent.readthedocs.io" >}} and {{< a link="SENSEI" src="https://sensei-insitu.org" >}} so that simulations on {{< a link="Aurora" src="https://www.alcf.anl.gov/aurora" >}} (Argonne's exascale supercomputer that I helped bring online) and other ALCF systems can be visualized and analyzed *while they run*, without the disk I/O bottleneck. Recent work has won Best Paper at ISAV 2023 and 2024, plus 1st Place + Best Workflow at the 2023 IEEE SciVis Contest.
+- **In-situ visualization at exascale** &mdash; instrumenting libraries like {{< a link="ASCENT" src="https://ascent.readthedocs.io" >}} and {{< a link="SENSEI" src="https://sensei-insitu.org" >}} so that simulations on {{< a link="Aurora" src="https://www.alcf.anl.gov/aurora" >}} (Argonne's exascale supercomputer) and other ALCF systems can be visualized and analyzed *while they run*, without the disk I/O bottleneck. Recent work has won Best Paper at ISAV 2023 and 2024, plus 1st Place + Best Workflow at the 2023 IEEE SciVis Contest.
 - **Immersive XR for science** &mdash; letting researchers literally walk through their data. Imagine stepping into the eye of a hurricane, or feeling the force of a tornado through haptic feedback.
 - **Human&ndash;AI collaboration for discovery** &mdash; building AI co-pilots that work alongside scientists inside immersive environments, helping them analyze, hypothesize, and explore at HPC scales.
 
@@ -44,6 +44,8 @@ I joined Argonne in 2020.
 ## Building and serving the community
 
 I serve as **General Chair of {{< a link="IEEE VIS 2027" src="https://ieeevis.org" >}}** in Chicago &mdash; the field's flagship conference. I founded **{{< a link="ChicagoCHI" src="https://www.chicagochi.org" >}}**, the local SIGCHI chapter, and I'm an active member of the Khronos Group's ANARI working group on standardizing 3D graphics APIs. I'm a Senior Member of both IEEE and ACM, and I mentor research interns each summer at ALCF. I also co-teach **{{< a link="Creative Coding" src="https://www.evl.uic.edu/datsoupi/2025_CC/" >}}** (CS/DES 427/450) at UIC's EVL with {{< a link="Daria Tsoupikova" src="https://www.evl.uic.edu/datsoupi/" >}}, introducing students to VR design in the CAVE2.
+
+Beyond university programs, I mentor high-school students through the NAACP's **{{< a link="ACT-SO" src="https://naacp.org/find-resources/youth-young-adult-programs/act-so" >}}** (Afro-Academic, Cultural, Technological and Scientific Olympics) at Argonne &mdash; six of my mentees made it to the 2024 National Convention &mdash; and middle-schoolers through UIC's **SPARK** apprenticeship program.
 
 I draw on a diverse set of skills: scientific visualization, computer graphics, human-computer interaction, electronics, fabrication, and computer vision.
 

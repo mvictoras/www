@@ -118,27 +118,6 @@
   }
 }
 
-// Stats bar (inside parallax bio section)
-.stats-bar {
-  margin-top: 2rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-  font-family: $font-family-mono;
-  font-size: 0.9rem;
-  color: white;
-}
-
-.stat-number {
-  color: $url-color;
-  font-weight: 700;
-  font-size: 1.4rem;
-}
-
-.stat-sep {
-  margin: 0 1rem;
-  color: rgba(255, 255, 255, 0.3);
-}
-
 // Experience carousel — cards blend with page background
 .carousel-experience .card {
   background: transparent;
