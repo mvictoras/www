@@ -16,6 +16,11 @@
   {{ partial "footer/esbuild" (dict "src" "js/deadlines.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
 {{ end }}
 
+{{/* === PhotoSwipe gallery — only on single news pages where galleries are used === */}}
+{{ if and (eq .Section "news") (eq .Kind "page") }}
+  {{ partial "footer/esbuild" (dict "src" "js/gallery.js" "load" "async" "transpile" false "scratch" .Scratch "concat" true) -}}
+{{ end }}
+
 {{/* Concatenate all scripts — unique bundle name per page variant to avoid cache collisions */}}
 {{ $bundleSuffix := "base" -}}
 {{ if .IsHome }}{{ $bundleSuffix = "home" }}{{ end -}}
