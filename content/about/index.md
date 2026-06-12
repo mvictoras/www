@@ -109,8 +109,6 @@ He serves as General Chair of IEEE VIS 2027 in Chicago, founded the ChicagoCHI S
 
 </div>
 
----
-
 ## Get in Touch {#get-in-touch}
 
 <div class="get-in-touch">
