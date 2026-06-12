@@ -105,3 +105,5 @@ anchor = "smart"
   allowContent = ['.*']
   [security.exec]
     allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^node$', '^npx$', '^postcss$', '^babel$', '^tailwindcss$']
+  [security.node.permissions]
+    disable = true
