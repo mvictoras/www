@@ -64,7 +64,7 @@
           {{ $page := . }}
           {{ $heroImg := .Resources.GetMatch "featured*" }}
           {{ if not $heroImg }}{{ with .Params.images }}{{ $heroImg = $page.Resources.GetMatch (string (index . 0)) }}{{ end }}{{ end }}
-          {{ with $heroImg }}{{ $img := .Fill "688x381" }}<img class="card-img-top lazyload" src="{{ $img.RelPermalink }}" alt="{{ $page.Title }}">{{ end }}
+          {{ with $heroImg }}{{ $img := .Fill "688x381" }}<img class="card-img-top lazyload" src="{{ $img.RelPermalink }}" alt="{{ $page.Title }}" width="688" height="381" loading="lazy">{{ end }}
           <div class="card-body flex-grow-1">
             <h5 class="card-title">{{ .Title | truncate 70 }}</h5>
             <p class="card-text">{{ .Summary | plainify | truncate 120 }}</p>
@@ -91,7 +91,7 @@
             {{ end }}
           {{ end }}
           {{ if $imgSrc }}
-            <img class="card-img-top lazyload" src="{{ $imgSrc }}" alt="{{ .title }}">
+            <img class="card-img-top lazyload" src="{{ $imgSrc }}" alt="{{ .title }}" width="688" height="381" loading="lazy">
           {{ else }}
             <div class="home-card__placeholder">
               <span>{{ .publication }}</span>

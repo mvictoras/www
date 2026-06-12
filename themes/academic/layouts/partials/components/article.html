@@ -1,10 +1,11 @@
 <a href="{{ .RelPermalink }}"{{ if (isset . "target") }} target="{{ .target }}"{{ end }} class="news-card">
   <div class="news-card__image">
     {{ if (isset . "imgRelPermalink") }}
-      <img class="lazyload" src="{{ .imgRelPermalink }}" alt="{{ .Title }}">
+      <img class="lazyload" src="{{ .imgRelPermalink }}" alt="{{ .Title }}" width="688" height="381" loading="lazy">
     {{ else }}
       {{ with $.Resources.GetMatch (string (index $.Params.images 0)) }}
-      <img class="lazyload" src="{{ (.Fill site.Params.articlePhotoSize).RelPermalink }}" alt="{{ .Title }}">
+      {{ $filled := .Fill site.Params.articlePhotoSize }}
+      <img class="lazyload" src="{{ $filled.RelPermalink }}" alt="{{ $.Title }}" width="{{ $filled.Width }}" height="{{ $filled.Height }}" loading="lazy">
       {{ end }}
     {{ end }}
     <div class="news-card__overlay"></div>
