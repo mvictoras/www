@@ -10,16 +10,28 @@
   date: 2025-05-09
 - title: ":tada: Guest Lecture: SciVis and HPC @ UIC (Intro to HPC)"
   date: 2025-04-08
+- title: ":robot: 1,000 Scientist AI Jam @ Argonne (DOE-wide with OpenAI + Anthropic)"
+  date: 2025-03-01
 - title: ":computer: ASCAC/DOE Early Career Virtual Panel"
   date: 2025-01-16
+- title: ":tada: Aurora exascale supercomputer released to research community"
+  date: 2025-01-15
 - title: ":tada: ALCF Best Paper at SC24 workshops (ISAV24)"
   date: 2024-12-04
 - title: ":tada: ANARI BOF talk @ SC24: Rendering at Warp Speed (OSPray + ANARI on Aurora)"
   date: 2024-11-19
 - title: ":airplane: SC24, Atlanta, GA"
   date: 2024-11-17
+- title: ":bar_chart: LDAV 2024, St Pete Beach FL — 4 paper presentations"
+  date: 2024-10-13
+- title: ":school: ATPESC 2024 lecturer — Data Analysis & Visualization (Track 4), St. Charles IL"
+  date: 2024-08-05
+- title: ":trophy: 6 ACT-SO mentored students went to NAACP National Convention (Boston)"
+  date: 2024-07-20
 - title: ":computer: Virtual talk @ Centro Nacional de Alta Tecnología (CNCA): NekRS in situ"
   date: 2024-05-16
+- title: ":tada: Aurora supercomputer broke exascale barrier (announced at ISC24)"
+  date: 2024-05-13
 - title: ":airplane: JLESC Workshop talk in Kobe, Japan"
   date: 2024-04-18
 - title: ":computer: Talk: Introducing Visualization on Polaris @ Argonne"
@@ -32,6 +44,10 @@
   date: 2023-12-03
 - title: ":beer: The Barn Hockey Bar"
   date: 2023-11-18
+- title: ":airplane: SC23, Denver — ISAV Best Paper + paper presentations"
+  date: 2023-11-12
+- title: ":trophy: 1st Place + Best Workflow @ 2023 IEEE SciVis Contest (VisAnywhere)"
+  date: 2023-10-23
 - title: ":busts_in_silhouette: Michelle and Santi visiting"
   date: 2023-10-15
 - title: ":wrench: Fridge broke, new coming"
@@ -76,6 +92,8 @@
   date: 2023-06-22
 - title: ":performing_arts: <a href=\"https://www.steppenwolf.org/tickets--events/lookout/23-summer/not-american/\" target=\"_blank\">Not American</a> show"
   date: 2023-06-17
+- title: ":school: James Morrissette joined as SRP (Sustainable Research Pathways) student researcher"
+  date: 2023-06-15
 - title: ":busts_in_silhouette: Aris left"
   date: 2023-06-14
 - title: ":love_you_gesture: King Gizzard and the Lizard Wizard with Aris"
@@ -151,6 +169,8 @@
 - title: ":computer: Supercomputing 2022"
   date: 2022-11-14
 - title: ":bar_chart: ISAV2022"
+  date: 2022-11-13
+- title: ":trophy: ISAV 2022 — Program Committee member @ SC22, Dallas"
   date: 2022-11-13
 - title: ":cry: RIP <a href=\"https://www.smithcorcoran.com/obituaries/Helen-Koufis?obId=26300313\" target=\"_blank\">Ms. Helen Koufis</a>"
   date: 2022-11-06
@@ -296,11 +316,15 @@
   date: 2021-12-20
 - title: ":guitar: Covers for Cover live"
   date: 2021-12-11
+- title: ":page_facing_up: Submitted white paper \"Novel Display Technologies\" to ASCR Workshop"
+  date: 2021-12-10
 - title: ":beers: Happy hour with VIS folks at Prost"
   date: 2021-12-03
 - title: ":beer: Picking up Advent Calendar from Marz"
   date: 2021-11-27
 - title: ":spaghetti: SAUCED Night Market"
+  date: 2021-11-19
+- title: ":bar_chart: LDAV 2021 — \"Instrumenting Multiphysics Blood Flow Simulation Codes\" (virtual)"
   date: 2021-11-19
 - title: ":wine_glass: Beaujolais Nouveau Release day"
   date: 2021-11-18
@@ -406,6 +430,8 @@
   date: 2020-11-24
 - title: "🦠Smell is gone"
   date: 2020-11-23
+- title: ":speech_balloon: ChicagoCHI: Julieta Aguilera \"Scaling Interactions\" talk"
+  date: 2020-11-23
 - title: "🦠Dad posted positive for COVID-19 as well. Mom doing well"
   date: 2020-11-22
 - title: ":school: Kick-off meeting with ACT-SO student"
@@ -442,6 +468,8 @@
   date: 2020-09-28
 - title: ":birthday: Bday dinner at Wakamono"
   date: 2020-09-25
+- title: ":speech_balloon: ChicagoCHI: Trigeminal-Based Temperature Illusions talk"
+  date: 2020-09-15
 - title: ":movie_camera: <a href='https://riotfest.org/2020/08/riot-fest-at-the-movies' target='_blank'>Riot Fest At The Movies: The Lost Boys</a>"
   date: 2020-09-12
 - title: "🦠COVID-19 test negative"
@@ -634,6 +662,8 @@
   date: 2018-12-28
 - title: ":briefcase: Started job @ GN A/S"
   date: 2018-09-24
+- title: ":art: Approached by MSI curator Kathleen McCarthy for Wired to Wear exhibit"
+  date: 2018-09-15
 - title: ":speech_balloon: Back to CHI"
   date: 2018-08-31
 - title: "💒 Jimmy's Wedding"
@@ -652,6 +682,10 @@
   date: 2018-06-12
 - title: ":mortar_board: Graduated!"
   date: 2018-05-13
+- title: ":mortar_board: PhD defense: \"Supporting Navigation with a Torso Wearable Tactile Display\""
+  date: 2017-12-18
+- title: ":rocket: Co-founded Spatial Canvas (AR Cloud spatial-persistence SDK), CTO role"
+  date: 2017-12-01
 - title: ":rocket: Rainbowed.us Launched"
   date: 2017-03-16
 - title: ":art: mHUB Grand Opening"
@@ -722,6 +756,8 @@
   date: 2015-07-01
 - title: ":microphone: Talk at Chicago TechWeek"
   date: 2015-06-26
+- title: ":microphone: SpiderSense talk @ Techweek Chicago — \"A Real Life Spider Sense\""
+  date: 2015-06-26
 - title: ":briefcase: Started Internship at MSR"
   date: 2015-05-25
 - title: ":mortar_board: Vasia’s Commencement"
@@ -746,3 +782,48 @@
   date: 2015-03-10
 - title: ":briefcase: Received MS Research offer"
   date: 2015-03-09
+
+- title: ":trophy: Attended Scientific & Technical Academy Awards (Sci-Tech Oscars)"
+  date: 2015-02-08
+- title: ":bar_chart: CollaborateCom 2014, Miami — SAGE2 Best Paper presentation"
+  date: 2014-10-22
+- title: ":performing_arts: SpiderSense demo @ Adler Planetarium After Dark — \"Superhero Science\" (700+ attendees)"
+  date: 2014-07-17
+- title: ":newspaper: SpiderSense featured in National Geographic Kids' \"Weird But True!\" Summer 2014"
+  date: 2014-06-15
+- title: ":microphone: SpiderSense @ Chicago Public Library Innovation Lab (Harold Washington Library)"
+  date: 2013-09-24
+- title: ":newspaper: SpiderSense in New Scientist (color-changing clothes piece)"
+  date: 2013-09-09
+- title: ":microphone: SpiderSense @ Augmented Reality Chicago (ARCHI) Meeting"
+  date: 2013-08-29
+- title: ":trophy: SpiderSense — Finalist, Best AR Hardware @ Augmented World Expo (AWE)"
+  date: 2013-06-04
+- title: ":airplane: Started Pixar internship, Emeryville CA"
+  date: 2013-05-15
+- title: ":tada: Selected by Academy of Motion Picture Arts and Sciences for Pixar internship"
+  date: 2013-04-17
+- title: ":newspaper: SpiderSense in Robotics Business Review"
+  date: 2013-04-07
+- title: ":microphone: SpiderSense paper presentation @ Augmented Human, Stuttgart, Germany"
+  date: 2013-03-07
+- title: ":newspaper: SpiderSense on Engadget, Gizmodo, NewAtlas"
+  date: 2013-02-22
+- title: ":newspaper: SpiderSense feature in New Scientist (UK)"
+  date: 2013-02-20
+- title: ":wrench: Started SpiderSense project (UIC Human Augmentics class)"
+  date: 2012-08-16
+- title: ":mortar_board: Started PhD at UIC's Electronic Visualization Laboratory (EVL)"
+  date: 2009-08-15
+- title: ":airplane: World Championship Div III, Dunedin, New Zealand"
+  date: 2009-04-10
+- title: ":airplane: World Championship Div III, Luxembourg"
+  date: 2008-03-31
+- title: ":trophy: Qualified for IIHF World Championship Div III"
+  date: 2008-02-17
+- title: ":ice_hockey: Greece vs Armenia 8-5 — IIHF Div III Qualification, Sarajevo"
+  date: 2008-02-16
+- title: ":ice_hockey: Greece vs Bosnia 10-1 — IIHF Div III Qualification, Sarajevo"
+  date: 2008-02-15
+- title: ":ice_hockey: Greek National Ice Hockey Team approved by IIHF (Vancouver congress)"
+  date: 2007-09-15
