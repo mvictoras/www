@@ -1,5 +1,4 @@
-{{ $currentPage := . }}
-<ul class="footer nav justify-content-center">
+<ul class="footer-menu nav justify-content-center">
 {{ range site.Menus.footer.ByWeight }}
   <li class="nav-item"><a href="{{ .URL }}" class="nav-link px-3 text-body-secondary">{{ .Name }}</a></li>
 {{ end }}

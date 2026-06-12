@@ -1,10 +1,4 @@
-{{ if .IsHome }}
-  <footer class="footer text-center">
-{{ else }}
-  <footer class="footer text-center mt-4">
-{{ end }}
-
+<footer class="footer text-center">
   {{ partial "footer/menu.html" . }}
-  
-  <div class="footer footer-copyright text-center">&copy; {{ now.Format "2006" }} {{ site.Params.footer | safeHTML }}</div>
+  <div class="footer-copyright text-center">&copy; {{ now.Format "2006" }} {{ site.Params.footer | safeHTML }}</div>
 </footer>

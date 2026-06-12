@@ -1,9 +1,9 @@
 .footer {
   background-color: $bg-surface;
   border-top: 1px solid $border-color;
-  padding: 2rem 0;
   font-size: $footer-font-size;
   color: #9ca3af;
+  margin-top: 0;
 
   a {
     color: #9ca3af;
@@ -11,10 +11,15 @@
       color: $url-color;
     }
   }
+}
 
-  .footer-copyright {
-    border-top: 1px solid $border-color;
-    margin-top: 1rem;
-    padding-top: 1rem;
-  }
+.footer-menu {
+  padding: 1.25rem 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer-copyright {
+  border-top: 1px solid $border-color;
+  padding: 1.25rem 0;
 }
