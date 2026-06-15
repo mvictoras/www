@@ -59,6 +59,6 @@
   "dependencies": {
     "@splidejs/splide": "^4.1.4",
     "dayjs": "1.11.21",
-    "quicklink": "^2.3.0"
+    "quicklink": "^3.0.1"
   }
 }
